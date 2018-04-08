@@ -1,0 +1,57 @@
+{
+   "Type": "CustomFarming.simpleMachine",
+   "Name": "Crop Processor",
+   "Description": "Processes crops into goods.",
+   "Tilesheet" : "CropProcessor.png",
+   "TileIndex" : 0,
+   "WorkAnimationFrames" : 0,
+   "ReadyTileIndex" : 0,
+   "AnimationSpeed" : 85,
+   "CategoryName" : "Crafting",
+   "Materials" : [814,817,835,836,842,864],
+   "RequieredStack" : 5,
+   "StarterMaterial" : 0,
+   "StarterMaterialStack" : 0,
+   "Crafting" : "787 3 335 5 388 2 338 3",
+   "Produce": {
+      "Name": "Cloth",
+      "Description": "Fine goods made from processed crops.",
+	  "usePrefix" : false,
+	  "useSuffix" : false,
+	  "useColor" : false,
+	  "ProduceID" : 428,
+	  "Stack" : 2,
+	  "ProductionTime" : 120,
+   },
+   "SpecialProduce" : 	[
+	  {
+	  "Material" : 835,
+	  "ProduceID" : 853,
+	  "Name": "Brown Sugar",
+      "TileIndex" : 1
+	  },
+	  {
+	  "Material" : 836,
+	  "ProduceID" : 851,
+	  "Name": "Soy Oil",
+	  },
+	  {
+	  "Material" : 814,
+	  "ProduceID" : 846,
+	  "Name": "Chocolate",
+	  "TileIndex" : 1
+	  },
+	  {
+	  "Material" : 842,
+	  "ProduceID" : 852,
+	  "Name": "Color Dye",
+	  "TileIndex" : 1
+	  },
+	  {
+	  "Material" : 864,
+	  "ProduceID" : 865,
+	  "Name": "Joja Latex",
+	  "TileIndex" : 1
+	  },
+	  ]   
+}

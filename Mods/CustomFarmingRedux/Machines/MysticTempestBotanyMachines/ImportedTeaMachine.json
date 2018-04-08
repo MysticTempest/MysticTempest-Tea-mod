@@ -1,0 +1,194 @@
+{
+   "Type": "CustomFarming.simpleMachine",
+   "Name": "Imported Tea Vending Machine",
+   "Description": "Barters forageables for Tea flavors.",
+   "Tilesheet" : "ImportedTeaMachine.png",
+   "TileIndex" : 0,
+   "WorkAnimationFrames" : 4,
+   "ReadyTileIndex" : 5,
+   "AnimationSpeed" : 85,
+   "CategoryName" : "Crafting",
+   "Materials" : [16,18,20,22,399,257,404,296,396,398,402,420,259,406,408,410,281,412,414,416,418,283,392,393,397,394,372,718,719,723,422,78,90,88],
+   "RequieredStack" : 1,
+   "StarterMaterial" : 797,
+   "StarterMaterialStack" : 3,
+   "Crafting" : "335 2 338 3 709 5 810 1",
+   "Produce": {
+      "Name": "Imported Tea",
+      "Description": "Tea imported from a far off place.",
+	  "usePrefix" : false,
+	  "useColor" : true,
+	  "ProduceID" : 798,
+	  "Tilesheet" : "ImportedTeaMachine.png",
+	  "TileIndex" : 6,
+	  "Stack" : 1,
+	  "ProductionTime" : 20
+   },
+   "SpecialProduce" : 	[
+	  {
+	  "Material" : 18,
+	  "Name": "Imported Tea",
+	  "usePrefix": false,
+	  },
+	  {
+	  "Material" : 20,
+	  "Name": "Imported Tea",
+	  "usePrefix": false,
+	  },
+	  {
+	  "Material" : 22,
+	  "Name": "Imported Tea",
+	  "usePrefix": false,
+	  },
+	  {
+	  "Material" : 399,
+	  "Name": "Imported Tea",
+	  "usePrefix": false,
+	  },
+	  {
+	  "Material" : 257,
+	  "Name": "Imported Tea",
+	  "usePrefix": false,
+	  },
+	  {
+	  "Material" : 404,
+	  "Name": "Imported Tea",
+	  "usePrefix": false,
+	  },
+	  {
+	  "Material" : 296,
+	  "Name": "Imported Tea",
+	  "usePrefix": false,
+	  },
+	  {
+	  "Material" : 396,
+	  "Name": "Imported Tea",
+	  "usePrefix": false,
+	  },
+	  {
+	  "Material" : 398,
+	  "Name": "Imported Tea",
+	  "usePrefix": false,
+	  },
+	  {
+	  "Material" : 402,
+	  "Name": "Imported Tea",
+	  "usePrefix": false,
+	  },
+	  {
+	  "Material" : 420,
+	  "Name": "Imported Tea",
+	  "usePrefix": false,
+	  },
+	  {
+	  "Material" : 259,
+	  "Name": "Imported Tea",
+	  "usePrefix": false,
+	  },
+	  {
+	  "Material" : 406,
+	  "Name": "Imported Tea",
+	  "usePrefix": false,
+	  },
+	  {
+	  "Material" : 408,
+	  "Name": "Imported Tea",
+	  "usePrefix": false,
+	  },
+	  {
+	  "Material" : 410,
+	  "Name": "Imported Tea",
+	  "usePrefix": false,
+	  },
+	  {
+	  "Material" : 281,
+	  "Name": "Imported Tea",
+	  "usePrefix": false,
+	  },
+	  {
+	  "Material" : 412,
+	  "Name": "Imported Tea",
+	  "usePrefix": false,
+	  },
+	  {
+	  "Material" : 414,
+	  "Name": "Imported Tea",
+	  "usePrefix": false,
+	  },
+	  {
+	  "Material" : 416,
+	  "Name": "Imported Tea",
+	  "usePrefix": false,
+	  },
+	  {
+	  "Material" : 418,
+	  "Name": "Imported Tea",
+	  "usePrefix": false,
+	  },
+	  {
+	  "Material" : 283,
+	  "Name": "Imported Tea",
+	  "usePrefix": false,
+	  },
+	  {
+	  "Material" : 392,
+	  "Name": "Imported Tea",
+	  "usePrefix": false,
+	  },
+	  {
+	  "Material" : 393,
+	  "Name": "Imported Tea",
+	  "usePrefix": false,
+	  },
+	  {
+	  "Material" : 397,
+	  "Name": "Imported Tea",
+	  "usePrefix": false,
+	  },
+	  {
+	  "Material" : 394,
+	  "Name": "Imported Tea",
+	  "usePrefix": false,
+	  },
+	  {
+	  "Material" : 372,
+	  "Name": "Imported Tea",
+	  "usePrefix": false,
+	  },
+	  {
+	  "Material" : 718,
+	  "Name": "Imported Tea",
+	  "usePrefix": false,
+	  },
+	  {
+	  "Material" : 719,
+	  "Name": "Imported Tea",
+	  "usePrefix": false,
+	  },
+	  {
+	  "Material" : 723,
+	  "Name": "Imported Tea",
+	  "usePrefix": false,
+	  },
+	  {
+	  "Material" : 422,
+	  "Name": "Imported Tea",
+	  "usePrefix": false,
+	  },
+	  {
+	  "Material" : 78,
+	  "Name": "Imported Tea",
+	  "usePrefix": false,
+	  },
+	  {
+	  "Material" : 90,
+	  "Name": "Imported Tea",
+	  "usePrefix": false,
+	  },
+	  {
+	  "Material" : 88,
+	  "Name": "Imported Tea",
+	  "usePrefix": false,
+	  },
+	  ]   
+}

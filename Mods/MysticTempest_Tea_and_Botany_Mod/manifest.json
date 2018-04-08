@@ -1,0 +1,11 @@
+{
+   "Name": "MysticTempest's Tea and Botany Mod",
+   "Author": "MysticTempest",
+   "Version": "1.0.1",
+   "Description": "Adds multiple crops; & includes recipes & artisan goods.",
+   "UniqueID": "MysticTempest.Tea_and_BotanyMod",
+	"ContentPackFor": {
+	   "UniqueID": "Pathoschild.ContentPatcher",
+	   "MinimumVersion": "1.3"
+	}
+}

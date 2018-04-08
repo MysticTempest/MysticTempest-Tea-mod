@@ -1,0 +1,112 @@
+{
+  "objects": [
+    {
+      "Owner": "Pierre",
+      "Item": 797,
+      "Amount": 1,
+      "Conditions": "summer"
+    },
+    {
+      "Owner": "Pierre",
+      "Item": 811,
+      "Amount": 1,
+      "Conditions": "spring"
+    },
+    {
+      "Owner": "Pierre",
+      "Item": 812,
+      "Amount": 1,
+      "Conditions": "summer"
+    },
+    {
+      "Owner": "Pierre",
+      "Item": 813,
+      "Amount": 1,
+      "Conditions": "fall"
+    },
+    {
+      "Owner": "Pierre",
+      "Item": 818,
+      "Amount": 1,
+      "Conditions": "summer"
+    },
+    {
+      "Owner": "Pierre",
+      "Item": 819,
+      "Amount": 1,
+      "Conditions": "spring"
+    },
+    {
+      "Owner": "Pierre",
+      "Item": 821,
+      "Amount": 1,
+      "Conditions": "fall"
+    },
+    {
+      "Owner": "Pierre",
+      "Item": 823,
+      "Amount": 1,
+      "Conditions": "summer"
+    },
+    {
+      "Owner": "Pierre",
+      "Item": 824,
+      "Amount": 1,
+      "Conditions": "summer"
+    },
+    {
+      "Owner": "Pierre",
+      "Item": 825,
+      "Amount": 1,
+      "Conditions": "fall"
+    },
+    {
+      "Owner": "Pierre",
+      "Item": 826,
+      "Amount": 1,
+      "Conditions": "fall"
+    },
+    {
+      "Owner": "Pierre",
+      "Item": 831,
+      "Amount": 1,
+      "Conditions": "fall"
+    },
+    {
+      "Owner": "Pierre",
+      "Item": 833,
+      "Amount": 1,
+      "Conditions": "spring"
+    },
+    {
+      "Owner": "Pierre",
+      "Item": 834,
+      "Amount": 1,
+      "Conditions": "spring"
+    },
+    {
+      "Owner": "Pierre",
+      "Item": 843,
+      "Amount": 1,
+      "Conditions": "spring"
+    },
+    {
+      "Owner": "Pierre",
+      "Item": 858,
+      "Amount": 1,
+      "Conditions": "summer"
+    },
+    {
+      "Owner": "Pierre",
+      "Item": 859,
+      "Amount": 1,
+      "Conditions": "summer"
+    },
+    {
+      "Owner": "Joja",
+      "Item": 863,
+      "Amount": 1,
+      "Conditions": "!winter"
+    },
+  ]
+}

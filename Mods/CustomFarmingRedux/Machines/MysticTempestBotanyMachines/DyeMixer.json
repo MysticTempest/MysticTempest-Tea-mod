@@ -1,0 +1,44 @@
+{
+   "Type": "CustomFarming.simpleMachine",
+   "Name": "Dye Mixer",
+   "Description": "Mixes dye with other products to produce goods with vibrant colors.",
+   "Tilesheet" : "DyeMixer.png",
+   "TileIndex" : 0,
+   "WorkAnimationFrames" : 3,
+   "ReadyTileIndex" : 4,
+   "AnimationSpeed" : 85,
+   "CategoryName" : "Crafting",
+   "Materials" : [851,428,845,330],
+   "RequieredStack" : 3,
+   "StarterMaterial" : 852,
+   "StarterMaterialStack" : 2,
+   "Crafting" : "334 5 338 2 787 1 335 2",
+   "Produce": {
+      "Name": "Colored Cloth",
+      "Description": "A vibrantly colored object made with natural dye.",
+	  "usePrefix" : false,
+	  "useSuffix" : false,
+	  "useColor" : false,
+	  "ProduceID" : 855,
+	  "Stack" : 3,
+	  "ProductionTime" : 120,
+   },
+   "SpecialProduce" : 	[
+	  {
+	  "Material" : 851,
+	  "ProduceID" : 837,
+	  "Name": "Soy Ink",
+      },
+      {
+	  "Material" : 845,
+	  "ProduceID" : 854,
+	  "Name": "Colored Paper",
+      },
+	  {
+	  "Material" : 330,
+	  "ProduceID" : 856,
+	  "Name": "Colored Clay",
+	  },
+	  	  
+	  ]   
+}

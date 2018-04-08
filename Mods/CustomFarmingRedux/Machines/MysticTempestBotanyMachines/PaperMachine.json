@@ -1,0 +1,43 @@
+{
+   "Type": "CustomFarming.simpleMachine",
+   "Name": "Paper Machine",
+   "Description": "Makes Paper out of fibrous materials.",
+   "Tilesheet" : "PaperMachine.png",
+   "TileIndex" : 0,
+   "WorkAnimationFrames" : 0,
+   "ReadyTileIndex" : 1,
+   "AnimationSpeed" : 85,
+   "CategoryName" : "Crafting",
+   "Materials" : [172,771,838],
+   "RequieredStack" : 5,
+   "StarterMaterial" : 0,
+   "StarterMaterialStack" : 0,
+   "Crafting" : "787 3 335 5 388 2 338 3",
+   "Produce": {
+      "Name": "Paper",
+      "Description": "Quality paper from plant fibres.",
+	  "usePrefix" : false,
+	  "useSuffix" : false,
+	  "useColor" : false,
+	  "ProduceID" : 845,
+	  "Stack" : 3,
+	  "ProductionTime" : 120,
+   },
+   "SpecialProduce" : 	[
+	  {
+	  "Material" : 771,
+	  "ProduceID" : 845,
+	  "Name": "Paper",
+      "Description": "Quality paper from plant fibres.",
+	  "TileIndex" : 1
+	  },
+	  {
+	  "Material" : 838,
+	  "ProduceID" : 845,
+	  "Name": "Paper",
+      "Description": "Quality paper from plant fibres.",
+	  },
+	  	  
+	  
+	  ]   
+}

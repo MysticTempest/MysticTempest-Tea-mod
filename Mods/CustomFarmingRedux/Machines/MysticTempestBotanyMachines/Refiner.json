@@ -1,0 +1,43 @@
+{
+   "Type": "CustomFarming.simpleMachine",
+   "Name": "Refiner",
+   "Description": "Refines materials into other resources.",
+   "Tilesheet" : "Refiner.png",
+   "TileIndex" : 0,
+   "WorkAnimationFrames" : 3,
+   "ReadyTileIndex" : 2,
+   "AnimationSpeed" : 85,
+   "CategoryName" : "Crafting",
+   "Materials" : [835,838,853,860],
+   "RequieredStack" : 5,
+   "StarterMaterial" : 0,
+   "StarterMaterialStack" : 0,
+   "Crafting" : "787 3 335 5 388 2 338 3",
+   "Produce": {
+      "Name": "Bagasse",
+      "Description": "Resource materials.",
+	  "usePrefix" : false,
+	  "useSuffix" : false,
+	  "useColor" : false,
+	  "ProduceID" : 838,
+	  "Stack" : 5,
+	  "ProductionTime" : 120,
+   },
+   "SpecialProduce" : 	[
+	  {
+	  "Material" : 838,
+	  "ProduceID" : 382,
+	  "Name": "Coal",
+      "TileIndex" : 1
+	  },
+	  {
+	  "Material" : 853,
+	  "ProduceID" : 245,
+	  "Name": "Sugar",
+	  }, {
+	  "Material" : 860,
+	  "ProduceID" : 839,
+	  "Name": "Synthetic Bacon",
+	  },
+	  ]   
+}

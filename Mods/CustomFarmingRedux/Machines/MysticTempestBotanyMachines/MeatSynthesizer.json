@@ -1,0 +1,59 @@
+{
+   "Type": "CustomFarming.simpleMachine",
+   "Name": "Meat Synthesizer",
+   "Description": "Turns Animal Products and Soybeans into Synthetic Meat.",
+   "Tilesheet" : "MeatSynthesizer.png",
+   "TileIndex" : 0,
+   "WorkAnimationFrames" : 14,
+   "ReadyTileIndex" : 15,
+   "AnimationSpeed" : 85,
+   "CategoryName" : "Crafting",
+   "Materials" : [176,180,174,182,184,186,430],
+   "RequieredStack" : 1,
+   "StarterMaterial" : 836,
+   "StarterMaterialStack" : 15,
+   "Crafting" : "334 5 338 2 787 1 335 2",
+   "Produce": {
+      "Name": "Synthetic Pork",
+      "Description": "Delicious meat grown from animal DNA and soybean protein.",
+	  "usePrefix" : false,
+	  "useSuffix" : false,
+	  "useColor" : false,
+	  "ProduceID" : 860,
+	  "Stack" : 3,
+	  "ProductionTime" : 120,
+   },
+   "SpecialProduce" : 	[
+	  {
+	  "Material" : 174,
+	  "ProduceID" : 840,
+	  "Name": "Synthetic Chicken",
+      },
+      {
+	  "Material" : 176,
+	  "ProduceID" : 840,
+	  "Name": "Synthetic Chicken",
+      },
+	  {
+	  "Material" : 180,
+	  "ProduceID" : 840,
+	  "Name": "Synthetic Chicken",
+	  },
+	  {
+	  "Material" : 182,
+	  "ProduceID" : 840,
+	  "Name": "Synthetic Chicken",
+	  },
+	  {
+	  "Material" : 184,
+	  "ProduceID" : 841,
+	  "Name": "Synthetic Beef",
+	  },
+	  {
+	  "Material" : 186,
+	  "ProduceID" : 841,
+	  "Name": "Synthetic Beef",
+	  },
+	  
+	  ]   
+}

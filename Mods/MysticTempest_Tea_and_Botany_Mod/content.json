@@ -1,0 +1,1606 @@
+{
+  "Format": "1.3",
+    "ConfigSchema": {
+        "BotanyModDisabled": {
+            "AllowValues": "true, false"
+        }
+    },
+
+
+
+  "Changes": [
+
+
+       // Tea Crop mod sprites
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/crops",
+          "FromFile": "assets/MysticTempest_Tea_Sprites.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 32 },
+          "ToArea": { "X": 128, "Y": 640, "Width": 128, "Height": 32 }
+       },
+     
+//------------------------------------     
+       
+       //Tea mod item sprites
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "assets/MysticTempest_Tea_Sprites.png",
+          "FromArea": { "X": 0, "Y": 32, "Width": 224, "Height": 16 },
+          "ToArea": { "X": 80, "Y": 528, "Width": 224, "Height": 16 }
+       },
+
+       //Tea mod item sprites - Spanish
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+		  "Locale": "es-ES",
+          "FromFile": "assets/MysticTempest_Tea_Sprites.png",
+          "FromArea": { "X": 0, "Y": 32, "Width": 224, "Height": 16 },
+          "ToArea": { "X": 80, "Y": 528, "Width": 224, "Height": 16 }
+       },
+       
+       //Tea mod item sprites - Portuguese
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+		  "Locale": "pt-BR",
+          "FromFile": "assets/MysticTempest_Tea_Sprites.png",
+          "FromArea": { "X": 0, "Y": 32, "Width": 224, "Height": 16 },
+          "ToArea": { "X": 80, "Y": 528, "Width": 224, "Height": 16 }
+       },
+       
+       
+       //Tea mod item sprites - Japanese
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+		  "Locale": "ja-JP",
+          "FromFile": "assets/MysticTempest_Tea_Sprites.png",
+          "FromArea": { "X": 0, "Y": 32, "Width": 224, "Height": 16 },
+          "ToArea": { "X": 80, "Y": 528, "Width": 224, "Height": 16 }
+       },
+
+
+//------------------------------------     
+
+
+
+       // Tea mod crop data
+       {
+          "Action": "EditData",
+          "Target": "Data/Crops",
+          "Entries": {
+             797: "1 2 2 3 2/spring summer/41/797/2/0/true 4 6 10 .02/false/false"
+          }
+       },
+      
+      
+//------------------------------------     
+      
+      
+       // Tea mod item data
+       {
+          "Action": "EditData",
+          "Target": "Data/ObjectInformation",
+          "Entries": {
+             797: "Tea Leaf Cuttings/20/-300/Seeds -74/Tea Leaf Cuttings/Plant in spring or summer to grow a Tea plant.",
+             798: "White Tea/75/60/Cooking -7/White Tea/A lite brew of young tea leaves; has a fresh flavor./drink/0 0 0 0 0 0 0 0 0 0 0/0",
+             799: "Dandelion White Tea/135/70/Cooking -7/Dandelion White Tea/The fresh Dandelion in this rejuvenates your senses./drink/0 0 0 0 0 1 0 0 0 0 0/430",
+             800: "Berry Surprise Tea/500/75/Cooking -7/Berry Surprise Tea/Infused with cross-season flavors; it's worth the wait!/drink/0 0 0 0 2 2 0 0 0 0 0/860",
+             801: "Green Tea/100/90/Cooking -7/Green Tea/A mild brew with aged leaves; tastes great!/drink/0 0 0 0 0 0 0 0 0 2 0/430",
+             802: "Granny Pom Tea/300/100/Cooking -7/Granny Pom Tea/An invigorating combination of Pomegranates and Green tea./drink/0 0 0 0 0 0 0 75 0 0 0/430",
+             803: "Fruit Splash Tea/500/95/Cooking -7/Fruit Splash Tea/Orange and Peach flavors mesh well in this fruity tea./drink/2 1 0 0 0 0 0 0 0 0 0/860",
+             804: "Black Tea/125/55/Cooking -7/Black Tea/Brewed to perfection. The flavors of this tea are more pronounced without sugar!/drink/0 0 0 0 0 0 0 0 0 0 0/0",
+             805: "Sweet Tea/200/50/Cooking -7/Sweet Tea/A refreshingly sweet drink. It'll give you a sugary rush./drink/0 0 2 0 0 0 0 0 0 1 0/430",
+             806: "Fancy Sweet Tea/3500/45/Cooking -7/Fancy Sweet Tea/Black Tea sweetened with the finest ingredients in the world./drink/0 0 0 0 3 0 0 50 0 1 0/860",
+             807: "Tea Bag Carton (White)/800/-300/Crafting/Tea Bag Carton (White)/Locally grown, and ready to serve tea.",
+             808: "Tea Bag Carton (Green)/1200/-300/Crafting/Tea Bag Carton (Green)/Locally grown, and ready to serve tea.",
+             809: "Tea Bag Carton (Black)/4500/-300/Crafting/Tea Bag Carton (Black)/Locally grown, and ready to serve tea.",
+             810: "Collectible Tea Box/7500/-300/Crafting/Collectible Tea Box/A collectible tea box made of hardwood, and an assortment of teas."
+          }
+       },
+       // Tea mod item data - German
+       {
+          "Action": "EditData",
+          "Target": "Data/ObjectInformation",
+		  "Locale": "de-DE",
+          "Entries": {
+             797: "Tea Leaf Cuttings/20/-300/Seeds -74/Tea Leaf Cuttings/Plant in spring or summer to grow a Tea plant.",
+             798: "White Tea/75/60/Cooking -7/White Tea/A lite brew of young tea leaves; has a fresh flavor./drink/0 0 0 0 0 0 0 0 0 0 0/0",
+             799: "Dandelion White Tea/135/70/Cooking -7/Dandelion White Tea/The fresh Dandelion in this rejuvenates your senses./drink/0 0 0 0 0 1 0 0 0 0 0/430",
+             800: "Berry Surprise Tea/500/75/Cooking -7/Berry Surprise Tea/Infused with cross-season flavors; it's worth the wait!/drink/0 0 0 0 2 2 0 0 0 0 0/860",
+             801: "Green Tea/100/90/Cooking -7/Green Tea/A mild brew with aged leaves; tastes great!/drink/0 0 0 0 0 0 0 0 0 2 0/430",
+             802: "Granny Pom Tea/300/100/Cooking -7/Granny Pom Tea/An invigorating combination of Pomegranates and Green tea./drink/0 0 0 0 0 0 0 75 0 0 0/430",
+             803: "Fruit Splash Tea/500/95/Cooking -7/Fruit Splash Tea/Orange and Peach flavors mesh well in this fruity tea./drink/2 1 0 0 0 0 0 0 0 0 0/860",
+             804: "Black Tea/125/55/Cooking -7/Black Tea/Brewed to perfection. The flavors of this tea are more pronounced without sugar!/drink/0 0 0 0 0 0 0 0 0 0 0/0",
+             805: "Sweet Tea/200/50/Cooking -7/Sweet Tea/A refreshingly sweet drink. It'll give you a sugary rush./drink/0 0 2 0 0 0 0 0 0 1 0/430",
+             806: "Fancy Sweet Tea/3500/45/Cooking -7/Fancy Sweet Tea/Black Tea sweetened with the finest ingredients in the world./drink/0 0 0 0 3 0 0 50 0 1 0/860",
+             807: "Tea Bag Carton (White)/800/-300/Crafting/Tea Bag Carton (White)/Locally grown, and ready to serve tea.",
+             808: "Tea Bag Carton (Green)/1200/-300/Crafting/Tea Bag Carton (Green)/Locally grown, and ready to serve tea.",
+             809: "Tea Bag Carton (Black)/4500/-300/Crafting/Tea Bag Carton (Black)/Locally grown, and ready to serve tea.",
+             810: "Collectible Tea Box/7500/-300/Crafting/Collectible Tea Box/A collectible tea box made of hardwood, and an assortment of teas."
+          }
+       },
+       
+       // Tea mod item data - Spanish
+       {
+          "Action": "EditData",
+          "Target": "Data/ObjectInformation",
+		  "Locale": "es-ES",
+          "Entries": {
+             797: "Tea Leaf Cuttings/20/-300/Seeds -74/Tea Leaf Cuttings/Plant in spring or summer to grow a Tea plant.",
+             798: "White Tea/75/60/Cooking -7/White Tea/A lite brew of young tea leaves; has a fresh flavor./drink/0 0 0 0 0 0 0 0 0 0 0/0",
+             799: "Dandelion White Tea/135/70/Cooking -7/Dandelion White Tea/The fresh Dandelion in this rejuvenates your senses./drink/0 0 0 0 0 1 0 0 0 0 0/430",
+             800: "Berry Surprise Tea/500/75/Cooking -7/Berry Surprise Tea/Infused with cross-season flavors; it's worth the wait!/drink/0 0 0 0 2 2 0 0 0 0 0/860",
+             801: "Green Tea/100/90/Cooking -7/Green Tea/A mild brew with aged leaves; tastes great!/drink/0 0 0 0 0 0 0 0 0 2 0/430",
+             802: "Granny Pom Tea/300/100/Cooking -7/Granny Pom Tea/An invigorating combination of Pomegranates and Green tea./drink/0 0 0 0 0 0 0 75 0 0 0/430",
+             803: "Fruit Splash Tea/500/95/Cooking -7/Fruit Splash Tea/Orange and Peach flavors mesh well in this fruity tea./drink/2 1 0 0 0 0 0 0 0 0 0/860",
+             804: "Black Tea/125/55/Cooking -7/Black Tea/Brewed to perfection. The flavors of this tea are more pronounced without sugar!/drink/0 0 0 0 0 0 0 0 0 0 0/0",
+             805: "Sweet Tea/200/50/Cooking -7/Sweet Tea/A refreshingly sweet drink. It'll give you a sugary rush./drink/0 0 2 0 0 0 0 0 0 1 0/430",
+             806: "Fancy Sweet Tea/3500/45/Cooking -7/Fancy Sweet Tea/Black Tea sweetened with the finest ingredients in the world./drink/0 0 0 0 3 0 0 50 0 1 0/860",
+             807: "Tea Bag Carton (White)/800/-300/Crafting/Tea Bag Carton (White)/Locally grown, and ready to serve tea.",
+             808: "Tea Bag Carton (Green)/1200/-300/Crafting/Tea Bag Carton (Green)/Locally grown, and ready to serve tea.",
+             809: "Tea Bag Carton (Black)/4500/-300/Crafting/Tea Bag Carton (Black)/Locally grown, and ready to serve tea.",
+             810: "Collectible Tea Box/7500/-300/Crafting/Collectible Tea Box/A collectible tea box made of hardwood, and an assortment of teas."
+          }
+       },
+       
+       // Tea mod item data - Japanese
+       {
+          "Action": "EditData",
+          "Target": "Data/ObjectInformation",
+		  "Locale": "ja-JP",
+          "Entries": {
+             797: "Tea Leaf Cuttings/20/-300/Seeds -74/Tea Leaf Cuttings/Plant in spring or summer to grow a Tea plant.",
+             798: "White Tea/75/60/Cooking -7/White Tea/A lite brew of young tea leaves; has a fresh flavor./drink/0 0 0 0 0 0 0 0 0 0 0/0",
+             799: "Dandelion White Tea/135/70/Cooking -7/Dandelion White Tea/The fresh Dandelion in this rejuvenates your senses./drink/0 0 0 0 0 1 0 0 0 0 0/430",
+             800: "Berry Surprise Tea/500/75/Cooking -7/Berry Surprise Tea/Infused with cross-season flavors; it's worth the wait!/drink/0 0 0 0 2 2 0 0 0 0 0/860",
+             801: "Green Tea/100/90/Cooking -7/Green Tea/A mild brew with aged leaves; tastes great!/drink/0 0 0 0 0 0 0 0 0 2 0/430",
+             802: "Granny Pom Tea/300/100/Cooking -7/Granny Pom Tea/An invigorating combination of Pomegranates and Green tea./drink/0 0 0 0 0 0 0 75 0 0 0/430",
+             803: "Fruit Splash Tea/500/95/Cooking -7/Fruit Splash Tea/Orange and Peach flavors mesh well in this fruity tea./drink/2 1 0 0 0 0 0 0 0 0 0/860",
+             804: "Black Tea/125/55/Cooking -7/Black Tea/Brewed to perfection. The flavors of this tea are more pronounced without sugar!/drink/0 0 0 0 0 0 0 0 0 0 0/0",
+             805: "Sweet Tea/200/50/Cooking -7/Sweet Tea/A refreshingly sweet drink. It'll give you a sugary rush./drink/0 0 2 0 0 0 0 0 0 1 0/430",
+             806: "Fancy Sweet Tea/3500/45/Cooking -7/Fancy Sweet Tea/Black Tea sweetened with the finest ingredients in the world./drink/0 0 0 0 3 0 0 50 0 1 0/860",
+             807: "Tea Bag Carton (White)/800/-300/Crafting/Tea Bag Carton (White)/Locally grown, and ready to serve tea.",
+             808: "Tea Bag Carton (Green)/1200/-300/Crafting/Tea Bag Carton (Green)/Locally grown, and ready to serve tea.",
+             809: "Tea Bag Carton (Black)/4500/-300/Crafting/Tea Bag Carton (Black)/Locally grown, and ready to serve tea.",
+             810: "Collectible Tea Box/7500/-300/Crafting/Collectible Tea Box/A collectible tea box made of hardwood, and an assortment of teas."
+          }
+       },
+       
+       // Tea mod item data - Portuguese
+       {
+          "Action": "EditData",
+          "Target": "Data/ObjectInformation",
+		  "Locale": "pt-BR",
+          "Entries": {
+             797: "Tea Leaf Cuttings/20/-300/Seeds -74/Tea Leaf Cuttings/Plant in spring or summer to grow a Tea plant.",
+             798: "White Tea/75/60/Cooking -7/White Tea/A lite brew of young tea leaves; has a fresh flavor./drink/0 0 0 0 0 0 0 0 0 0 0/0",
+             799: "Dandelion White Tea/135/70/Cooking -7/Dandelion White Tea/The fresh Dandelion in this rejuvenates your senses./drink/0 0 0 0 0 1 0 0 0 0 0/430",
+             800: "Berry Surprise Tea/500/75/Cooking -7/Berry Surprise Tea/Infused with cross-season flavors; it's worth the wait!/drink/0 0 0 0 2 2 0 0 0 0 0/860",
+             801: "Green Tea/100/90/Cooking -7/Green Tea/A mild brew with aged leaves; tastes great!/drink/0 0 0 0 0 0 0 0 0 2 0/430",
+             802: "Granny Pom Tea/300/100/Cooking -7/Granny Pom Tea/An invigorating combination of Pomegranates and Green tea./drink/0 0 0 0 0 0 0 75 0 0 0/430",
+             803: "Fruit Splash Tea/500/95/Cooking -7/Fruit Splash Tea/Orange and Peach flavors mesh well in this fruity tea./drink/2 1 0 0 0 0 0 0 0 0 0/860",
+             804: "Black Tea/125/55/Cooking -7/Black Tea/Brewed to perfection. The flavors of this tea are more pronounced without sugar!/drink/0 0 0 0 0 0 0 0 0 0 0/0",
+             805: "Sweet Tea/200/50/Cooking -7/Sweet Tea/A refreshingly sweet drink. It'll give you a sugary rush./drink/0 0 2 0 0 0 0 0 0 1 0/430",
+             806: "Fancy Sweet Tea/3500/45/Cooking -7/Fancy Sweet Tea/Black Tea sweetened with the finest ingredients in the world./drink/0 0 0 0 3 0 0 50 0 1 0/860",
+             807: "Tea Bag Carton (White)/800/-300/Crafting/Tea Bag Carton (White)/Locally grown, and ready to serve tea.",
+             808: "Tea Bag Carton (Green)/1200/-300/Crafting/Tea Bag Carton (Green)/Locally grown, and ready to serve tea.",
+             809: "Tea Bag Carton (Black)/4500/-300/Crafting/Tea Bag Carton (Black)/Locally grown, and ready to serve tea.",
+             810: "Collectible Tea Box/7500/-300/Crafting/Collectible Tea Box/A collectible tea box made of hardwood, and an assortment of teas."
+          }
+       },
+       
+       // Tea mod item data - Russian
+       {
+          "Action": "EditData",
+          "Target": "Data/ObjectInformation",
+		  "Locale": "ru-RU",
+          "Entries": {
+             797: "Tea Leaf Cuttings/20/-300/Seeds -74/Tea Leaf Cuttings/Plant in spring or summer to grow a Tea plant.",
+             798: "White Tea/75/60/Cooking -7/White Tea/A lite brew of young tea leaves; has a fresh flavor./drink/0 0 0 0 0 0 0 0 0 0 0/0",
+             799: "Dandelion White Tea/135/70/Cooking -7/Dandelion White Tea/The fresh Dandelion in this rejuvenates your senses./drink/0 0 0 0 0 1 0 0 0 0 0/430",
+             800: "Berry Surprise Tea/500/75/Cooking -7/Berry Surprise Tea/Infused with cross-season flavors; it's worth the wait!/drink/0 0 0 0 2 2 0 0 0 0 0/860",
+             801: "Green Tea/100/90/Cooking -7/Green Tea/A mild brew with aged leaves; tastes great!/drink/0 0 0 0 0 0 0 0 0 2 0/430",
+             802: "Granny Pom Tea/300/100/Cooking -7/Granny Pom Tea/An invigorating combination of Pomegranates and Green tea./drink/0 0 0 0 0 0 0 75 0 0 0/430",
+             803: "Fruit Splash Tea/500/95/Cooking -7/Fruit Splash Tea/Orange and Peach flavors mesh well in this fruity tea./drink/2 1 0 0 0 0 0 0 0 0 0/860",
+             804: "Black Tea/125/55/Cooking -7/Black Tea/Brewed to perfection. The flavors of this tea are more pronounced without sugar!/drink/0 0 0 0 0 0 0 0 0 0 0/0",
+             805: "Sweet Tea/200/50/Cooking -7/Sweet Tea/A refreshingly sweet drink. It'll give you a sugary rush./drink/0 0 2 0 0 0 0 0 0 1 0/430",
+             806: "Fancy Sweet Tea/3500/45/Cooking -7/Fancy Sweet Tea/Black Tea sweetened with the finest ingredients in the world./drink/0 0 0 0 3 0 0 50 0 1 0/860",
+             807: "Tea Bag Carton (White)/800/-300/Crafting/Tea Bag Carton (White)/Locally grown, and ready to serve tea.",
+             808: "Tea Bag Carton (Green)/1200/-300/Crafting/Tea Bag Carton (Green)/Locally grown, and ready to serve tea.",
+             809: "Tea Bag Carton (Black)/4500/-300/Crafting/Tea Bag Carton (Black)/Locally grown, and ready to serve tea.",
+             810: "Collectible Tea Box/7500/-300/Crafting/Collectible Tea Box/A collectible tea box made of hardwood, and an assortment of teas."
+          }
+       },
+       
+       // Tea mod item data - Chinese
+       {
+          "Action": "EditData",
+          "Target": "Data/ObjectInformation",
+		  "Locale": "zh-CN",
+          "Entries": {
+             797: "Tea Leaf Cuttings/20/-300/Seeds -74/Tea Leaf Cuttings/Plant in spring or summer to grow a Tea plant.",
+             798: "White Tea/75/60/Cooking -7/White Tea/A lite brew of young tea leaves; has a fresh flavor./drink/0 0 0 0 0 0 0 0 0 0 0/0",
+             799: "Dandelion White Tea/135/70/Cooking -7/Dandelion White Tea/The fresh Dandelion in this rejuvenates your senses./drink/0 0 0 0 0 1 0 0 0 0 0/430",
+             800: "Berry Surprise Tea/500/75/Cooking -7/Berry Surprise Tea/Infused with cross-season flavors; it's worth the wait!/drink/0 0 0 0 2 2 0 0 0 0 0/860",
+             801: "Green Tea/100/90/Cooking -7/Green Tea/A mild brew with aged leaves; tastes great!/drink/0 0 0 0 0 0 0 0 0 2 0/430",
+             802: "Granny Pom Tea/300/100/Cooking -7/Granny Pom Tea/An invigorating combination of Pomegranates and Green tea./drink/0 0 0 0 0 0 0 75 0 0 0/430",
+             803: "Fruit Splash Tea/500/95/Cooking -7/Fruit Splash Tea/Orange and Peach flavors mesh well in this fruity tea./drink/2 1 0 0 0 0 0 0 0 0 0/860",
+             804: "Black Tea/125/55/Cooking -7/Black Tea/Brewed to perfection. The flavors of this tea are more pronounced without sugar!/drink/0 0 0 0 0 0 0 0 0 0 0/0",
+             805: "Sweet Tea/200/50/Cooking -7/Sweet Tea/A refreshingly sweet drink. It'll give you a sugary rush./drink/0 0 2 0 0 0 0 0 0 1 0/430",
+             806: "Fancy Sweet Tea/3500/45/Cooking -7/Fancy Sweet Tea/Black Tea sweetened with the finest ingredients in the world./drink/0 0 0 0 3 0 0 50 0 1 0/860",
+             807: "Tea Bag Carton (White)/800/-300/Crafting/Tea Bag Carton (White)/Locally grown, and ready to serve tea.",
+             808: "Tea Bag Carton (Green)/1200/-300/Crafting/Tea Bag Carton (Green)/Locally grown, and ready to serve tea.",
+             809: "Tea Bag Carton (Black)/4500/-300/Crafting/Tea Bag Carton (Black)/Locally grown, and ready to serve tea.",
+             810: "Collectible Tea Box/7500/-300/Crafting/Collectible Tea Box/A collectible tea box made of hardwood, and an assortment of teas."
+          }
+       },
+       
+    
+//------------------------------------
+       
+       
+      
+       // Tea mod recipe data
+       {
+          "Action": "EditData",
+          "Target": "Data/CookingRecipes",
+          "Entries": {
+			"White Tea": "797 1/1 5/798/f Jodi 2/White Tea",
+			"Dandelion White Tea": "797 1 22 1/1 5/799/f Harvey 3/Dandelion White Tea",
+			"Berry Surprise Tea": "797 1 410 1 396 1/1 5/800/f Linus 5/Berry Surprise Tea",
+			"Green Tea": "797 2/1 5/801/f Emily 2/Green Tea",
+			"Granny Pom Tea": "797 2 637 1/1 5/802/f Marnie 4/Granny Pom Tea",
+			"Fruit Splash Tea": "797 2 635 1 636 1/1 5/803/f Willy 6/Fruit Splash Tea",
+			"Black Tea": "797 4/1 5/804/f Lewis 2/Black Tea",
+			"Sweet Tea": "797 4 245 1/1 5/805/f Leah 2/Sweet Tea",
+			"Fancy Sweet Tea": "797 4 340 1 417 1/1 5/806/f Evelyn 10/Fancy Sweet Tea",
+			"Tea Bag Carton (White)": "771 2 388 1 798 1 799 1 800 1/1 5/807/f Abigail 10/Tea Bag Carton (White)",
+			"Tea Bag Carton (Green)": "771 2 388 1 801 1 802 1 803 1/1 5/808/f Abigail 10/Tea Bag Carton (Green)",
+			"Tea Bag Carton (Black)": "771 2 388 1 804 1 805 1 806 1/1 5/809/f Abigail 10/Tea Bag Carton (Black)",
+			"Collectible Tea Box": "709 2 807 1 808 1 809 1/1 5/810/f Robin 10/Collectible Tea Box",
+			"Tea Leaf Cuttings": "495 1 496 1 347 1/1 5/797/f Demetrius 2/Tea Leaf Cuttings"
+          }
+       },
+      
+
+       // Tea mod recipe data - German
+       {
+          "Action": "EditData",
+          "Target": "Data/CookingRecipes",
+		  "Locale": "de-DE",
+          "Entries": {
+			"White Tea": "797 1/1 5/798/f Jodi 2/White Tea",
+			"Dandelion White Tea": "797 1 22 1/1 5/799/f Harvey 3/Dandelion White Tea",
+			"Berry Surprise Tea": "797 1 410 1 396 1/1 5/800/f Linus 5/Berry Surprise Tea",
+			"Green Tea": "797 2/1 5/801/f Emily 2/Green Tea",
+			"Granny Pom Tea": "797 2 637 1/1 5/802/f Marnie 4/Granny Pom Tea",
+			"Fruit Splash Tea": "797 2 635 1 636 1/1 5/803/f Willy 6/Fruit Splash Tea",
+			"Black Tea": "797 4/1 5/804/f Lewis 2/Black Tea",
+			"Sweet Tea": "797 4 245 1/1 5/805/f Leah 2/Sweet Tea",
+			"Fancy Sweet Tea": "797 4 340 1 417 1/1 5/806/f Evelyn 10/Fancy Sweet Tea",
+			"Tea Bag Carton (White)": "771 2 388 1 798 1 799 1 800 1/1 5/807/f Abigail 10/Tea Bag Carton (White)",
+			"Tea Bag Carton (Green)": "771 2 388 1 801 1 802 1 803 1/1 5/808/f Abigail 10/Tea Bag Carton (Green)",
+			"Tea Bag Carton (Black)": "771 2 388 1 804 1 805 1 806 1/1 5/809/f Abigail 10/Tea Bag Carton (Black)",
+			"Collectible Tea Box": "709 2 807 1 808 1 809 1/1 5/810/f Robin 10/Collectible Tea Box",
+			"Tea Leaf Cuttings": "495 1 496 1 347 1/1 5/797/f Demetrius 2/Tea Leaf Cuttings"
+          }
+       },
+       
+       
+       // Tea mod recipe data - Spanish
+       {
+          "Action": "EditData",
+          "Target": "Data/CookingRecipes",
+		  "Locale": "es-ES",
+          "Entries": {
+			"White Tea": "797 1/1 5/798/f Jodi 2/White Tea",
+			"Dandelion White Tea": "797 1 22 1/1 5/799/f Harvey 3/Dandelion White Tea",
+			"Berry Surprise Tea": "797 1 410 1 396 1/1 5/800/f Linus 5/Berry Surprise Tea",
+			"Green Tea": "797 2/1 5/801/f Emily 2/Green Tea",
+			"Granny Pom Tea": "797 2 637 1/1 5/802/f Marnie 4/Granny Pom Tea",
+			"Fruit Splash Tea": "797 2 635 1 636 1/1 5/803/f Willy 6/Fruit Splash Tea",
+			"Black Tea": "797 4/1 5/804/f Lewis 2/Black Tea",
+			"Sweet Tea": "797 4 245 1/1 5/805/f Leah 2/Sweet Tea",
+			"Fancy Sweet Tea": "797 4 340 1 417 1/1 5/806/f Evelyn 10/Fancy Sweet Tea",
+			"Tea Bag Carton (White)": "771 2 388 1 798 1 799 1 800 1/1 5/807/f Abigail 10/Tea Bag Carton (White)",
+			"Tea Bag Carton (Green)": "771 2 388 1 801 1 802 1 803 1/1 5/808/f Abigail 10/Tea Bag Carton (Green)",
+			"Tea Bag Carton (Black)": "771 2 388 1 804 1 805 1 806 1/1 5/809/f Abigail 10/Tea Bag Carton (Black)",
+			"Collectible Tea Box": "709 2 807 1 808 1 809 1/1 5/810/f Robin 10/Collectible Tea Box",
+			"Tea Leaf Cuttings": "495 1 496 1 347 1/1 5/797/f Demetrius 2/Tea Leaf Cuttings"
+          }
+       },
+       
+       
+       // Tea mod recipe data - Japanese
+       {
+          "Action": "EditData",
+          "Target": "Data/CookingRecipes",
+		  "Locale": "ja-JP",
+          "Entries": {
+			"White Tea": "797 1/1 5/798/f Jodi 2/White Tea",
+			"Dandelion White Tea": "797 1 22 1/1 5/799/f Harvey 3/Dandelion White Tea",
+			"Berry Surprise Tea": "797 1 410 1 396 1/1 5/800/f Linus 5/Berry Surprise Tea",
+			"Green Tea": "797 2/1 5/801/f Emily 2/Green Tea",
+			"Granny Pom Tea": "797 2 637 1/1 5/802/f Marnie 4/Granny Pom Tea",
+			"Fruit Splash Tea": "797 2 635 1 636 1/1 5/803/f Willy 6/Fruit Splash Tea",
+			"Black Tea": "797 4/1 5/804/f Lewis 2/Black Tea",
+			"Sweet Tea": "797 4 245 1/1 5/805/f Leah 2/Sweet Tea",
+			"Fancy Sweet Tea": "797 4 340 1 417 1/1 5/806/f Evelyn 10/Fancy Sweet Tea",
+			"Tea Bag Carton (White)": "771 2 388 1 798 1 799 1 800 1/1 5/807/f Abigail 10/Tea Bag Carton (White)",
+			"Tea Bag Carton (Green)": "771 2 388 1 801 1 802 1 803 1/1 5/808/f Abigail 10/Tea Bag Carton (Green)",
+			"Tea Bag Carton (Black)": "771 2 388 1 804 1 805 1 806 1/1 5/809/f Abigail 10/Tea Bag Carton (Black)",
+			"Collectible Tea Box": "709 2 807 1 808 1 809 1/1 5/810/f Robin 10/Collectible Tea Box",
+			"Tea Leaf Cuttings": "495 1 496 1 347 1/1 5/797/f Demetrius 2/Tea Leaf Cuttings"
+          }
+       },
+       
+       
+       // Tea mod recipe data - Portuguese
+       {
+          "Action": "EditData",
+          "Target": "Data/CookingRecipes",
+		  "Locale": "pt-BR",
+          "Entries": {
+			"White Tea": "797 1/1 5/798/f Jodi 2/White Tea",
+			"Dandelion White Tea": "797 1 22 1/1 5/799/f Harvey 3/Dandelion White Tea",
+			"Berry Surprise Tea": "797 1 410 1 396 1/1 5/800/f Linus 5/Berry Surprise Tea",
+			"Green Tea": "797 2/1 5/801/f Emily 2/Green Tea",
+			"Granny Pom Tea": "797 2 637 1/1 5/802/f Marnie 4/Granny Pom Tea",
+			"Fruit Splash Tea": "797 2 635 1 636 1/1 5/803/f Willy 6/Fruit Splash Tea",
+			"Black Tea": "797 4/1 5/804/f Lewis 2/Black Tea",
+			"Sweet Tea": "797 4 245 1/1 5/805/f Leah 2/Sweet Tea",
+			"Fancy Sweet Tea": "797 4 340 1 417 1/1 5/806/f Evelyn 10/Fancy Sweet Tea",
+			"Tea Bag Carton (White)": "771 2 388 1 798 1 799 1 800 1/1 5/807/f Abigail 10/Tea Bag Carton (White)",
+			"Tea Bag Carton (Green)": "771 2 388 1 801 1 802 1 803 1/1 5/808/f Abigail 10/Tea Bag Carton (Green)",
+			"Tea Bag Carton (Black)": "771 2 388 1 804 1 805 1 806 1/1 5/809/f Abigail 10/Tea Bag Carton (Black)",
+			"Collectible Tea Box": "709 2 807 1 808 1 809 1/1 5/810/f Robin 10/Collectible Tea Box",
+			"Tea Leaf Cuttings": "495 1 496 1 347 1/1 5/797/f Demetrius 2/Tea Leaf Cuttings"
+          }
+       },
+       
+       
+       // Tea mod recipe data - Russian
+       {
+          "Action": "EditData",
+          "Target": "Data/CookingRecipes",
+		  "Locale": "ru-RU",
+          "Entries": {
+			"White Tea": "797 1/1 5/798/f Jodi 2/White Tea",
+			"Dandelion White Tea": "797 1 22 1/1 5/799/f Harvey 3/Dandelion White Tea",
+			"Berry Surprise Tea": "797 1 410 1 396 1/1 5/800/f Linus 5/Berry Surprise Tea",
+			"Green Tea": "797 2/1 5/801/f Emily 2/Green Tea",
+			"Granny Pom Tea": "797 2 637 1/1 5/802/f Marnie 4/Granny Pom Tea",
+			"Fruit Splash Tea": "797 2 635 1 636 1/1 5/803/f Willy 6/Fruit Splash Tea",
+			"Black Tea": "797 4/1 5/804/f Lewis 2/Black Tea",
+			"Sweet Tea": "797 4 245 1/1 5/805/f Leah 2/Sweet Tea",
+			"Fancy Sweet Tea": "797 4 340 1 417 1/1 5/806/f Evelyn 10/Fancy Sweet Tea",
+			"Tea Bag Carton (White)": "771 2 388 1 798 1 799 1 800 1/1 5/807/f Abigail 10/Tea Bag Carton (White)",
+			"Tea Bag Carton (Green)": "771 2 388 1 801 1 802 1 803 1/1 5/808/f Abigail 10/Tea Bag Carton (Green)",
+			"Tea Bag Carton (Black)": "771 2 388 1 804 1 805 1 806 1/1 5/809/f Abigail 10/Tea Bag Carton (Black)",
+			"Collectible Tea Box": "709 2 807 1 808 1 809 1/1 5/810/f Robin 10/Collectible Tea Box",
+			"Tea Leaf Cuttings": "495 1 496 1 347 1/1 5/797/f Demetrius 2/Tea Leaf Cuttings"
+          }
+       },
+       
+       
+       // Tea mod recipe data - Chinese
+       {
+          "Action": "EditData",
+          "Target": "Data/CookingRecipes",
+		  "Locale": "zh-CN",
+          "Entries": {
+			"White Tea": "797 1/1 5/798/f Jodi 2/White Tea",
+			"Dandelion White Tea": "797 1 22 1/1 5/799/f Harvey 3/Dandelion White Tea",
+			"Berry Surprise Tea": "797 1 410 1 396 1/1 5/800/f Linus 5/Berry Surprise Tea",
+			"Green Tea": "797 2/1 5/801/f Emily 2/Green Tea",
+			"Granny Pom Tea": "797 2 637 1/1 5/802/f Marnie 4/Granny Pom Tea",
+			"Fruit Splash Tea": "797 2 635 1 636 1/1 5/803/f Willy 6/Fruit Splash Tea",
+			"Black Tea": "797 4/1 5/804/f Lewis 2/Black Tea",
+			"Sweet Tea": "797 4 245 1/1 5/805/f Leah 2/Sweet Tea",
+			"Fancy Sweet Tea": "797 4 340 1 417 1/1 5/806/f Evelyn 10/Fancy Sweet Tea",
+			"Tea Bag Carton (White)": "771 2 388 1 798 1 799 1 800 1/1 5/807/f Abigail 10/Tea Bag Carton (White)",
+			"Tea Bag Carton (Green)": "771 2 388 1 801 1 802 1 803 1/1 5/808/f Abigail 10/Tea Bag Carton (Green)",
+			"Tea Bag Carton (Black)": "771 2 388 1 804 1 805 1 806 1/1 5/809/f Abigail 10/Tea Bag Carton (Black)",
+			"Collectible Tea Box": "709 2 807 1 808 1 809 1/1 5/810/f Robin 10/Collectible Tea Box",
+			"Tea Leaf Cuttings": "495 1 496 1 347 1/1 5/797/f Demetrius 2/Tea Leaf Cuttings"
+          }
+       },
+
+//------------------------------------     
+
+
+      
+       // Tea mod mail data
+       {
+          "Action": "EditData",
+          "Target": "Data/mail",
+          "Entries": {
+			HarveyCooking: "Dear @, I want you try this recipe out! It helps me unwind in the evenings. Take care, ^   -Harvey%item cookingRecipe %%",
+			LeahCooking: "Dear @,^^Here is a recipe for one of my favorite teas. A perfect pick me up on any day. Enjoy!   ^   -Leah%item cookingRecipe %%",
+			AbigailCooking: "Dear @,^^ I wanted to send you this recipe. It'll help you package, and sell your tea better!   ^   -Abigail%item cookingRecipe %%",
+			summer_4: "Dear @,^ My friend sent me a science package from the Botanical Heritage Foundation for my birthday. I think it'd be great if you grew some of these for the town!  ^   -Jas%item object 797 75 %%",
+			winter_23: "Dear @,^ I ordered some tea sprouts, but they sent me too many. So, I figured I'd share my birthday present with the town farmer. Hehe, enjoy! ^   -Leah%item object 797 75 %%"
+
+          }
+       },
+       
+       
+       // Tea mod mail data - German
+       {
+          "Action": "EditData",
+          "Target": "Data/mail",
+		  "Locale": "de-DE",
+          "Entries": {
+			HarveyCooking: "Dear @, I want you try this recipe out! It helps me unwind in the evenings. Take care, ^   -Harvey%item cookingRecipe %%",
+			LeahCooking: "Dear @,^^Here is a recipe for one of my favorite teas. A perfect pick me up on any day. Enjoy!   ^   -Leah%item cookingRecipe %%",
+			AbigailCooking: "Dear @,^^ I wanted to send you this recipe. It'll help you package, and sell your tea better!   ^   -Abigail%item cookingRecipe %%",
+			summer_4: "Dear @,^ My friend sent me a science package from the Botanical Heritage Foundation for my birthday. I think it'd be great if you grew some of these for the town!  ^   -Jas%item object 797 75 %%",
+			winter_23: "Dear @,^ I ordered some tea sprouts, but they sent me too many. So, I figured I'd share my birthday present with the town farmer. Hehe, enjoy! ^   -Leah%item object 797 75 %%"
+
+          }
+       },
+       
+       
+       // Tea mod mail data - Spanish
+       {
+          "Action": "EditData",
+          "Target": "Data/mail",
+		  "Locale": "es-ES",
+          "Entries": {
+			HarveyCooking: "Dear @, I want you try this recipe out! It helps me unwind in the evenings. Take care, ^   -Harvey%item cookingRecipe %%",
+			LeahCooking: "Dear @,^^Here is a recipe for one of my favorite teas. A perfect pick me up on any day. Enjoy!   ^   -Leah%item cookingRecipe %%",
+			AbigailCooking: "Dear @,^^ I wanted to send you this recipe. It'll help you package, and sell your tea better!   ^   -Abigail%item cookingRecipe %%",
+			summer_4: "Dear @,^ My friend sent me a science package from the Botanical Heritage Foundation for my birthday. I think it'd be great if you grew some of these for the town!  ^   -Jas%item object 797 75 %%",
+			winter_23: "Dear @,^ I ordered some tea sprouts, but they sent me too many. So, I figured I'd share my birthday present with the town farmer. Hehe, enjoy! ^   -Leah%item object 797 75 %%"
+
+          }
+       },
+       
+       
+       // Tea mod mail data - Japanese
+       {
+          "Action": "EditData",
+          "Target": "Data/mail",
+		  "Locale": "ja-JP",
+          "Entries": {
+			HarveyCooking: "Dear @, I want you try this recipe out! It helps me unwind in the evenings. Take care, ^   -Harvey%item cookingRecipe %%",
+			LeahCooking: "Dear @,^^Here is a recipe for one of my favorite teas. A perfect pick me up on any day. Enjoy!   ^   -Leah%item cookingRecipe %%",
+			AbigailCooking: "Dear @,^^ I wanted to send you this recipe. It'll help you package, and sell your tea better!   ^   -Abigail%item cookingRecipe %%",
+			summer_4: "Dear @,^ My friend sent me a science package from the Botanical Heritage Foundation for my birthday. I think it'd be great if you grew some of these for the town!  ^   -Jas%item object 797 75 %%",
+			winter_23: "Dear @,^ I ordered some tea sprouts, but they sent me too many. So, I figured I'd share my birthday present with the town farmer. Hehe, enjoy! ^   -Leah%item object 797 75 %%"
+
+          }
+       },
+       
+       
+       // Tea mod mail data - Portuguese
+       {
+          "Action": "EditData",
+          "Target": "Data/mail",
+		  "Locale": "pt-BR",
+          "Entries": {
+			HarveyCooking: "Dear @, I want you try this recipe out! It helps me unwind in the evenings. Take care, ^   -Harvey%item cookingRecipe %%",
+			LeahCooking: "Dear @,^^Here is a recipe for one of my favorite teas. A perfect pick me up on any day. Enjoy!   ^   -Leah%item cookingRecipe %%",
+			AbigailCooking: "Dear @,^^ I wanted to send you this recipe. It'll help you package, and sell your tea better!   ^   -Abigail%item cookingRecipe %%",
+			summer_4: "Dear @,^ My friend sent me a science package from the Botanical Heritage Foundation for my birthday. I think it'd be great if you grew some of these for the town!  ^   -Jas%item object 797 75 %%",
+			winter_23: "Dear @,^ I ordered some tea sprouts, but they sent me too many. So, I figured I'd share my birthday present with the town farmer. Hehe, enjoy! ^   -Leah%item object 797 75 %%"
+
+          }
+       },
+       
+       
+       // Tea mod mail data - Russian
+       {
+          "Action": "EditData",
+          "Target": "Data/mail",
+		  "Locale": "ru-RU",
+          "Entries": {
+			HarveyCooking: "Dear @, I want you try this recipe out! It helps me unwind in the evenings. Take care, ^   -Harvey%item cookingRecipe %%",
+			LeahCooking: "Dear @,^^Here is a recipe for one of my favorite teas. A perfect pick me up on any day. Enjoy!   ^   -Leah%item cookingRecipe %%",
+			AbigailCooking: "Dear @,^^ I wanted to send you this recipe. It'll help you package, and sell your tea better!   ^   -Abigail%item cookingRecipe %%",
+			summer_4: "Dear @,^ My friend sent me a science package from the Botanical Heritage Foundation for my birthday. I think it'd be great if you grew some of these for the town!  ^   -Jas%item object 797 75 %%",
+			winter_23: "Dear @,^ I ordered some tea sprouts, but they sent me too many. So, I figured I'd share my birthday present with the town farmer. Hehe, enjoy! ^   -Leah%item object 797 75 %%"
+
+          }
+       },
+       
+       
+       // Tea mod mail data - Chinese
+       {
+          "Action": "EditData",
+          "Target": "Data/mail",
+		  "Locale": "zh-CN",
+          "Entries": {
+			HarveyCooking: "Dear @, I want you try this recipe out! It helps me unwind in the evenings. Take care, ^   -Harvey%item cookingRecipe %%",
+			LeahCooking: "Dear @,^^Here is a recipe for one of my favorite teas. A perfect pick me up on any day. Enjoy!   ^   -Leah%item cookingRecipe %%",
+			AbigailCooking: "Dear @,^^ I wanted to send you this recipe. It'll help you package, and sell your tea better!   ^   -Abigail%item cookingRecipe %%",
+			summer_4: "Dear @,^ My friend sent me a science package from the Botanical Heritage Foundation for my birthday. I think it'd be great if you grew some of these for the town!  ^   -Jas%item object 797 75 %%",
+			winter_23: "Dear @,^ I ordered some tea sprouts, but they sent me too many. So, I figured I'd share my birthday present with the town farmer. Hehe, enjoy! ^   -Leah%item object 797 75 %%"
+
+          }
+       },
+      
+
+//=======================================================================
+
+//=======================================================================
+// Botany Mod section
+//=======================================================================
+
+
+       // Botany Crop mod sprites - 1st part
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/crops",
+          "FromFile": "assets/Botany_crops.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 256, "Height": 192 },
+          "ToArea": { "X": 0, "Y": 672, "Width": 256, "Height": 192 },
+		  "When": {
+                "BotanyModDisabled": "false"
+            }
+       },
+     
+       // Botany Crop mod sprites - final part
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/crops",
+          "FromFile": "assets/Botany_crops.png",
+          "FromArea": { "X": 0, "Y": 192, "Width": 128, "Height": 32 },
+          "ToArea": { "X": 0, "Y": 864, "Width": 128, "Height": 32 },
+		  "When": {
+                "BotanyModDisabled": "false"
+            }
+       },
+
+//------------------------------------     
+
+
+       // Botany Fruit Tree mod sprites
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/fruitTrees",
+          "FromFile": "assets/Botany_fruitTrees.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 432, "Height": 400 },
+          "ToArea": { "X": 0, "Y": 560, "Width": 432, "Height": 400 },
+		  "When": {
+                "BotanyModDisabled": "false"
+            }
+       },
+     
+//------------------------------------   
+
+       
+       // Botany mod item sprites - 1st row
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "assets/Botany_springobjects.png",
+          "FromArea": { "X": 304, "Y": 0, "Width": 80, "Height": 16 },
+          "ToArea": { "X": 304, "Y": 528, "Width": 80, "Height": 16 },
+		  "When": {
+                "BotanyModDisabled": "false"
+            }
+       },
+
+       // Botany mod item sprites - middle rows
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "assets/Botany_springobjects.png",
+          "FromArea": { "X": 0, "Y": 16, "Width": 384, "Height": 32 },
+          "ToArea": { "X": 0, "Y": 544, "Width": 384, "Height": 32 },
+		  "When": {
+                "BotanyModDisabled": "false"
+            }
+       },
+
+       // Botany mod item sprites - last row
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "assets/Botany_springobjects.png",
+          "FromArea": { "X": 0, "Y": 48, "Width": 96, "Height": 16 },
+          "ToArea": { "X": 0, "Y": 576, "Width": 96, "Height": 16 },
+		  "When": {
+                "BotanyModDisabled": "false"
+            }
+       },
+
+
+
+       // Botany mod item sprites - Spanish - Line 1
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+		  "Locale": "es-ES",
+          "FromFile": "assets/Botany_springobjects.png",
+          "FromArea": { "X": 304, "Y": 0, "Width": 80, "Height": 16 },
+          "ToArea": { "X": 304, "Y": 528, "Width": 80, "Height": 16 },
+		  "When": {
+                "BotanyModDisabled": "false"
+            }
+       },
+       
+       // Botany mod item sprites - Spanish - middle rows
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "assets/Botany_springobjects.png",
+          "FromArea": { "X": 0, "Y": 16, "Width": 384, "Height": 32 },
+          "ToArea": { "X": 0, "Y": 544, "Width": 384, "Height": 32 },
+		  "When": {
+                "BotanyModDisabled": "false"
+            }
+       },
+
+       // Botany mod item sprites - Spanish - last row
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "assets/Botany_springobjects.png",
+          "FromArea": { "X": 0, "Y": 48, "Width": 96, "Height": 16 },
+          "ToArea": { "X": 0, "Y": 576, "Width": 96, "Height": 16 },
+		  "When": {
+                "BotanyModDisabled": "false"
+            }
+       },
+
+
+       // Botany mod item sprites - Portuguese - Line 1
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+		  "Locale": "pt-BR",
+          "FromFile": "assets/Botany_springobjects.png",
+          "FromArea": { "X": 304, "Y": 0, "Width": 80, "Height": 16 },
+          "ToArea": { "X": 304, "Y": 528, "Width": 80, "Height": 16 },
+		  "When": {
+                "BotanyModDisabled": "false"
+            }
+       },
+       
+       // Botany mod item sprites - Portuguese - middle rows
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+		  "Locale": "pt-BR",
+          "FromFile": "assets/Botany_springobjects.png",
+          "FromArea": { "X": 0, "Y": 16, "Width": 384, "Height": 32 },
+          "ToArea": { "X": 0, "Y": 544, "Width": 384, "Height": 32 },
+		  "When": {
+                "BotanyModDisabled": "false"
+            }
+       },
+
+       // Botany mod item sprites - Portuguese - last row
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+		  "Locale": "pt-BR",
+          "FromFile": "assets/Botany_springobjects.png",
+          "FromArea": { "X": 0, "Y": 48, "Width": 96, "Height": 16 },
+          "ToArea": { "X": 0, "Y": 576, "Width": 96, "Height": 16 },
+		  "When": {
+                "BotanyModDisabled": "false"
+            }
+       },
+
+     
+       // Botany mod item sprites - Japanese - Line 1
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+		  "Locale": "ja-JP",
+          "FromFile": "assets/Botany_springobjects.png",
+          "FromArea": { "X": 304, "Y": 0, "Width": 80, "Height": 16 },
+          "ToArea": { "X": 304, "Y": 528, "Width": 80, "Height": 16 },
+		  "When": {
+                "BotanyModDisabled": "false"
+            }
+       },
+
+       // Botany mod item sprites - Japanese - middle rows
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+		  "Locale": "ja-JP",
+          "FromFile": "assets/Botany_springobjects.png",
+          "FromArea": { "X": 0, "Y": 16, "Width": 384, "Height": 32 },
+          "ToArea": { "X": 0, "Y": 544, "Width": 384, "Height": 32 },
+		  "When": {
+                "BotanyModDisabled": "false"
+            }
+       },
+
+       // Botany mod item sprites - Japanese - last row
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+		  "Locale": "ja-JP",
+          "FromFile": "assets/Botany_springobjects.png",
+          "FromArea": { "X": 0, "Y": 48, "Width": 96, "Height": 16 },
+          "ToArea": { "X": 0, "Y": 576, "Width": 96, "Height": 16 },
+		  "When": {
+                "BotanyModDisabled": "false"
+            }
+       },
+
+//------------------------------------     
+
+       // Botany mod crop data
+       {
+          "Action": "EditData",
+          "Target": "Data/Crops",
+          "Entries": {
+			818: "1 1 2 2 2/summer/43/817/4/0/true 3 5 5 .02/false/false",
+			819: "1 1 1 2 2/spring/42/819/3/0/true 1 2 6 0/true/false",
+			821: "1 2 3 1/fall/44/820/-1/0/false/false/false",
+			823: "1 1 1 2 1/summer/45/822/5/0/true 2 4 10 .002/false/false",
+			824: "1 1 1 2 1/summer/48/824/5/0/true 2 4 10 .002/false/false",
+			825: "1 1 2 3 3/fall/46/423/3/0/true 1 2 6 0/true/false",
+			826: "1 1 1 3 4/fall/47/827/3/0/true 1 2 6 0/true/false",
+			833: "1 1 1 1 1/spring/49/835/-1/1/false/false/false",
+			834: "1 1 1 2 1/spring/50/836/5/0/true 2 4 10 .002/false/false",
+			843: "2 1 2 1 1/spring/51/842/-1/0/false/false/false",
+			858: "1 1 1 2 1/summer/52/858/-1/0/false/false/false",
+			859: "1 1 1 2 2/summer/53/859/3/0/true 1 2 6 0/true/false",
+			863: "1 1 2 1/spring summer fall/54/864/-1/0/false/false/false"
+          },
+		  "When": {
+                "BotanyModDisabled": "false"
+            }
+       },
+      
+      
+//------------------------------------  
+  
+       // Botany fruit tree crop data
+       {
+          "Action": "EditData",
+          "Target": "Data/fruitTrees",
+          "Entries": {
+             811: "7/spring/814/3000",
+			 812: "8/summer/815/3000",
+			 813: "9/fall/816/1500",
+			 831: "10/fall/830/1500",
+			 867: "11/summer/866/1500",
+          },
+		  "When": {
+                "BotanyModDisabled": "false"
+            }
+       },
+      
+      
+//------------------------------------   
+      
+      
+       // Botany mod item data
+       {
+          "Action": "EditData",
+          "Target": "Data/ObjectInformation",
+          "Entries": {
+			811: "Cacao Sapling/1000/-300/Basic/Cacao Sapling/Takes 28 days to produce a mature Cacao tree. Bears fruit in the spring. Only grows if the 8 surrounding \"tiles\" are empty.",
+		    812: "Avocado Sapling/1500/-300/Basic/Avocado Sapling/Takes 28 days to produce a mature Avocado tree. Bears fruit in the summer. Only grows if the 8 surrounding \"tiles\" are empty.",
+			813: "Pecan Sapling/850/-300/Basic/Pecan Sapling/Takes 28 days to produce a mature Pecan tree. Bears fruit in the fall. Only grows if the 8 surrounding \"tiles\" are empty.",
+			814: "Cacao Bean/95/20/Basic -79/Cacao Bean/The fruit pods can be processed to make chocolate.",
+			815: "Avocado/125/25/Basic -79/Avocado/The fruit make a great dip.",
+			816: "Pecan/55/15/Basic -79/Pecan/Pecans, they're the core ingredient to the best tasting pie ever!",
+			817: "Cotton/34/-300/Basic/Cotton/A fibrous plant part that's great for fabrics.",
+			818: "Cotton Seeds/25/-300/Seeds -74/Cotton Seeds/Plant these in the summer.",
+			819: "Morning Glory Seeds/15/-300/Seeds -74/Morning Glory Seeds/Plant these in the spring.",
+			820: "Onion/15/35/Basic -75/Onion/Spicy when raw, and sweet when grilled!",
+			821: "Onion Seeds/25/-300/Seeds -74/Onion Seeds/Plant these in the fall.",
+			822: "Bell Pepper/35/50/Basic -75/Bell Pepper/These taste very sweet when cooked; goes great with fajitas!",
+			823: "Bell Pepper Seeds/25/-300/Seeds -74/Bell Pepper Seeds/Plant these in the summer.",
+			824: "Prickly Pear Cactus Seeds/25/-300/Seeds -74/Prickly Pear Cactus Seeds/Plant these in the summer.",
+			825: "Rice Seed Starter/25/-300/Seeds -74/Rice Seed Starter/Plant these in the fall.",
+			826: "Pinto Bean Starter/25/-300/Seeds -74/Pinto Bean Seeds/Plant these in the fall.",
+			827: "Pinto Bean/20/20/Basic -75/Pinto Bean/Refried beans make a great side!",
+			828: "Pecan Pie/170/45/Cooking -7/Pecan Pie/A very sweet pie made with pecans./food/0 0 0 0 2 0 0 0 0 0 0/257",
+			829: "Guacamole/30/30/Cooking -7/Guacamole/A tasty dip made with fresh avocadoes./food/0 0 0 0 0 0 0 0 0 3 0/171",
+			830: "Black Olives/25/13/Basic -79/Black Olives/Makes a great pizza topping, or salad ingredient.",
+			831: "Olive Sapling/1200/-300/Basic/Olive Sapling/Takes 28 days to produce a mature Olive tree. Bears fruit in the fall. Only grows if the 8 surrounding \"tiles\" are empty.",
+			832: "Flour Tortilla/5/10/Cooking -7/Flour Tortilla/An important staple in any Mexican dish./food/0 0 0 0 0 0 0 0 0 0 0/0",
+			833: "Sugarcane Seeds/25/-300/Seeds -74/Sugarcane Seeds/Plant these in the spring.",
+			834: "Soybean Seeds/25/-300/Seeds -74/Soybean Seeds/Plant these in the spring.",
+			835: "Sugarcane Stalks/60/-300/Basic -75/Sugarcane Stalks/The stalks of this plant have many uses.",
+			836: "Soybeans/10/30/Basic -75/Soybeans/These beans are filled with protein.",
+			837: "Soy Ink/35/-300/Crafting/Soy Ink/A thick ink made from soybean oil and plant dye.",
+			838: "Bagasse/10/-300/Basic/Bagasse/Pulp derived from sugarcane stalks; has quite a few uses.",
+			839: "Synthetic Bacon/75/60/Basic/Synthetic Bacon/Delicious bacon grown from animal DNA and soybean protein.",
+			840: "Synthetic Chicken/75/60/Basic/Synthetic Chicken/Delicious chicken grown from animal DNA and soybean protein.",
+			841: "Synthetic Beef/75/60/Basic/Synthetic Beef/Delicious beef grown from animal DNA and soybean protein.",
+			842: "Chromatiflora leaf/20/-300/Basic/Chromatiflora leaf/Colorful leaves that can be used to make dyes.",
+			843: "Chromatiflora Seeds/25/-300/Seeds -74/Chromatiflora Seeds/Plant these in spring.",
+			844: "Printed Book/135/-300/Crafting/Printed Book/A freshly printed book hot off the press.",
+			845: "Paper/15/-300/Crafting/Paper/Quality paper made from plant fibres.",
+			846: "Chocolate/80/75/Basic/Chocolate/Cacao beans processed into sweet chocolate./food/0 0 0 0 0 0 0 25 0 0 0/343",
+			847: "Enchilada Plate/150/85/Cooking -7/Enchilada Plate/Cheese Enchiladas with rice, and beans is a tried, and true Mexican dish./food/3 0 0 0 0 2 0 0 0 0 0/600",
+			848: "Bacon Cheeseburger/125/80/Cooking -7/Bacon Cheeseburger/A mouthwatering burger with bacon./food/0 0 3 0 0 0 0 50 0 0 0/771",
+			849: "Fried Chicken Dinner/175/90/Cooking -7/Fried Chicken Dinner/Scrumptious fried chicken with corn, and mashed potatoes./food/4 0 0 0 0 0 0 0 0 0 0/686",
+			850: "Pepperoni Pizza/100/75/Cooking -7/Pepperoni Pizza/The best pizza known to man topped with a few black olives to boot./food/0 0 0 0 2 0 0 0 0 0 0/257",
+			851: "Soy Oil/45/-300/Basic/Soy Oil/A very useful oil derived from Soybeans.",
+			852: "Color Dye/65/-300/Basic/Color Dye/Various colored dyes derived from the Chromatiflora plant.",
+			853: "Brown Sugar/30/15/Basic/Brown Sugar/A slightly syrupy sugar derived from Sugarcane.",
+			854: "Colored Paper/20/-300/Basic/Colored Paper/Colored with dyes derived from the Chromatiflora plant.",
+			855: "Colored Cloth/45/-300/Basic/Colored Cloth/Colored with dyes derived from the Chromatiflora plant.",
+			856: "Colored Clay/55/-300/Basic/Colored Clay/Colored with dyes derived from the Chromatiflora plant.",
+			857: "Cascarón/15/-300/Basic/Cascarón/An egg colored with dye, and filled with confetti. Crack it over someone's head!",
+			858: "Lithops Seeds/25/-300/Seeds -74/Lithops Seeds/Small succulent that thrives in the summer heat.",
+			859: "Rose Seeds/25/-300/Seeds -74/Rose Seeds/Fragrant red flowers. Plant these in summer.",
+			860: "Synthetic Pork/75/60/Basic/Synthetic Pork/Delicious pork grown from animal DNA and soybean protein.",
+			861: "Canned Pineapples/35/5/Basic/Canned Pineapples/A sweet tasting green still kept sealed for freshness.",
+			862: "Pineapple Upside Down Cake/200/55/Cooking -7/Pineapple Upside Down Cake/Pineapples, Cherries, and Brown Sugar meld into a delicious cake./food/0 0 0 0 0 0 0 0 0 2 0/343",
+			863: "Joja GMO Dandelion Seeds/55/-300/Seeds -74/Joja GMO Dandelion Seeds/Plant these in the spring, summer or fall.",
+			864: "Joja GMO Dandelion/80/-300/Basic/Joja GMO Dandelion/Joja's signature GMO plant; engineered to produce latex for industrial uses.",
+			865: "Joja Latex/145/-300/Crafting/Joja Latex/Harvested from genetically engineered dandelions; it's used to make rubber.",
+			866: "Banana/35/25/Basic -79/Banana/Makes a great ice cream topping.",
+			867: "Banana Sapling/1000/-300/Basic/Banana Sapling/Takes 28 days to produce a mature Banana tree. Bears fruit in the summer. Only grows if the 8 surrounding \"tiles\" are empty.",
+			868: "Banana Split/150/55/Cooking -7/Banana Split/A decadent ice cream dessert that's easy to make./food/0 0 0 0 2 1 0 0 0 0 0/257",
+			869: "Chicken Fajitas/135/95/Cooking -7/Chicken Fajitas/Sizzling hot fajitas served with onions, bell peppers and guacamole!/food/0 2 3 0 0 0 0 0 0 0 0/860",
+    
+          },
+		  "When": {
+                "BotanyModDisabled": "false"
+            }
+       },
+       // Botany mod item data - German
+       {
+          "Action": "EditData",
+          "Target": "Data/ObjectInformation",
+		  "Locale": "de-DE",
+          "Entries": {
+			811: "Cacao Sapling/1000/-300/Basic/Cacao Sapling/Takes 28 days to produce a mature Cacao tree. Bears fruit in the spring. Only grows if the 8 surrounding \"tiles\" are empty.",
+		    812: "Avocado Sapling/1500/-300/Basic/Avocado Sapling/Takes 28 days to produce a mature Avocado tree. Bears fruit in the summer. Only grows if the 8 surrounding \"tiles\" are empty.",
+			813: "Pecan Sapling/850/-300/Basic/Pecan Sapling/Takes 28 days to produce a mature Pecan tree. Bears fruit in the fall. Only grows if the 8 surrounding \"tiles\" are empty.",
+			814: "Cacao Bean/95/20/Basic -79/Cacao Bean/The fruit pods can be processed to make chocolate.",
+			815: "Avocado/125/25/Basic -79/Avocado/The fruit make a great dip.",
+			816: "Pecan/55/15/Basic -79/Pecan/Pecans, they're the core ingredient to the best tasting pie ever!",
+			817: "Cotton/34/-300/Basic/Cotton/A fibrous plant part that's great for fabrics.",
+			818: "Cotton Seeds/25/-300/Seeds -74/Cotton Seeds/Plant these in the summer.",
+			819: "Morning Glory Seeds/15/-300/Seeds -74/Morning Glory Seeds/Plant these in the spring.",
+			820: "Onion/15/35/Basic -75/Onion/Spicy when raw, and sweet when grilled!",
+			821: "Onion Seeds/25/-300/Seeds -74/Onion Seeds/Plant these in the fall.",
+			822: "Bell Pepper/35/50/Basic -75/Bell Pepper/These taste very sweet when cooked; goes great with fajitas!",
+			823: "Bell Pepper Seeds/25/-300/Seeds -74/Bell Pepper Seeds/Plant these in the summer.",
+			824: "Prickly Pear Cactus Seeds/25/-300/Seeds -74/Prickly Pear Cactus Seeds/Plant these in the summer.",
+			825: "Rice Seed Starter/25/-300/Seeds -74/Rice Seed Starter/Plant these in the fall.",
+			826: "Pinto Bean Starter/25/-300/Seeds -74/Pinto Bean Seeds/Plant these in the fall.",
+			827: "Pinto Bean/20/20/Basic -75/Pinto Bean/Refried beans make a great side!",
+			828: "Pecan Pie/170/45/Cooking -7/Pecan Pie/A very sweet pie made with pecans./food/0 0 0 0 2 0 0 0 0 0 0/257",
+			829: "Guacamole/30/30/Cooking -7/Guacamole/A tasty dip made with fresh avocadoes./food/0 0 0 0 0 0 0 0 0 3 0/171",
+			830: "Black Olives/25/13/Basic -79/Black Olives/Makes a great pizza topping, or salad ingredient.",
+			831: "Olive Sapling/1200/-300/Basic/Olive Sapling/Takes 28 days to produce a mature Olive tree. Bears fruit in the fall. Only grows if the 8 surrounding \"tiles\" are empty.",
+			832: "Flour Tortilla/5/10/Cooking -7/Flour Tortilla/An important staple in any Mexican dish./food/0 0 0 0 0 0 0 0 0 0 0/0",
+			833: "Sugarcane Seeds/25/-300/Seeds -74/Sugarcane Seeds/Plant these in the spring.",
+			834: "Soybean Seeds/25/-300/Seeds -74/Soybean Seeds/Plant these in the spring.",
+			835: "Sugarcane Stalks/60/-300/Basic -75/Sugarcane Stalks/The stalks of this plant have many uses.",
+			836: "Soybeans/10/30/Basic -75/Soybeans/These beans are filled with protein.",
+			837: "Soy Ink/35/-300/Crafting/Soy Ink/A thick ink made from soybean oil and plant dye.",
+			838: "Bagasse/10/-300/Basic/Bagasse/Pulp derived from sugarcane stalks; has quite a few uses.",
+			839: "Synthetic Bacon/75/60/Basic/Synthetic Bacon/Delicious bacon grown from animal DNA and soybean protein.",
+			840: "Synthetic Chicken/75/60/Basic/Synthetic Chicken/Delicious chicken grown from animal DNA and soybean protein.",
+			841: "Synthetic Beef/75/60/Basic/Synthetic Beef/Delicious beef grown from animal DNA and soybean protein.",
+			842: "Chromatiflora leaf/20/-300/Basic/Chromatiflora leaf/Colorful leaves that can be used to make dyes.",
+			843: "Chromatiflora Seeds/25/-300/Seeds -74/Chromatiflora Seeds/Plant these in spring.",
+			844: "Printed Book/135/-300/Crafting/Printed Book/A freshly printed book hot off the press.",
+			845: "Paper/15/-300/Crafting/Paper/Quality paper made from plant fibres.",
+			846: "Chocolate/80/75/Basic/Chocolate/Cacao beans processed into sweet chocolate./food/0 0 0 0 0 0 0 25 0 0 0/343",
+			847: "Enchilada Plate/150/85/Cooking -7/Enchilada Plate/Cheese Enchiladas with rice, and beans is a tried, and true Mexican dish./food/3 0 0 0 0 2 0 0 0 0 0/600",
+			848: "Bacon Cheeseburger/125/80/Cooking -7/Bacon Cheeseburger/A mouthwatering burger with bacon./food/0 0 3 0 0 0 0 50 0 0 0/771",
+			849: "Fried Chicken Dinner/175/90/Cooking -7/Fried Chicken Dinner/Scrumptious fried chicken with corn, and mashed potatoes./food/4 0 0 0 0 0 0 0 0 0 0/686",
+			850: "Pepperoni Pizza/100/75/Cooking -7/Pepperoni Pizza/The best pizza known to man topped with a few black olives to boot./food/0 0 0 0 2 0 0 0 0 0 0/257",
+			851: "Soy Oil/45/-300/Basic/Soy Oil/A very useful oil derived from Soybeans.",
+			852: "Color Dye/65/-300/Basic/Color Dye/Various colored dyes derived from the Chromatiflora plant.",
+			853: "Brown Sugar/30/15/Basic/Brown Sugar/A slightly syrupy sugar derived from Sugarcane.",
+			854: "Colored Paper/20/-300/Basic/Colored Paper/Colored with dyes derived from the Chromatiflora plant.",
+			855: "Colored Cloth/45/-300/Basic/Colored Cloth/Colored with dyes derived from the Chromatiflora plant.",
+			856: "Colored Clay/55/-300/Basic/Colored Clay/Colored with dyes derived from the Chromatiflora plant.",
+			857: "Cascarón/15/-300/Basic/Cascarón/An egg colored with dye, and filled with confetti. Crack it over someone's head!",
+			858: "Lithops Seeds/25/-300/Seeds -74/Lithops Seeds/Small succulent that thrives in the summer heat.",
+			859: "Rose Seeds/25/-300/Seeds -74/Rose Seeds/Fragrant red flowers. Plant these in summer.",
+			860: "Synthetic Pork/75/60/Basic/Synthetic Pork/Delicious pork grown from animal DNA and soybean protein.",
+			861: "Canned Pineapples/35/5/Basic/Canned Pineapples/A sweet tasting green still kept sealed for freshness.",
+			862: "Pineapple Upside Down Cake/200/55/Cooking -7/Pineapple Upside Down Cake/Pineapples, Cherries, and Brown Sugar meld into a delicious cake./food/0 0 0 0 0 0 0 0 0 2 0/343",
+			863: "Joja GMO Dandelion Seeds/55/-300/Seeds -74/Joja GMO Dandelion Seeds/Plant these in the spring, summer or fall.",
+			864: "Joja GMO Dandelion/80/-300/Basic/Joja GMO Dandelion/Joja's signature GMO plant; engineered to produce latex for industrial uses.",
+			865: "Joja Latex/145/-300/Crafting/Joja Latex/Harvested from genetically engineered dandelions; it's used to make rubber.",
+			866: "Banana/35/25/Basic -79/Banana/Makes a great ice cream topping.",
+			867: "Banana Sapling/1000/-300/Basic/Banana Sapling/Takes 28 days to produce a mature Banana tree. Bears fruit in the summer. Only grows if the 8 surrounding \"tiles\" are empty.",
+			868: "Banana Split/150/55/Cooking -7/Banana Split/A decadent ice cream dessert that's easy to make./food/0 0 0 0 2 1 0 0 0 0 0/257",
+			869: "Chicken Fajitas/135/95/Cooking -7/Chicken Fajitas/Sizzling hot fajitas served with onions, bell peppers and guacamole!/food/0 2 3 0 0 0 0 0 0 0 0/860",
+    
+          },
+		  "When": {
+                "BotanyModDisabled": "false"
+            }
+       },
+       
+       // Botany mod item data - Spanish
+       {
+          "Action": "EditData",
+          "Target": "Data/ObjectInformation",
+		  "Locale": "es-ES",
+          "Entries": {
+			811: "Cacao Sapling/1000/-300/Basic/Cacao Sapling/Takes 28 days to produce a mature Cacao tree. Bears fruit in the spring. Only grows if the 8 surrounding \"tiles\" are empty.",
+		    812: "Avocado Sapling/1500/-300/Basic/Avocado Sapling/Takes 28 days to produce a mature Avocado tree. Bears fruit in the summer. Only grows if the 8 surrounding \"tiles\" are empty.",
+			813: "Pecan Sapling/850/-300/Basic/Pecan Sapling/Takes 28 days to produce a mature Pecan tree. Bears fruit in the fall. Only grows if the 8 surrounding \"tiles\" are empty.",
+			814: "Cacao Bean/95/20/Basic -79/Cacao Bean/The fruit pods can be processed to make chocolate.",
+			815: "Avocado/125/25/Basic -79/Avocado/The fruit make a great dip.",
+			816: "Pecan/55/15/Basic -79/Pecan/Pecans, they're the core ingredient to the best tasting pie ever!",
+			817: "Cotton/34/-300/Basic/Cotton/A fibrous plant part that's great for fabrics.",
+			818: "Cotton Seeds/25/-300/Seeds -74/Cotton Seeds/Plant these in the summer.",
+			819: "Morning Glory Seeds/15/-300/Seeds -74/Morning Glory Seeds/Plant these in the spring.",
+			820: "Onion/15/35/Basic -75/Onion/Spicy when raw, and sweet when grilled!",
+			821: "Onion Seeds/25/-300/Seeds -74/Onion Seeds/Plant these in the fall.",
+			822: "Bell Pepper/35/50/Basic -75/Bell Pepper/These taste very sweet when cooked; goes great with fajitas!",
+			823: "Bell Pepper Seeds/25/-300/Seeds -74/Bell Pepper Seeds/Plant these in the summer.",
+			824: "Prickly Pear Cactus Seeds/25/-300/Seeds -74/Prickly Pear Cactus Seeds/Plant these in the summer.",
+			825: "Rice Seed Starter/25/-300/Seeds -74/Rice Seed Starter/Plant these in the fall.",
+			826: "Pinto Bean Starter/25/-300/Seeds -74/Pinto Bean Seeds/Plant these in the fall.",
+			827: "Pinto Bean/20/20/Basic -75/Pinto Bean/Refried beans make a great side!",
+			828: "Pecan Pie/170/45/Cooking -7/Pecan Pie/A very sweet pie made with pecans./food/0 0 0 0 2 0 0 0 0 0 0/257",
+			829: "Guacamole/30/30/Cooking -7/Guacamole/A tasty dip made with fresh avocadoes./food/0 0 0 0 0 0 0 0 0 3 0/171",
+			830: "Black Olives/25/13/Basic -79/Black Olives/Makes a great pizza topping, or salad ingredient.",
+			831: "Olive Sapling/1200/-300/Basic/Olive Sapling/Takes 28 days to produce a mature Olive tree. Bears fruit in the fall. Only grows if the 8 surrounding \"tiles\" are empty.",
+			832: "Flour Tortilla/5/10/Cooking -7/Flour Tortilla/An important staple in any Mexican dish./food/0 0 0 0 0 0 0 0 0 0 0/0",
+			833: "Sugarcane Seeds/25/-300/Seeds -74/Sugarcane Seeds/Plant these in the spring.",
+			834: "Soybean Seeds/25/-300/Seeds -74/Soybean Seeds/Plant these in the spring.",
+			835: "Sugarcane Stalks/60/-300/Basic -75/Sugarcane Stalks/The stalks of this plant have many uses.",
+			836: "Soybeans/10/30/Basic -75/Soybeans/These beans are filled with protein.",
+			837: "Soy Ink/35/-300/Crafting/Soy Ink/A thick ink made from soybean oil and plant dye.",
+			838: "Bagasse/10/-300/Basic/Bagasse/Pulp derived from sugarcane stalks; has quite a few uses.",
+			839: "Synthetic Bacon/75/60/Basic/Synthetic Bacon/Delicious bacon grown from animal DNA and soybean protein.",
+			840: "Synthetic Chicken/75/60/Basic/Synthetic Chicken/Delicious chicken grown from animal DNA and soybean protein.",
+			841: "Synthetic Beef/75/60/Basic/Synthetic Beef/Delicious beef grown from animal DNA and soybean protein.",
+			842: "Chromatiflora leaf/20/-300/Basic/Chromatiflora leaf/Colorful leaves that can be used to make dyes.",
+			843: "Chromatiflora Seeds/25/-300/Seeds -74/Chromatiflora Seeds/Plant these in spring.",
+			844: "Printed Book/135/-300/Crafting/Printed Book/A freshly printed book hot off the press.",
+			845: "Paper/15/-300/Crafting/Paper/Quality paper made from plant fibres.",
+			846: "Chocolate/80/75/Basic/Chocolate/Cacao beans processed into sweet chocolate./food/0 0 0 0 0 0 0 25 0 0 0/343",
+			847: "Enchilada Plate/150/85/Cooking -7/Enchilada Plate/Cheese Enchiladas with rice, and beans is a tried, and true Mexican dish./food/3 0 0 0 0 2 0 0 0 0 0/600",
+			848: "Bacon Cheeseburger/125/80/Cooking -7/Bacon Cheeseburger/A mouthwatering burger with bacon./food/0 0 3 0 0 0 0 50 0 0 0/771",
+			849: "Fried Chicken Dinner/175/90/Cooking -7/Fried Chicken Dinner/Scrumptious fried chicken with corn, and mashed potatoes./food/4 0 0 0 0 0 0 0 0 0 0/686",
+			850: "Pepperoni Pizza/100/75/Cooking -7/Pepperoni Pizza/The best pizza known to man topped with a few black olives to boot./food/0 0 0 0 2 0 0 0 0 0 0/257",
+			851: "Soy Oil/45/-300/Basic/Soy Oil/A very useful oil derived from Soybeans.",
+			852: "Color Dye/65/-300/Basic/Color Dye/Various colored dyes derived from the Chromatiflora plant.",
+			853: "Brown Sugar/30/15/Basic/Brown Sugar/A slightly syrupy sugar derived from Sugarcane.",
+			854: "Colored Paper/20/-300/Basic/Colored Paper/Colored with dyes derived from the Chromatiflora plant.",
+			855: "Colored Cloth/45/-300/Basic/Colored Cloth/Colored with dyes derived from the Chromatiflora plant.",
+			856: "Colored Clay/55/-300/Basic/Colored Clay/Colored with dyes derived from the Chromatiflora plant.",
+			857: "Cascarón/15/-300/Basic/Cascarón/An egg colored with dye, and filled with confetti. Crack it over someone's head!",
+			858: "Lithops Seeds/25/-300/Seeds -74/Lithops Seeds/Small succulent that thrives in the summer heat.",
+			859: "Rose Seeds/25/-300/Seeds -74/Rose Seeds/Fragrant red flowers. Plant these in summer.",
+			860: "Synthetic Pork/75/60/Basic/Synthetic Pork/Delicious pork grown from animal DNA and soybean protein.",
+			861: "Canned Pineapples/35/5/Basic/Canned Pineapples/A sweet tasting green still kept sealed for freshness.",
+			862: "Pineapple Upside Down Cake/200/55/Cooking -7/Pineapple Upside Down Cake/Pineapples, Cherries, and Brown Sugar meld into a delicious cake./food/0 0 0 0 0 0 0 0 0 2 0/343",
+			863: "Joja GMO Dandelion Seeds/55/-300/Seeds -74/Joja GMO Dandelion Seeds/Plant these in the spring, summer or fall.",
+			864: "Joja GMO Dandelion/80/-300/Basic/Joja GMO Dandelion/Joja's signature GMO plant; engineered to produce latex for industrial uses.",
+			865: "Joja Latex/145/-300/Crafting/Joja Latex/Harvested from genetically engineered dandelions; it's used to make rubber.",
+			866: "Banana/35/25/Basic -79/Banana/Makes a great ice cream topping.",
+			867: "Banana Sapling/1000/-300/Basic/Banana Sapling/Takes 28 days to produce a mature Banana tree. Bears fruit in the summer. Only grows if the 8 surrounding \"tiles\" are empty.",
+			868: "Banana Split/150/55/Cooking -7/Banana Split/A decadent ice cream dessert that's easy to make./food/0 0 0 0 2 1 0 0 0 0 0/257",
+			869: "Chicken Fajitas/135/95/Cooking -7/Chicken Fajitas/Sizzling hot fajitas served with onions, bell peppers and guacamole!/food/0 2 3 0 0 0 0 0 0 0 0/860",
+    
+          },
+		  "When": {
+                "BotanyModDisabled": "false"
+            }
+       },
+       
+       // Botany mod item data - Japanese
+       {
+          "Action": "EditData",
+          "Target": "Data/ObjectInformation",
+		  "Locale": "ja-JP",
+          "Entries": {
+			811: "Cacao Sapling/1000/-300/Basic/Cacao Sapling/Takes 28 days to produce a mature Cacao tree. Bears fruit in the spring. Only grows if the 8 surrounding \"tiles\" are empty.",
+		    812: "Avocado Sapling/1500/-300/Basic/Avocado Sapling/Takes 28 days to produce a mature Avocado tree. Bears fruit in the summer. Only grows if the 8 surrounding \"tiles\" are empty.",
+			813: "Pecan Sapling/850/-300/Basic/Pecan Sapling/Takes 28 days to produce a mature Pecan tree. Bears fruit in the fall. Only grows if the 8 surrounding \"tiles\" are empty.",
+			814: "Cacao Bean/95/20/Basic -79/Cacao Bean/The fruit pods can be processed to make chocolate.",
+			815: "Avocado/125/25/Basic -79/Avocado/The fruit make a great dip.",
+			816: "Pecan/55/15/Basic -79/Pecan/Pecans, they're the core ingredient to the best tasting pie ever!",
+			817: "Cotton/34/-300/Basic/Cotton/A fibrous plant part that's great for fabrics.",
+			818: "Cotton Seeds/25/-300/Seeds -74/Cotton Seeds/Plant these in the summer.",
+			819: "Morning Glory Seeds/15/-300/Seeds -74/Morning Glory Seeds/Plant these in the spring.",
+			820: "Onion/15/35/Basic -75/Onion/Spicy when raw, and sweet when grilled!",
+			821: "Onion Seeds/25/-300/Seeds -74/Onion Seeds/Plant these in the fall.",
+			822: "Bell Pepper/35/50/Basic -75/Bell Pepper/These taste very sweet when cooked; goes great with fajitas!",
+			823: "Bell Pepper Seeds/25/-300/Seeds -74/Bell Pepper Seeds/Plant these in the summer.",
+			824: "Prickly Pear Cactus Seeds/25/-300/Seeds -74/Prickly Pear Cactus Seeds/Plant these in the summer.",
+			825: "Rice Seed Starter/25/-300/Seeds -74/Rice Seed Starter/Plant these in the fall.",
+			826: "Pinto Bean Starter/25/-300/Seeds -74/Pinto Bean Seeds/Plant these in the fall.",
+			827: "Pinto Bean/20/20/Basic -75/Pinto Bean/Refried beans make a great side!",
+			828: "Pecan Pie/170/45/Cooking -7/Pecan Pie/A very sweet pie made with pecans./food/0 0 0 0 2 0 0 0 0 0 0/257",
+			829: "Guacamole/30/30/Cooking -7/Guacamole/A tasty dip made with fresh avocadoes./food/0 0 0 0 0 0 0 0 0 3 0/171",
+			830: "Black Olives/25/13/Basic -79/Black Olives/Makes a great pizza topping, or salad ingredient.",
+			831: "Olive Sapling/1200/-300/Basic/Olive Sapling/Takes 28 days to produce a mature Olive tree. Bears fruit in the fall. Only grows if the 8 surrounding \"tiles\" are empty.",
+			832: "Flour Tortilla/5/10/Cooking -7/Flour Tortilla/An important staple in any Mexican dish./food/0 0 0 0 0 0 0 0 0 0 0/0",
+			833: "Sugarcane Seeds/25/-300/Seeds -74/Sugarcane Seeds/Plant these in the spring.",
+			834: "Soybean Seeds/25/-300/Seeds -74/Soybean Seeds/Plant these in the spring.",
+			835: "Sugarcane Stalks/60/-300/Basic -75/Sugarcane Stalks/The stalks of this plant have many uses.",
+			836: "Soybeans/10/30/Basic -75/Soybeans/These beans are filled with protein.",
+			837: "Soy Ink/35/-300/Crafting/Soy Ink/A thick ink made from soybean oil and plant dye.",
+			838: "Bagasse/10/-300/Basic/Bagasse/Pulp derived from sugarcane stalks; has quite a few uses.",
+			839: "Synthetic Bacon/75/60/Basic/Synthetic Bacon/Delicious bacon grown from animal DNA and soybean protein.",
+			840: "Synthetic Chicken/75/60/Basic/Synthetic Chicken/Delicious chicken grown from animal DNA and soybean protein.",
+			841: "Synthetic Beef/75/60/Basic/Synthetic Beef/Delicious beef grown from animal DNA and soybean protein.",
+			842: "Chromatiflora leaf/20/-300/Basic/Chromatiflora leaf/Colorful leaves that can be used to make dyes.",
+			843: "Chromatiflora Seeds/25/-300/Seeds -74/Chromatiflora Seeds/Plant these in spring.",
+			844: "Printed Book/135/-300/Crafting/Printed Book/A freshly printed book hot off the press.",
+			845: "Paper/15/-300/Crafting/Paper/Quality paper made from plant fibres.",
+			846: "Chocolate/80/75/Basic/Chocolate/Cacao beans processed into sweet chocolate./food/0 0 0 0 0 0 0 25 0 0 0/343",
+			847: "Enchilada Plate/150/85/Cooking -7/Enchilada Plate/Cheese Enchiladas with rice, and beans is a tried, and true Mexican dish./food/3 0 0 0 0 2 0 0 0 0 0/600",
+			848: "Bacon Cheeseburger/125/80/Cooking -7/Bacon Cheeseburger/A mouthwatering burger with bacon./food/0 0 3 0 0 0 0 50 0 0 0/771",
+			849: "Fried Chicken Dinner/175/90/Cooking -7/Fried Chicken Dinner/Scrumptious fried chicken with corn, and mashed potatoes./food/4 0 0 0 0 0 0 0 0 0 0/686",
+			850: "Pepperoni Pizza/100/75/Cooking -7/Pepperoni Pizza/The best pizza known to man topped with a few black olives to boot./food/0 0 0 0 2 0 0 0 0 0 0/257",
+			851: "Soy Oil/45/-300/Basic/Soy Oil/A very useful oil derived from Soybeans.",
+			852: "Color Dye/65/-300/Basic/Color Dye/Various colored dyes derived from the Chromatiflora plant.",
+			853: "Brown Sugar/30/15/Basic/Brown Sugar/A slightly syrupy sugar derived from Sugarcane.",
+			854: "Colored Paper/20/-300/Basic/Colored Paper/Colored with dyes derived from the Chromatiflora plant.",
+			855: "Colored Cloth/45/-300/Basic/Colored Cloth/Colored with dyes derived from the Chromatiflora plant.",
+			856: "Colored Clay/55/-300/Basic/Colored Clay/Colored with dyes derived from the Chromatiflora plant.",
+			857: "Cascarón/15/-300/Basic/Cascarón/An egg colored with dye, and filled with confetti. Crack it over someone's head!",
+			858: "Lithops Seeds/25/-300/Seeds -74/Lithops Seeds/Small succulent that thrives in the summer heat.",
+			859: "Rose Seeds/25/-300/Seeds -74/Rose Seeds/Fragrant red flowers. Plant these in summer.",
+			860: "Synthetic Pork/75/60/Basic/Synthetic Pork/Delicious pork grown from animal DNA and soybean protein.",
+			861: "Canned Pineapples/35/5/Basic/Canned Pineapples/A sweet tasting green still kept sealed for freshness.",
+			862: "Pineapple Upside Down Cake/200/55/Cooking -7/Pineapple Upside Down Cake/Pineapples, Cherries, and Brown Sugar meld into a delicious cake./food/0 0 0 0 0 0 0 0 0 2 0/343",
+			863: "Joja GMO Dandelion Seeds/55/-300/Seeds -74/Joja GMO Dandelion Seeds/Plant these in the spring, summer or fall.",
+			864: "Joja GMO Dandelion/80/-300/Basic/Joja GMO Dandelion/Joja's signature GMO plant; engineered to produce latex for industrial uses.",
+			865: "Joja Latex/145/-300/Crafting/Joja Latex/Harvested from genetically engineered dandelions; it's used to make rubber.",
+			866: "Banana/35/25/Basic -79/Banana/Makes a great ice cream topping.",
+			867: "Banana Sapling/1000/-300/Basic/Banana Sapling/Takes 28 days to produce a mature Banana tree. Bears fruit in the summer. Only grows if the 8 surrounding \"tiles\" are empty.",
+			868: "Banana Split/150/55/Cooking -7/Banana Split/A decadent ice cream dessert that's easy to make./food/0 0 0 0 2 1 0 0 0 0 0/257",
+			869: "Chicken Fajitas/135/95/Cooking -7/Chicken Fajitas/Sizzling hot fajitas served with onions, bell peppers and guacamole!/food/0 2 3 0 0 0 0 0 0 0 0/860",
+    
+          },
+		  "When": {
+                "BotanyModDisabled": "false"
+            }
+       },
+       
+       // Botany mod item data - Portuguese
+       {
+          "Action": "EditData",
+          "Target": "Data/ObjectInformation",
+		  "Locale": "pt-BR",
+          "Entries": {
+			811: "Cacao Sapling/1000/-300/Basic/Cacao Sapling/Takes 28 days to produce a mature Cacao tree. Bears fruit in the spring. Only grows if the 8 surrounding \"tiles\" are empty.",
+		    812: "Avocado Sapling/1500/-300/Basic/Avocado Sapling/Takes 28 days to produce a mature Avocado tree. Bears fruit in the summer. Only grows if the 8 surrounding \"tiles\" are empty.",
+			813: "Pecan Sapling/850/-300/Basic/Pecan Sapling/Takes 28 days to produce a mature Pecan tree. Bears fruit in the fall. Only grows if the 8 surrounding \"tiles\" are empty.",
+			814: "Cacao Bean/95/20/Basic -79/Cacao Bean/The fruit pods can be processed to make chocolate.",
+			815: "Avocado/125/25/Basic -79/Avocado/The fruit make a great dip.",
+			816: "Pecan/55/15/Basic -79/Pecan/Pecans, they're the core ingredient to the best tasting pie ever!",
+			817: "Cotton/34/-300/Basic/Cotton/A fibrous plant part that's great for fabrics.",
+			818: "Cotton Seeds/25/-300/Seeds -74/Cotton Seeds/Plant these in the summer.",
+			819: "Morning Glory Seeds/15/-300/Seeds -74/Morning Glory Seeds/Plant these in the spring.",
+			820: "Onion/15/35/Basic -75/Onion/Spicy when raw, and sweet when grilled!",
+			821: "Onion Seeds/25/-300/Seeds -74/Onion Seeds/Plant these in the fall.",
+			822: "Bell Pepper/35/50/Basic -75/Bell Pepper/These taste very sweet when cooked; goes great with fajitas!",
+			823: "Bell Pepper Seeds/25/-300/Seeds -74/Bell Pepper Seeds/Plant these in the summer.",
+			824: "Prickly Pear Cactus Seeds/25/-300/Seeds -74/Prickly Pear Cactus Seeds/Plant these in the summer.",
+			825: "Rice Seed Starter/25/-300/Seeds -74/Rice Seed Starter/Plant these in the fall.",
+			826: "Pinto Bean Starter/25/-300/Seeds -74/Pinto Bean Seeds/Plant these in the fall.",
+			827: "Pinto Bean/20/20/Basic -75/Pinto Bean/Refried beans make a great side!",
+			828: "Pecan Pie/170/45/Cooking -7/Pecan Pie/A very sweet pie made with pecans./food/0 0 0 0 2 0 0 0 0 0 0/257",
+			829: "Guacamole/30/30/Cooking -7/Guacamole/A tasty dip made with fresh avocadoes./food/0 0 0 0 0 0 0 0 0 3 0/171",
+			830: "Black Olives/25/13/Basic -79/Black Olives/Makes a great pizza topping, or salad ingredient.",
+			831: "Olive Sapling/1200/-300/Basic/Olive Sapling/Takes 28 days to produce a mature Olive tree. Bears fruit in the fall. Only grows if the 8 surrounding \"tiles\" are empty.",
+			832: "Flour Tortilla/5/10/Cooking -7/Flour Tortilla/An important staple in any Mexican dish./food/0 0 0 0 0 0 0 0 0 0 0/0",
+			833: "Sugarcane Seeds/25/-300/Seeds -74/Sugarcane Seeds/Plant these in the spring.",
+			834: "Soybean Seeds/25/-300/Seeds -74/Soybean Seeds/Plant these in the spring.",
+			835: "Sugarcane Stalks/60/-300/Basic -75/Sugarcane Stalks/The stalks of this plant have many uses.",
+			836: "Soybeans/10/30/Basic -75/Soybeans/These beans are filled with protein.",
+			837: "Soy Ink/35/-300/Crafting/Soy Ink/A thick ink made from soybean oil and plant dye.",
+			838: "Bagasse/10/-300/Basic/Bagasse/Pulp derived from sugarcane stalks; has quite a few uses.",
+			839: "Synthetic Bacon/75/60/Basic/Synthetic Bacon/Delicious bacon grown from animal DNA and soybean protein.",
+			840: "Synthetic Chicken/75/60/Basic/Synthetic Chicken/Delicious chicken grown from animal DNA and soybean protein.",
+			841: "Synthetic Beef/75/60/Basic/Synthetic Beef/Delicious beef grown from animal DNA and soybean protein.",
+			842: "Chromatiflora leaf/20/-300/Basic/Chromatiflora leaf/Colorful leaves that can be used to make dyes.",
+			843: "Chromatiflora Seeds/25/-300/Seeds -74/Chromatiflora Seeds/Plant these in spring.",
+			844: "Printed Book/135/-300/Crafting/Printed Book/A freshly printed book hot off the press.",
+			845: "Paper/15/-300/Crafting/Paper/Quality paper made from plant fibres.",
+			846: "Chocolate/80/75/Basic/Chocolate/Cacao beans processed into sweet chocolate./food/0 0 0 0 0 0 0 25 0 0 0/343",
+			847: "Enchilada Plate/150/85/Cooking -7/Enchilada Plate/Cheese Enchiladas with rice, and beans is a tried, and true Mexican dish./food/3 0 0 0 0 2 0 0 0 0 0/600",
+			848: "Bacon Cheeseburger/125/80/Cooking -7/Bacon Cheeseburger/A mouthwatering burger with bacon./food/0 0 3 0 0 0 0 50 0 0 0/771",
+			849: "Fried Chicken Dinner/175/90/Cooking -7/Fried Chicken Dinner/Scrumptious fried chicken with corn, and mashed potatoes./food/4 0 0 0 0 0 0 0 0 0 0/686",
+			850: "Pepperoni Pizza/100/75/Cooking -7/Pepperoni Pizza/The best pizza known to man topped with a few black olives to boot./food/0 0 0 0 2 0 0 0 0 0 0/257",
+			851: "Soy Oil/45/-300/Basic/Soy Oil/A very useful oil derived from Soybeans.",
+			852: "Color Dye/65/-300/Basic/Color Dye/Various colored dyes derived from the Chromatiflora plant.",
+			853: "Brown Sugar/30/15/Basic/Brown Sugar/A slightly syrupy sugar derived from Sugarcane.",
+			854: "Colored Paper/20/-300/Basic/Colored Paper/Colored with dyes derived from the Chromatiflora plant.",
+			855: "Colored Cloth/45/-300/Basic/Colored Cloth/Colored with dyes derived from the Chromatiflora plant.",
+			856: "Colored Clay/55/-300/Basic/Colored Clay/Colored with dyes derived from the Chromatiflora plant.",
+			857: "Cascarón/15/-300/Basic/Cascarón/An egg colored with dye, and filled with confetti. Crack it over someone's head!",
+			858: "Lithops Seeds/25/-300/Seeds -74/Lithops Seeds/Small succulent that thrives in the summer heat.",
+			859: "Rose Seeds/25/-300/Seeds -74/Rose Seeds/Fragrant red flowers. Plant these in summer.",
+			860: "Synthetic Pork/75/60/Basic/Synthetic Pork/Delicious pork grown from animal DNA and soybean protein.",
+			861: "Canned Pineapples/35/5/Basic/Canned Pineapples/A sweet tasting green still kept sealed for freshness.",
+			862: "Pineapple Upside Down Cake/200/55/Cooking -7/Pineapple Upside Down Cake/Pineapples, Cherries, and Brown Sugar meld into a delicious cake./food/0 0 0 0 0 0 0 0 0 2 0/343",
+			863: "Joja GMO Dandelion Seeds/55/-300/Seeds -74/Joja GMO Dandelion Seeds/Plant these in the spring, summer or fall.",
+			864: "Joja GMO Dandelion/80/-300/Basic/Joja GMO Dandelion/Joja's signature GMO plant; engineered to produce latex for industrial uses.",
+			865: "Joja Latex/145/-300/Crafting/Joja Latex/Harvested from genetically engineered dandelions; it's used to make rubber.",
+			866: "Banana/35/25/Basic -79/Banana/Makes a great ice cream topping.",
+			867: "Banana Sapling/1000/-300/Basic/Banana Sapling/Takes 28 days to produce a mature Banana tree. Bears fruit in the summer. Only grows if the 8 surrounding \"tiles\" are empty.",
+			868: "Banana Split/150/55/Cooking -7/Banana Split/A decadent ice cream dessert that's easy to make./food/0 0 0 0 2 1 0 0 0 0 0/257",
+			869: "Chicken Fajitas/135/95/Cooking -7/Chicken Fajitas/Sizzling hot fajitas served with onions, bell peppers and guacamole!/food/0 2 3 0 0 0 0 0 0 0 0/860",
+    
+          },
+		  "When": {
+                "BotanyModDisabled": "false"
+            }
+       },
+       
+       // Botany mod item data - Russian
+       {
+          "Action": "EditData",
+          "Target": "Data/ObjectInformation",
+		  "Locale": "ru-RU",
+          "Entries": {
+			811: "Cacao Sapling/1000/-300/Basic/Cacao Sapling/Takes 28 days to produce a mature Cacao tree. Bears fruit in the spring. Only grows if the 8 surrounding \"tiles\" are empty.",
+		    812: "Avocado Sapling/1500/-300/Basic/Avocado Sapling/Takes 28 days to produce a mature Avocado tree. Bears fruit in the summer. Only grows if the 8 surrounding \"tiles\" are empty.",
+			813: "Pecan Sapling/850/-300/Basic/Pecan Sapling/Takes 28 days to produce a mature Pecan tree. Bears fruit in the fall. Only grows if the 8 surrounding \"tiles\" are empty.",
+			814: "Cacao Bean/95/20/Basic -79/Cacao Bean/The fruit pods can be processed to make chocolate.",
+			815: "Avocado/125/25/Basic -79/Avocado/The fruit make a great dip.",
+			816: "Pecan/55/15/Basic -79/Pecan/Pecans, they're the core ingredient to the best tasting pie ever!",
+			817: "Cotton/34/-300/Basic/Cotton/A fibrous plant part that's great for fabrics.",
+			818: "Cotton Seeds/25/-300/Seeds -74/Cotton Seeds/Plant these in the summer.",
+			819: "Morning Glory Seeds/15/-300/Seeds -74/Morning Glory Seeds/Plant these in the spring.",
+			820: "Onion/15/35/Basic -75/Onion/Spicy when raw, and sweet when grilled!",
+			821: "Onion Seeds/25/-300/Seeds -74/Onion Seeds/Plant these in the fall.",
+			822: "Bell Pepper/35/50/Basic -75/Bell Pepper/These taste very sweet when cooked; goes great with fajitas!",
+			823: "Bell Pepper Seeds/25/-300/Seeds -74/Bell Pepper Seeds/Plant these in the summer.",
+			824: "Prickly Pear Cactus Seeds/25/-300/Seeds -74/Prickly Pear Cactus Seeds/Plant these in the summer.",
+			825: "Rice Seed Starter/25/-300/Seeds -74/Rice Seed Starter/Plant these in the fall.",
+			826: "Pinto Bean Starter/25/-300/Seeds -74/Pinto Bean Seeds/Plant these in the fall.",
+			827: "Pinto Bean/20/20/Basic -75/Pinto Bean/Refried beans make a great side!",
+			828: "Pecan Pie/170/45/Cooking -7/Pecan Pie/A very sweet pie made with pecans./food/0 0 0 0 2 0 0 0 0 0 0/257",
+			829: "Guacamole/30/30/Cooking -7/Guacamole/A tasty dip made with fresh avocadoes./food/0 0 0 0 0 0 0 0 0 3 0/171",
+			830: "Black Olives/25/13/Basic -79/Black Olives/Makes a great pizza topping, or salad ingredient.",
+			831: "Olive Sapling/1200/-300/Basic/Olive Sapling/Takes 28 days to produce a mature Olive tree. Bears fruit in the fall. Only grows if the 8 surrounding \"tiles\" are empty.",
+			832: "Flour Tortilla/5/10/Cooking -7/Flour Tortilla/An important staple in any Mexican dish./food/0 0 0 0 0 0 0 0 0 0 0/0",
+			833: "Sugarcane Seeds/25/-300/Seeds -74/Sugarcane Seeds/Plant these in the spring.",
+			834: "Soybean Seeds/25/-300/Seeds -74/Soybean Seeds/Plant these in the spring.",
+			835: "Sugarcane Stalks/60/-300/Basic -75/Sugarcane Stalks/The stalks of this plant have many uses.",
+			836: "Soybeans/10/30/Basic -75/Soybeans/These beans are filled with protein.",
+			837: "Soy Ink/35/-300/Crafting/Soy Ink/A thick ink made from soybean oil and plant dye.",
+			838: "Bagasse/10/-300/Basic/Bagasse/Pulp derived from sugarcane stalks; has quite a few uses.",
+			839: "Synthetic Bacon/75/60/Basic/Synthetic Bacon/Delicious bacon grown from animal DNA and soybean protein.",
+			840: "Synthetic Chicken/75/60/Basic/Synthetic Chicken/Delicious chicken grown from animal DNA and soybean protein.",
+			841: "Synthetic Beef/75/60/Basic/Synthetic Beef/Delicious beef grown from animal DNA and soybean protein.",
+			842: "Chromatiflora leaf/20/-300/Basic/Chromatiflora leaf/Colorful leaves that can be used to make dyes.",
+			843: "Chromatiflora Seeds/25/-300/Seeds -74/Chromatiflora Seeds/Plant these in spring.",
+			844: "Printed Book/135/-300/Crafting/Printed Book/A freshly printed book hot off the press.",
+			845: "Paper/15/-300/Crafting/Paper/Quality paper made from plant fibres.",
+			846: "Chocolate/80/75/Basic/Chocolate/Cacao beans processed into sweet chocolate./food/0 0 0 0 0 0 0 25 0 0 0/343",
+			847: "Enchilada Plate/150/85/Cooking -7/Enchilada Plate/Cheese Enchiladas with rice, and beans is a tried, and true Mexican dish./food/3 0 0 0 0 2 0 0 0 0 0/600",
+			848: "Bacon Cheeseburger/125/80/Cooking -7/Bacon Cheeseburger/A mouthwatering burger with bacon./food/0 0 3 0 0 0 0 50 0 0 0/771",
+			849: "Fried Chicken Dinner/175/90/Cooking -7/Fried Chicken Dinner/Scrumptious fried chicken with corn, and mashed potatoes./food/4 0 0 0 0 0 0 0 0 0 0/686",
+			850: "Pepperoni Pizza/100/75/Cooking -7/Pepperoni Pizza/The best pizza known to man topped with a few black olives to boot./food/0 0 0 0 2 0 0 0 0 0 0/257",
+			851: "Soy Oil/45/-300/Basic/Soy Oil/A very useful oil derived from Soybeans.",
+			852: "Color Dye/65/-300/Basic/Color Dye/Various colored dyes derived from the Chromatiflora plant.",
+			853: "Brown Sugar/30/15/Basic/Brown Sugar/A slightly syrupy sugar derived from Sugarcane.",
+			854: "Colored Paper/20/-300/Basic/Colored Paper/Colored with dyes derived from the Chromatiflora plant.",
+			855: "Colored Cloth/45/-300/Basic/Colored Cloth/Colored with dyes derived from the Chromatiflora plant.",
+			856: "Colored Clay/55/-300/Basic/Colored Clay/Colored with dyes derived from the Chromatiflora plant.",
+			857: "Cascarón/15/-300/Basic/Cascarón/An egg colored with dye, and filled with confetti. Crack it over someone's head!",
+			858: "Lithops Seeds/25/-300/Seeds -74/Lithops Seeds/Small succulent that thrives in the summer heat.",
+			859: "Rose Seeds/25/-300/Seeds -74/Rose Seeds/Fragrant red flowers. Plant these in summer.",
+			860: "Synthetic Pork/75/60/Basic/Synthetic Pork/Delicious pork grown from animal DNA and soybean protein.",
+			861: "Canned Pineapples/35/5/Basic/Canned Pineapples/A sweet tasting green still kept sealed for freshness.",
+			862: "Pineapple Upside Down Cake/200/55/Cooking -7/Pineapple Upside Down Cake/Pineapples, Cherries, and Brown Sugar meld into a delicious cake./food/0 0 0 0 0 0 0 0 0 2 0/343",
+			863: "Joja GMO Dandelion Seeds/55/-300/Seeds -74/Joja GMO Dandelion Seeds/Plant these in the spring, summer or fall.",
+			864: "Joja GMO Dandelion/80/-300/Basic/Joja GMO Dandelion/Joja's signature GMO plant; engineered to produce latex for industrial uses.",
+			865: "Joja Latex/145/-300/Crafting/Joja Latex/Harvested from genetically engineered dandelions; it's used to make rubber.",
+			866: "Banana/35/25/Basic -79/Banana/Makes a great ice cream topping.",
+			867: "Banana Sapling/1000/-300/Basic/Banana Sapling/Takes 28 days to produce a mature Banana tree. Bears fruit in the summer. Only grows if the 8 surrounding \"tiles\" are empty.",
+			868: "Banana Split/150/55/Cooking -7/Banana Split/A decadent ice cream dessert that's easy to make./food/0 0 0 0 2 1 0 0 0 0 0/257",
+			869: "Chicken Fajitas/135/95/Cooking -7/Chicken Fajitas/Sizzling hot fajitas served with onions, bell peppers and guacamole!/food/0 2 3 0 0 0 0 0 0 0 0/860",
+    
+          },
+		  "When": {
+                "BotanyModDisabled": "false"
+            }
+       },
+       
+       // Botany mod item data - Chinese
+       {
+          "Action": "EditData",
+          "Target": "Data/ObjectInformation",
+		  "Locale": "zh-CN",
+          "Entries": {
+			811: "Cacao Sapling/1000/-300/Basic/Cacao Sapling/Takes 28 days to produce a mature Cacao tree. Bears fruit in the spring. Only grows if the 8 surrounding \"tiles\" are empty.",
+		    812: "Avocado Sapling/1500/-300/Basic/Avocado Sapling/Takes 28 days to produce a mature Avocado tree. Bears fruit in the summer. Only grows if the 8 surrounding \"tiles\" are empty.",
+			813: "Pecan Sapling/850/-300/Basic/Pecan Sapling/Takes 28 days to produce a mature Pecan tree. Bears fruit in the fall. Only grows if the 8 surrounding \"tiles\" are empty.",
+			814: "Cacao Bean/95/20/Basic -79/Cacao Bean/The fruit pods can be processed to make chocolate.",
+			815: "Avocado/125/25/Basic -79/Avocado/The fruit make a great dip.",
+			816: "Pecan/55/15/Basic -79/Pecan/Pecans, they're the core ingredient to the best tasting pie ever!",
+			817: "Cotton/34/-300/Basic/Cotton/A fibrous plant part that's great for fabrics.",
+			818: "Cotton Seeds/25/-300/Seeds -74/Cotton Seeds/Plant these in the summer.",
+			819: "Morning Glory Seeds/15/-300/Seeds -74/Morning Glory Seeds/Plant these in the spring.",
+			820: "Onion/15/35/Basic -75/Onion/Spicy when raw, and sweet when grilled!",
+			821: "Onion Seeds/25/-300/Seeds -74/Onion Seeds/Plant these in the fall.",
+			822: "Bell Pepper/35/50/Basic -75/Bell Pepper/These taste very sweet when cooked; goes great with fajitas!",
+			823: "Bell Pepper Seeds/25/-300/Seeds -74/Bell Pepper Seeds/Plant these in the summer.",
+			824: "Prickly Pear Cactus Seeds/25/-300/Seeds -74/Prickly Pear Cactus Seeds/Plant these in the summer.",
+			825: "Rice Seed Starter/25/-300/Seeds -74/Rice Seed Starter/Plant these in the fall.",
+			826: "Pinto Bean Starter/25/-300/Seeds -74/Pinto Bean Seeds/Plant these in the fall.",
+			827: "Pinto Bean/20/20/Basic -75/Pinto Bean/Refried beans make a great side!",
+			828: "Pecan Pie/170/45/Cooking -7/Pecan Pie/A very sweet pie made with pecans./food/0 0 0 0 2 0 0 0 0 0 0/257",
+			829: "Guacamole/30/30/Cooking -7/Guacamole/A tasty dip made with fresh avocadoes./food/0 0 0 0 0 0 0 0 0 3 0/171",
+			830: "Black Olives/25/13/Basic -79/Black Olives/Makes a great pizza topping, or salad ingredient.",
+			831: "Olive Sapling/1200/-300/Basic/Olive Sapling/Takes 28 days to produce a mature Olive tree. Bears fruit in the fall. Only grows if the 8 surrounding \"tiles\" are empty.",
+			832: "Flour Tortilla/5/10/Cooking -7/Flour Tortilla/An important staple in any Mexican dish./food/0 0 0 0 0 0 0 0 0 0 0/0",
+			833: "Sugarcane Seeds/25/-300/Seeds -74/Sugarcane Seeds/Plant these in the spring.",
+			834: "Soybean Seeds/25/-300/Seeds -74/Soybean Seeds/Plant these in the spring.",
+			835: "Sugarcane Stalks/60/-300/Basic -75/Sugarcane Stalks/The stalks of this plant have many uses.",
+			836: "Soybeans/10/30/Basic -75/Soybeans/These beans are filled with protein.",
+			837: "Soy Ink/35/-300/Crafting/Soy Ink/A thick ink made from soybean oil and plant dye.",
+			838: "Bagasse/10/-300/Basic/Bagasse/Pulp derived from sugarcane stalks; has quite a few uses.",
+			839: "Synthetic Bacon/75/60/Basic/Synthetic Bacon/Delicious bacon grown from animal DNA and soybean protein.",
+			840: "Synthetic Chicken/75/60/Basic/Synthetic Chicken/Delicious chicken grown from animal DNA and soybean protein.",
+			841: "Synthetic Beef/75/60/Basic/Synthetic Beef/Delicious beef grown from animal DNA and soybean protein.",
+			842: "Chromatiflora leaf/20/-300/Basic/Chromatiflora leaf/Colorful leaves that can be used to make dyes.",
+			843: "Chromatiflora Seeds/25/-300/Seeds -74/Chromatiflora Seeds/Plant these in spring.",
+			844: "Printed Book/135/-300/Crafting/Printed Book/A freshly printed book hot off the press.",
+			845: "Paper/15/-300/Crafting/Paper/Quality paper made from plant fibres.",
+			846: "Chocolate/80/75/Basic/Chocolate/Cacao beans processed into sweet chocolate./food/0 0 0 0 0 0 0 25 0 0 0/343",
+			847: "Enchilada Plate/150/85/Cooking -7/Enchilada Plate/Cheese Enchiladas with rice, and beans is a tried, and true Mexican dish./food/3 0 0 0 0 2 0 0 0 0 0/600",
+			848: "Bacon Cheeseburger/125/80/Cooking -7/Bacon Cheeseburger/A mouthwatering burger with bacon./food/0 0 3 0 0 0 0 50 0 0 0/771",
+			849: "Fried Chicken Dinner/175/90/Cooking -7/Fried Chicken Dinner/Scrumptious fried chicken with corn, and mashed potatoes./food/4 0 0 0 0 0 0 0 0 0 0/686",
+			850: "Pepperoni Pizza/100/75/Cooking -7/Pepperoni Pizza/The best pizza known to man topped with a few black olives to boot./food/0 0 0 0 2 0 0 0 0 0 0/257",
+			851: "Soy Oil/45/-300/Basic/Soy Oil/A very useful oil derived from Soybeans.",
+			852: "Color Dye/65/-300/Basic/Color Dye/Various colored dyes derived from the Chromatiflora plant.",
+			853: "Brown Sugar/30/15/Basic/Brown Sugar/A slightly syrupy sugar derived from Sugarcane.",
+			854: "Colored Paper/20/-300/Basic/Colored Paper/Colored with dyes derived from the Chromatiflora plant.",
+			855: "Colored Cloth/45/-300/Basic/Colored Cloth/Colored with dyes derived from the Chromatiflora plant.",
+			856: "Colored Clay/55/-300/Basic/Colored Clay/Colored with dyes derived from the Chromatiflora plant.",
+			857: "Cascarón/15/-300/Basic/Cascarón/An egg colored with dye, and filled with confetti. Crack it over someone's head!",
+			858: "Lithops Seeds/25/-300/Seeds -74/Lithops Seeds/Small succulent that thrives in the summer heat.",
+			859: "Rose Seeds/25/-300/Seeds -74/Rose Seeds/Fragrant red flowers. Plant these in summer.",
+			860: "Synthetic Pork/75/60/Basic/Synthetic Pork/Delicious pork grown from animal DNA and soybean protein.",
+			861: "Canned Pineapples/35/5/Basic/Canned Pineapples/A sweet tasting green still kept sealed for freshness.",
+			862: "Pineapple Upside Down Cake/200/55/Cooking -7/Pineapple Upside Down Cake/Pineapples, Cherries, and Brown Sugar meld into a delicious cake./food/0 0 0 0 0 0 0 0 0 2 0/343",
+			863: "Joja GMO Dandelion Seeds/55/-300/Seeds -74/Joja GMO Dandelion Seeds/Plant these in the spring, summer or fall.",
+			864: "Joja GMO Dandelion/80/-300/Basic/Joja GMO Dandelion/Joja's signature GMO plant; engineered to produce latex for industrial uses.",
+			865: "Joja Latex/145/-300/Crafting/Joja Latex/Harvested from genetically engineered dandelions; it's used to make rubber.",
+			866: "Banana/35/25/Basic -79/Banana/Makes a great ice cream topping.",
+			867: "Banana Sapling/1000/-300/Basic/Banana Sapling/Takes 28 days to produce a mature Banana tree. Bears fruit in the summer. Only grows if the 8 surrounding \"tiles\" are empty.",
+			868: "Banana Split/150/55/Cooking -7/Banana Split/A decadent ice cream dessert that's easy to make./food/0 0 0 0 2 1 0 0 0 0 0/257",
+			869: "Chicken Fajitas/135/95/Cooking -7/Chicken Fajitas/Sizzling hot fajitas served with onions, bell peppers and guacamole!/food/0 2 3 0 0 0 0 0 0 0 0/860",
+    
+          },
+		  "When": {
+                "BotanyModDisabled": "false"
+            }
+       },
+       
+    
+//------------------------------------
+       
+       
+      
+       // Botany mod recipe data
+       {
+          "Action": "EditData",
+          "Target": "Data/CookingRecipes",
+          "Entries": {
+			"Pecan Pie": "245 1 -5 1 246 1 816 5/1 5/828/f George 2/Pecan Pie",
+			"Guacamole": "815 4 256 1 820 1 260 1/1 5/829/f Alex 2/Guacamole",
+			"Flour Tortilla": "246 2/1 5/832/f Gus 3/Flour Tortilla",
+			"Enchilada Plate": "229 4 424 2 423 2 827 3/1 5/847/f Evelyn 2/Enchilada Plate",
+			"Bacon Cheeseburger": "216 1 424 1 841 1 839 1/1 5/848/f Maru 2/Bacon Cheeseburger",
+			"Fried Chicken Dinner": "246 1 -5 1 247 1 840 1 192 1 270 1 216 1/1 5/849/f Caroline 2/Fried Chicken Dinner",
+			"Pepperoni Pizza": "246 1 256 1 424 1 830 1 841 1 860 1/1 5/850/f Abigail 2/Pepperoni Pizza",
+			"Pineapple Upside Down Cake": "246 1 -5 1 861 1 638 5 853 1/1 5/862/f Evelyn 3/Pineapple Upside Down Cake",
+			"Banana Split": "233 1 866 1 846 1 816 3 638 1/1 5/868/f Jodi 10/Banana Split",
+			"Chicken Fajitas": "840 3 820 2 822 4 832 6 829 1/1 5/869/f Kent 8/Chicken Fajitas",
+			"Cascarón": "-5 1 854 1 852 1/1 5/857/f Gus 2/Cascarón"
+          },
+		  "When": {
+                "BotanyModDisabled": "false"
+            }
+       },
+      
+
+       // Botany mod recipe data - German
+       {
+          "Action": "EditData",
+          "Target": "Data/CookingRecipes",
+		  "Locale": "de-DE",
+          "Entries": {
+			"Pecan Pie": "245 1 -5 1 246 1 816 5/1 5/828/f George 2/Pecan Pie",
+			"Guacamole": "815 4 256 1 820 1 260 1/1 5/829/f Alex 2/Guacamole",
+			"Flour Tortilla": "246 2/1 5/832/f Gus 3/Flour Tortilla",
+			"Enchilada Plate": "229 4 424 2 423 2 827 3/1 5/847/f Evelyn 2/Enchilada Plate",
+			"Bacon Cheeseburger": "216 1 424 1 841 1 839 1/1 5/848/f Maru 2/Bacon Cheeseburger",
+			"Fried Chicken Dinner": "246 1 -5 1 247 1 840 1 192 1 270 1 216 1/1 5/849/f Caroline 2/Fried Chicken Dinner",
+			"Pepperoni Pizza": "246 1 256 1 424 1 830 1 841 1 860 1/1 5/850/f Abigail 2/Pepperoni Pizza",
+			"Pineapple Upside Down Cake": "246 1 -5 1 861 1 638 5 853 1/1 5/862/f Evelyn 3/Pineapple Upside Down Cake",
+			"Banana Split": "233 1 866 1 846 1 816 3 638 1/1 5/868/f Jodi 10/Banana Split",
+			"Chicken Fajitas": "840 3 820 2 822 4 832 6 829 1/1 5/869/f Kent 8/Chicken Fajitas",
+			"Cascarón": "-5 1 854 1 852 1/1 5/857/f Gus 2/Cascarón"
+          },
+		  "When": {
+                "BotanyModDisabled": "false"
+            }
+       },
+       
+       
+       // Botany mod recipe data - Spanish
+       {
+          "Action": "EditData",
+          "Target": "Data/CookingRecipes",
+		  "Locale": "es-ES",
+          "Entries": {
+			"Pecan Pie": "245 1 -5 1 246 1 816 5/1 5/828/f George 2/Pecan Pie",
+			"Guacamole": "815 4 256 1 820 1 260 1/1 5/829/f Alex 2/Guacamole",
+			"Flour Tortilla": "246 2/1 5/832/f Gus 3/Flour Tortilla",
+			"Enchilada Plate": "229 4 424 2 423 2 827 3/1 5/847/f Evelyn 2/Enchilada Plate",
+			"Bacon Cheeseburger": "216 1 424 1 841 1 839 1/1 5/848/f Maru 2/Bacon Cheeseburger",
+			"Fried Chicken Dinner": "246 1 -5 1 247 1 840 1 192 1 270 1 216 1/1 5/849/f Caroline 2/Fried Chicken Dinner",
+			"Pepperoni Pizza": "246 1 256 1 424 1 830 1 841 1 860 1/1 5/850/f Abigail 2/Pepperoni Pizza",
+			"Pineapple Upside Down Cake": "246 1 -5 1 861 1 638 5 853 1/1 5/862/f Evelyn 3/Pineapple Upside Down Cake",
+			"Banana Split": "233 1 866 1 846 1 816 3 638 1/1 5/868/f Jodi 10/Banana Split",
+			"Chicken Fajitas": "840 3 820 2 822 4 832 6 829 1/1 5/869/f Kent 8/Chicken Fajitas",
+			"Cascarón": "-5 1 854 1 852 1/1 5/857/f Gus 2/Cascarón"
+          },
+		  "When": {
+                "BotanyModDisabled": "false"
+            }
+       },
+       
+       
+       // Botany mod recipe data - Japanese
+       {
+          "Action": "EditData",
+          "Target": "Data/CookingRecipes",
+		  "Locale": "ja-JP",
+          "Entries": {
+			"Pecan Pie": "245 1 -5 1 246 1 816 5/1 5/828/f George 2/Pecan Pie",
+			"Guacamole": "815 4 256 1 820 1 260 1/1 5/829/f Alex 2/Guacamole",
+			"Flour Tortilla": "246 2/1 5/832/f Gus 3/Flour Tortilla",
+			"Enchilada Plate": "229 4 424 2 423 2 827 3/1 5/847/f Evelyn 2/Enchilada Plate",
+			"Bacon Cheeseburger": "216 1 424 1 841 1 839 1/1 5/848/f Maru 2/Bacon Cheeseburger",
+			"Fried Chicken Dinner": "246 1 -5 1 247 1 840 1 192 1 270 1 216 1/1 5/849/f Caroline 2/Fried Chicken Dinner",
+			"Pepperoni Pizza": "246 1 256 1 424 1 830 1 841 1 860 1/1 5/850/f Abigail 2/Pepperoni Pizza",
+			"Pineapple Upside Down Cake": "246 1 -5 1 861 1 638 5 853 1/1 5/862/f Evelyn 3/Pineapple Upside Down Cake",
+			"Banana Split": "233 1 866 1 846 1 816 3 638 1/1 5/868/f Jodi 10/Banana Split",
+			"Chicken Fajitas": "840 3 820 2 822 4 832 6 829 1/1 5/869/f Kent 8/Chicken Fajitas",
+			"Cascarón": "-5 1 854 1 852 1/1 5/857/f Gus 2/Cascarón"
+          },
+		  "When": {
+                "BotanyModDisabled": "false"
+            }
+       },
+       
+       
+       // Botany mod recipe data - Portuguese
+       {
+          "Action": "EditData",
+          "Target": "Data/CookingRecipes",
+		  "Locale": "pt-BR",
+          "Entries": {
+			"Pecan Pie": "245 1 -5 1 246 1 816 5/1 5/828/f George 2/Pecan Pie",
+			"Guacamole": "815 4 256 1 820 1 260 1/1 5/829/f Alex 2/Guacamole",
+			"Flour Tortilla": "246 2/1 5/832/f Gus 3/Flour Tortilla",
+			"Enchilada Plate": "229 4 424 2 423 2 827 3/1 5/847/f Evelyn 2/Enchilada Plate",
+			"Bacon Cheeseburger": "216 1 424 1 841 1 839 1/1 5/848/f Maru 2/Bacon Cheeseburger",
+			"Fried Chicken Dinner": "246 1 -5 1 247 1 840 1 192 1 270 1 216 1/1 5/849/f Caroline 2/Fried Chicken Dinner",
+			"Pepperoni Pizza": "246 1 256 1 424 1 830 1 841 1 860 1/1 5/850/f Abigail 2/Pepperoni Pizza",
+			"Pineapple Upside Down Cake": "246 1 -5 1 861 1 638 5 853 1/1 5/862/f Evelyn 3/Pineapple Upside Down Cake",
+			"Banana Split": "233 1 866 1 846 1 816 3 638 1/1 5/868/f Jodi 10/Banana Split",
+			"Chicken Fajitas": "840 3 820 2 822 4 832 6 829 1/1 5/869/f Kent 8/Chicken Fajitas",
+			"Cascarón": "-5 1 854 1 852 1/1 5/857/f Gus 2/Cascarón"
+          },
+		  "When": {
+                "BotanyModDisabled": "false"
+            }
+       },
+       
+       
+       // Botany mod recipe data - Russian
+       {
+          "Action": "EditData",
+          "Target": "Data/CookingRecipes",
+		  "Locale": "ru-RU",
+          "Entries": {
+			"Pecan Pie": "245 1 -5 1 246 1 816 5/1 5/828/f George 2/Pecan Pie",
+			"Guacamole": "815 4 256 1 820 1 260 1/1 5/829/f Alex 2/Guacamole",
+			"Flour Tortilla": "246 2/1 5/832/f Gus 3/Flour Tortilla",
+			"Enchilada Plate": "229 4 424 2 423 2 827 3/1 5/847/f Evelyn 2/Enchilada Plate",
+			"Bacon Cheeseburger": "216 1 424 1 841 1 839 1/1 5/848/f Maru 2/Bacon Cheeseburger",
+			"Fried Chicken Dinner": "246 1 -5 1 247 1 840 1 192 1 270 1 216 1/1 5/849/f Caroline 2/Fried Chicken Dinner",
+			"Pepperoni Pizza": "246 1 256 1 424 1 830 1 841 1 860 1/1 5/850/f Abigail 2/Pepperoni Pizza",
+			"Pineapple Upside Down Cake": "246 1 -5 1 861 1 638 5 853 1/1 5/862/f Evelyn 3/Pineapple Upside Down Cake",
+			"Banana Split": "233 1 866 1 846 1 816 3 638 1/1 5/868/f Jodi 10/Banana Split",
+			"Chicken Fajitas": "840 3 820 2 822 4 832 6 829 1/1 5/869/f Kent 8/Chicken Fajitas",
+			"Cascarón": "-5 1 854 1 852 1/1 5/857/f Gus 2/Cascarón"
+          },
+		  "When": {
+                "BotanyModDisabled": "false"
+            }
+       },
+       
+       
+       // Botany mod recipe data - Chinese
+       {
+          "Action": "EditData",
+          "Target": "Data/CookingRecipes",
+		  "Locale": "zh-CN",
+          "Entries": {
+			"Pecan Pie": "245 1 -5 1 246 1 816 5/1 5/828/f George 2/Pecan Pie",
+			"Guacamole": "815 4 256 1 820 1 260 1/1 5/829/f Alex 2/Guacamole",
+			"Flour Tortilla": "246 2/1 5/832/f Gus 3/Flour Tortilla",
+			"Enchilada Plate": "229 4 424 2 423 2 827 3/1 5/847/f Evelyn 2/Enchilada Plate",
+			"Bacon Cheeseburger": "216 1 424 1 841 1 839 1/1 5/848/f Maru 2/Bacon Cheeseburger",
+			"Fried Chicken Dinner": "246 1 -5 1 247 1 840 1 192 1 270 1 216 1/1 5/849/f Caroline 2/Fried Chicken Dinner",
+			"Pepperoni Pizza": "246 1 256 1 424 1 830 1 841 1 860 1/1 5/850/f Abigail 2/Pepperoni Pizza",
+			"Pineapple Upside Down Cake": "246 1 -5 1 861 1 638 5 853 1/1 5/862/f Evelyn 3/Pineapple Upside Down Cake",
+			"Banana Split": "233 1 866 1 846 1 816 3 638 1/1 5/868/f Jodi 10/Banana Split",
+			"Chicken Fajitas": "840 3 820 2 822 4 832 6 829 1/1 5/869/f Kent 8/Chicken Fajitas",
+			"Cascarón": "-5 1 854 1 852 1/1 5/857/f Gus 2/Cascarón"
+          },
+		  "When": {
+                "BotanyModDisabled": "false"
+            }
+       },
+
+//------------------------------------     
+
+
+      
+       // Botany mod mail data
+       {
+          "Action": "EditData",
+          "Target": "Data/mail",
+          "Entries": {
+			HarveyCooking: "Dear @, I want you try this recipe out! It helps me unwind in the evenings. Take care, ^   -Harvey%item cookingRecipe %%",
+			LeahCooking: "Dear @,^^Here is a recipe for one of my favorite teas. A perfect pick me up on any day. Enjoy!   ^   -Leah%item cookingRecipe %%",
+			AbigailCooking: "Dear @,^^ I wanted to send you this recipe. It'll help you package, and sell your tea better!   ^   -Abigail%item cookingRecipe %%",
+			AlexCooking: "Dear @,^^Here is a recipe for one of my favorite teas. A perfect pick me up on any day. Enjoy!   ^   -Leah%item cookingRecipe %%",
+		    MaruCooking: "Dear @,^^ I wanted to send you this recipe. It'll help you package, and sell your tea better!   ^   -Abigail%item cookingRecipe %%",
+		    summer_4: "Dear @,^ My friend sent me a science package from the Botanical Heritage Foundation for my birthday. I think it'd be great if you grew some of these for the town!  ^   -Jas%item object 797 75 %%",
+			winter_23: "Dear @,^ I ordered some tea sprouts, but they sent me too many. So, I figured I'd share my birthday present with the town farmer. Hehe, enjoy! ^   -Leah%item object 797 75 %%"
+
+          },
+		  "When": {
+                "BotanyModDisabled": "false"
+            }
+       },
+       
+       
+       // Botany mod mail data - German
+       {
+          "Action": "EditData",
+          "Target": "Data/mail",
+		  "Locale": "de-DE",
+          "Entries": {
+			HarveyCooking: "Dear @, I want you try this recipe out! It helps me unwind in the evenings. Take care, ^   -Harvey%item cookingRecipe %%",
+			LeahCooking: "Dear @,^^Here is a recipe for one of my favorite teas. A perfect pick me up on any day. Enjoy!   ^   -Leah%item cookingRecipe %%",
+			AbigailCooking: "Dear @,^^ I wanted to send you this recipe. It'll help you package, and sell your tea better!   ^   -Abigail%item cookingRecipe %%",
+			AlexCooking: "Dear @,^^Here is a recipe for one of my favorite teas. A perfect pick me up on any day. Enjoy!   ^   -Leah%item cookingRecipe %%",
+		    MaruCooking: "Dear @,^^ I wanted to send you this recipe. It'll help you package, and sell your tea better!   ^   -Abigail%item cookingRecipe %%",
+		    summer_4: "Dear @,^ My friend sent me a science package from the Botanical Heritage Foundation for my birthday. I think it'd be great if you grew some of these for the town!  ^   -Jas%item object 797 75 %%",
+			winter_23: "Dear @,^ I ordered some tea sprouts, but they sent me too many. So, I figured I'd share my birthday present with the town farmer. Hehe, enjoy! ^   -Leah%item object 797 75 %%"
+
+          },
+		  "When": {
+                "BotanyModDisabled": "false"
+            }
+       },
+       
+       
+       // Botany mod mail data - Spanish
+       {
+          "Action": "EditData",
+          "Target": "Data/mail",
+		  "Locale": "es-ES",
+          "Entries": {
+			HarveyCooking: "Dear @, I want you try this recipe out! It helps me unwind in the evenings. Take care, ^   -Harvey%item cookingRecipe %%",
+			LeahCooking: "Dear @,^^Here is a recipe for one of my favorite teas. A perfect pick me up on any day. Enjoy!   ^   -Leah%item cookingRecipe %%",
+			AbigailCooking: "Dear @,^^ I wanted to send you this recipe. It'll help you package, and sell your tea better!   ^   -Abigail%item cookingRecipe %%",
+			AlexCooking: "Dear @,^^Here is a recipe for one of my favorite teas. A perfect pick me up on any day. Enjoy!   ^   -Leah%item cookingRecipe %%",
+		    MaruCooking: "Dear @,^^ I wanted to send you this recipe. It'll help you package, and sell your tea better!   ^   -Abigail%item cookingRecipe %%",
+		    summer_4: "Dear @,^ My friend sent me a science package from the Botanical Heritage Foundation for my birthday. I think it'd be great if you grew some of these for the town!  ^   -Jas%item object 797 75 %%",
+			winter_23: "Dear @,^ I ordered some tea sprouts, but they sent me too many. So, I figured I'd share my birthday present with the town farmer. Hehe, enjoy! ^   -Leah%item object 797 75 %%"
+
+          },
+		  "When": {
+                "BotanyModDisabled": "false"
+            }
+       },
+       
+       
+       // Botany mod mail data - Japanese
+       {
+          "Action": "EditData",
+          "Target": "Data/mail",
+		  "Locale": "ja-JP",
+          "Entries": {
+			HarveyCooking: "Dear @, I want you try this recipe out! It helps me unwind in the evenings. Take care, ^   -Harvey%item cookingRecipe %%",
+			LeahCooking: "Dear @,^^Here is a recipe for one of my favorite teas. A perfect pick me up on any day. Enjoy!   ^   -Leah%item cookingRecipe %%",
+			AbigailCooking: "Dear @,^^ I wanted to send you this recipe. It'll help you package, and sell your tea better!   ^   -Abigail%item cookingRecipe %%",
+			AlexCooking: "Dear @,^^Here is a recipe for one of my favorite teas. A perfect pick me up on any day. Enjoy!   ^   -Leah%item cookingRecipe %%",
+		    MaruCooking: "Dear @,^^ I wanted to send you this recipe. It'll help you package, and sell your tea better!   ^   -Abigail%item cookingRecipe %%",
+		    summer_4: "Dear @,^ My friend sent me a science package from the Botanical Heritage Foundation for my birthday. I think it'd be great if you grew some of these for the town!  ^   -Jas%item object 797 75 %%",
+			winter_23: "Dear @,^ I ordered some tea sprouts, but they sent me too many. So, I figured I'd share my birthday present with the town farmer. Hehe, enjoy! ^   -Leah%item object 797 75 %%"
+
+          },
+		  "When": {
+                "BotanyModDisabled": "false"
+            }
+       },
+       
+       
+       // Botany mod mail data - Portuguese
+       {
+          "Action": "EditData",
+          "Target": "Data/mail",
+		  "Locale": "pt-BR",
+          "Entries": {
+			HarveyCooking: "Dear @, I want you try this recipe out! It helps me unwind in the evenings. Take care, ^   -Harvey%item cookingRecipe %%",
+			LeahCooking: "Dear @,^^Here is a recipe for one of my favorite teas. A perfect pick me up on any day. Enjoy!   ^   -Leah%item cookingRecipe %%",
+			AbigailCooking: "Dear @,^^ I wanted to send you this recipe. It'll help you package, and sell your tea better!   ^   -Abigail%item cookingRecipe %%",
+			AlexCooking: "Dear @,^^Here is a recipe for one of my favorite teas. A perfect pick me up on any day. Enjoy!   ^   -Leah%item cookingRecipe %%",
+		    MaruCooking: "Dear @,^^ I wanted to send you this recipe. It'll help you package, and sell your tea better!   ^   -Abigail%item cookingRecipe %%",
+		    summer_4: "Dear @,^ My friend sent me a science package from the Botanical Heritage Foundation for my birthday. I think it'd be great if you grew some of these for the town!  ^   -Jas%item object 797 75 %%",
+			winter_23: "Dear @,^ I ordered some tea sprouts, but they sent me too many. So, I figured I'd share my birthday present with the town farmer. Hehe, enjoy! ^   -Leah%item object 797 75 %%"
+
+          },
+		  "When": {
+                "BotanyModDisabled": "false"
+            }
+       },
+       
+       
+       // Botany mod mail data - Russian
+       {
+          "Action": "EditData",
+          "Target": "Data/mail",
+		  "Locale": "ru-RU",
+          "Entries": {
+			HarveyCooking: "Dear @, I want you try this recipe out! It helps me unwind in the evenings. Take care, ^   -Harvey%item cookingRecipe %%",
+			LeahCooking: "Dear @,^^Here is a recipe for one of my favorite teas. A perfect pick me up on any day. Enjoy!   ^   -Leah%item cookingRecipe %%",
+			AbigailCooking: "Dear @,^^ I wanted to send you this recipe. It'll help you package, and sell your tea better!   ^   -Abigail%item cookingRecipe %%",
+			AlexCooking: "Dear @,^^Here is a recipe for one of my favorite teas. A perfect pick me up on any day. Enjoy!   ^   -Leah%item cookingRecipe %%",
+		    MaruCooking: "Dear @,^^ I wanted to send you this recipe. It'll help you package, and sell your tea better!   ^   -Abigail%item cookingRecipe %%",
+		    summer_4: "Dear @,^ My friend sent me a science package from the Botanical Heritage Foundation for my birthday. I think it'd be great if you grew some of these for the town!  ^   -Jas%item object 797 75 %%",
+			winter_23: "Dear @,^ I ordered some tea sprouts, but they sent me too many. So, I figured I'd share my birthday present with the town farmer. Hehe, enjoy! ^   -Leah%item object 797 75 %%"
+
+          },
+		  "When": {
+                "BotanyModDisabled": "false"
+            }
+       },
+       
+       
+       // Botany mod mail data - Chinese
+       {
+          "Action": "EditData",
+          "Target": "Data/mail",
+		  "Locale": "zh-CN",
+          "Entries": {
+			HarveyCooking: "Dear @, I want you try this recipe out! It helps me unwind in the evenings. Take care, ^   -Harvey%item cookingRecipe %%",
+			LeahCooking: "Dear @,^^Here is a recipe for one of my favorite teas. A perfect pick me up on any day. Enjoy!   ^   -Leah%item cookingRecipe %%",
+			AbigailCooking: "Dear @,^^ I wanted to send you this recipe. It'll help you package, and sell your tea better!   ^   -Abigail%item cookingRecipe %%",
+			AlexCooking: "Dear @,^^Here is a recipe for one of my favorite teas. A perfect pick me up on any day. Enjoy!   ^   -Leah%item cookingRecipe %%",
+		    MaruCooking: "Dear @,^^ I wanted to send you this recipe. It'll help you package, and sell your tea better!   ^   -Abigail%item cookingRecipe %%",
+		    summer_4: "Dear @,^ My friend sent me a science package from the Botanical Heritage Foundation for my birthday. I think it'd be great if you grew some of these for the town!  ^   -Jas%item object 797 75 %%",
+			winter_23: "Dear @,^ I ordered some tea sprouts, but they sent me too many. So, I figured I'd share my birthday present with the town farmer. Hehe, enjoy! ^   -Leah%item object 797 75 %%"
+
+          },
+		  "When": {
+                "BotanyModDisabled": "false"
+            }
+       },
+     
+
+
+    ]
+}
