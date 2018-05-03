@@ -8,9 +8,9 @@
    "ReadyTileIndex" : 4,
    "AnimationSpeed" : 85,
    "CategoryName" : "Crafting",
-   "Materials" : [851,428,845,330],
+   "Materials" : [1049,428,1043,330],
    "RequieredStack" : 3,
-   "StarterMaterial" : 852,
+   "StarterMaterial" : 1050,
    "StarterMaterialStack" : 2,
    "Crafting" : "334 5 338 2 787 1 335 2",
    "Produce": {
@@ -19,24 +19,24 @@
 	  "usePrefix" : false,
 	  "useSuffix" : false,
 	  "useColor" : false,
-	  "ProduceID" : 855,
+	  "ProduceID" : 1054,
 	  "Stack" : 3,
 	  "ProductionTime" : 120,
    },
    "SpecialProduce" : 	[
 	  {
-	  "Material" : 851,
-	  "ProduceID" : 837,
+	  "Material" : 1049,
+	  "ProduceID" : 1035,
 	  "Name": "Soy Ink",
       },
       {
-	  "Material" : 845,
-	  "ProduceID" : 854,
+	  "Material" : 1043,
+	  "ProduceID" : 1052,
 	  "Name": "Colored Paper",
       },
 	  {
 	  "Material" : 330,
-	  "ProduceID" : 856,
+	  "ProduceID" : 1054,
 	  "Name": "Colored Clay",
 	  },
 	  	  

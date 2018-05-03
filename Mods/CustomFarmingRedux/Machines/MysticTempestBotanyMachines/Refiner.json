@@ -8,7 +8,7 @@
    "ReadyTileIndex" : 2,
    "AnimationSpeed" : 85,
    "CategoryName" : "Crafting",
-   "Materials" : [835,838,853,860],
+   "Materials" : [1033,1036,1051,1058],
    "RequieredStack" : 5,
    "StarterMaterial" : 0,
    "StarterMaterialStack" : 0,
@@ -19,24 +19,24 @@
 	  "usePrefix" : false,
 	  "useSuffix" : false,
 	  "useColor" : false,
-	  "ProduceID" : 838,
+	  "ProduceID" : 1036,
 	  "Stack" : 5,
 	  "ProductionTime" : 120,
    },
    "SpecialProduce" : 	[
 	  {
-	  "Material" : 838,
+	  "Material" : 1036,
 	  "ProduceID" : 382,
 	  "Name": "Coal",
       "TileIndex" : 1
 	  },
 	  {
-	  "Material" : 853,
+	  "Material" : 1051,
 	  "ProduceID" : 245,
 	  "Name": "Sugar",
 	  }, {
-	  "Material" : 860,
-	  "ProduceID" : 839,
+	  "Material" : 1058,
+	  "ProduceID" : 1038,
 	  "Name": "Synthetic Bacon",
 	  },
 	  ]   

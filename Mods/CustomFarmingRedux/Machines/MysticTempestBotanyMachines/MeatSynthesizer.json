@@ -10,7 +10,7 @@
    "CategoryName" : "Crafting",
    "Materials" : [176,180,174,182,184,186,430],
    "RequieredStack" : 1,
-   "StarterMaterial" : 836,
+   "StarterMaterial" : 1034,
    "StarterMaterialStack" : 15,
    "Crafting" : "334 5 338 2 787 1 335 2",
    "Produce": {
@@ -19,39 +19,39 @@
 	  "usePrefix" : false,
 	  "useSuffix" : false,
 	  "useColor" : false,
-	  "ProduceID" : 860,
+	  "ProduceID" : 1058,
 	  "Stack" : 3,
 	  "ProductionTime" : 120,
    },
    "SpecialProduce" : 	[
 	  {
 	  "Material" : 174,
-	  "ProduceID" : 840,
+	  "ProduceID" : 1038,
 	  "Name": "Synthetic Chicken",
       },
       {
 	  "Material" : 176,
-	  "ProduceID" : 840,
+	  "ProduceID" : 1038,
 	  "Name": "Synthetic Chicken",
       },
 	  {
 	  "Material" : 180,
-	  "ProduceID" : 840,
+	  "ProduceID" : 1038,
 	  "Name": "Synthetic Chicken",
 	  },
 	  {
 	  "Material" : 182,
-	  "ProduceID" : 840,
+	  "ProduceID" : 1038,
 	  "Name": "Synthetic Chicken",
 	  },
 	  {
 	  "Material" : 184,
-	  "ProduceID" : 841,
+	  "ProduceID" : 1039,
 	  "Name": "Synthetic Beef",
 	  },
 	  {
 	  "Material" : 186,
-	  "ProduceID" : 841,
+	  "ProduceID" : 1039,
 	  "Name": "Synthetic Beef",
 	  },
 	  

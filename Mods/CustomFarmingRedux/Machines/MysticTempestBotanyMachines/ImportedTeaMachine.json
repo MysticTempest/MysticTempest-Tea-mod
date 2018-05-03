@@ -10,7 +10,7 @@
    "CategoryName" : "Crafting",
    "Materials" : [16,18,20,22,399,257,404,296,396,398,402,420,259,406,408,410,281,412,414,416,418,283,392,393,397,394,372,718,719,723,422,78,90,88],
    "RequieredStack" : 1,
-   "StarterMaterial" : 797,
+   "StarterMaterial" : 996,
    "StarterMaterialStack" : 3,
    "Crafting" : "335 2 338 3 709 5 810 1",
    "Produce": {
@@ -18,7 +18,7 @@
       "Description": "Tea imported from a far off place.",
 	  "usePrefix" : false,
 	  "useColor" : true,
-	  "ProduceID" : 798,
+	  "ProduceID" : 996,
 	  "Tilesheet" : "ImportedTeaMachine.png",
 	  "TileIndex" : 6,
 	  "Stack" : 1,

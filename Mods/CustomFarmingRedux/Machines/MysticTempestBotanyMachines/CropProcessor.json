@@ -8,7 +8,7 @@
    "ReadyTileIndex" : 0,
    "AnimationSpeed" : 85,
    "CategoryName" : "Crafting",
-   "Materials" : [814,817,835,836,842,864],
+   "Materials" : [1012,1015,1033,1034,1040,1062],
    "RequieredStack" : 5,
    "StarterMaterial" : 0,
    "StarterMaterialStack" : 0,
@@ -25,31 +25,31 @@
    },
    "SpecialProduce" : 	[
 	  {
-	  "Material" : 835,
-	  "ProduceID" : 853,
+	  "Material" : 1033,
+	  "ProduceID" : 1051,
 	  "Name": "Brown Sugar",
       "TileIndex" : 1
 	  },
 	  {
-	  "Material" : 836,
-	  "ProduceID" : 851,
+	  "Material" : 1034,
+	  "ProduceID" : 1049,
 	  "Name": "Soy Oil",
 	  },
 	  {
-	  "Material" : 814,
-	  "ProduceID" : 846,
+	  "Material" : 1012,
+	  "ProduceID" : 1044,
 	  "Name": "Chocolate",
 	  "TileIndex" : 1
 	  },
 	  {
-	  "Material" : 842,
-	  "ProduceID" : 852,
+	  "Material" : 1040,
+	  "ProduceID" : 1050,
 	  "Name": "Color Dye",
 	  "TileIndex" : 1
 	  },
 	  {
-	  "Material" : 864,
-	  "ProduceID" : 865,
+	  "Material" : 1062,
+	  "ProduceID" : 1063,
 	  "Name": "Joja Latex",
 	  "TileIndex" : 1
 	  },
