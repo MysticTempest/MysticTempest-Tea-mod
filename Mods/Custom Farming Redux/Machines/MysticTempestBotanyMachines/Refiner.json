@@ -1,0 +1,94 @@
+{
+  "name": "BotanyMachines-Refiner",
+  "author": "MysticTempest",
+  "version": "1.0.1",
+  "machines": [
+    {
+      "id": 0,
+      "name": "Refiner",
+      "legacy": "MysticTempest.Refiner.json",
+      "description": "Refines materials into other resources.",
+      "category": "Crafting",
+      "crafting": "787 3 335 5 388 2 338 3",
+      "texture": "Refiner.png",
+      "tileindex": 0,
+	  "readyindex": 2,
+      "pulsate": false,
+      "frames": 3,
+      "starter": {
+        "index": 0,
+        "stack": 0
+      },
+      "production": [
+        {
+          "name": "Bagasse",
+          "decription": "Resource materials.",
+          "prefix": false,
+          "colored": false,
+          "index": 1036,
+          "price": "75",
+          "time": 20,
+          "tileindex": 1,
+          "materials": [
+            {
+              "index": 1033,
+              "stack": 1
+            },
+
+          ]
+        },
+		{
+          "name": "Sugar",
+          "decription": "Resource materials.",
+          "prefix": false,
+          "colored": false,
+          "index": 245,
+          "price": "75",
+          "time": 20,
+          "tileindex": 1,
+          "materials": [
+            {
+              "index": 1051,
+              "stack": 1
+            },
+
+          ]
+        },
+		{
+          "name": "Coal",
+          "decription": "Resource materials.",
+          "prefix": false,
+          "colored": false,
+          "index": 382,
+          "price": "75",
+          "time": 20,
+          "tileindex": 1,
+          "materials": [
+            {
+              "index": 1036,
+              "stack": 1
+            },
+
+          ]
+        },
+		{
+          "name": "Synthetic Bacon",
+          "decription": "Resource materials.",
+          "prefix": false,
+          "colored": false,
+          "index": 1038,
+          "price": "75",
+          "time": 20,
+          "tileindex": 1,
+          "materials": [
+            {
+              "index": 1058,
+              "stack": 1
+            },
+
+          ]
+        },
+		
+      ]
+	}
+]}

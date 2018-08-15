@@ -1,0 +1,94 @@
+{
+  "name": "BotanyMachines-DyeMixer",
+  "author": "MysticTempest",
+  "version": "1.0.1",
+  "machines": [
+    {
+      "id": 0,
+      "name": "Dye Mixer",
+      "legacy": "MysticTempest.DyeMixer.json",
+      "description": "Mixes dye with other products to produce goods with vibrant colors.",
+      "category": "Crafting",
+      "crafting": "334 5 338 2 787 1 335 2",
+      "texture": "DyeMixer.png",
+      "tileindex": 0,
+	  "readyindex": 4,
+      "pulsate": false,
+      "frames": 3,
+      "starter": {
+        "index": 1050,
+        "stack": 2
+      },
+      "production": [
+        {
+          "name": "Colored Cloth",
+          "decription": "A vibrantly colored object made with natural dye.",
+          "prefix": false,
+          "colored": false,
+          "index": 1054,
+          "price": "75",
+          "time": 20,
+          "tileindex": 1,
+          "materials": [
+            {
+              "index": 428,
+              "stack": 1
+            },
+
+          ]
+        },
+		{
+          "name": "Soy Ink",
+          "decription": "A vibrantly colored object made with natural dye.",
+          "prefix": false,
+          "colored": false,
+          "index": 1035,
+          "price": "75",
+          "time": 20,
+          "tileindex": 1,
+          "materials": [
+            {
+              "index": 1049,
+              "stack": 1
+            },
+
+          ]
+        },
+		{
+          "name": "Colored Paper",
+          "decription": "A vibrantly colored object made with natural dye.",
+          "prefix": false,
+          "colored": false,
+          "index": 1052,
+          "price": "75",
+          "time": 20,
+          "tileindex": 1,
+          "materials": [
+            {
+              "index": 1043,
+              "stack": 1
+            },
+
+          ]
+        },
+		{
+          "name": "Colored Clay",
+          "decription": "A vibrantly colored object made with natural dye.",
+          "prefix": false,
+          "colored": false,
+          "index": 1054,
+          "price": "75",
+          "time": 20,
+          "tileindex": 1,
+          "materials": [
+            {
+              "index": 330,
+              "stack": 1
+            },
+
+          ]
+        },
+		
+      ]
+	}
+]}

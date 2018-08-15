@@ -1,0 +1,144 @@
+{
+  "name": "BotanyMachines-MeatSynthesizer",
+  "author": "MysticTempest",
+  "version": "1.0.1",
+  "machines": [
+    {
+      "id": 0,
+      "name": "Meat Synthesizer",
+      "legacy": "MysticTempest.MeatSynthesizer.json",
+      "description": "Turns Animal Products and Soybeans into Synthetic Meat.",
+      "category": "Crafting",
+      "crafting": "334 5 338 2 787 1 335 2",
+      "texture": "MeatSynthesizer.png",
+      "tileindex": 0,
+	  "readyindex": 15,
+      "pulsate": false,
+      "frames": 14,
+      "starter": {
+        "index": 1034,
+        "stack": 1
+      },
+      "production": [
+        {
+          "name": "Synthetic Pork",
+          "decription": "Delicious meat grown from animal DNA and soybean protein.",
+          "prefix": false,
+          "colored": false,
+          "index": 1058,
+          "price": "75",
+          "time": 20,
+          "tileindex": 1,
+          "materials": [
+            {
+              "index": 430,
+              "stack": 1
+            },
+
+          ]
+        },
+		{
+          "name": "Synthetic Chicken",
+          "decription": "Delicious meat grown from animal DNA and soybean protein.",
+          "prefix": false,
+          "colored": false,
+          "index": 1038,
+          "price": "75",
+          "time": 20,
+          "tileindex": 1,
+          "materials": [
+            {
+              "index": 174,
+              "stack": 1
+            },
+
+          ]
+        },
+		{
+          "name": "Synthetic Chicken",
+          "decription": "Delicious meat grown from animal DNA and soybean protein.",
+          "prefix": false,
+          "colored": false,
+          "index": 1038,
+          "price": "75",
+          "time": 20,
+          "tileindex": 1,
+          "materials": [
+            {
+              "index": 176,
+              "stack": 1
+            },
+
+          ]
+        },
+		{
+          "name": "Synthetic Chicken",
+          "decription": "Delicious meat grown from animal DNA and soybean protein.",
+          "prefix": false,
+          "colored": false,
+          "index": 1038,
+          "price": "75",
+          "time": 20,
+          "tileindex": 1,
+          "materials": [
+            {
+              "index": 180,
+              "stack": 1
+            },
+
+          ]
+        },
+		{
+          "name": "Synthetic Chicken",
+          "decription": "Delicious meat grown from animal DNA and soybean protein.",
+          "prefix": false,
+          "colored": false,
+          "index": 1038,
+          "price": "75",
+          "time": 20,
+          "tileindex": 1,
+          "materials": [
+            {
+              "index": 182,
+              "stack": 1
+            },
+
+          ]
+        },
+		{
+          "name": "Synthetic Beef",
+          "decription": "Delicious meat grown from animal DNA and soybean protein.",
+          "prefix": false,
+          "colored": false,
+          "index": 1039,
+          "price": "75",
+          "time": 20,
+          "tileindex": 1,
+          "materials": [
+            {
+              "index": 184,
+              "stack": 1
+            },
+
+          ]
+        },
+		{
+          "name": "Synthetic Beef",
+          "decription": "Delicious meat grown from animal DNA and soybean protein.",
+          "prefix": false,
+          "colored": false,
+          "index": 1039,
+          "price": "75",
+          "time": 20,
+          "tileindex": 1,
+          "materials": [
+            {
+              "index": 186,
+              "stack": 1
+            },
+
+          ]
+        },
+      ]
+	}
+]}

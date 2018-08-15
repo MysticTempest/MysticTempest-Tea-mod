@@ -1,0 +1,76 @@
+{
+  "name": "BotanyMachines-PaperMachine",
+  "author": "MysticTempest",
+  "version": "1.0.1",
+  "machines": [
+    {
+      "id": 0,
+      "name": "Paper Machine",
+      "legacy": "MysticTempest.PaperMachine.json",
+      "description": "Makes Paper out of fibrous materials.",
+      "category": "Crafting",
+      "crafting": "787 3 335 5 388 2 338 3",
+      "texture": "PaperMachine.png",
+      "tileindex": 0,
+	  "readyindex": 1,
+      "pulsate": true,
+      "frames": 0,
+      "starter": {
+        "index": 0,
+        "stack": 0
+      },
+      "production": [
+        {
+          "name": "Paper",
+          "decription": "Quality paper from plant fibres.",
+          "prefix": false,
+          "colored": false,
+          "index": 1043,
+          "price": "75",
+          "time": 20,
+          "tileindex": 1,
+          "materials": [
+            {
+              "index": 172,
+              "stack": 1
+            },
+
+          ]
+        },
+		{
+          "name": "Paper",
+          "decription": "Quality paper from plant fibres.",
+          "prefix": false,
+          "colored": false,
+          "index": 1043,
+          "price": "75",
+          "time": 20,
+          "tileindex": 1,
+          "materials": [
+            {
+              "index": 771,
+              "stack": 1
+            },
+
+          ]
+        },
+				{
+          "name": "Paper",
+          "decription": "Quality paper from plant fibres.",
+          "prefix": false,
+          "colored": false,
+          "index": 1043,
+          "price": "75",
+          "time": 20,
+          "tileindex": 1,
+          "materials": [
+            {
+              "index": 1036,
+              "stack": 1
+            },
+
+          ]
+        },
+      ]
+	}
+]}

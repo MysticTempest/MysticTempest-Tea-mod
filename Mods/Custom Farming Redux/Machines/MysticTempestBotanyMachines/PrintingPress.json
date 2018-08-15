@@ -1,0 +1,43 @@
+{
+  "name": "BotanyMachines-PrintingPress",
+  "author": "MysticTempest",
+  "version": "1.0.1",
+  "machines": [
+    {
+      "id": 0,
+      "name": "Printing Press",
+      "legacy": "MysticTempest.PrintingPress.json",
+      "description": "Turns Paper and Soy Ink into Printed Books.",
+      "category": "Crafting",
+      "crafting": "428 3 335 2 709 15",
+      "texture": "PrintingPress.png",
+      "tileindex": 0,
+	  "readyindex": 7,
+      "pulsate": true,
+      "frames": 8,
+      "starter": {
+        "index": 1035,
+        "stack": 1
+      },
+      "production": [
+        {
+          "name": "Printed Book",
+          "decription": "A freshly printed book hot off the press.",
+          "prefix": false,
+          "colored": false,
+          "index": 1042,
+          "price": "75",
+          "time": 20,
+          "tileindex": 1,
+          "materials": [
+            {
+              "index": 1043,
+              "stack": 1
+            },
+
+          ]
+        },
+
+      ]
+	}
+]}

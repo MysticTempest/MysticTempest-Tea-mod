@@ -1,0 +1,126 @@
+{
+  "name": "BotanyMachines-CropProcessor",
+  "author": "MysticTempest",
+  "version": "1.0.1",
+  "machines": [
+    {
+      "id": 0,
+      "name": "Crop Processor",
+      "legacy": "MysticTempest.CropProcessor.json",
+      "description": "Processes crops into goods.",
+      "category": "Crafting",
+      "crafting": "787 3 335 5 388 2 338 3",
+      "texture": "CropProcessor.png",
+      "tileindex": 0,
+      "pulsate": true,
+      "frames": 0,
+      "starter": {
+        "index": 0,
+        "stack": 0
+      },
+      "production": [
+        {
+          "name": "Cloth",
+          "decription": "Fine goods made from processed crops.",
+          "prefix": false,
+          "colored": false,
+          "index": 428,
+          "price": "75",
+          "time": 20,
+          "tileindex": 1,
+          "materials": [
+            {
+              "index": 1015,
+              "stack": 1
+            },
+
+          ]
+        },
+		{
+          "name": "Brown Sugar",
+          "decription": "Fine goods made from processed crops.",
+          "prefix": false,
+          "colored": false,
+          "index": 1051,
+          "price": "75",
+          "time": 20,
+          "tileindex": 1,
+          "materials": [
+            {
+              "index": 1033,
+              "stack": 1
+            },
+
+          ]
+        },
+		{
+          "name": "Soy Oil",
+          "decription": "Fine goods made from processed crops.",
+          "prefix": false,
+          "colored": false,
+          "index": 1049,
+          "price": "75",
+          "time": 20,
+          "tileindex": 1,
+          "materials": [
+            {
+              "index": 1034,
+              "stack": 1
+            },
+
+          ]
+        },
+		{
+          "name": "Chocolate",
+          "decription": "Fine goods made from processed crops.",
+          "prefix": false,
+          "colored": false,
+          "index": 1044,
+          "price": "75",
+          "time": 20,
+          "tileindex": 1,
+          "materials": [
+            {
+              "index": 1012,
+              "stack": 1
+            },
+
+          ]
+        },
+		{
+          "name": "Color Dye",
+          "decription": "Fine goods made from processed crops.",
+          "prefix": false,
+          "colored": false,
+          "index": 1050,
+          "price": "75",
+          "time": 20,
+          "tileindex": 1,
+          "materials": [
+            {
+              "index": 1040,
+              "stack": 1
+            },
+
+          ]
+        },
+		{
+          "name": "Joja Latex",
+          "decription": "Fine goods made from processed crops.",
+          "prefix": false,
+          "colored": false,
+          "index": 1063,
+          "price": "75",
+          "time": 20,
+          "tileindex": 1,
+          "materials": [
+            {
+              "index": 1062,
+              "stack": 1
+            },
+
+          ]
+        }
+      ]
+	}
+]}
