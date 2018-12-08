@@ -1,7 +1,7 @@
 {
   "name": "BotanyMachines-PaperMachine",
   "author": "MysticTempest",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "machines": [
     {
       "id": 0,
@@ -15,10 +15,7 @@
 	  "readyindex": 1,
       "pulsate": true,
       "frames": 0,
-      "starter": {
-        "index": 0,
-        "stack": 0
-      },
+
       "production": [
         {
           "name": "Paper",
@@ -32,7 +29,7 @@
           "materials": [
             {
               "index": 172,
-              "stack": 1
+              "stack": 5
             },
 
           ]
@@ -49,7 +46,7 @@
           "materials": [
             {
               "index": 771,
-              "stack": 1
+              "stack": 5
             },
 
           ]
@@ -66,7 +63,7 @@
           "materials": [
             {
               "index": 1036,
-              "stack": 1
+              "stack": 5
             },
 
           ]

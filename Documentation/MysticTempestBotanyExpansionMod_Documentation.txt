@@ -1,0 +1,1537 @@
+MysticTempest's Botany Mod Documentation:
+==============================================================
+
+
+Botany Mod:
+----------------------------------
+----------------------------------
+----------------------------------
+==================================
+Fruit Trees:
+==================================
+
+Name: Cacao Sapling
+
+
+Acquired by:
+	Pierre's in Spring.
+
+
+Growth Cycle:
+	Total: 28 Days
+	Reharvestable: Yes 
+
+
+Growing Seasons:
+	Spring
+
+
+Produces:
+	Cacao Bean
+
+----------------------------------
+----------------------------------
+
+Name: Avocado Sapling
+
+Acquired by:
+	Pierre's in Summer.
+
+
+Growth Cycle:
+	Total: 28 Days
+	Reharvestable: Yes 
+
+
+Growing Seasons:
+	Summer
+
+
+Produces:
+	Avocado
+
+----------------------------------
+----------------------------------
+
+Name: Pecan Sapling
+
+Acquired by:
+	Pierre's in Fall.
+
+
+Growth Cycle:
+	Total: 28 Days
+	Reharvestable: Yes 
+
+
+Growing Seasons:
+	Fall
+
+
+Produces:
+	Pecan
+
+----------------------------------
+----------------------------------
+
+Name: Olive Sapling
+
+Acquired by:
+	Pierre's in Fall.
+
+
+Growth Cycle:
+	Total: 28 Days
+	Reharvestable: Yes 
+
+
+Growing Seasons:
+	Fall
+
+
+Produces:
+	Black Olives
+
+----------------------------------
+----------------------------------
+
+Name: Banana Sapling
+
+Acquired by:
+	Pierre's in Summer.
+
+
+Growth Cycle:
+	Total: 28 Days
+	Reharvestable: Yes  
+
+
+Growing Seasons:
+	Summer
+
+
+Produces:
+	Banana
+
+----------------------------------
+----------------------------------
+==================================
+Crops:
+==================================
+
+Name: Cotton Seeds
+
+Acquired by:
+	Pierre's in Summer.
+
+
+Growth Cycle:
+	Total: 8 days.
+	Reharvestable: 4 days later.
+
+
+Growing Seasons:
+	Summer
+
+
+Produces:
+	Cotton
+
+----------------------------------
+----------------------------------
+
+Name: Morning Glory Seeds
+
+Acquired by:
+	Pierre's in Spring.
+
+
+Growth Cycle:
+	Total: 7 days.
+	Reharvestable: 3 days later.
+
+
+Growing Seasons:
+	Spring
+
+
+Produces:
+	Morning Glory Seeds
+
+----------------------------------
+----------------------------------
+
+Name: Onion Seeds
+
+Acquired by:
+	Pierre's in Fall.
+
+
+Growth Cycle:
+	Total: 7 days.
+	Reharvestable: No. 
+
+
+Growing Seasons:
+	Fall
+
+
+Produces:
+	Onion
+
+----------------------------------
+----------------------------------
+
+Name: Bell Pepper Seeds
+
+Acquired by:
+	Pierre's in Summer.
+
+
+Growth Cycle:
+	Total: 6 days.
+	Reharvestable: 5 days later. 
+
+
+Growing Seasons:
+	Summer
+
+
+Produces:
+	Bell Pepper
+
+----------------------------------
+----------------------------------
+
+Name: Prickly Pear Cactus Seeds
+
+Acquired by:
+	Pierre's in Summer.
+
+
+Growth Cycle:
+	Total: 6 days.
+	Reharvestable: 5 days later. 
+
+
+Growing Seasons:
+	Summer
+
+
+Produces:
+	Prickly Pear Cactus Seeds
+
+----------------------------------
+----------------------------------
+
+Name: Rice Seed Starter
+
+Acquired by:
+	Pierre's in Fall.
+
+
+Growth Cycle:
+	Total: 10 days.
+	Reharvestable: 3 days later.
+
+
+Growing Seasons:
+	Fall
+
+
+Produces:
+	Rice
+
+----------------------------------
+----------------------------------
+
+Name: Pinto Bean Starter
+
+Acquired by:
+	Pierre's in Fall.
+
+
+Growth Cycle:
+	Total: 10 days.
+	Reharvestable: 3 days later.
+
+
+Growing Seasons:
+	Fall
+
+
+Produces:
+	Pinto Bean
+
+----------------------------------
+----------------------------------
+
+Name: Sugarcane Seeds
+
+Acquired by:
+	Pierre's in Spring.
+
+
+Growth Cycle:
+	Total: 5 days.
+	Reharvestable: No.
+
+
+Growing Seasons:
+	Spring
+
+
+Produces:
+	Sugarcane Stalks
+
+----------------------------------
+----------------------------------
+
+Name: Soybean Seeds
+
+Acquired by:
+	Pierre's in Spring.
+
+
+Growth Cycle:
+	Total: 6 days.
+	Reharvestable: 5 days later.
+
+
+Growing Seasons:
+	Spring
+
+
+Produces:
+	Soybean
+
+----------------------------------
+----------------------------------
+
+Name: Chromatiflora Seeds
+
+Acquired by:
+	Pierre's in Spring.
+
+
+Growth Cycle:
+	Total: 7 days.
+	Reharvestable: No. 
+
+
+Growing Seasons:
+	Spring
+
+
+Produces:
+Chromatiflora Leaf
+
+----------------------------------
+----------------------------------
+
+Name: Lithops Seeds
+
+Acquired by:
+	Pierre's in Summer.
+
+
+Growth Cycle:
+	Total: 6 days.
+	Reharvestable: No. 
+
+
+Growing Seasons:
+	Summer
+
+
+Produces:
+	Lithops Seeds
+
+----------------------------------
+----------------------------------
+
+Name: Rose Seeds
+
+Acquired by:
+	Pierre's in Summer.
+
+
+Growth Cycle:
+	Total: 7 days.
+	Reharvestable: 3 days later. 
+
+
+Growing Seasons:
+	Summer
+
+
+Produces:
+	Rose Seeds
+
+----------------------------------
+----------------------------------
+
+Name: Joja GMO Dandelions Seeds
+
+Acquired by:
+	JojaMart, all season except Winter.
+
+
+Growth Cycle:
+	Total: 5 days.
+	Reharvestable: No. 
+
+
+Growing Seasons:
+	Spring, Summer, Fall
+
+
+Produces:
+	Joja GMO Dandelion
+
+----------------------------------
+----------------------------------
+==================================
+Items:
+==================================
+Name: Cacao Bean
+	Sell Price: 95 Gold
+
+Description:
+	The fruit pods can be processed to make chocolate.
+
+Acquired by:
+	Harvest.
+
+
+Health and Energy:
+	20 Health
+	50 Energy
+
+Buffs:
+	None
+
+
+Recipe Ingredients:
+	None
+
+
+Recipe Given by:
+	None
+----------------------------------
+----------------------------------
+
+Name: Avocado
+	Sell Price: 125 Gold
+
+Description:
+	The fruit make a great dip.
+
+Acquired by:
+	Harvest.
+
+
+Health and Energy:
+	25 Health
+	63 Energy
+
+Buffs:
+	None
+
+
+Recipe Ingredients:
+	None
+
+
+Recipe Given by:
+	None
+----------------------------------
+----------------------------------
+
+Name: Pecan
+	Sell Price: 55 Gold
+
+Description:
+	Pecans, they're the core ingredient to the best tasting pie ever!
+
+Acquired by:
+	Harvest.
+
+
+Health and Energy:
+	15 Health
+	38 Energy
+
+Buffs:
+	None
+
+
+Recipe Ingredients:
+	None
+
+
+Recipe Given by:
+	None
+----------------------------------
+----------------------------------
+
+Name: Cotton
+	Sell Price: 34 Gold
+
+Description:
+	A fibrous plant part that's great for fabrics.
+
+Acquired by:
+	Harvest.
+
+
+Health and Energy:
+	None
+
+Buffs:
+	None
+
+
+Recipe Ingredients:
+	None
+
+
+Recipe Given by:
+	None
+----------------------------------
+----------------------------------
+
+Name: Onion
+	Sell Price: 15 Gold
+
+Description:
+	Spicy when raw, and sweet when grilled!
+
+Acquired by:
+	Harvest.
+
+
+Health and Energy:
+	35 Health
+	88 Energy
+
+Buffs:
+	None
+
+
+Recipe Ingredients:
+	None
+
+
+Recipe Given by:
+	None
+----------------------------------
+----------------------------------
+
+Name: Bell Pepper
+	Sell Price: 35 Gold
+
+Description:
+	These taste very sweet when cooked; goes great with fajitas!
+
+Acquired by:
+	Harvest.
+
+
+Health and Energy:
+	50 Health
+	125 Energy
+
+Buffs:
+	None
+
+
+Recipe Ingredients:
+	None
+
+
+Recipe Given by:
+	None
+----------------------------------
+----------------------------------
+
+Name: Pinto Bean
+	Sell Price: 20 Gold
+
+Description:
+	Refried beans make a great side!
+
+Acquired by:
+	Harvest.
+
+
+Health and Energy:
+	20 Health
+	50 Energy
+
+Buffs:
+	None
+
+
+Recipe Ingredients:
+	None
+
+
+Recipe Given by:
+	None
+----------------------------------
+----------------------------------
+
+Name: Pecan Pie
+	Sell Price: 170 Gold
+
+Description:
+	A very sweet pie made with pecans.
+
+Acquired by:
+	Cooking Recipe.
+
+
+Health and Energy:
+	45 Health
+	113 Energy
+
+Buffs:
+	+2 Luck
+
+
+Recipe Ingredients:
+	1 x Sugar
+	1 x Egg (Any)
+	1 x Wheat Flour
+	5 x Pecan
+
+
+Recipe Given by:
+	George at 2 hearts.
+----------------------------------
+----------------------------------
+
+Name: Guacamole
+	Sell Price: 30 Gold
+
+Description:
+	A tasty dip made with fresh avocadoes.
+
+Acquired by:
+	Cooking Recipe.
+
+
+Health and Energy:
+	30 Health
+	75 Energy
+
+Buffs:
+	+2 Speed
+
+
+Recipe Ingredients:
+	4 x Avocado
+	1 x Tomato
+	1 x Onion
+	1 x Hot Pepper
+
+
+Recipe Given by:
+	Alex at 2 hearts.
+----------------------------------
+----------------------------------
+
+Name: Black Olives
+	Sell Price: 25 Gold
+
+Description:
+	Makes a great pizza topping, or salad ingredient.
+
+Acquired by:
+	Harvest.
+
+
+Health and Energy:
+	13 Health
+	33 Energy
+
+Buffs:
+	None
+
+
+Recipe Ingredients:
+	None
+
+
+Recipe Given by:
+	None
+----------------------------------
+----------------------------------
+
+Name: Flour Tortilla
+	Sell Price: 5 Gold
+
+Description:
+	An important staple in any Mexican dish.
+
+Acquired by:
+	Cooking Recipe.
+
+
+Health and Energy:
+	10 Health
+	25 Energy
+
+Buffs:
+	None
+
+
+Recipe Ingredients:
+	2 x Wheat Flour
+
+
+Recipe Given by:
+	Gus at 3 hearts.
+----------------------------------
+----------------------------------
+
+Name: Sugarcane Stalks
+	Sell Price: 60 Gold
+
+Description:
+	The stalks of this plant have many uses.
+
+Acquired by:
+	Harvest.
+
+
+Health and Energy:
+	None
+
+Buffs:
+	None
+
+
+Recipe Ingredients:
+	None
+
+
+Recipe Given by:
+	None
+----------------------------------
+----------------------------------
+
+Name: Soybeans
+	Sell Price: 10 Gold
+
+Description:
+	These beans are filled with protein.
+
+Acquired by:
+	Harvest.
+
+
+Health and Energy:
+	30 Health
+	75 Energy
+
+Buffs:
+	None
+
+
+Recipe Ingredients:
+	None
+
+
+Recipe Given by:
+	None
+----------------------------------
+----------------------------------
+
+Name: Soy Ink
+	Sell Price: 35 Gold
+
+Description:
+	A thick ink made from soybean oil and plant dye.
+
+Acquired by:
+	CFR-Botany_Machines: Dye Mixer
+
+
+Health and Energy:
+	None
+
+Buffs:
+	None
+
+
+Recipe Ingredients:
+	2 x Color Dye
+	3 x Soy Oil
+
+Recipe Given by:
+	None
+----------------------------------
+----------------------------------
+
+Name: Bagasse
+	Sell Price: 10 Gold
+
+Description:
+	Pulp derived from sugarcane stalks; has quite a few uses.
+
+Acquired by:
+	CFR-Botany_Machines: Refiner
+
+
+Health and Energy:
+	None
+
+Buffs:
+	None
+
+
+Recipe Ingredients:
+	5 x Sugarcane Stalks
+
+
+Recipe Given by:
+	None
+----------------------------------
+----------------------------------
+
+Name: Synthetic Bacon
+	Sell Price: 75 Gold
+
+Description:
+	Delicious bacon grown from animal DNA and soybean protein.
+
+Acquired by:
+	CFR-Botany_Machines: Refiner
+
+
+Health and Energy:
+	60 Health
+	150 Energy
+
+Buffs:
+	None
+
+
+Recipe Ingredients:
+	5 x Synthetic Pork
+
+
+Recipe Given by:
+	None
+----------------------------------
+----------------------------------
+
+Name: Synthetic Chicken
+	Sell Price: 75 Gold
+
+Description:
+	Delicious chicken grown from animal DNA and soybean protein.
+
+Acquired by:
+	CFR-Botany_Machines: Meat Synthesizer
+
+
+Health and Energy:
+	60 Health
+	150 Energy
+
+Buffs:
+	None
+
+
+Recipe Ingredients:
+	1 x Chicken Egg
+	15 x Soybeans
+
+
+Recipe Given by:
+	None
+----------------------------------
+----------------------------------
+
+Name: Synthetic Beef
+	Sell Price: 75 Gold
+
+Description:
+	Delicious beef grown from animal DNA and soybean protein.
+
+Acquired by:
+	CFR-Botany_Machines: Meat Synthesizer
+
+
+Health and Energy:
+	60 Health
+	150 Energy
+
+Buffs:
+	None
+
+
+Recipe Ingredients:
+	1 x Cow Milk
+	15 x Soybeans
+
+
+Recipe Given by:
+	None
+----------------------------------
+----------------------------------
+
+Name: Chromatiflora leaf
+	Sell Price: 20 Gold
+
+Description:
+	Colorful leaves that can be used to make dyes.
+
+Acquired by:
+	Harvest.
+
+
+Health and Energy:
+	None
+
+Buffs:
+	None
+
+
+Recipe Ingredients:
+	None
+
+
+Recipe Given by:
+	None
+----------------------------------
+----------------------------------
+
+Name: Printed Book
+	Sell Price: 135 Gold
+
+Description:
+	A freshly printed book hot off the press.
+
+Acquired by:
+	CFR-Botany_Machines: Printing Press
+
+
+Health and Energy:
+	None
+
+Buffs:
+	None
+
+
+Recipe Ingredients:
+	1 x Soy Ink
+	10 x Paper
+
+
+Recipe Given by:
+	None
+----------------------------------
+----------------------------------
+
+Name: Paper
+	Sell Price: 15 Gold
+
+Description:
+	Quality paper made from plant fibres.
+
+Acquired by:
+	CFR-Botany_Machines: Paper Machine
+
+
+Health and Energy:
+	None
+
+Buffs:
+	None
+
+
+Recipe Ingredients:
+	5 x of Soggy Newspaper, Fiber or Bagasse
+
+
+Recipe Given by:
+	None
+----------------------------------
+----------------------------------
+
+Name: Chocolate
+	Sell Price: 80 Gold
+
+Description:
+	Cacao beans processed into sweet chocolate.
+
+Acquired by:
+	CFR-Botany_Machines: Crop Processor
+
+
+Health and Energy:
+	75 Health
+	188 Energy
+
+Buffs:
+	+25 Max Energy
+
+
+Recipe Ingredients:
+	5 x Cacao Bean
+
+
+Recipe Given by:
+	None
+----------------------------------
+----------------------------------
+
+Name: Enchilada Plate
+	Sell Price: 150 Gold
+
+Description:
+	Cheese Enchiladas with rice, and beans is a tried, and true Mexican dish.
+
+Acquired by:
+	Cooking Recipe.
+
+
+Health and Energy:
+	85 Health
+	213 Energy
+
+Buffs:
+	+3 Farming
+	+2 Foraging
+
+
+Recipe Ingredients:
+	4 x Tortilla
+	2 x Cheese
+	2 x Rice
+	3 x Pinto Bean
+
+
+Recipe Given by:
+	Evelyn at 2 hearts.
+----------------------------------
+----------------------------------
+
+Name: Bacon Cheeseburger
+	Sell Price: 125 Gold
+
+Description:
+	A mouthwatering burger with bacon.
+
+Acquired by:
+	Cooking Recipe.
+
+
+Health and Energy:
+	80 Health
+	200 Energy
+
+Buffs:
+	+3 Mining
+	+50 Max Energy
+
+
+Recipe Ingredients:
+	1 x Bread
+	1 x Cheese
+	1 x Beef
+	1 x Bacon
+
+
+Recipe Given by:
+	Maru at 2 hearts.
+----------------------------------
+----------------------------------
+
+Name: Fried Chicken Dinner
+	Sell Price: 175 Gold
+
+Description:
+	Scrumptious fried chicken with corn, and mashed potatoes.
+
+Acquired by:
+	Cooking Recipe.
+
+
+Health and Energy:
+	90 Health
+	225 Energy
+
+Buffs:
+	+4 Farming
+
+
+Recipe Ingredients:
+	1 x Wheat Flour
+	1 x Egg (Any)
+	1 x Oil
+	1 x Synthetic Chicken
+	1 x Potato
+	1 x Corn
+	1 x Bread
+
+
+Recipe Given by:
+	Caroline at 2 hearts.
+----------------------------------
+----------------------------------
+
+Name: Pepperoni Pizza
+	Sell Price: 100 Gold
+
+Description:
+	The best pizza known to man topped with a few black olives to boot.
+
+Acquired by:
+	Cooking Recipe.
+
+
+Health and Energy:
+	75 Health
+	188 Energy
+
+Buffs:
+	+2 Luck
+
+
+Recipe Ingredients:
+	1 x Wheat Flour
+	1 x Tomato
+	1 x Cheese
+	1 x Black Olives
+	1 x Synthetic Beef
+	1 x Synthetic Pork
+
+
+Recipe Given by:
+	Abigail at 2 hearts.
+----------------------------------
+----------------------------------
+
+Name: Soy Oil
+	Sell Price: 45 Gold
+
+Description:
+	A very useful oil derived from Soybeans.
+
+Acquired by:
+	CFR-Botany_Machines: Crop Processor
+
+
+Health and Energy:
+	None
+
+Buffs:
+	None
+
+
+Recipe Ingredients:
+	5 x Soybean
+
+
+Recipe Given by:
+	None
+----------------------------------
+----------------------------------
+
+Name: Color Dye
+	Sell Price: 65 Gold
+
+Description:
+	Various colored dyes derived from the Chromatiflora plant.
+
+Acquired by:
+	CFR-Botany_Machines: Crop Processor
+
+
+Health and Energy:
+	None
+
+Buffs:
+	None
+
+
+Recipe Ingredients:
+	5 x Chromatiflora Leaf
+
+
+Recipe Given by:
+	None
+----------------------------------
+----------------------------------
+
+Name: Brown Sugar
+	Sell Price: 30 Gold
+
+Description:
+	A slightly syrupy sugar derived from Sugarcane.
+
+Acquired by:
+	CFR-Botany_Machines: Crop Processor
+
+
+Health and Energy:
+	15 Health
+	38 Energy
+
+Buffs:
+	None
+
+
+Recipe Ingredients:
+	5 x Sugarcane Stalks
+
+
+Recipe Given by:
+	None
+----------------------------------
+----------------------------------
+
+Name: Colored Paper
+	Sell Price: 20 Gold
+
+Description:
+	Colored with dyes derived from the Chromatiflora plant.
+
+Acquired by:
+	CFR-Botany_Machines: Dye Mixer
+
+
+Health and Energy:
+	None
+
+Buffs:
+	None
+
+
+Recipe Ingredients:
+	2 x Colored Dye
+	3 x Paper
+
+
+Recipe Given by:
+	None
+----------------------------------
+----------------------------------
+
+Name: Colored Cloth
+	Sell Price: 45 Gold
+
+Description:
+	Colored with dyes derived from the Chromatiflora plant.
+
+Acquired by:
+	CFR-Botany_Machines: Dye Mixer
+
+
+Health and Energy:
+	None
+
+Buffs:
+	None
+
+
+Recipe Ingredients:
+	2 x Colored Dye
+	3 x Cloth
+
+
+Recipe Given by:
+	None
+----------------------------------
+----------------------------------
+
+Name: Colored Clay
+	Sell Price: 55 Gold
+
+Description:
+	Colored with dyes derived from the Chromatiflora plant.
+
+Acquired by:
+	CFR-Botany_Machines: Dye Mixer
+
+
+Health and Energy:
+	None
+
+Buffs:
+	None
+
+
+Recipe Ingredients:
+	2 x Colored Dye
+	3 x Clay
+
+
+Recipe Given by:
+	None
+----------------------------------
+----------------------------------
+
+Name: Cascarón
+	Sell Price: 15 Gold
+
+Description:
+	An egg colored with dye, and filled with confetti. Crack it over someone's head!
+
+Acquired by:
+	Cooking Recipe.
+
+
+Health and Energy:
+	None
+
+Buffs:
+	None
+
+
+Recipe Ingredients:
+	1 x Egg (Any)
+	1 x Colored Paper
+	1 x Colored Dye
+
+
+Recipe Given by:
+	Gus at 2 hearts.
+----------------------------------
+----------------------------------
+
+Name: Synthetic Pork
+	Sell Price: 75 Gold
+
+Description:
+	Delicious pork grown from animal DNA and soybean protein.
+
+Acquired by:
+	CFR-Botany_Machines: Meat Synthesizer
+
+
+Health and Energy:
+	60 Health
+	150 Energy
+
+Buffs:
+	None
+
+
+Recipe Ingredients:
+	1 x Truffle
+	15 x Soybeans
+
+
+Recipe Given by:
+	None
+----------------------------------
+----------------------------------
+
+Name: Canned Pineapples
+	Sell Price: 35 Gold
+
+Description:
+	A sweet tasting green still kept sealed for freshness.
+
+Acquired by:
+	At Pierre's in Spring.
+
+
+Health and Energy:
+	5 Health
+	13 Energy
+
+Buffs:
+	None
+
+
+Recipe Ingredients:
+	None
+
+
+Recipe Given by:
+	None
+----------------------------------
+----------------------------------
+
+Name: Pineapple Upside Down Cake
+	Sell Price: 200 Gold
+
+Description:
+	Pineapples, Cherries, and Brown Sugar meld into a delicious cake.
+
+Acquired by:
+	Cooking Recipe.
+
+
+Health and Energy:
+	55 Health
+	138 Energy
+
+Buffs:
+	+2 Speed
+
+
+Recipe Ingredients:
+	1 x Wheat Flour
+	1 x Egg (Any)
+	1 x Canned Pineapples
+	5 x Cherry
+	1 x Brown Sugar
+
+
+Recipe Given by:
+	Evelyn at 3 hearts.
+----------------------------------
+----------------------------------
+
+Name: Joja GMO Dandelion
+	Sell Price: 80 Gold
+
+Description:
+	Joja's signature GMO plant; engineered to produce latex for industrial uses.
+
+Acquired by:
+	Harvest.
+
+
+Health and Energy:
+	None
+
+Buffs:
+	None
+
+
+Recipe Ingredients:
+	None
+
+
+Recipe Given by:
+	None
+----------------------------------
+----------------------------------
+
+Name: Joja Latex
+	Sell Price: 145 Gold
+
+Description:
+	Harvested from genetically engineered dandelions; it's used to make rubber.
+
+Acquired by:
+	CFR-Botany_Machines: Crop Processor
+
+
+Health and Energy:
+	None
+
+Buffs:
+	None
+
+
+Recipe Ingredients:
+	5 x Joja GMO Dandelion
+
+
+Recipe Given by:
+	None
+----------------------------------
+----------------------------------
+
+Name: Banana
+	Sell Price: 35 Gold
+
+Description:
+	Makes a great ice cream topping.
+
+Acquired by:
+	Harvest.
+
+
+Health and Energy:
+	25 Health
+	63 Energy
+
+Buffs:
+	None
+
+
+Recipe Ingredients:
+	None
+
+
+Recipe Given by:
+	None
+----------------------------------
+----------------------------------
+
+Name: Banana Split
+	Sell Price: 150 Gold
+
+Description:
+	A decadent ice cream dessert that's easy to make.
+
+Acquired by:
+	Cooking Recipe.
+
+
+Health and Energy:
+	55 Health
+	138 Energy
+
+Buffs:
+	+2 Luck
+	+1 Foraging
+
+
+Recipe Ingredients:
+	1 x Ice Cream
+	1 x Banana
+	1 x Chocolate
+	3 x Pecans
+	1 x Cherry
+
+
+Recipe Given by:
+	Jodi at 10 hearts.
+----------------------------------
+----------------------------------
+
+Name: Chicken Fajitas
+	Sell Price: 135 Gold
+
+Description:
+	Sizzling hot fajitas served with onions, bell peppers and guacamole!
+
+Acquired by:
+	Cooking Recipe.
+
+
+Health and Energy:
+	95 Health
+	238 Energy
+
+Buffs:
+	+2 Fishing
+	+3 Mining
+
+
+Recipe Ingredients:
+	3 x Synthetic Chicken
+	2 x Onion
+	4 x Bell Pepper
+	6 x Flour Tortilla
+	1 x Guacamole
+
+
+Recipe Given by:
+	Kent at 8 hearts.
+----------------------------------
+----------------------------------
+=======================================
+=======================================

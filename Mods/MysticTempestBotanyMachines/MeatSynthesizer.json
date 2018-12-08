@@ -1,7 +1,7 @@
 {
   "name": "BotanyMachines-MeatSynthesizer",
   "author": "MysticTempest",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "machines": [
     {
       "id": 0,
@@ -17,7 +17,7 @@
       "frames": 14,
       "starter": {
         "index": 1034,
-        "stack": 1
+        "stack": 15
       },
       "production": [
         {

@@ -1,0 +1,433 @@
+Imported Tea Vending Machine:
+===================================
+
+
+This mini-expansion requires Platonymous' Custom Farming Redux mod, and their PyTK mod.
+
+
+Nexus Mod Links:
+Custom Farming Redux - https://www.nexusmods.com/stardewvalley/mods/991
+PyTK - https://www.nexusmods.com/stardewvalley/mods/1726
+
+
+
+
+------------------------------------------------------------------------------------
+The "Imported Tea Vending Machine" is crafted in the Crafting Menu from the following ingredients:
+Iron Bar x2
+Refined Quartz x3
+Hardwood x5
+Collectible Tea Box x1
+
+
+
+To use the machine requires 3 Tea Leaf Cuttings, and 1 forageable item from the following list. 
+Once you have the required resources; place the forageable into the machine, and Tea leaves will automatically be deducted for brewing.
+
+
+The Tea Machine is set up so that players can modify the name value of each entry for more customized Teas.
+
+Modify the name value corresponding to the materials-index value of the forage item you'd like to change in the "ImportedTeaMachine.json".
+===========
+Example Original data:
+#The first production item; it uses "Wild Horseradish", index #16 as its input:
+	        {
+	          "name": "Custom Imported Tea",
+	          "decription": "Tea imported from a far off place.",
+	          "colored": false,
+	          "index": 996,
+	          "price": "75",
+	          "time": 20,
+	          "texture": "ImportedTeaMachine.png",
+	          "tileindex": 6,
+	          "materials": [
+	            {
+				  "index": 16,
+	              "stack": 1
+	            }
+	          ]
+	        },
+------------------------------
+Example Modification:
+#Modify the name value so that Wild Horseradish will now produce "Oolong Tea".	     
+		   {
+	          "name": "Oolong Tea",
+	          "decription": "Tea imported from a far off place.",
+	          "colored": false,
+	          "index": 996,
+	          "price": "75",
+	          "time": 20,
+	          "texture": "ImportedTeaMachine.png",
+	          "tileindex": 6,
+	          "materials": [
+	            {
+				  "index": 16,
+	              "stack": 1
+	            }
+	          ]
+	        },
+
+
+
+==============================================================================
+List of Forageables sourced from the Wiki: http://stardewvalleywiki.com/Foraging#Foraged_Items
+==============================================================================
+Forageables:ObjectID
+
+	Wild Horseradish = 16
+	Daffodil = 18
+	Leek = 20
+	Dandelion = 22 	
+	Spring Onion = 399
+	Morel = 257
+	Common Mushroom = 404
+	Salmonberry = 296 
+	Spice Berry = 396
+	Grape = 398
+	Sweet Pea = 402
+	Red Mushroom = 420
+	Fiddlehead Fern = 259 	
+	Wild Plum = 406
+	Hazelnut = 408
+	Blackberry = 410
+	Chanterelle = 281
+	Winter Root = 412
+	Crystal Fruit = 414
+	Snow Yam = 416
+	Crocus = 418
+	Holly = 283
+	Nautilus Shell = 392
+	Coral = 393
+	Sea Urchin = 397
+	Rainbow Shell = 394
+	Clam = 372
+	Cockle = 718
+	Mussel = 719
+	Oyster = 723
+	Purple Mushroom = 422
+	Cave Carrot = 78
+	Cactus Fruit = 90
+	Coconut = 88
+================================================================
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+================================================================
+
+Crop Processor:
+===================================
+
+
+This mini-expansion requires Platonymous' Custom Farming Redux mod, and their PyTK mod.
+
+
+Nexus Mod Links:
+Custom Farming Redux - https://www.nexusmods.com/stardewvalley/mods/991
+PyTK - https://www.nexusmods.com/stardewvalley/mods/1726
+
+
+
+
+------------------------------------------------------------------------------------
+The "Crop Processor" is crafted in the Crafting Menu from the following ingredients:
+Battery Pack x3
+Iron Bar x5
+Refined Quartz x3
+Wood x2
+
+
+
+
+The machine will take a stack of 5 from a particular crop, and process it into something new.
+What it creates:
+Cacao Bean x5 -> Chocolate
+Cotton x5 -> Cloth
+Sugarcane Stalks x5 -> Brown Sugar
+Soybeans x5 -> Soy Oil
+Chromatiflora leaf x5 -> Color Dye
+Joja GMO Dandelion x5 -> Joja Latex
+
+==============================================================================
+Crops Processed
+==============================================================================
+Crop:ObjectID
+
+Cacao Bean = 1012
+Cotton = 1015
+Sugarcane Stalks = 1033
+Soybeans = 1034
+Chromatiflora leaf = 1040
+================================================================
+Processed Items
+================================================================
+
+Chocolate = 1044
+Cloth = 428
+Brown Sugar = 1051
+Soy Oil = 1049
+Color Dye = 1050
+
+
+
+
+================================================================
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+================================================================
+
+Dye Mixer:
+===================================
+
+
+This mini-expansion requires Platonymous' Custom Farming Redux mod, and their PyTK mod.
+
+
+Nexus Mod Links:
+Custom Farming Redux - https://www.nexusmods.com/stardewvalley/mods/991
+PyTK - https://www.nexusmods.com/stardewvalley/mods/1726
+
+
+
+
+------------------------------------------------------------------------------------
+The "Dye Mixer" is crafted in the Crafting Menu from the following ingredients:
+Copper Bar x5
+Refined Quartz x2
+Battery Pack x1
+Iron Bar x2
+
+
+
+
+
+The machine will take a stack of 2 Color Dyes, and mix it with a stack of 3 various ingredients.
+What it creates:
+Clay x3 + Color Dye x2 -> Colored Clay
+Cloth x3 + Color Dye x2 -> Colored Cloth
+Paper x3 + Color Dye x2 -> Colored Paper
+Soy Oil x3 + Color Dye x2 -> Soy Ink
+
+==============================================================================
+Items Dyed
+==============================================================================
+Item:ObjectID
+
+Clay = 330
+Cloth = 428
+Paper = 1043
+Soy Oil = 1049
+
+================================================================
+Processed Items
+================================================================
+
+Colored Clay = 1054
+Colored Cloth = 1053
+Colored Paper = 1052
+Soy Ink = 1035
+
+================================================================
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+================================================================
+
+Meat Synthesizer:
+===================================
+
+
+This mini-expansion requires Platonymous' Custom Farming Redux mod, and their PyTK mod.
+
+
+Nexus Mod Links:
+Custom Farming Redux - https://www.nexusmods.com/stardewvalley/mods/991
+PyTK - https://www.nexusmods.com/stardewvalley/mods/1726
+
+
+
+
+------------------------------------------------------------------------------------
+The "Meat Synthesizer" is crafted in the Crafting Menu from the following ingredients:
+Copper Bar x5
+Refined Quartz x2
+Battery Pack x1
+Iron Bar x2
+
+
+
+
+
+The machine will take a stack of 15 Soybeans, and 1 animal product to create synthesized meat.
+What it creates:
+White Egg + Soybeans x15 -> Synthetic Chicken
+L. White Egg + Soybeans x15 -> Synthetic Chicken
+Brown Egg + Soybeans x15 -> Synthetic Chicken
+L. Brown Egg + Soybeans x15 -> Synthetic Chicken
+Milk + Soybeans x15 -> Synthetic Beef
+L. Milk + Soybeans x15 -> Synthetic Beef
+Truffle + Soybeans x15 -> Synthetic Pork
+
+==============================================================================
+Items Processed
+==============================================================================
+Item:ObjectID
+
+White Egg = 176
+L. White Egg = 174
+Brown Egg = 180
+L. Brown Egg = 182
+Milk = 184
+L. Milk = 186
+Truffle = 430
+
+
+================================================================
+Processed Items
+================================================================
+
+Synthetic Chicken = 1038
+Synthetic Beef = 1039
+Synthetic Pork = 1058
+
+================================================================
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+================================================================
+
+Paper Machine:
+===================================
+
+
+This mini-expansion requires Platonymous' Custom Farming Redux mod, and their PyTK mod.
+
+
+Nexus Mod Links:
+Custom Farming Redux - https://www.nexusmods.com/stardewvalley/mods/991
+PyTK - https://www.nexusmods.com/stardewvalley/mods/1726
+
+
+
+
+------------------------------------------------------------------------------------
+The "Paper Machine" is crafted in the Crafting Menu from the following ingredients:
+Battery Pack x3
+Iron Bar x5
+Wood x2
+Refined Quartz x3
+
+
+
+
+
+The machine will process a stack of 5 fibrous materials into paper.
+What it creates:
+Soggy Newspaper x5 -> Paper
+Fiber x5 -> Paper
+Bagasee x5 -> Paper
+
+==============================================================================
+Items Processed
+==============================================================================
+Item:ObjectID
+
+Soggy Newspaper = 172
+Fiber = 771
+Bagasee = 1036
+
+================================================================
+Processed Items
+================================================================
+
+Paper = 1043
+
+================================================================
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+================================================================
+
+Printing Press:
+===================================
+
+
+This mini-expansion requires Platonymous' Custom Farming Redux mod, and their PyTK mod.
+
+
+Nexus Mod Links:
+Custom Farming Redux - https://www.nexusmods.com/stardewvalley/mods/991
+PyTK - https://www.nexusmods.com/stardewvalley/mods/1726
+
+
+
+
+------------------------------------------------------------------------------------
+The "Printing Press" is crafted in the Crafting Menu from the following ingredients:
+Cloth x3
+Iron Bar x2
+Hardwood x15
+
+
+
+
+The machine will take a stack of 10 Paper, and one Soy Ink; then craft it into a Printed book.
+What it creates:
+Paper x10 + Soy Ink x1 -> Printed Book
+
+==============================================================================
+Items Processed
+==============================================================================
+Item:ObjectID
+
+Paper = 1043
+Soy Ink = 1035
+
+================================================================
+Processed Items
+================================================================
+
+Printed Book = 1042
+
+================================================================
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+================================================================
+
+Refiner:
+===================================
+
+
+This mini-expansion requires Platonymous' Custom Farming Redux mod, and their PyTK mod.
+
+
+Nexus Mod Links:
+Custom Farming Redux - https://www.nexusmods.com/stardewvalley/mods/991
+PyTK - https://www.nexusmods.com/stardewvalley/mods/1726
+
+
+
+
+------------------------------------------------------------------------------------
+The "Refiner" is crafted in the Crafting Menu from the following ingredients:
+Battery Pack x3
+Iron Bar x5
+Wood x2
+Refined Quartz x3
+
+
+
+The machine will refine various items into other goods.
+What it creates:
+Sugarcane Stalks x5 -> Bagasse
+Bagasse x5 -> Coal
+Brown Sugar x5 -> Sugar
+Synthetic Pork x5 -> Synthetic Bacon
+
+==============================================================================
+Items Processed
+==============================================================================
+Item:ObjectID
+
+Sugarcane Stalks = 1033
+Bagasse = 1036
+Brown Sugar = 1051
+
+================================================================
+Processed Items
+================================================================
+
+
+Bagasse = 1036
+Coal = 382
+Sugar = 245
+Synthetic Bacon = 1037

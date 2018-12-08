@@ -1,0 +1,435 @@
+MysticTempest's Tea Mod Documentation:
+==============================================================
+
+
+Tea Mod:
+----------------------------------
+----------------------------------
+----------------------------------
+==================================
+Crops:
+==================================
+
+Name: Tea
+
+Growth Cycle:
+	Total: 10 Days
+	Reharvestable: After 2 days.
+
+
+Growing Seasons:
+	Spring 
+	Summer
+
+
+Produces:
+	Tea Leaf Cuttings
+
+----------------------------------
+----------------------------------
+==================================
+Items:
+==================================
+Name: Tea Leaf Cuttings
+	Sell Price: 20 Gold
+
+
+Description:
+	Plant in spring or summer to grow a Tea plant.
+
+Acquired by:
+	Cooking Recipe, and mail. - If ShopExpander is enabled; also at Pierre's during Summer.
+
+
+Health and Energy:
+	None
+
+Buffs:
+	None
+
+
+Recipe Ingredients:
+	1 x Spring Seeds
+	1 x Summer Seeds
+	1 x Rare Seeds
+
+
+Recipe Given by:
+	Demetrius at 2 hearts.
+----------------------------------
+----------------------------------
+Name: White Tea
+	Sell Price: 75 Gold
+
+
+Description:
+	A lite brew of young tea leaves; has a fresh flavor.
+
+Acquired by:
+	Cooking Recipe, and mail.
+
+
+Health and Energy:
+	60 Health
+	150 Energy
+
+Buffs:
+	None
+
+
+Recipe Ingredients:
+	1 x Tea Leaf Cuttings
+
+
+Recipe Given by:
+	Jodi at 2 hearts.
+----------------------------------
+----------------------------------
+Name: Dandelion White Tea
+	Sell Price: 135 Gold
+
+
+Description:
+	The fresh Dandelion in this rejuvenates your senses.
+
+Acquired by:
+	Cooking Recipe.
+
+
+Health and Energy:
+	70 Health
+	175 Energy
+
+Buffs:
+	+1	Foraging
+
+
+Recipe Ingredients:
+	1 x Tea Leaf Cuttings
+	1 x Dandelion
+
+
+Recipe Given by:
+	Harvey at 3 hearts.
+----------------------------------
+----------------------------------
+Name: Berry Surprise Tea
+	Sell Price: 500 Gold
+
+
+Description:
+	Infused with cross-season flavors; it's worth the wait!
+
+Acquired by:
+	Cooking Recipe.
+
+
+Health and Energy:
+	75 Health
+	188 Energy
+
+Buffs:
+	+2	Luck
+	+2	Foraging
+
+
+Recipe Ingredients:
+	1 x Tea Leaf Cuttings
+	1 x Blackberry
+	1 x Spice Berry
+
+
+Recipe Given by:
+	Linus at 5 hearts.
+----------------------------------
+----------------------------------
+Name: Green Tea
+	Sell Price: 100 Gold
+
+
+Description:
+	A mild brew with aged leaves; tastes great!
+
+Acquired by:
+	Cooking Recipe.
+
+
+Health and Energy:
+	90 Health
+	225 Energy
+
+Buffs:
+	+2	Speed
+
+
+Recipe Ingredients:
+	2 x Tea Leaf Cuttings
+
+
+Recipe Given by:
+	Emily at 2 hearts.
+----------------------------------
+----------------------------------
+Name: Granny Pom Tea
+	Sell Price: 300 Gold
+
+
+Description:
+	An invigorating combination of Pomegranates and Green tea.
+
+Acquired by:
+	Cooking Recipe.
+
+
+Health and Energy:
+	100 Health
+	250 Energy
+
+Buffs:
+	+75	Max Energy
+
+
+Recipe Ingredients:
+	2 x Tea Leaf Cuttings
+	1 x Pomegranate
+
+
+Recipe Given by:
+	Marnie at 4 hearts.
+----------------------------------
+----------------------------------
+Name: Fruit Splash Tea
+	Sell Price: 500 Gold
+
+
+Description:
+	Orange and Peach flavors mesh well in this fruity tea.
+
+Acquired by:
+	Cooking Recipe.
+
+
+Health and Energy:
+	95 Health
+	238 Energy
+
+Buffs:
+	+2	Farming
+	+1	Fishing
+
+
+Recipe Ingredients:
+	2 x Tea Leaf Cuttings
+	1 x Orange
+	1 x Peach
+
+
+Recipe Given by:
+	Willy at 6 hearts.
+----------------------------------
+----------------------------------
+Name: Black Tea
+	Sell Price: 125 Gold
+
+
+Description:
+	Brewed to perfection. The flavors of this tea are more pronounced without sugar!
+
+Acquired by:
+	Cooking Recipe.
+
+
+Health and Energy:
+	55 Health
+	138 Energy
+
+Buffs:
+	None
+
+
+Recipe Ingredients:
+	4 x Tea Leaf Cuttings
+
+
+Recipe Given by:
+	Lewis at 2 hearts.
+----------------------------------
+----------------------------------
+Name: Sweet Tea
+	Sell Price: 200 Gold
+
+
+Description:
+	A refreshingly sweet drink. It'll give you a sugary rush.
+
+Acquired by:
+	Cooking Recipe.
+
+
+Health and Energy:
+	50 Health
+	125 Energy
+
+Buffs:
+	+2	Mining
+	+1	Speed
+
+
+Recipe Ingredients:
+	4 x Tea Leaf Cuttings
+	1 x Sugar
+
+
+Recipe Given by:
+	Leah at 2 hearts.
+----------------------------------
+----------------------------------
+Name: Fancy Sweet Tea
+	Sell Price: 3500 Gold
+
+
+Description:
+	Black Tea sweetened with the finest ingredients in the world.
+
+Acquired by:
+	Cooking Recipe.
+
+
+Health and Energy:
+	45 Health
+	113 Energy
+
+Buffs:
+	+3	Luck
+	+1	Speed
+	+50	MaxEnergy
+
+Recipe Ingredients:
+	4 x Tea Leaf Cuttings
+	1 x Honey
+	1 x Sweet Gem Berry
+
+
+Recipe Given by:
+	Evelyn at 10 hearts.
+----------------------------------
+----------------------------------
+Name: Tea Bag Carton (White)
+	Sell Price: 800 Gold
+
+
+Description:
+	Locally grown, and ready to serve tea.
+
+Acquired by:
+	Cooking Recipe.
+
+
+Health and Energy:
+	None
+Buffs:
+	None
+
+
+Recipe Ingredients:
+	2 x Fiber
+	1 x Wood
+	1 x White Tea
+	1 x Dandelion White Tea
+	1 x Berry Surprise Tea
+
+
+Recipe Given by:
+	Abigail at 10 hearts.
+----------------------------------
+----------------------------------
+Name: Tea Bag Carton (Green)
+	Sell Price: 1200 Gold
+
+
+Description:
+	Locally grown, and ready to serve tea.
+
+Acquired by:
+	Cooking Recipe.
+
+
+Health and Energy:
+	None
+Buffs:
+	None
+
+
+Recipe Ingredients:
+	2 x Fiber
+	1 x Wood
+	1 x Green Tea
+	1 x Granny Pom Tea
+	1 x Fruit Splash Tea
+
+
+Recipe Given by:
+	Abigail at 10 hearts.
+----------------------------------
+----------------------------------
+Name: Tea Bag Carton (Black)
+	Sell Price: 4500 Gold
+
+
+Description:
+	Locally grown, and ready to serve tea.
+
+
+Acquired by:
+	Cooking Recipe.
+
+
+Health and Energy:
+	None
+Buffs:
+	None
+
+
+Recipe Ingredients:
+	2 x Fiber
+	1 x Wood
+	1 x Black Tea
+	1 x Sweet Tea
+	1 x Fancy Sweet Tea
+
+
+Recipe Given by:
+	Abigail at 10 hearts.
+----------------------------------
+----------------------------------
+Name: Collectible Tea Box
+	Sell Price: 7500 Gold
+
+
+Description:
+	A collectible tea box made of hardwood, and an assortment of teas.
+
+
+Acquired by:
+	Cooking Recipe.
+
+
+Health and Energy:
+	None
+Buffs:
+	None
+
+
+Recipe Ingredients:
+	2 x Hardwood
+	1 x Tea Bag Carton (White)
+	1 x Tea Bag Carton (Green)
+	1 x Tea Bag Carton (Black)
+
+
+Recipe Given by:
+	Robin at 10 hearts.
+----------------------------------
+----------------------------------
+=======================================
+=======================================

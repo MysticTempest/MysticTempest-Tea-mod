@@ -1,5 +1,5 @@
 {
-  "objects": [
+  "Objects": [
     {
       "Owner": "Pierre",
       "Item": 995,
@@ -108,5 +108,17 @@
       "Amount": 1,
       "Conditions": "!winter"
     },
+    {
+      "Owner": "Pierre",
+      "Item": 1065,
+      "Amount": 1,
+      "Conditions": "summer"
+    },
+    {
+      "Owner": "Pierre",
+      "Item": 1059,
+      "Amount": 1,
+      "Conditions": "spring"
+    }
   ]
 }

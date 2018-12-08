@@ -1,0 +1,569 @@
+{
+  "name": "BotanyMachines-ImportedTeaMachine",
+  "author": "MysticTempest",
+  "version": "1.0.2",
+  "machines": [
+    {
+      "id": 0,
+      "name": "Imported Tea Vending Machine",
+      "legacy": "MysticTempest.ImportedTeaMachine.json",
+      "description": "Barters forageables for Tea flavors.",
+      "category": "Crafting",
+      "crafting": "335 2 338 3 709 5 1008 1",
+      "texture": "ImportedTeaMachine.png",
+      "tileindex": 0,
+      "pulsate": false,
+      "readyindex": 5,
+      "frames": 4,
+      "starter": {
+        "index": 995,
+        "stack": 3
+      },
+	"production": [
+	        {
+	          "name": "Custom Imported Tea",
+	          "decription": "Tea imported from a far off place.",
+	          "colored": false,
+	          "index": 996,
+	          "price": "75",
+	          "time": 20,
+	          "texture": "ImportedTeaMachine.png",
+	          "tileindex": 6,
+	          "materials": [
+	            {
+				  "index": 16,
+	              "stack": 1
+	            }
+	          ]
+	        },
+			{
+	          "name": "Custom Imported Tea",
+	          "decription": "Tea imported from a far off place.",
+	          "colored": false,
+	          "index": 996,
+	          "price": "75",
+	          "time": 20,
+	          "texture": "ImportedTeaMachine.png",
+	          "tileindex": 6,
+	          "materials": [
+	            {
+				  "index": 18,
+	              "stack": 1
+	            }
+	          ]
+	        },
+			{
+	          "name": "Custom Imported Tea",
+	          "decription": "Tea imported from a far off place.",
+	          "colored": false,
+	          "index": 996,
+	          "price": "75",
+	          "time": 20,
+	          "texture": "ImportedTeaMachine.png",
+	          "tileindex": 6,
+	          "materials": [
+	            {
+				  "index": 20,
+	              "stack": 1
+	            }
+	          ]
+	        },
+			{
+	          "name": "Custom Imported Tea",
+	          "decription": "Tea imported from a far off place.",
+	          "colored": false,
+	          "index": 996,
+	          "price": "75",
+	          "time": 20,
+	          "texture": "ImportedTeaMachine.png",
+	          "tileindex": 6,
+	          "materials": [
+	            {
+				  "index": 22,
+	         	  "stack":1
+	            }
+	          ]
+	        },
+			{
+	          "name": "Custom Imported Tea",
+	          "decription": "Tea imported from a far off place.",
+	          "colored": false,
+	          "index": 996,
+	          "price": "75",
+	          "time": 20,
+	          "texture": "ImportedTeaMachine.png",
+	          "tileindex": 6,
+	          "materials": [
+	            {
+				  "index": 399,
+	         	  "stack":1
+	            }
+	          ]
+	        },
+			{
+	          "name": "Custom Imported Tea",
+	          "decription": "Tea imported from a far off place.",
+	          "colored": false,
+	          "index": 996,
+	          "price": "75",
+	          "time": 20,
+	          "texture": "ImportedTeaMachine.png",
+	          "tileindex": 6,
+	          "materials": [
+	            {
+				  "index": 257,
+	         	  "stack":1
+	            }
+	          ]
+	        },
+			{
+	          "name": "Custom Imported Tea",
+	          "decription": "Tea imported from a far off place.",
+	          "colored": false,
+	          "index": 996,
+	          "price": "75",
+	          "time": 20,
+	          "texture": "ImportedTeaMachine.png",
+	          "tileindex": 6,
+	          "materials": [
+	            {
+				  "index": 404,
+	         	  "stack":1
+	            }
+	          ]
+	        },
+			{
+	          "name": "Custom Imported Tea",
+	          "decription": "Tea imported from a far off place.",
+	          "colored": false,
+	          "index": 996,
+	          "price": "75",
+	          "time": 20,
+	          "texture": "ImportedTeaMachine.png",
+	          "tileindex": 6,
+	          "materials": [
+	            {
+				  "index": 296,
+	         	  "stack":1
+	            }
+	          ]
+	        },
+			{
+	          "name": "Custom Imported Tea",
+	          "decription": "Tea imported from a far off place.",
+	          "colored": false,
+	          "index": 996,
+	          "price": "75",
+	          "time": 20,
+	          "texture": "ImportedTeaMachine.png",
+	          "tileindex": 6,
+	          "materials": [
+	            {
+				  "index": 396,
+	         	  "stack":1
+	            }
+	          ]
+	        },
+			{
+	          "name": "Custom Imported Tea",
+	          "decription": "Tea imported from a far off place.",
+	          "colored": false,
+	          "index": 996,
+	          "price": "75",
+	          "time": 20,
+	          "texture": "ImportedTeaMachine.png",
+	          "tileindex": 6,
+	          "materials": [
+	            {
+				  "index": 398,
+	         	  "stack":1
+	            }
+	          ]
+	        },
+			{
+	          "name": "Custom Imported Tea",
+	          "decription": "Tea imported from a far off place.",
+	          "colored": false,
+	          "index": 996,
+	          "price": "75",
+	          "time": 20,
+	          "texture": "ImportedTeaMachine.png",
+	          "tileindex": 6,
+	          "materials": [
+	            {
+				  "index": 402,
+	         	  "stack":1
+	            }
+	          ]
+	        },
+			{
+	          "name": "Custom Imported Tea",
+	          "decription": "Tea imported from a far off place.",
+	          "colored": false,
+	          "index": 996,
+	          "price": "75",
+	          "time": 20,
+	          "texture": "ImportedTeaMachine.png",
+	          "tileindex": 6,
+	          "materials": [
+	            {
+				  "index": 420,
+	         	  "stack":1
+	            }
+	          ]
+	        },
+			{
+	          "name": "Custom Imported Tea",
+	          "decription": "Tea imported from a far off place.",
+	          "colored": false,
+	          "index": 996,
+	          "price": "75",
+	          "time": 20,
+	          "texture": "ImportedTeaMachine.png",
+	          "tileindex": 6,
+	          "materials": [
+	            {
+				  "index": 259,
+	         	  "stack":1
+	            }
+	          ]
+	        },
+			{
+	          "name": "Custom Imported Tea",
+	          "decription": "Tea imported from a far off place.",
+	          "colored": false,
+	          "index": 996,
+	          "price": "75",
+	          "time": 20,
+	          "texture": "ImportedTeaMachine.png",
+	          "tileindex": 6,
+	          "materials": [
+	            {
+				  "index": 406,
+	         	  "stack":1
+	            }
+	          ]
+	        },
+			{
+	          "name": "Custom Imported Tea",
+	          "decription": "Tea imported from a far off place.",
+	          "colored": false,
+	          "index": 996,
+	          "price": "75",
+	          "time": 20,
+	          "texture": "ImportedTeaMachine.png",
+	          "tileindex": 6,
+	          "materials": [
+	            {
+				  "index": 408,
+	         	  "stack":1
+	            }
+	          ]
+	        },
+			{
+	          "name": "Custom Imported Tea",
+	          "decription": "Tea imported from a far off place.",
+	          "colored": false,
+	          "index": 996,
+	          "price": "75",
+	          "time": 20,
+	          "texture": "ImportedTeaMachine.png",
+	          "tileindex": 6,
+	          "materials": [
+	            {
+				  "index": 410,
+	         	  "stack":1
+	            }
+	          ]
+	        },
+			{
+	          "name": "Custom Imported Tea",
+	          "decription": "Tea imported from a far off place.",
+	          "colored": false,
+	          "index": 996,
+	          "price": "75",
+	          "time": 20,
+	          "texture": "ImportedTeaMachine.png",
+	          "tileindex": 6,
+	          "materials": [
+	            {
+				  "index": 281,
+	         	  "stack":1
+	            }
+	          ]
+	        },
+			{
+	          "name": "Custom Imported Tea",
+	          "decription": "Tea imported from a far off place.",
+	          "colored": false,
+	          "index": 996,
+	          "price": "75",
+	          "time": 20,
+	          "texture": "ImportedTeaMachine.png",
+	          "tileindex": 6,
+	          "materials": [
+	            {
+				  "index": 412,
+	         	  "stack":1
+	            }
+	          ]
+	        },
+			{
+	          "name": "Custom Imported Tea",
+	          "decription": "Tea imported from a far off place.",
+	          "colored": false,
+	          "index": 996,
+	          "price": "75",
+	          "time": 20,
+	          "texture": "ImportedTeaMachine.png",
+	          "tileindex": 6,
+	          "materials": [
+	            {
+				  "index": 414,
+	         	  "stack":1
+	            }
+	          ]
+	        },
+			{
+	          "name": "Custom Imported Tea",
+	          "decription": "Tea imported from a far off place.",
+	          "colored": false,
+	          "index": 996,
+	          "price": "75",
+	          "time": 20,
+	          "texture": "ImportedTeaMachine.png",
+	          "tileindex": 6,
+	          "materials": [
+	            {
+				  "index": 416,
+	         	  "stack":1
+	            }
+	          ]
+	        },
+			{
+	          "name": "Custom Imported Tea",
+	          "decription": "Tea imported from a far off place.",
+	          "colored": false,
+	          "index": 996,
+	          "price": "75",
+	          "time": 20,
+	          "texture": "ImportedTeaMachine.png",
+	          "tileindex": 6,
+	          "materials": [
+	            {
+				  "index": 418,
+	         	  "stack":1
+	            }
+	          ]
+	        },
+			{
+	          "name": "Custom Imported Tea",
+	          "decription": "Tea imported from a far off place.",
+	          "colored": false,
+	          "index": 996,
+	          "price": "75",
+	          "time": 20,
+	          "texture": "ImportedTeaMachine.png",
+	          "tileindex": 6,
+	          "materials": [
+	            {
+				  "index": 283,
+	         	  "stack":1
+	            }
+	          ]
+	        },
+			{
+	          "name": "Custom Imported Tea",
+	          "decription": "Tea imported from a far off place.",
+	          "colored": false,
+	          "index": 996,
+	          "price": "75",
+	          "time": 20,
+	          "texture": "ImportedTeaMachine.png",
+	          "tileindex": 6,
+	          "materials": [
+	            {
+				  "index": 392,
+	         	  "stack":1
+	            }
+	          ]
+	        },
+			{
+	          "name": "Custom Imported Tea",
+	          "decription": "Tea imported from a far off place.",
+	          "colored": false,
+	          "index": 996,
+	          "price": "75",
+	          "time": 20,
+	          "texture": "ImportedTeaMachine.png",
+	          "tileindex": 6,
+	          "materials": [
+	            {
+				  "index": 393,
+	         	  "stack":1
+	            }
+	          ]
+	        },
+			{
+	          "name": "Custom Imported Tea",
+	          "decription": "Tea imported from a far off place.",
+	          "colored": false,
+	          "index": 996,
+	          "price": "75",
+	          "time": 20,
+	          "texture": "ImportedTeaMachine.png",
+	          "tileindex": 6,
+	          "materials": [
+	            {
+				  "index": 397,
+	         	  "stack":1
+	            }
+	          ]
+	        },
+			{
+	          "name": "Custom Imported Tea",
+	          "decription": "Tea imported from a far off place.",
+	          "colored": false,
+	          "index": 996,
+	          "price": "75",
+	          "time": 20,
+	          "texture": "ImportedTeaMachine.png",
+	          "tileindex": 6,
+	          "materials": [
+	            {
+				  "index": 394,
+	         	  "stack":1
+	            }
+	          ]
+	        },
+			{
+	          "name": "Custom Imported Tea",
+	          "decription": "Tea imported from a far off place.",
+	          "colored": false,
+	          "index": 996,
+	          "price": "75",
+	          "time": 20,
+	          "texture": "ImportedTeaMachine.png",
+	          "tileindex": 6,
+	          "materials": [
+	            {
+				  "index": 372,
+	         	  "stack":1
+	            }
+	          ]
+	        },
+			{
+	          "name": "Custom Imported Tea",
+	          "decription": "Tea imported from a far off place.",
+	          "colored": false,
+	          "index": 996,
+	          "price": "75",
+	          "time": 20,
+	          "texture": "ImportedTeaMachine.png",
+	          "tileindex": 6,
+	          "materials": [
+	            {
+				  "index": 718,
+	         	  "stack":1
+	            }
+	          ]
+	        },
+			{
+	          "name": "Custom Imported Tea",
+	          "decription": "Tea imported from a far off place.",
+	          "colored": false,
+	          "index": 996,
+	          "price": "75",
+	          "time": 20,
+	          "texture": "ImportedTeaMachine.png",
+	          "tileindex": 6,
+	          "materials": [
+	            {
+				  "index": 719,
+	         	  "stack":1
+	            }
+	          ]
+	        },
+			{
+	          "name": "Custom Imported Tea",
+	          "decription": "Tea imported from a far off place.",
+	          "colored": false,
+	          "index": 996,
+	          "price": "75",
+	          "time": 20,
+	          "texture": "ImportedTeaMachine.png",
+	          "tileindex": 6,
+	          "materials": [
+	            {
+				  "index": 723,
+	         	  "stack":1
+	            }
+	          ]
+	        },
+			{
+	          "name": "Custom Imported Tea",
+	          "decription": "Tea imported from a far off place.",
+	          "colored": false,
+	          "index": 996,
+	          "price": "75",
+	          "time": 20,
+	          "texture": "ImportedTeaMachine.png",
+	          "tileindex": 6,
+	          "materials": [
+	            {
+				  "index": 422,
+	         	  "stack":1
+	            }
+	          ]
+	        },
+			{
+	          "name": "Custom Imported Tea",
+	          "decription": "Tea imported from a far off place.",
+	          "colored": false,
+	          "index": 996,
+	          "price": "75",
+	          "time": 20,
+	          "texture": "ImportedTeaMachine.png",
+	          "tileindex": 6,
+	          "materials": [
+	            {
+				  "index": 78,
+	         	  "stack":1
+	            }
+	          ]
+	        },
+			{
+	          "name": "Custom Imported Tea",
+	          "decription": "Tea imported from a far off place.",
+	          "colored": false,
+	          "index": 996,
+	          "price": "75",
+	          "time": 20,
+	          "texture": "ImportedTeaMachine.png",
+	          "tileindex": 6,
+	          "materials": [
+	            {
+				  "index": 90,
+	         	  "stack":1
+	            }
+	          ]
+	        },
+			{
+	          "name": "Custom Imported Tea",
+	          "decription": "Tea imported from a far off place.",
+	          "colored": false,
+	          "index": 996,
+	          "price": "75",
+	          "time": 20,
+	          "texture": "ImportedTeaMachine.png",
+	          "tileindex": 6,
+	          "materials": [
+	            {
+				  "index": 88,
+	         	  "stack":1
+	            }
+	          ]
+	        },
+	   ]
+	}
+]}

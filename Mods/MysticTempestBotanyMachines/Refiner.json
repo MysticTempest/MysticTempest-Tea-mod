@@ -1,7 +1,7 @@
 {
   "name": "BotanyMachines-Refiner",
   "author": "MysticTempest",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "machines": [
     {
       "id": 0,
@@ -15,10 +15,7 @@
 	  "readyindex": 2,
       "pulsate": false,
       "frames": 3,
-      "starter": {
-        "index": 0,
-        "stack": 0
-      },
+
       "production": [
         {
           "name": "Bagasse",
@@ -32,7 +29,7 @@
           "materials": [
             {
               "index": 1033,
-              "stack": 1
+              "stack": 5
             },
 
           ]
@@ -49,7 +46,7 @@
           "materials": [
             {
               "index": 1051,
-              "stack": 1
+              "stack": 5
             },
 
           ]
@@ -66,7 +63,7 @@
           "materials": [
             {
               "index": 1036,
-              "stack": 1
+              "stack": 5
             },
 
           ]
@@ -76,14 +73,14 @@
           "decription": "Resource materials.",
           "prefix": false,
           "colored": false,
-          "index": 1038,
+          "index": 1037,
           "price": "75",
           "time": 20,
           "tileindex": 1,
           "materials": [
             {
               "index": 1058,
-              "stack": 1
+              "stack": 5
             },
 
           ]

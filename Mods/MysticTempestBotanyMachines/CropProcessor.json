@@ -1,7 +1,7 @@
 {
   "name": "BotanyMachines-CropProcessor",
   "author": "MysticTempest",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "machines": [
     {
       "id": 0,
@@ -13,11 +13,8 @@
       "texture": "CropProcessor.png",
       "tileindex": 0,
       "pulsate": true,
-      "frames": 0,
-      "starter": {
-        "index": 0,
-        "stack": 0
-      },
+      "frames": 2,
+
       "production": [
         {
           "name": "Cloth",
@@ -31,7 +28,7 @@
           "materials": [
             {
               "index": 1015,
-              "stack": 1
+              "stack": 5
             },
 
           ]
@@ -48,7 +45,7 @@
           "materials": [
             {
               "index": 1033,
-              "stack": 1
+              "stack": 5
             },
 
           ]
@@ -65,7 +62,7 @@
           "materials": [
             {
               "index": 1034,
-              "stack": 1
+              "stack": 5
             },
 
           ]
@@ -82,7 +79,7 @@
           "materials": [
             {
               "index": 1012,
-              "stack": 1
+              "stack": 5
             },
 
           ]
@@ -99,7 +96,7 @@
           "materials": [
             {
               "index": 1040,
-              "stack": 1
+              "stack": 5
             },
 
           ]
@@ -116,7 +113,7 @@
           "materials": [
             {
               "index": 1062,
-              "stack": 1
+              "stack": 5
             },
 
           ]
