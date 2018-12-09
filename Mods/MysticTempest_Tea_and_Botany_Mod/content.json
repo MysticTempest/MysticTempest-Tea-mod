@@ -154,10 +154,8 @@
              1007: "Tea Bag Carton (Black)/4500/-300/Crafting/Tea Bag Carton (Black)/Locally grown, and ready to serve tea.",
              1008: "Collectible Tea Box/7500/-300/Crafting/Collectible Tea Box/A collectible tea box made of hardwood, and an assortment of teas."
           },
-		  "When": {
-        	"Language": "en"
-			      }
        },
+
        // Tea mod item data - German
        {
           "Action": "EditData",
@@ -339,9 +337,6 @@
 			"Collectible Tea Box": "709 2 1005 1 1006 1 1007 1/1 5/1008/f Robin 10/Collectible Tea Box",
 			"Tea Leaf Cuttings": "495 1 496 1 347 1/1 5/995/f Demetrius 2/Tea Leaf Cuttings"
           },
-		  "When": {
-        	"Language": "en"
-			      }
        },
       
 
@@ -522,9 +517,6 @@
 			winter_23: "Dear @,^ I ordered some tea sprouts, but they sent me too many. So, I figured I'd share my birthday present with the town farmer. Hehe, enjoy! ^   -Leah%item object 995 75 %%"
 
           },
-		  "When": {
-        	"Language": "en"
-			      }
        },
        
        
@@ -1070,7 +1062,6 @@
           },
 		  "When": {
                 "BotanyModDisabled": "false",
-        		"Language": "en"
             }
        },
        // Botany mod item data - German
@@ -1535,7 +1526,6 @@
           },
 		  "When": {
                 "BotanyModDisabled": "false",
-        		"Language": "en"
             }
        },
       
@@ -1709,7 +1699,6 @@
           },
 		  "When": {
                 "BotanyModDisabled": "false",
-        		"Language": "en"
             }
        },
        
