@@ -1,7 +1,7 @@
 {
   "name": "BotanyMachines-CropProcessor",
   "author": "MysticTempest",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "machines": [
     {
       "id": 0,
@@ -18,7 +18,7 @@
       "production": [
         {
           "name": "Cloth",
-          "decription": "Fine goods made from processed crops.",
+          "description": "Fine goods made from processed crops.",
           "prefix": false,
           "colored": false,
           "index": 428,
@@ -35,7 +35,7 @@
         },
 		{
           "name": "Brown Sugar",
-          "decription": "Fine goods made from processed crops.",
+          "description": "Fine goods made from processed crops.",
           "prefix": false,
           "colored": false,
           "index": 1051,
@@ -52,7 +52,7 @@
         },
 		{
           "name": "Soy Oil",
-          "decription": "Fine goods made from processed crops.",
+          "description": "Fine goods made from processed crops.",
           "prefix": false,
           "colored": false,
           "index": 1049,
@@ -69,7 +69,7 @@
         },
 		{
           "name": "Chocolate",
-          "decription": "Fine goods made from processed crops.",
+          "description": "Fine goods made from processed crops.",
           "prefix": false,
           "colored": false,
           "index": 1044,
@@ -86,7 +86,7 @@
         },
 		{
           "name": "Color Dye",
-          "decription": "Fine goods made from processed crops.",
+          "description": "Fine goods made from processed crops.",
           "prefix": false,
           "colored": false,
           "index": 1050,
@@ -103,7 +103,7 @@
         },
 		{
           "name": "Joja Latex",
-          "decription": "Fine goods made from processed crops.",
+          "description": "Fine goods made from processed crops.",
           "prefix": false,
           "colored": false,
           "index": 1063,

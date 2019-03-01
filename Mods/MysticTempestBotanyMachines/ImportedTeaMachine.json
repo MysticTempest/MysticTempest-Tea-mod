@@ -1,7 +1,7 @@
 {
   "name": "BotanyMachines-ImportedTeaMachine",
   "author": "MysticTempest",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "machines": [
     {
       "id": 0,
@@ -22,7 +22,7 @@
 	"production": [
 	        {
 	          "name": "Custom Imported Tea",
-	          "decription": "Tea imported from a far off place.",
+	          "description": "Tea imported from a far off place.",
 	          "colored": false,
 	          "index": 996,
 	          "price": "75",
@@ -38,7 +38,7 @@
 	        },
 			{
 	          "name": "Custom Imported Tea",
-	          "decription": "Tea imported from a far off place.",
+	          "description": "Tea imported from a far off place.",
 	          "colored": false,
 	          "index": 996,
 	          "price": "75",
@@ -54,7 +54,7 @@
 	        },
 			{
 	          "name": "Custom Imported Tea",
-	          "decription": "Tea imported from a far off place.",
+	          "description": "Tea imported from a far off place.",
 	          "colored": false,
 	          "index": 996,
 	          "price": "75",
@@ -70,7 +70,7 @@
 	        },
 			{
 	          "name": "Custom Imported Tea",
-	          "decription": "Tea imported from a far off place.",
+	          "description": "Tea imported from a far off place.",
 	          "colored": false,
 	          "index": 996,
 	          "price": "75",
@@ -86,7 +86,7 @@
 	        },
 			{
 	          "name": "Custom Imported Tea",
-	          "decription": "Tea imported from a far off place.",
+	          "description": "Tea imported from a far off place.",
 	          "colored": false,
 	          "index": 996,
 	          "price": "75",
@@ -102,7 +102,7 @@
 	        },
 			{
 	          "name": "Custom Imported Tea",
-	          "decription": "Tea imported from a far off place.",
+	          "description": "Tea imported from a far off place.",
 	          "colored": false,
 	          "index": 996,
 	          "price": "75",
@@ -118,7 +118,7 @@
 	        },
 			{
 	          "name": "Custom Imported Tea",
-	          "decription": "Tea imported from a far off place.",
+	          "description": "Tea imported from a far off place.",
 	          "colored": false,
 	          "index": 996,
 	          "price": "75",
@@ -134,7 +134,7 @@
 	        },
 			{
 	          "name": "Custom Imported Tea",
-	          "decription": "Tea imported from a far off place.",
+	          "description": "Tea imported from a far off place.",
 	          "colored": false,
 	          "index": 996,
 	          "price": "75",
@@ -150,7 +150,7 @@
 	        },
 			{
 	          "name": "Custom Imported Tea",
-	          "decription": "Tea imported from a far off place.",
+	          "description": "Tea imported from a far off place.",
 	          "colored": false,
 	          "index": 996,
 	          "price": "75",
@@ -166,7 +166,7 @@
 	        },
 			{
 	          "name": "Custom Imported Tea",
-	          "decription": "Tea imported from a far off place.",
+	          "description": "Tea imported from a far off place.",
 	          "colored": false,
 	          "index": 996,
 	          "price": "75",
@@ -182,7 +182,7 @@
 	        },
 			{
 	          "name": "Custom Imported Tea",
-	          "decription": "Tea imported from a far off place.",
+	          "description": "Tea imported from a far off place.",
 	          "colored": false,
 	          "index": 996,
 	          "price": "75",
@@ -198,7 +198,7 @@
 	        },
 			{
 	          "name": "Custom Imported Tea",
-	          "decription": "Tea imported from a far off place.",
+	          "description": "Tea imported from a far off place.",
 	          "colored": false,
 	          "index": 996,
 	          "price": "75",
@@ -214,7 +214,7 @@
 	        },
 			{
 	          "name": "Custom Imported Tea",
-	          "decription": "Tea imported from a far off place.",
+	          "description": "Tea imported from a far off place.",
 	          "colored": false,
 	          "index": 996,
 	          "price": "75",
@@ -230,7 +230,7 @@
 	        },
 			{
 	          "name": "Custom Imported Tea",
-	          "decription": "Tea imported from a far off place.",
+	          "description": "Tea imported from a far off place.",
 	          "colored": false,
 	          "index": 996,
 	          "price": "75",
@@ -246,7 +246,7 @@
 	        },
 			{
 	          "name": "Custom Imported Tea",
-	          "decription": "Tea imported from a far off place.",
+	          "description": "Tea imported from a far off place.",
 	          "colored": false,
 	          "index": 996,
 	          "price": "75",
@@ -262,7 +262,7 @@
 	        },
 			{
 	          "name": "Custom Imported Tea",
-	          "decription": "Tea imported from a far off place.",
+	          "description": "Tea imported from a far off place.",
 	          "colored": false,
 	          "index": 996,
 	          "price": "75",
@@ -278,7 +278,7 @@
 	        },
 			{
 	          "name": "Custom Imported Tea",
-	          "decription": "Tea imported from a far off place.",
+	          "description": "Tea imported from a far off place.",
 	          "colored": false,
 	          "index": 996,
 	          "price": "75",
@@ -294,7 +294,7 @@
 	        },
 			{
 	          "name": "Custom Imported Tea",
-	          "decription": "Tea imported from a far off place.",
+	          "description": "Tea imported from a far off place.",
 	          "colored": false,
 	          "index": 996,
 	          "price": "75",
@@ -310,7 +310,7 @@
 	        },
 			{
 	          "name": "Custom Imported Tea",
-	          "decription": "Tea imported from a far off place.",
+	          "description": "Tea imported from a far off place.",
 	          "colored": false,
 	          "index": 996,
 	          "price": "75",
@@ -326,7 +326,7 @@
 	        },
 			{
 	          "name": "Custom Imported Tea",
-	          "decription": "Tea imported from a far off place.",
+	          "description": "Tea imported from a far off place.",
 	          "colored": false,
 	          "index": 996,
 	          "price": "75",
@@ -342,7 +342,7 @@
 	        },
 			{
 	          "name": "Custom Imported Tea",
-	          "decription": "Tea imported from a far off place.",
+	          "description": "Tea imported from a far off place.",
 	          "colored": false,
 	          "index": 996,
 	          "price": "75",
@@ -358,7 +358,7 @@
 	        },
 			{
 	          "name": "Custom Imported Tea",
-	          "decription": "Tea imported from a far off place.",
+	          "description": "Tea imported from a far off place.",
 	          "colored": false,
 	          "index": 996,
 	          "price": "75",
@@ -374,7 +374,7 @@
 	        },
 			{
 	          "name": "Custom Imported Tea",
-	          "decription": "Tea imported from a far off place.",
+	          "description": "Tea imported from a far off place.",
 	          "colored": false,
 	          "index": 996,
 	          "price": "75",
@@ -390,7 +390,7 @@
 	        },
 			{
 	          "name": "Custom Imported Tea",
-	          "decription": "Tea imported from a far off place.",
+	          "description": "Tea imported from a far off place.",
 	          "colored": false,
 	          "index": 996,
 	          "price": "75",
@@ -406,7 +406,7 @@
 	        },
 			{
 	          "name": "Custom Imported Tea",
-	          "decription": "Tea imported from a far off place.",
+	          "description": "Tea imported from a far off place.",
 	          "colored": false,
 	          "index": 996,
 	          "price": "75",
@@ -422,7 +422,7 @@
 	        },
 			{
 	          "name": "Custom Imported Tea",
-	          "decription": "Tea imported from a far off place.",
+	          "description": "Tea imported from a far off place.",
 	          "colored": false,
 	          "index": 996,
 	          "price": "75",
@@ -438,7 +438,7 @@
 	        },
 			{
 	          "name": "Custom Imported Tea",
-	          "decription": "Tea imported from a far off place.",
+	          "description": "Tea imported from a far off place.",
 	          "colored": false,
 	          "index": 996,
 	          "price": "75",
@@ -454,7 +454,7 @@
 	        },
 			{
 	          "name": "Custom Imported Tea",
-	          "decription": "Tea imported from a far off place.",
+	          "description": "Tea imported from a far off place.",
 	          "colored": false,
 	          "index": 996,
 	          "price": "75",
@@ -470,7 +470,7 @@
 	        },
 			{
 	          "name": "Custom Imported Tea",
-	          "decription": "Tea imported from a far off place.",
+	          "description": "Tea imported from a far off place.",
 	          "colored": false,
 	          "index": 996,
 	          "price": "75",
@@ -486,7 +486,7 @@
 	        },
 			{
 	          "name": "Custom Imported Tea",
-	          "decription": "Tea imported from a far off place.",
+	          "description": "Tea imported from a far off place.",
 	          "colored": false,
 	          "index": 996,
 	          "price": "75",
@@ -502,7 +502,7 @@
 	        },
 			{
 	          "name": "Custom Imported Tea",
-	          "decription": "Tea imported from a far off place.",
+	          "description": "Tea imported from a far off place.",
 	          "colored": false,
 	          "index": 996,
 	          "price": "75",
@@ -518,7 +518,7 @@
 	        },
 			{
 	          "name": "Custom Imported Tea",
-	          "decription": "Tea imported from a far off place.",
+	          "description": "Tea imported from a far off place.",
 	          "colored": false,
 	          "index": 996,
 	          "price": "75",
@@ -534,7 +534,7 @@
 	        },
 			{
 	          "name": "Custom Imported Tea",
-	          "decription": "Tea imported from a far off place.",
+	          "description": "Tea imported from a far off place.",
 	          "colored": false,
 	          "index": 996,
 	          "price": "75",
@@ -550,7 +550,7 @@
 	        },
 			{
 	          "name": "Custom Imported Tea",
-	          "decription": "Tea imported from a far off place.",
+	          "description": "Tea imported from a far off place.",
 	          "colored": false,
 	          "index": 996,
 	          "price": "75",

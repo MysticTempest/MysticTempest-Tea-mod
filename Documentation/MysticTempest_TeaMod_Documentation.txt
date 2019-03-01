@@ -1,6 +1,31 @@
 MysticTempest's Tea Mod Documentation:
 ==============================================================
+----------------------
+TABLE OF CONTENTS:
+----------------------
 
+Crops:
+	Tea Crop
+
+Items:
+	Tea Leaf Cuttings
+	White Tea
+	Dandelion White Tea
+	Berry Surprise Tea
+	Green Tea
+	Granny Pom Tea
+	Fruit Splash Tea
+	Black Tea
+	Sweet Tea
+	Fancy Sweet Tea
+	Tea Bag Carton (White)
+	Tea Bag Carton (Green)
+	Tea Bag Carton (Black)
+	Collectible Tea Box
+
+
+
+=========================================
 
 Tea Mod:
 ----------------------------------

@@ -1,7 +1,7 @@
 {
   "name": "BotanyMachines-DyeMixer",
   "author": "MysticTempest",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "machines": [
     {
       "id": 0,
@@ -22,7 +22,7 @@
       "production": [
         {
           "name": "Colored Cloth",
-          "decription": "A vibrantly colored object made with natural dye.",
+          "description": "A vibrantly colored object made with natural dye.",
           "prefix": false,
           "colored": false,
           "index": 1053,
@@ -39,7 +39,7 @@
         },
 		{
           "name": "Soy Ink",
-          "decription": "A vibrantly colored object made with natural dye.",
+          "description": "A vibrantly colored object made with natural dye.",
           "prefix": false,
           "colored": false,
           "index": 1035,
@@ -56,7 +56,7 @@
         },
 		{
           "name": "Colored Paper",
-          "decription": "A vibrantly colored object made with natural dye.",
+          "description": "A vibrantly colored object made with natural dye.",
           "prefix": false,
           "colored": false,
           "index": 1052,
@@ -73,7 +73,7 @@
         },
 		{
           "name": "Colored Clay",
-          "decription": "A vibrantly colored object made with natural dye.",
+          "description": "A vibrantly colored object made with natural dye.",
           "prefix": false,
           "colored": false,
           "index": 1054,

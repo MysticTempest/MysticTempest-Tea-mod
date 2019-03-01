@@ -1,6 +1,75 @@
 MysticTempest's Botany Mod Documentation:
 ==============================================================
+----------------------
+TABLE OF CONTENTS:
+----------------------
 
+Fruit Trees:
+	Cacao Sapling
+	Avocado Sapling
+	Pecan Sapling
+	Olive Sapling
+	Banana Sapling
+
+Crops:
+	Cotton
+	Morning Glory
+	Onion
+	Bell Pepper
+	Prickly Pear Cactus
+	Rice
+	Pinto Bean
+	Sugarcane
+	Soybean
+	Chromatiflora
+	Lithops
+	Rose
+	Joja GMO Dandelion
+
+Items:
+	Cacao Bean
+	Avocado
+	Pecan
+	Cotton
+	Onion
+	Bell Pepper
+	Pinto Bean
+	Pecan Pie
+	Guacamole
+	Black Olives
+	Flour Tortilla
+	Sugarcane Stalks
+	Soybeans
+	Soy Ink
+	Bagasse
+	Synthetic Bacon
+	Synthetic Chicken
+	Synthetic Beef
+	Chromatiflora leaf
+	Printed Book
+	Paper
+	Chocolate
+	Enchilada Plate
+	Bacon Cheeseburger
+	Fried Chicken Dinner
+	Pepperoni Pizza
+	Soy Oil
+	Color Dye
+	Brown Sugar
+	Colored Paper
+	Colored Cloth
+	Colored Clay
+	Cascarón
+	Synthetic Pork
+	Canned Pineapples
+	Pineapple Upside Down Cake
+	Joja GMO Dandelion
+	Joja Latex
+	Banana
+	Banana Split
+	Chicken Fajitas
+
+=====================================
 
 Botany Mod:
 ----------------------------------

@@ -1,7 +1,7 @@
 {
   "name": "BotanyMachines-MeatSynthesizer",
   "author": "MysticTempest",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "machines": [
     {
       "id": 0,
@@ -22,7 +22,7 @@
       "production": [
         {
           "name": "Synthetic Pork",
-          "decription": "Delicious meat grown from animal DNA and soybean protein.",
+          "description": "Delicious meat grown from animal DNA and soybean protein.",
           "prefix": false,
           "colored": false,
           "index": 1058,
@@ -39,7 +39,7 @@
         },
 		{
           "name": "Synthetic Chicken",
-          "decription": "Delicious meat grown from animal DNA and soybean protein.",
+          "description": "Delicious meat grown from animal DNA and soybean protein.",
           "prefix": false,
           "colored": false,
           "index": 1038,
@@ -56,7 +56,7 @@
         },
 		{
           "name": "Synthetic Chicken",
-          "decription": "Delicious meat grown from animal DNA and soybean protein.",
+          "description": "Delicious meat grown from animal DNA and soybean protein.",
           "prefix": false,
           "colored": false,
           "index": 1038,
@@ -73,7 +73,7 @@
         },
 		{
           "name": "Synthetic Chicken",
-          "decription": "Delicious meat grown from animal DNA and soybean protein.",
+          "description": "Delicious meat grown from animal DNA and soybean protein.",
           "prefix": false,
           "colored": false,
           "index": 1038,
@@ -90,7 +90,7 @@
         },
 		{
           "name": "Synthetic Chicken",
-          "decription": "Delicious meat grown from animal DNA and soybean protein.",
+          "description": "Delicious meat grown from animal DNA and soybean protein.",
           "prefix": false,
           "colored": false,
           "index": 1038,
@@ -107,7 +107,7 @@
         },
 		{
           "name": "Synthetic Beef",
-          "decription": "Delicious meat grown from animal DNA and soybean protein.",
+          "description": "Delicious meat grown from animal DNA and soybean protein.",
           "prefix": false,
           "colored": false,
           "index": 1039,
@@ -124,7 +124,7 @@
         },
 		{
           "name": "Synthetic Beef",
-          "decription": "Delicious meat grown from animal DNA and soybean protein.",
+          "description": "Delicious meat grown from animal DNA and soybean protein.",
           "prefix": false,
           "colored": false,
           "index": 1039,

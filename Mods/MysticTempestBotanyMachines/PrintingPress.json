@@ -1,7 +1,7 @@
 {
   "name": "BotanyMachines-PrintingPress",
   "author": "MysticTempest",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "machines": [
     {
       "id": 0,
@@ -22,7 +22,7 @@
       "production": [
         {
           "name": "Printed Book",
-          "decription": "A freshly printed book hot off the press.",
+          "description": "A freshly printed book hot off the press.",
           "prefix": false,
           "colored": false,
           "index": 1042,

@@ -1,7 +1,7 @@
 {
   "name": "BotanyMachines-Refiner",
   "author": "MysticTempest",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "machines": [
     {
       "id": 0,
@@ -19,7 +19,7 @@
       "production": [
         {
           "name": "Bagasse",
-          "decription": "Resource materials.",
+          "description": "Resource materials.",
           "prefix": false,
           "colored": false,
           "index": 1036,
@@ -36,7 +36,7 @@
         },
 		{
           "name": "Sugar",
-          "decription": "Resource materials.",
+          "description": "Resource materials.",
           "prefix": false,
           "colored": false,
           "index": 245,
@@ -53,7 +53,7 @@
         },
 		{
           "name": "Coal",
-          "decription": "Resource materials.",
+          "description": "Resource materials.",
           "prefix": false,
           "colored": false,
           "index": 382,
@@ -70,7 +70,7 @@
         },
 		{
           "name": "Synthetic Bacon",
-          "decription": "Resource materials.",
+          "description": "Resource materials.",
           "prefix": false,
           "colored": false,
           "index": 1037,

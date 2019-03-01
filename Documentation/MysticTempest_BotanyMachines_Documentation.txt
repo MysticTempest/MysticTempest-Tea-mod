@@ -1,3 +1,22 @@
+MysticTempest's Botany Machines Mod Documentation:
+==============================================================
+----------------------
+TABLE OF CONTENTS:
+----------------------
+
+Machines:
+	Imported Tea Vending Machine
+	Crop Processor
+	Dye Mixer
+	Meat Synthesizer
+	Paper Machine
+	Printing Press
+	Refiner
+
+
+=====================================
+
+
 Imported Tea Vending Machine:
 ===================================
 
