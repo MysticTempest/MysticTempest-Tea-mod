@@ -24,7 +24,6 @@
           "index": 428,
           "price": "75",
           "time": 20,
-          "tileindex": 1,
           "materials": [
             {
               "index": 1015,
@@ -41,7 +40,8 @@
           "index": 1051,
           "price": "75",
           "time": 20,
-          "tileindex": 1,
+          "texture": "Botany_springobjects.png",
+          "tileindex": 42,
           "materials": [
             {
               "index": 1033,
@@ -58,7 +58,8 @@
           "index": 1049,
           "price": "75",
           "time": 20,
-          "tileindex": 1,
+          "texture": "Botany_springobjects.png",
+          "tileindex": 40,
           "materials": [
             {
               "index": 1034,
@@ -75,7 +76,8 @@
           "index": 1044,
           "price": "75",
           "time": 20,
-          "tileindex": 1,
+          "texture": "Botany_springobjects.png",
+          "tileindex": 34,
           "materials": [
             {
               "index": 1012,
@@ -92,7 +94,8 @@
           "index": 1050,
           "price": "75",
           "time": 20,
-          "tileindex": 1,
+          "texture": "Botany_springobjects.png",
+          "tileindex": 40,
           "materials": [
             {
               "index": 1040,
@@ -109,7 +112,8 @@
           "index": 1063,
           "price": "75",
           "time": 20,
-          "tileindex": 1,
+          "texture": "Botany_springobjects.png",
+          "tileindex": 54,
           "materials": [
             {
               "index": 1062,

@@ -95,8 +95,8 @@ Acquired by:
 
 
 Health and Energy:
-	60 Health
-	150 Energy
+	17 Health
+	38 Energy
 
 Buffs:
 	None
@@ -122,8 +122,8 @@ Acquired by:
 
 
 Health and Energy:
-	70 Health
-	175 Energy
+	20 Health
+	45 Energy
 
 Buffs:
 	+1	Foraging
@@ -150,8 +150,8 @@ Acquired by:
 
 
 Health and Energy:
-	75 Health
-	188 Energy
+	21 Health
+	48 Energy
 
 Buffs:
 	+2	Luck
@@ -180,8 +180,8 @@ Acquired by:
 
 
 Health and Energy:
-	90 Health
-	225 Energy
+	26 Health
+	58 Energy
 
 Buffs:
 	+2	Speed
@@ -207,8 +207,8 @@ Acquired by:
 
 
 Health and Energy:
-	100 Health
-	250 Energy
+	28 Health
+	63 Energy
 
 Buffs:
 	+75	Max Energy
@@ -235,8 +235,8 @@ Acquired by:
 
 
 Health and Energy:
-	95 Health
-	238 Energy
+	26 Health
+	60 Energy
 
 Buffs:
 	+2	Farming
@@ -265,8 +265,8 @@ Acquired by:
 
 
 Health and Energy:
-	55 Health
-	138 Energy
+	15 Health
+	35 Energy
 
 Buffs:
 	None
@@ -292,8 +292,8 @@ Acquired by:
 
 
 Health and Energy:
-	50 Health
-	125 Energy
+	14 Health
+	33 Energy
 
 Buffs:
 	+2	Mining
@@ -321,8 +321,8 @@ Acquired by:
 
 
 Health and Energy:
-	45 Health
-	113 Energy
+	12 Health
+	28 Energy
 
 Buffs:
 	+3	Luck

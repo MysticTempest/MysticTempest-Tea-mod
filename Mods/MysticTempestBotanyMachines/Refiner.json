@@ -25,7 +25,8 @@
           "index": 1036,
           "price": "75",
           "time": 20,
-          "tileindex": 1,
+          "texture": "Botany_springobjects.png",
+          "tileindex": 27,
           "materials": [
             {
               "index": 1033,
@@ -42,7 +43,6 @@
           "index": 245,
           "price": "75",
           "time": 20,
-          "tileindex": 1,
           "materials": [
             {
               "index": 1051,
@@ -59,7 +59,6 @@
           "index": 382,
           "price": "75",
           "time": 20,
-          "tileindex": 1,
           "materials": [
             {
               "index": 1036,
@@ -76,7 +75,8 @@
           "index": 1037,
           "price": "75",
           "time": 20,
-          "tileindex": 1,
+          "texture": "Botany_springobjects.png",
+          "tileindex": 28,
           "materials": [
             {
               "index": 1058,

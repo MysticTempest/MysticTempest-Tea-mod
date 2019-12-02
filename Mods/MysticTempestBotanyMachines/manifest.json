@@ -1,11 +1,11 @@
 ﻿{
-  "Name": "MysticTempest's Botany Machines",
+   "Name": "MysticTempest's Botany Machines",
    "Author": "MysticTempest",
-   "Version": "1.0.3",
+   "Version": "1.0.4",
    "Description": "Adds machines for use with MysticTempest's Tea & Botany Mod.",
    "UniqueID": "MysticTempest.BotanyMachines",
-  "ContentPackFor": {
-    "UniqueID": "Platonymous.CustomFarming",
-    "MinimumVersion": "2.9.10"
-  }
+   "ContentPackFor": {
+      "UniqueID": "Platonymous.CustomFarming",
+      "MinimumVersion": "2.9.10"
+    }
 }

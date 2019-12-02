@@ -28,7 +28,8 @@
           "index": 1042,
           "price": "75",
           "time": 20,
-          "tileindex": 1,
+          "texture": "Botany_springobjects.png",
+          "tileindex": 33,
           "materials": [
             {
               "index": 1043,

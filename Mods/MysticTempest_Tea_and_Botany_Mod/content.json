@@ -3,10 +3,16 @@
     "ConfigSchema": {
         "BotanyModDisabled": {
             "AllowValues": "true, false"
+        },
+		"ClassicTeaTextureDisabled": {
+            "AllowValues": "true, false"
         }
     },
 
 
+
+
+//--------------------------------------------------------------------------------------------------------
 
   "Changes": [
 
@@ -22,13 +28,17 @@
      
 //------------------------------------     
        
+       //Enhanced Tea item textures
        //Tea mod item sprites
        {
           "Action": "EditImage",
           "Target": "Maps/springobjects",
           "FromFile": "assets/MysticTempest_Tea_Sprites.png",
           "FromArea": { "X": 0, "Y": 32, "Width": 208, "Height": 16 },
-          "ToArea": { "X": 176, "Y": 656, "Width": 208, "Height": 16 }
+          "ToArea": { "X": 176, "Y": 656, "Width": 208, "Height": 16 },
+		  "When": {
+                "ClassicTeaTextureDisabled": "true"
+            }
        },
        
        //Tea mod item sprites - part 2
@@ -37,204 +47,39 @@
           "Target": "Maps/springobjects",
           "FromFile": "assets/MysticTempest_Tea_Sprites.png",
           "FromArea": { "X": 208, "Y": 32, "Width": 16, "Height": 16 },
-          "ToArea": { "X": 0, "Y": 672, "Width": 16, "Height": 16 }
+          "ToArea": { "X": 0, "Y": 672, "Width": 16, "Height": 16 },
+		  "When": {
+                "ClassicTeaTextureDisabled": "true"
+            }
        },
 
 
-       //Tea mod item sprites - Spanish
+
+       //Classic Tea item textures
+       //Tea mod item sprites
        {
           "Action": "EditImage",
           "Target": "Maps/springobjects",
-          "FromFile": "assets/MysticTempest_Tea_Sprites.png",
+          "FromFile": "assets/MysticTempest_Tea_Sprites_Classic.png",
           "FromArea": { "X": 0, "Y": 32, "Width": 208, "Height": 16 },
           "ToArea": { "X": 176, "Y": 656, "Width": 208, "Height": 16 },
 		  "When": {
-        	"Language": "es"
-			      }
+                "ClassicTeaTextureDisabled": "false"
+            }
        },
        
-       
-       //Tea mod item sprites - part 2 - Spanish
+       //Tea mod item sprites - part 2
        {
           "Action": "EditImage",
           "Target": "Maps/springobjects",
-          "FromFile": "assets/MysticTempest_Tea_Sprites.png",
+          "FromFile": "assets/MysticTempest_Tea_Sprites_Classic.png",
           "FromArea": { "X": 208, "Y": 32, "Width": 16, "Height": 16 },
           "ToArea": { "X": 0, "Y": 672, "Width": 16, "Height": 16 },
 		  "When": {
-        	"Language": "es"
-			      }
+                "ClassicTeaTextureDisabled": "false"
+            }
        },
 
-
-       //Tea mod item sprites - Portuguese
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/MysticTempest_Tea_Sprites.png",
-          "FromArea": { "X": 0, "Y": 32, "Width": 208, "Height": 16 },
-          "ToArea": { "X": 176, "Y": 656, "Width": 208, "Height": 16 },
-		  "When": {
-        	"Language": "pt"
-			      }
-       },
-       
-       //Tea mod item sprites - part 2 - Portuguese
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/MysticTempest_Tea_Sprites.png",
-          "FromArea": { "X": 208, "Y": 32, "Width": 16, "Height": 16 },
-          "ToArea": { "X": 0, "Y": 672, "Width": 16, "Height": 16 },
-		  "When": {
-        	"Language": "pt"
-			      }
-       },
-       
-       
-       //Tea mod item sprites - Japanese
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/MysticTempest_Tea_Sprites.png",
-          "FromArea": { "X": 0, "Y": 32, "Width": 208, "Height": 16 },
-          "ToArea": { "X": 176, "Y": 656, "Width": 208, "Height": 16 },
-		  "When": {
-        	"Language": "ja"
-			      }
-       },
-       
-       //Tea mod item sprites - part 2 - Japanese
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/MysticTempest_Tea_Sprites.png",
-          "FromArea": { "X": 208, "Y": 32, "Width": 16, "Height": 16 },
-          "ToArea": { "X": 0, "Y": 672, "Width": 16, "Height": 16 },
-		  "When": {
-        	"Language": "ja"
-			      }
-       },
-
-       //Tea mod item sprites - French
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/MysticTempest_Tea_Sprites.png",
-          "FromArea": { "X": 0, "Y": 32, "Width": 208, "Height": 16 },
-          "ToArea": { "X": 176, "Y": 656, "Width": 208, "Height": 16 },
-		  "When": {
-        	"Language": "fr"
-			      }
-       },
-       
-       //Tea mod item sprites - part 2 - French
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/MysticTempest_Tea_Sprites.png",
-          "FromArea": { "X": 208, "Y": 32, "Width": 16, "Height": 16 },
-          "ToArea": { "X": 0, "Y": 672, "Width": 16, "Height": 16 },
-		  "When": {
-        	"Language": "fr"
-			      }
-       },
-
-       //Tea mod item sprites - Italian
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/MysticTempest_Tea_Sprites.png",
-          "FromArea": { "X": 0, "Y": 32, "Width": 208, "Height": 16 },
-          "ToArea": { "X": 176, "Y": 656, "Width": 208, "Height": 16 },
-		  "When": {
-        	"Language": "it"
-			      }
-       },
-       
-       //Tea mod item sprites - part 2 - Italian
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/MysticTempest_Tea_Sprites.png",
-          "FromArea": { "X": 208, "Y": 32, "Width": 16, "Height": 16 },
-          "ToArea": { "X": 0, "Y": 672, "Width": 16, "Height": 16 },
-		  "When": {
-        	"Language": "it"
-			      }
-       },
-
-       //Tea mod item sprites - Turkish
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/MysticTempest_Tea_Sprites.png",
-          "FromArea": { "X": 0, "Y": 32, "Width": 208, "Height": 16 },
-          "ToArea": { "X": 176, "Y": 656, "Width": 208, "Height": 16 },
-		  "When": {
-        	"Language": "tr"
-			      }
-       },
-       
-       //Tea mod item sprites - part 2 - Turkish
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/MysticTempest_Tea_Sprites.png",
-          "FromArea": { "X": 208, "Y": 32, "Width": 16, "Height": 16 },
-          "ToArea": { "X": 0, "Y": 672, "Width": 16, "Height": 16 },
-		  "When": {
-        	"Language": "tr"
-			      }
-       },
-
-       //Tea mod item sprites - Korean
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/MysticTempest_Tea_Sprites.png",
-          "FromArea": { "X": 0, "Y": 32, "Width": 208, "Height": 16 },
-          "ToArea": { "X": 176, "Y": 656, "Width": 208, "Height": 16 },
-		  "When": {
-        	"Language": "ko"
-			      }
-       },
-       
-       //Tea mod item sprites - part 2 - Korean
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/MysticTempest_Tea_Sprites.png",
-          "FromArea": { "X": 208, "Y": 32, "Width": 16, "Height": 16 },
-          "ToArea": { "X": 0, "Y": 672, "Width": 16, "Height": 16 },
-		  "When": {
-        	"Language": "ko"
-			      }
-       },
-
-       //Tea mod item sprites - Hungarian
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/MysticTempest_Tea_Sprites.png",
-          "FromArea": { "X": 0, "Y": 32, "Width": 208, "Height": 16 },
-          "ToArea": { "X": 176, "Y": 656, "Width": 208, "Height": 16 },
-		  "When": {
-        	"Language": "hu"
-			      }
-       },
-       
-       //Tea mod item sprites - part 2 - Hungarian
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/MysticTempest_Tea_Sprites.png",
-          "FromArea": { "X": 208, "Y": 32, "Width": 16, "Height": 16 },
-          "ToArea": { "X": 0, "Y": 672, "Width": 16, "Height": 16 },
-		  "When": {
-        	"Language": "hu"
-			      }
-       },
 
 //------------------------------------     
 
@@ -259,15 +104,15 @@
           "Target": "Data/ObjectInformation",
           "Entries": {
              995: "Tea Leaf Cuttings/20/-300/Seeds -74/Tea Leaf Cuttings/Plant in spring or summer to grow a Tea plant.",
-             996: "White Tea/75/60/Cooking -7/White Tea/A lite brew of young tea leaves; has a fresh flavor./drink/0 0 0 0 0 0 0 0 0 0 0/0",
-             997: "Dandelion White Tea/135/70/Cooking -7/Dandelion White Tea/The fresh Dandelion in this rejuvenates your senses./drink/0 0 0 0 0 1 0 0 0 0 0/430",
-             998: "Berry Surprise Tea/500/75/Cooking -7/Berry Surprise Tea/Infused with cross-season flavors; it's worth the wait!/drink/0 0 0 0 2 2 0 0 0 0 0/860",
-             999: "Green Tea/100/90/Cooking -7/Green Tea/A mild brew with aged leaves; tastes great!/drink/0 0 0 0 0 0 0 0 0 2 0/430",
-             1000: "Granny Pom Tea/300/100/Cooking -7/Granny Pom Tea/An invigorating combination of Pomegranates and Green tea./drink/0 0 0 0 0 0 0 75 0 0 0/430",
-             1001: "Fruit Splash Tea/500/95/Cooking -7/Fruit Splash Tea/Orange and Peach flavors mesh well in this fruity tea./drink/2 1 0 0 0 0 0 0 0 0 0/860",
-             1002: "Black Tea/125/55/Cooking -7/Black Tea/Brewed to perfection. The flavors of this tea are more pronounced without sugar!/drink/0 0 0 0 0 0 0 0 0 0 0/0",
-             1003: "Sweet Tea/200/50/Cooking -7/Sweet Tea/A refreshingly sweet drink. It'll give you a sugary rush./drink/0 0 2 0 0 0 0 0 0 1 0/430",
-             1004: "Fancy Sweet Tea/3500/45/Cooking -7/Fancy Sweet Tea/Black Tea sweetened with the finest ingredients in the world./drink/0 0 0 0 3 0 0 50 0 1 0/860",
+             996: "White Tea/75/15/Cooking -7/White Tea/A lite brew of young tea leaves; has a fresh flavor./drink/0 0 0 0 0 0 0 0 0 0 0/0",
+             997: "Dandelion White Tea/135/18/Cooking -7/Dandelion White Tea/The fresh Dandelion in this rejuvenates your senses./drink/0 0 0 0 0 1 0 0 0 0 0/430",
+             998: "Berry Surprise Tea/500/19/Cooking -7/Berry Surprise Tea/Infused with cross-season flavors; it's worth the wait!/drink/0 0 0 0 2 2 0 0 0 0 0/860",
+             999: "Green Tea/100/23/Cooking -7/Green Tea/A mild brew with aged leaves; tastes great!/drink/0 0 0 0 0 0 0 0 0 2 0/430",
+             1000: "Granny Pom Tea/300/25/Cooking -7/Granny Pom Tea/An invigorating combination of Pomegranates and Green tea./drink/0 0 0 0 0 0 0 75 0 0 0/430",
+             1001: "Fruit Splash Tea/500/24/Cooking -7/Fruit Splash Tea/Orange and Peach flavors mesh well in this fruity tea./drink/2 1 0 0 0 0 0 0 0 0 0/860",
+             1002: "Black Tea/125/14/Cooking -7/Black Tea/Brewed to perfection. The flavors of this tea are more pronounced without sugar!/drink/0 0 0 0 0 0 0 0 0 0 0/0",
+             1003: "Sweet Tea/200/13/Cooking -7/Sweet Tea/A refreshingly sweet drink. It'll give you a sugary rush./drink/0 0 2 0 0 0 0 0 0 1 0/430",
+             1004: "Fancy Sweet Tea/3500/11/Cooking -7/Fancy Sweet Tea/Black Tea sweetened with the finest ingredients in the world./drink/0 0 0 0 3 0 0 50 0 1 0/860",
              1005: "Tea Bag Carton (White)/800/-300/Crafting/Tea Bag Carton (White)/Locally grown, and ready to serve tea.",
              1006: "Tea Bag Carton (Green)/1200/-300/Crafting/Tea Bag Carton (Green)/Locally grown, and ready to serve tea.",
              1007: "Tea Bag Carton (Black)/4500/-300/Crafting/Tea Bag Carton (Black)/Locally grown, and ready to serve tea.",
@@ -282,15 +127,15 @@
 		  "Locale": "de-DE",
           "Entries": {
              995: "Tea Leaf Cuttings/20/-300/Seeds -74/Tea Leaf Cuttings/Plant in spring or summer to grow a Tea plant.",
-             996: "White Tea/75/60/Cooking -7/White Tea/A lite brew of young tea leaves; has a fresh flavor./drink/0 0 0 0 0 0 0 0 0 0 0/0",
-             997: "Dandelion White Tea/135/70/Cooking -7/Dandelion White Tea/The fresh Dandelion in this rejuvenates your senses./drink/0 0 0 0 0 1 0 0 0 0 0/430",
-             998: "Berry Surprise Tea/500/75/Cooking -7/Berry Surprise Tea/Infused with cross-season flavors; it's worth the wait!/drink/0 0 0 0 2 2 0 0 0 0 0/860",
-             999: "Green Tea/100/90/Cooking -7/Green Tea/A mild brew with aged leaves; tastes great!/drink/0 0 0 0 0 0 0 0 0 2 0/430",
-             1000: "Granny Pom Tea/300/100/Cooking -7/Granny Pom Tea/An invigorating combination of Pomegranates and Green tea./drink/0 0 0 0 0 0 0 75 0 0 0/430",
-             1001: "Fruit Splash Tea/500/95/Cooking -7/Fruit Splash Tea/Orange and Peach flavors mesh well in this fruity tea./drink/2 1 0 0 0 0 0 0 0 0 0/860",
-             1002: "Black Tea/125/55/Cooking -7/Black Tea/Brewed to perfection. The flavors of this tea are more pronounced without sugar!/drink/0 0 0 0 0 0 0 0 0 0 0/0",
-             1003: "Sweet Tea/200/50/Cooking -7/Sweet Tea/A refreshingly sweet drink. It'll give you a sugary rush./drink/0 0 2 0 0 0 0 0 0 1 0/430",
-             1004: "Fancy Sweet Tea/3500/45/Cooking -7/Fancy Sweet Tea/Black Tea sweetened with the finest ingredients in the world./drink/0 0 0 0 3 0 0 50 0 1 0/860",
+             996: "White Tea/75/15/Cooking -7/White Tea/A lite brew of young tea leaves; has a fresh flavor./drink/0 0 0 0 0 0 0 0 0 0 0/0",
+             997: "Dandelion White Tea/135/18/Cooking -7/Dandelion White Tea/The fresh Dandelion in this rejuvenates your senses./drink/0 0 0 0 0 1 0 0 0 0 0/430",
+             998: "Berry Surprise Tea/500/19/Cooking -7/Berry Surprise Tea/Infused with cross-season flavors; it's worth the wait!/drink/0 0 0 0 2 2 0 0 0 0 0/860",
+             999: "Green Tea/100/23/Cooking -7/Green Tea/A mild brew with aged leaves; tastes great!/drink/0 0 0 0 0 0 0 0 0 2 0/430",
+             1000: "Granny Pom Tea/300/25/Cooking -7/Granny Pom Tea/An invigorating combination of Pomegranates and Green tea./drink/0 0 0 0 0 0 0 75 0 0 0/430",
+             1001: "Fruit Splash Tea/500/24/Cooking -7/Fruit Splash Tea/Orange and Peach flavors mesh well in this fruity tea./drink/2 1 0 0 0 0 0 0 0 0 0/860",
+             1002: "Black Tea/125/14/Cooking -7/Black Tea/Brewed to perfection. The flavors of this tea are more pronounced without sugar!/drink/0 0 0 0 0 0 0 0 0 0 0/0",
+             1003: "Sweet Tea/200/13/Cooking -7/Sweet Tea/A refreshingly sweet drink. It'll give you a sugary rush./drink/0 0 2 0 0 0 0 0 0 1 0/430",
+             1004: "Fancy Sweet Tea/3500/11/Cooking -7/Fancy Sweet Tea/Black Tea sweetened with the finest ingredients in the world./drink/0 0 0 0 3 0 0 50 0 1 0/860",
              1005: "Tea Bag Carton (White)/800/-300/Crafting/Tea Bag Carton (White)/Locally grown, and ready to serve tea.",
              1006: "Tea Bag Carton (Green)/1200/-300/Crafting/Tea Bag Carton (Green)/Locally grown, and ready to serve tea.",
              1007: "Tea Bag Carton (Black)/4500/-300/Crafting/Tea Bag Carton (Black)/Locally grown, and ready to serve tea.",
@@ -308,15 +153,15 @@
 		  "Locale": "es-ES",
           "Entries": {
              995: "Tea Leaf Cuttings/20/-300/Seeds -74/Tea Leaf Cuttings/Plant in spring or summer to grow a Tea plant.",
-             996: "White Tea/75/60/Cooking -7/White Tea/A lite brew of young tea leaves; has a fresh flavor./drink/0 0 0 0 0 0 0 0 0 0 0/0",
-             997: "Dandelion White Tea/135/70/Cooking -7/Dandelion White Tea/The fresh Dandelion in this rejuvenates your senses./drink/0 0 0 0 0 1 0 0 0 0 0/430",
-             998: "Berry Surprise Tea/500/75/Cooking -7/Berry Surprise Tea/Infused with cross-season flavors; it's worth the wait!/drink/0 0 0 0 2 2 0 0 0 0 0/860",
-             999: "Green Tea/100/90/Cooking -7/Green Tea/A mild brew with aged leaves; tastes great!/drink/0 0 0 0 0 0 0 0 0 2 0/430",
-             1000: "Granny Pom Tea/300/100/Cooking -7/Granny Pom Tea/An invigorating combination of Pomegranates and Green tea./drink/0 0 0 0 0 0 0 75 0 0 0/430",
-             1001: "Fruit Splash Tea/500/95/Cooking -7/Fruit Splash Tea/Orange and Peach flavors mesh well in this fruity tea./drink/2 1 0 0 0 0 0 0 0 0 0/860",
-             1002: "Black Tea/125/55/Cooking -7/Black Tea/Brewed to perfection. The flavors of this tea are more pronounced without sugar!/drink/0 0 0 0 0 0 0 0 0 0 0/0",
-             1003: "Sweet Tea/200/50/Cooking -7/Sweet Tea/A refreshingly sweet drink. It'll give you a sugary rush./drink/0 0 2 0 0 0 0 0 0 1 0/430",
-             1004: "Fancy Sweet Tea/3500/45/Cooking -7/Fancy Sweet Tea/Black Tea sweetened with the finest ingredients in the world./drink/0 0 0 0 3 0 0 50 0 1 0/860",
+             996: "White Tea/75/15/Cooking -7/White Tea/A lite brew of young tea leaves; has a fresh flavor./drink/0 0 0 0 0 0 0 0 0 0 0/0",
+             997: "Dandelion White Tea/135/18/Cooking -7/Dandelion White Tea/The fresh Dandelion in this rejuvenates your senses./drink/0 0 0 0 0 1 0 0 0 0 0/430",
+             998: "Berry Surprise Tea/500/19/Cooking -7/Berry Surprise Tea/Infused with cross-season flavors; it's worth the wait!/drink/0 0 0 0 2 2 0 0 0 0 0/860",
+             999: "Green Tea/100/23/Cooking -7/Green Tea/A mild brew with aged leaves; tastes great!/drink/0 0 0 0 0 0 0 0 0 2 0/430",
+             1000: "Granny Pom Tea/300/25/Cooking -7/Granny Pom Tea/An invigorating combination of Pomegranates and Green tea./drink/0 0 0 0 0 0 0 75 0 0 0/430",
+             1001: "Fruit Splash Tea/500/24/Cooking -7/Fruit Splash Tea/Orange and Peach flavors mesh well in this fruity tea./drink/2 1 0 0 0 0 0 0 0 0 0/860",
+             1002: "Black Tea/125/14/Cooking -7/Black Tea/Brewed to perfection. The flavors of this tea are more pronounced without sugar!/drink/0 0 0 0 0 0 0 0 0 0 0/0",
+             1003: "Sweet Tea/200/13/Cooking -7/Sweet Tea/A refreshingly sweet drink. It'll give you a sugary rush./drink/0 0 2 0 0 0 0 0 0 1 0/430",
+             1004: "Fancy Sweet Tea/3500/11/Cooking -7/Fancy Sweet Tea/Black Tea sweetened with the finest ingredients in the world./drink/0 0 0 0 3 0 0 50 0 1 0/860",
              1005: "Tea Bag Carton (White)/800/-300/Crafting/Tea Bag Carton (White)/Locally grown, and ready to serve tea.",
              1006: "Tea Bag Carton (Green)/1200/-300/Crafting/Tea Bag Carton (Green)/Locally grown, and ready to serve tea.",
              1007: "Tea Bag Carton (Black)/4500/-300/Crafting/Tea Bag Carton (Black)/Locally grown, and ready to serve tea.",
@@ -334,15 +179,15 @@
 		  "Locale": "ja-JP",
           "Entries": {
              995: "Tea Leaf Cuttings/20/-300/Seeds -74/Tea Leaf Cuttings/Plant in spring or summer to grow a Tea plant.",
-             996: "White Tea/75/60/Cooking -7/White Tea/A lite brew of young tea leaves; has a fresh flavor./drink/0 0 0 0 0 0 0 0 0 0 0/0",
-             997: "Dandelion White Tea/135/70/Cooking -7/Dandelion White Tea/The fresh Dandelion in this rejuvenates your senses./drink/0 0 0 0 0 1 0 0 0 0 0/430",
-             998: "Berry Surprise Tea/500/75/Cooking -7/Berry Surprise Tea/Infused with cross-season flavors; it's worth the wait!/drink/0 0 0 0 2 2 0 0 0 0 0/860",
-             999: "Green Tea/100/90/Cooking -7/Green Tea/A mild brew with aged leaves; tastes great!/drink/0 0 0 0 0 0 0 0 0 2 0/430",
-             1000: "Granny Pom Tea/300/100/Cooking -7/Granny Pom Tea/An invigorating combination of Pomegranates and Green tea./drink/0 0 0 0 0 0 0 75 0 0 0/430",
-             1001: "Fruit Splash Tea/500/95/Cooking -7/Fruit Splash Tea/Orange and Peach flavors mesh well in this fruity tea./drink/2 1 0 0 0 0 0 0 0 0 0/860",
-             1002: "Black Tea/125/55/Cooking -7/Black Tea/Brewed to perfection. The flavors of this tea are more pronounced without sugar!/drink/0 0 0 0 0 0 0 0 0 0 0/0",
-             1003: "Sweet Tea/200/50/Cooking -7/Sweet Tea/A refreshingly sweet drink. It'll give you a sugary rush./drink/0 0 2 0 0 0 0 0 0 1 0/430",
-             1004: "Fancy Sweet Tea/3500/45/Cooking -7/Fancy Sweet Tea/Black Tea sweetened with the finest ingredients in the world./drink/0 0 0 0 3 0 0 50 0 1 0/860",
+             996: "White Tea/75/15/Cooking -7/White Tea/A lite brew of young tea leaves; has a fresh flavor./drink/0 0 0 0 0 0 0 0 0 0 0/0",
+             997: "Dandelion White Tea/135/18/Cooking -7/Dandelion White Tea/The fresh Dandelion in this rejuvenates your senses./drink/0 0 0 0 0 1 0 0 0 0 0/430",
+             998: "Berry Surprise Tea/500/19/Cooking -7/Berry Surprise Tea/Infused with cross-season flavors; it's worth the wait!/drink/0 0 0 0 2 2 0 0 0 0 0/860",
+             999: "Green Tea/100/23/Cooking -7/Green Tea/A mild brew with aged leaves; tastes great!/drink/0 0 0 0 0 0 0 0 0 2 0/430",
+             1000: "Granny Pom Tea/300/25/Cooking -7/Granny Pom Tea/An invigorating combination of Pomegranates and Green tea./drink/0 0 0 0 0 0 0 75 0 0 0/430",
+             1001: "Fruit Splash Tea/500/24/Cooking -7/Fruit Splash Tea/Orange and Peach flavors mesh well in this fruity tea./drink/2 1 0 0 0 0 0 0 0 0 0/860",
+             1002: "Black Tea/125/14/Cooking -7/Black Tea/Brewed to perfection. The flavors of this tea are more pronounced without sugar!/drink/0 0 0 0 0 0 0 0 0 0 0/0",
+             1003: "Sweet Tea/200/13/Cooking -7/Sweet Tea/A refreshingly sweet drink. It'll give you a sugary rush./drink/0 0 2 0 0 0 0 0 0 1 0/430",
+             1004: "Fancy Sweet Tea/3500/11/Cooking -7/Fancy Sweet Tea/Black Tea sweetened with the finest ingredients in the world./drink/0 0 0 0 3 0 0 50 0 1 0/860",
              1005: "Tea Bag Carton (White)/800/-300/Crafting/Tea Bag Carton (White)/Locally grown, and ready to serve tea.",
              1006: "Tea Bag Carton (Green)/1200/-300/Crafting/Tea Bag Carton (Green)/Locally grown, and ready to serve tea.",
              1007: "Tea Bag Carton (Black)/4500/-300/Crafting/Tea Bag Carton (Black)/Locally grown, and ready to serve tea.",
@@ -360,15 +205,15 @@
 		  "Locale": "pt-BR",
           "Entries": {
              995: "Tea Leaf Cuttings/20/-300/Seeds -74/Tea Leaf Cuttings/Plant in spring or summer to grow a Tea plant.",
-             996: "White Tea/75/60/Cooking -7/White Tea/A lite brew of young tea leaves; has a fresh flavor./drink/0 0 0 0 0 0 0 0 0 0 0/0",
-             997: "Dandelion White Tea/135/70/Cooking -7/Dandelion White Tea/The fresh Dandelion in this rejuvenates your senses./drink/0 0 0 0 0 1 0 0 0 0 0/430",
-             998: "Berry Surprise Tea/500/75/Cooking -7/Berry Surprise Tea/Infused with cross-season flavors; it's worth the wait!/drink/0 0 0 0 2 2 0 0 0 0 0/860",
-             999: "Green Tea/100/90/Cooking -7/Green Tea/A mild brew with aged leaves; tastes great!/drink/0 0 0 0 0 0 0 0 0 2 0/430",
-             1000: "Granny Pom Tea/300/100/Cooking -7/Granny Pom Tea/An invigorating combination of Pomegranates and Green tea./drink/0 0 0 0 0 0 0 75 0 0 0/430",
-             1001: "Fruit Splash Tea/500/95/Cooking -7/Fruit Splash Tea/Orange and Peach flavors mesh well in this fruity tea./drink/2 1 0 0 0 0 0 0 0 0 0/860",
-             1002: "Black Tea/125/55/Cooking -7/Black Tea/Brewed to perfection. The flavors of this tea are more pronounced without sugar!/drink/0 0 0 0 0 0 0 0 0 0 0/0",
-             1003: "Sweet Tea/200/50/Cooking -7/Sweet Tea/A refreshingly sweet drink. It'll give you a sugary rush./drink/0 0 2 0 0 0 0 0 0 1 0/430",
-             1004: "Fancy Sweet Tea/3500/45/Cooking -7/Fancy Sweet Tea/Black Tea sweetened with the finest ingredients in the world./drink/0 0 0 0 3 0 0 50 0 1 0/860",
+             996: "White Tea/75/15/Cooking -7/White Tea/A lite brew of young tea leaves; has a fresh flavor./drink/0 0 0 0 0 0 0 0 0 0 0/0",
+             997: "Dandelion White Tea/135/18/Cooking -7/Dandelion White Tea/The fresh Dandelion in this rejuvenates your senses./drink/0 0 0 0 0 1 0 0 0 0 0/430",
+             998: "Berry Surprise Tea/500/19/Cooking -7/Berry Surprise Tea/Infused with cross-season flavors; it's worth the wait!/drink/0 0 0 0 2 2 0 0 0 0 0/860",
+             999: "Green Tea/100/23/Cooking -7/Green Tea/A mild brew with aged leaves; tastes great!/drink/0 0 0 0 0 0 0 0 0 2 0/430",
+             1000: "Granny Pom Tea/300/25/Cooking -7/Granny Pom Tea/An invigorating combination of Pomegranates and Green tea./drink/0 0 0 0 0 0 0 75 0 0 0/430",
+             1001: "Fruit Splash Tea/500/24/Cooking -7/Fruit Splash Tea/Orange and Peach flavors mesh well in this fruity tea./drink/2 1 0 0 0 0 0 0 0 0 0/860",
+             1002: "Black Tea/125/14/Cooking -7/Black Tea/Brewed to perfection. The flavors of this tea are more pronounced without sugar!/drink/0 0 0 0 0 0 0 0 0 0 0/0",
+             1003: "Sweet Tea/200/13/Cooking -7/Sweet Tea/A refreshingly sweet drink. It'll give you a sugary rush./drink/0 0 2 0 0 0 0 0 0 1 0/430",
+             1004: "Fancy Sweet Tea/3500/11/Cooking -7/Fancy Sweet Tea/Black Tea sweetened with the finest ingredients in the world./drink/0 0 0 0 3 0 0 50 0 1 0/860",
              1005: "Tea Bag Carton (White)/800/-300/Crafting/Tea Bag Carton (White)/Locally grown, and ready to serve tea.",
              1006: "Tea Bag Carton (Green)/1200/-300/Crafting/Tea Bag Carton (Green)/Locally grown, and ready to serve tea.",
              1007: "Tea Bag Carton (Black)/4500/-300/Crafting/Tea Bag Carton (Black)/Locally grown, and ready to serve tea.",
@@ -386,15 +231,15 @@
 		  "Locale": "ru-RU",
           "Entries": {
              995: "Tea Leaf Cuttings/20/-300/Seeds -74/Tea Leaf Cuttings/Plant in spring or summer to grow a Tea plant.",
-             996: "White Tea/75/60/Cooking -7/White Tea/A lite brew of young tea leaves; has a fresh flavor./drink/0 0 0 0 0 0 0 0 0 0 0/0",
-             997: "Dandelion White Tea/135/70/Cooking -7/Dandelion White Tea/The fresh Dandelion in this rejuvenates your senses./drink/0 0 0 0 0 1 0 0 0 0 0/430",
-             998: "Berry Surprise Tea/500/75/Cooking -7/Berry Surprise Tea/Infused with cross-season flavors; it's worth the wait!/drink/0 0 0 0 2 2 0 0 0 0 0/860",
-             999: "Green Tea/100/90/Cooking -7/Green Tea/A mild brew with aged leaves; tastes great!/drink/0 0 0 0 0 0 0 0 0 2 0/430",
-             1000: "Granny Pom Tea/300/100/Cooking -7/Granny Pom Tea/An invigorating combination of Pomegranates and Green tea./drink/0 0 0 0 0 0 0 75 0 0 0/430",
-             1001: "Fruit Splash Tea/500/95/Cooking -7/Fruit Splash Tea/Orange and Peach flavors mesh well in this fruity tea./drink/2 1 0 0 0 0 0 0 0 0 0/860",
-             1002: "Black Tea/125/55/Cooking -7/Black Tea/Brewed to perfection. The flavors of this tea are more pronounced without sugar!/drink/0 0 0 0 0 0 0 0 0 0 0/0",
-             1003: "Sweet Tea/200/50/Cooking -7/Sweet Tea/A refreshingly sweet drink. It'll give you a sugary rush./drink/0 0 2 0 0 0 0 0 0 1 0/430",
-             1004: "Fancy Sweet Tea/3500/45/Cooking -7/Fancy Sweet Tea/Black Tea sweetened with the finest ingredients in the world./drink/0 0 0 0 3 0 0 50 0 1 0/860",
+             996: "White Tea/75/15/Cooking -7/White Tea/A lite brew of young tea leaves; has a fresh flavor./drink/0 0 0 0 0 0 0 0 0 0 0/0",
+             997: "Dandelion White Tea/135/18/Cooking -7/Dandelion White Tea/The fresh Dandelion in this rejuvenates your senses./drink/0 0 0 0 0 1 0 0 0 0 0/430",
+             998: "Berry Surprise Tea/500/19/Cooking -7/Berry Surprise Tea/Infused with cross-season flavors; it's worth the wait!/drink/0 0 0 0 2 2 0 0 0 0 0/860",
+             999: "Green Tea/100/23/Cooking -7/Green Tea/A mild brew with aged leaves; tastes great!/drink/0 0 0 0 0 0 0 0 0 2 0/430",
+             1000: "Granny Pom Tea/300/25/Cooking -7/Granny Pom Tea/An invigorating combination of Pomegranates and Green tea./drink/0 0 0 0 0 0 0 75 0 0 0/430",
+             1001: "Fruit Splash Tea/500/24/Cooking -7/Fruit Splash Tea/Orange and Peach flavors mesh well in this fruity tea./drink/2 1 0 0 0 0 0 0 0 0 0/860",
+             1002: "Black Tea/125/14/Cooking -7/Black Tea/Brewed to perfection. The flavors of this tea are more pronounced without sugar!/drink/0 0 0 0 0 0 0 0 0 0 0/0",
+             1003: "Sweet Tea/200/13/Cooking -7/Sweet Tea/A refreshingly sweet drink. It'll give you a sugary rush./drink/0 0 2 0 0 0 0 0 0 1 0/430",
+             1004: "Fancy Sweet Tea/3500/11/Cooking -7/Fancy Sweet Tea/Black Tea sweetened with the finest ingredients in the world./drink/0 0 0 0 3 0 0 50 0 1 0/860",
              1005: "Tea Bag Carton (White)/800/-300/Crafting/Tea Bag Carton (White)/Locally grown, and ready to serve tea.",
              1006: "Tea Bag Carton (Green)/1200/-300/Crafting/Tea Bag Carton (Green)/Locally grown, and ready to serve tea.",
              1007: "Tea Bag Carton (Black)/4500/-300/Crafting/Tea Bag Carton (Black)/Locally grown, and ready to serve tea.",
@@ -412,15 +257,15 @@
 		  "Locale": "zh-CN",
           "Entries": {
              995: "Tea Leaf Cuttings/20/-300/Seeds -74/Tea Leaf Cuttings/Plant in spring or summer to grow a Tea plant.",
-             996: "White Tea/75/60/Cooking -7/White Tea/A lite brew of young tea leaves; has a fresh flavor./drink/0 0 0 0 0 0 0 0 0 0 0/0",
-             997: "Dandelion White Tea/135/70/Cooking -7/Dandelion White Tea/The fresh Dandelion in this rejuvenates your senses./drink/0 0 0 0 0 1 0 0 0 0 0/430",
-             998: "Berry Surprise Tea/500/75/Cooking -7/Berry Surprise Tea/Infused with cross-season flavors; it's worth the wait!/drink/0 0 0 0 2 2 0 0 0 0 0/860",
-             999: "Green Tea/100/90/Cooking -7/Green Tea/A mild brew with aged leaves; tastes great!/drink/0 0 0 0 0 0 0 0 0 2 0/430",
-             1000: "Granny Pom Tea/300/100/Cooking -7/Granny Pom Tea/An invigorating combination of Pomegranates and Green tea./drink/0 0 0 0 0 0 0 75 0 0 0/430",
-             1001: "Fruit Splash Tea/500/95/Cooking -7/Fruit Splash Tea/Orange and Peach flavors mesh well in this fruity tea./drink/2 1 0 0 0 0 0 0 0 0 0/860",
-             1002: "Black Tea/125/55/Cooking -7/Black Tea/Brewed to perfection. The flavors of this tea are more pronounced without sugar!/drink/0 0 0 0 0 0 0 0 0 0 0/0",
-             1003: "Sweet Tea/200/50/Cooking -7/Sweet Tea/A refreshingly sweet drink. It'll give you a sugary rush./drink/0 0 2 0 0 0 0 0 0 1 0/430",
-             1004: "Fancy Sweet Tea/3500/45/Cooking -7/Fancy Sweet Tea/Black Tea sweetened with the finest ingredients in the world./drink/0 0 0 0 3 0 0 50 0 1 0/860",
+             996: "White Tea/75/15/Cooking -7/White Tea/A lite brew of young tea leaves; has a fresh flavor./drink/0 0 0 0 0 0 0 0 0 0 0/0",
+             997: "Dandelion White Tea/135/18/Cooking -7/Dandelion White Tea/The fresh Dandelion in this rejuvenates your senses./drink/0 0 0 0 0 1 0 0 0 0 0/430",
+             998: "Berry Surprise Tea/500/19/Cooking -7/Berry Surprise Tea/Infused with cross-season flavors; it's worth the wait!/drink/0 0 0 0 2 2 0 0 0 0 0/860",
+             999: "Green Tea/100/23/Cooking -7/Green Tea/A mild brew with aged leaves; tastes great!/drink/0 0 0 0 0 0 0 0 0 2 0/430",
+             1000: "Granny Pom Tea/300/25/Cooking -7/Granny Pom Tea/An invigorating combination of Pomegranates and Green tea./drink/0 0 0 0 0 0 0 75 0 0 0/430",
+             1001: "Fruit Splash Tea/500/24/Cooking -7/Fruit Splash Tea/Orange and Peach flavors mesh well in this fruity tea./drink/2 1 0 0 0 0 0 0 0 0 0/860",
+             1002: "Black Tea/125/14/Cooking -7/Black Tea/Brewed to perfection. The flavors of this tea are more pronounced without sugar!/drink/0 0 0 0 0 0 0 0 0 0 0/0",
+             1003: "Sweet Tea/200/13/Cooking -7/Sweet Tea/A refreshingly sweet drink. It'll give you a sugary rush./drink/0 0 2 0 0 0 0 0 0 1 0/430",
+             1004: "Fancy Sweet Tea/3500/11/Cooking -7/Fancy Sweet Tea/Black Tea sweetened with the finest ingredients in the world./drink/0 0 0 0 3 0 0 50 0 1 0/860",
              1005: "Tea Bag Carton (White)/800/-300/Crafting/Tea Bag Carton (White)/Locally grown, and ready to serve tea.",
              1006: "Tea Bag Carton (Green)/1200/-300/Crafting/Tea Bag Carton (Green)/Locally grown, and ready to serve tea.",
              1007: "Tea Bag Carton (Black)/4500/-300/Crafting/Tea Bag Carton (Black)/Locally grown, and ready to serve tea.",
@@ -438,15 +283,15 @@
 		  "Locale": "fr-FR",
           "Entries": {
              995: "Tea Leaf Cuttings/20/-300/Seeds -74/Tea Leaf Cuttings/Plant in spring or summer to grow a Tea plant.",
-             996: "White Tea/75/60/Cooking -7/White Tea/A lite brew of young tea leaves; has a fresh flavor./drink/0 0 0 0 0 0 0 0 0 0 0/0",
-             997: "Dandelion White Tea/135/70/Cooking -7/Dandelion White Tea/The fresh Dandelion in this rejuvenates your senses./drink/0 0 0 0 0 1 0 0 0 0 0/430",
-             998: "Berry Surprise Tea/500/75/Cooking -7/Berry Surprise Tea/Infused with cross-season flavors; it's worth the wait!/drink/0 0 0 0 2 2 0 0 0 0 0/860",
-             999: "Green Tea/100/90/Cooking -7/Green Tea/A mild brew with aged leaves; tastes great!/drink/0 0 0 0 0 0 0 0 0 2 0/430",
-             1000: "Granny Pom Tea/300/100/Cooking -7/Granny Pom Tea/An invigorating combination of Pomegranates and Green tea./drink/0 0 0 0 0 0 0 75 0 0 0/430",
-             1001: "Fruit Splash Tea/500/95/Cooking -7/Fruit Splash Tea/Orange and Peach flavors mesh well in this fruity tea./drink/2 1 0 0 0 0 0 0 0 0 0/860",
-             1002: "Black Tea/125/55/Cooking -7/Black Tea/Brewed to perfection. The flavors of this tea are more pronounced without sugar!/drink/0 0 0 0 0 0 0 0 0 0 0/0",
-             1003: "Sweet Tea/200/50/Cooking -7/Sweet Tea/A refreshingly sweet drink. It'll give you a sugary rush./drink/0 0 2 0 0 0 0 0 0 1 0/430",
-             1004: "Fancy Sweet Tea/3500/45/Cooking -7/Fancy Sweet Tea/Black Tea sweetened with the finest ingredients in the world./drink/0 0 0 0 3 0 0 50 0 1 0/860",
+             996: "White Tea/75/15/Cooking -7/White Tea/A lite brew of young tea leaves; has a fresh flavor./drink/0 0 0 0 0 0 0 0 0 0 0/0",
+             997: "Dandelion White Tea/135/18/Cooking -7/Dandelion White Tea/The fresh Dandelion in this rejuvenates your senses./drink/0 0 0 0 0 1 0 0 0 0 0/430",
+             998: "Berry Surprise Tea/500/19/Cooking -7/Berry Surprise Tea/Infused with cross-season flavors; it's worth the wait!/drink/0 0 0 0 2 2 0 0 0 0 0/860",
+             999: "Green Tea/100/23/Cooking -7/Green Tea/A mild brew with aged leaves; tastes great!/drink/0 0 0 0 0 0 0 0 0 2 0/430",
+             1000: "Granny Pom Tea/300/25/Cooking -7/Granny Pom Tea/An invigorating combination of Pomegranates and Green tea./drink/0 0 0 0 0 0 0 75 0 0 0/430",
+             1001: "Fruit Splash Tea/500/24/Cooking -7/Fruit Splash Tea/Orange and Peach flavors mesh well in this fruity tea./drink/2 1 0 0 0 0 0 0 0 0 0/860",
+             1002: "Black Tea/125/14/Cooking -7/Black Tea/Brewed to perfection. The flavors of this tea are more pronounced without sugar!/drink/0 0 0 0 0 0 0 0 0 0 0/0",
+             1003: "Sweet Tea/200/13/Cooking -7/Sweet Tea/A refreshingly sweet drink. It'll give you a sugary rush./drink/0 0 2 0 0 0 0 0 0 1 0/430",
+             1004: "Fancy Sweet Tea/3500/11/Cooking -7/Fancy Sweet Tea/Black Tea sweetened with the finest ingredients in the world./drink/0 0 0 0 3 0 0 50 0 1 0/860",
              1005: "Tea Bag Carton (White)/800/-300/Crafting/Tea Bag Carton (White)/Locally grown, and ready to serve tea.",
              1006: "Tea Bag Carton (Green)/1200/-300/Crafting/Tea Bag Carton (Green)/Locally grown, and ready to serve tea.",
              1007: "Tea Bag Carton (Black)/4500/-300/Crafting/Tea Bag Carton (Black)/Locally grown, and ready to serve tea.",
@@ -464,15 +309,15 @@
 		  "Locale": "it-IT",
           "Entries": {
              995: "Tea Leaf Cuttings/20/-300/Seeds -74/Tea Leaf Cuttings/Plant in spring or summer to grow a Tea plant.",
-             996: "White Tea/75/60/Cooking -7/White Tea/A lite brew of young tea leaves; has a fresh flavor./drink/0 0 0 0 0 0 0 0 0 0 0/0",
-             997: "Dandelion White Tea/135/70/Cooking -7/Dandelion White Tea/The fresh Dandelion in this rejuvenates your senses./drink/0 0 0 0 0 1 0 0 0 0 0/430",
-             998: "Berry Surprise Tea/500/75/Cooking -7/Berry Surprise Tea/Infused with cross-season flavors; it's worth the wait!/drink/0 0 0 0 2 2 0 0 0 0 0/860",
-             999: "Green Tea/100/90/Cooking -7/Green Tea/A mild brew with aged leaves; tastes great!/drink/0 0 0 0 0 0 0 0 0 2 0/430",
-             1000: "Granny Pom Tea/300/100/Cooking -7/Granny Pom Tea/An invigorating combination of Pomegranates and Green tea./drink/0 0 0 0 0 0 0 75 0 0 0/430",
-             1001: "Fruit Splash Tea/500/95/Cooking -7/Fruit Splash Tea/Orange and Peach flavors mesh well in this fruity tea./drink/2 1 0 0 0 0 0 0 0 0 0/860",
-             1002: "Black Tea/125/55/Cooking -7/Black Tea/Brewed to perfection. The flavors of this tea are more pronounced without sugar!/drink/0 0 0 0 0 0 0 0 0 0 0/0",
-             1003: "Sweet Tea/200/50/Cooking -7/Sweet Tea/A refreshingly sweet drink. It'll give you a sugary rush./drink/0 0 2 0 0 0 0 0 0 1 0/430",
-             1004: "Fancy Sweet Tea/3500/45/Cooking -7/Fancy Sweet Tea/Black Tea sweetened with the finest ingredients in the world./drink/0 0 0 0 3 0 0 50 0 1 0/860",
+             996: "White Tea/75/15/Cooking -7/White Tea/A lite brew of young tea leaves; has a fresh flavor./drink/0 0 0 0 0 0 0 0 0 0 0/0",
+             997: "Dandelion White Tea/135/18/Cooking -7/Dandelion White Tea/The fresh Dandelion in this rejuvenates your senses./drink/0 0 0 0 0 1 0 0 0 0 0/430",
+             998: "Berry Surprise Tea/500/19/Cooking -7/Berry Surprise Tea/Infused with cross-season flavors; it's worth the wait!/drink/0 0 0 0 2 2 0 0 0 0 0/860",
+             999: "Green Tea/100/23/Cooking -7/Green Tea/A mild brew with aged leaves; tastes great!/drink/0 0 0 0 0 0 0 0 0 2 0/430",
+             1000: "Granny Pom Tea/300/25/Cooking -7/Granny Pom Tea/An invigorating combination of Pomegranates and Green tea./drink/0 0 0 0 0 0 0 75 0 0 0/430",
+             1001: "Fruit Splash Tea/500/24/Cooking -7/Fruit Splash Tea/Orange and Peach flavors mesh well in this fruity tea./drink/2 1 0 0 0 0 0 0 0 0 0/860",
+             1002: "Black Tea/125/14/Cooking -7/Black Tea/Brewed to perfection. The flavors of this tea are more pronounced without sugar!/drink/0 0 0 0 0 0 0 0 0 0 0/0",
+             1003: "Sweet Tea/200/13/Cooking -7/Sweet Tea/A refreshingly sweet drink. It'll give you a sugary rush./drink/0 0 2 0 0 0 0 0 0 1 0/430",
+             1004: "Fancy Sweet Tea/3500/11/Cooking -7/Fancy Sweet Tea/Black Tea sweetened with the finest ingredients in the world./drink/0 0 0 0 3 0 0 50 0 1 0/860",
              1005: "Tea Bag Carton (White)/800/-300/Crafting/Tea Bag Carton (White)/Locally grown, and ready to serve tea.",
              1006: "Tea Bag Carton (Green)/1200/-300/Crafting/Tea Bag Carton (Green)/Locally grown, and ready to serve tea.",
              1007: "Tea Bag Carton (Black)/4500/-300/Crafting/Tea Bag Carton (Black)/Locally grown, and ready to serve tea.",
@@ -490,15 +335,15 @@
 		  "Locale": "tr-TR",
           "Entries": {
              995: "Tea Leaf Cuttings/20/-300/Seeds -74/Tea Leaf Cuttings/Plant in spring or summer to grow a Tea plant.",
-             996: "White Tea/75/60/Cooking -7/White Tea/A lite brew of young tea leaves; has a fresh flavor./drink/0 0 0 0 0 0 0 0 0 0 0/0",
-             997: "Dandelion White Tea/135/70/Cooking -7/Dandelion White Tea/The fresh Dandelion in this rejuvenates your senses./drink/0 0 0 0 0 1 0 0 0 0 0/430",
-             998: "Berry Surprise Tea/500/75/Cooking -7/Berry Surprise Tea/Infused with cross-season flavors; it's worth the wait!/drink/0 0 0 0 2 2 0 0 0 0 0/860",
-             999: "Green Tea/100/90/Cooking -7/Green Tea/A mild brew with aged leaves; tastes great!/drink/0 0 0 0 0 0 0 0 0 2 0/430",
-             1000: "Granny Pom Tea/300/100/Cooking -7/Granny Pom Tea/An invigorating combination of Pomegranates and Green tea./drink/0 0 0 0 0 0 0 75 0 0 0/430",
-             1001: "Fruit Splash Tea/500/95/Cooking -7/Fruit Splash Tea/Orange and Peach flavors mesh well in this fruity tea./drink/2 1 0 0 0 0 0 0 0 0 0/860",
-             1002: "Black Tea/125/55/Cooking -7/Black Tea/Brewed to perfection. The flavors of this tea are more pronounced without sugar!/drink/0 0 0 0 0 0 0 0 0 0 0/0",
-             1003: "Sweet Tea/200/50/Cooking -7/Sweet Tea/A refreshingly sweet drink. It'll give you a sugary rush./drink/0 0 2 0 0 0 0 0 0 1 0/430",
-             1004: "Fancy Sweet Tea/3500/45/Cooking -7/Fancy Sweet Tea/Black Tea sweetened with the finest ingredients in the world./drink/0 0 0 0 3 0 0 50 0 1 0/860",
+             996: "White Tea/75/15/Cooking -7/White Tea/A lite brew of young tea leaves; has a fresh flavor./drink/0 0 0 0 0 0 0 0 0 0 0/0",
+             997: "Dandelion White Tea/135/18/Cooking -7/Dandelion White Tea/The fresh Dandelion in this rejuvenates your senses./drink/0 0 0 0 0 1 0 0 0 0 0/430",
+             998: "Berry Surprise Tea/500/19/Cooking -7/Berry Surprise Tea/Infused with cross-season flavors; it's worth the wait!/drink/0 0 0 0 2 2 0 0 0 0 0/860",
+             999: "Green Tea/100/23/Cooking -7/Green Tea/A mild brew with aged leaves; tastes great!/drink/0 0 0 0 0 0 0 0 0 2 0/430",
+             1000: "Granny Pom Tea/300/25/Cooking -7/Granny Pom Tea/An invigorating combination of Pomegranates and Green tea./drink/0 0 0 0 0 0 0 75 0 0 0/430",
+             1001: "Fruit Splash Tea/500/24/Cooking -7/Fruit Splash Tea/Orange and Peach flavors mesh well in this fruity tea./drink/2 1 0 0 0 0 0 0 0 0 0/860",
+             1002: "Black Tea/125/14/Cooking -7/Black Tea/Brewed to perfection. The flavors of this tea are more pronounced without sugar!/drink/0 0 0 0 0 0 0 0 0 0 0/0",
+             1003: "Sweet Tea/200/13/Cooking -7/Sweet Tea/A refreshingly sweet drink. It'll give you a sugary rush./drink/0 0 2 0 0 0 0 0 0 1 0/430",
+             1004: "Fancy Sweet Tea/3500/11/Cooking -7/Fancy Sweet Tea/Black Tea sweetened with the finest ingredients in the world./drink/0 0 0 0 3 0 0 50 0 1 0/860",
              1005: "Tea Bag Carton (White)/800/-300/Crafting/Tea Bag Carton (White)/Locally grown, and ready to serve tea.",
              1006: "Tea Bag Carton (Green)/1200/-300/Crafting/Tea Bag Carton (Green)/Locally grown, and ready to serve tea.",
              1007: "Tea Bag Carton (Black)/4500/-300/Crafting/Tea Bag Carton (Black)/Locally grown, and ready to serve tea.",
@@ -516,15 +361,15 @@
 		  "Locale": "ko-KR",
           "Entries": {
              995: "Tea Leaf Cuttings/20/-300/Seeds -74/Tea Leaf Cuttings/Plant in spring or summer to grow a Tea plant.",
-             996: "White Tea/75/60/Cooking -7/White Tea/A lite brew of young tea leaves; has a fresh flavor./drink/0 0 0 0 0 0 0 0 0 0 0/0",
-             997: "Dandelion White Tea/135/70/Cooking -7/Dandelion White Tea/The fresh Dandelion in this rejuvenates your senses./drink/0 0 0 0 0 1 0 0 0 0 0/430",
-             998: "Berry Surprise Tea/500/75/Cooking -7/Berry Surprise Tea/Infused with cross-season flavors; it's worth the wait!/drink/0 0 0 0 2 2 0 0 0 0 0/860",
-             999: "Green Tea/100/90/Cooking -7/Green Tea/A mild brew with aged leaves; tastes great!/drink/0 0 0 0 0 0 0 0 0 2 0/430",
-             1000: "Granny Pom Tea/300/100/Cooking -7/Granny Pom Tea/An invigorating combination of Pomegranates and Green tea./drink/0 0 0 0 0 0 0 75 0 0 0/430",
-             1001: "Fruit Splash Tea/500/95/Cooking -7/Fruit Splash Tea/Orange and Peach flavors mesh well in this fruity tea./drink/2 1 0 0 0 0 0 0 0 0 0/860",
-             1002: "Black Tea/125/55/Cooking -7/Black Tea/Brewed to perfection. The flavors of this tea are more pronounced without sugar!/drink/0 0 0 0 0 0 0 0 0 0 0/0",
-             1003: "Sweet Tea/200/50/Cooking -7/Sweet Tea/A refreshingly sweet drink. It'll give you a sugary rush./drink/0 0 2 0 0 0 0 0 0 1 0/430",
-             1004: "Fancy Sweet Tea/3500/45/Cooking -7/Fancy Sweet Tea/Black Tea sweetened with the finest ingredients in the world./drink/0 0 0 0 3 0 0 50 0 1 0/860",
+             996: "White Tea/75/15/Cooking -7/White Tea/A lite brew of young tea leaves; has a fresh flavor./drink/0 0 0 0 0 0 0 0 0 0 0/0",
+             997: "Dandelion White Tea/135/18/Cooking -7/Dandelion White Tea/The fresh Dandelion in this rejuvenates your senses./drink/0 0 0 0 0 1 0 0 0 0 0/430",
+             998: "Berry Surprise Tea/500/19/Cooking -7/Berry Surprise Tea/Infused with cross-season flavors; it's worth the wait!/drink/0 0 0 0 2 2 0 0 0 0 0/860",
+             999: "Green Tea/100/23/Cooking -7/Green Tea/A mild brew with aged leaves; tastes great!/drink/0 0 0 0 0 0 0 0 0 2 0/430",
+             1000: "Granny Pom Tea/300/25/Cooking -7/Granny Pom Tea/An invigorating combination of Pomegranates and Green tea./drink/0 0 0 0 0 0 0 75 0 0 0/430",
+             1001: "Fruit Splash Tea/500/24/Cooking -7/Fruit Splash Tea/Orange and Peach flavors mesh well in this fruity tea./drink/2 1 0 0 0 0 0 0 0 0 0/860",
+             1002: "Black Tea/125/14/Cooking -7/Black Tea/Brewed to perfection. The flavors of this tea are more pronounced without sugar!/drink/0 0 0 0 0 0 0 0 0 0 0/0",
+             1003: "Sweet Tea/200/13/Cooking -7/Sweet Tea/A refreshingly sweet drink. It'll give you a sugary rush./drink/0 0 2 0 0 0 0 0 0 1 0/430",
+             1004: "Fancy Sweet Tea/3500/11/Cooking -7/Fancy Sweet Tea/Black Tea sweetened with the finest ingredients in the world./drink/0 0 0 0 3 0 0 50 0 1 0/860",
              1005: "Tea Bag Carton (White)/800/-300/Crafting/Tea Bag Carton (White)/Locally grown, and ready to serve tea.",
              1006: "Tea Bag Carton (Green)/1200/-300/Crafting/Tea Bag Carton (Green)/Locally grown, and ready to serve tea.",
              1007: "Tea Bag Carton (Black)/4500/-300/Crafting/Tea Bag Carton (Black)/Locally grown, and ready to serve tea.",
@@ -542,15 +387,15 @@
 		  "Locale": "hu-HU",
           "Entries": {
              995: "Tea Leaf Cuttings/20/-300/Seeds -74/Tea Leaf Cuttings/Plant in spring or summer to grow a Tea plant.",
-             996: "White Tea/75/60/Cooking -7/White Tea/A lite brew of young tea leaves; has a fresh flavor./drink/0 0 0 0 0 0 0 0 0 0 0/0",
-             997: "Dandelion White Tea/135/70/Cooking -7/Dandelion White Tea/The fresh Dandelion in this rejuvenates your senses./drink/0 0 0 0 0 1 0 0 0 0 0/430",
-             998: "Berry Surprise Tea/500/75/Cooking -7/Berry Surprise Tea/Infused with cross-season flavors; it's worth the wait!/drink/0 0 0 0 2 2 0 0 0 0 0/860",
-             999: "Green Tea/100/90/Cooking -7/Green Tea/A mild brew with aged leaves; tastes great!/drink/0 0 0 0 0 0 0 0 0 2 0/430",
-             1000: "Granny Pom Tea/300/100/Cooking -7/Granny Pom Tea/An invigorating combination of Pomegranates and Green tea./drink/0 0 0 0 0 0 0 75 0 0 0/430",
-             1001: "Fruit Splash Tea/500/95/Cooking -7/Fruit Splash Tea/Orange and Peach flavors mesh well in this fruity tea./drink/2 1 0 0 0 0 0 0 0 0 0/860",
-             1002: "Black Tea/125/55/Cooking -7/Black Tea/Brewed to perfection. The flavors of this tea are more pronounced without sugar!/drink/0 0 0 0 0 0 0 0 0 0 0/0",
-             1003: "Sweet Tea/200/50/Cooking -7/Sweet Tea/A refreshingly sweet drink. It'll give you a sugary rush./drink/0 0 2 0 0 0 0 0 0 1 0/430",
-             1004: "Fancy Sweet Tea/3500/45/Cooking -7/Fancy Sweet Tea/Black Tea sweetened with the finest ingredients in the world./drink/0 0 0 0 3 0 0 50 0 1 0/860",
+             996: "White Tea/75/15/Cooking -7/White Tea/A lite brew of young tea leaves; has a fresh flavor./drink/0 0 0 0 0 0 0 0 0 0 0/0",
+             997: "Dandelion White Tea/135/18/Cooking -7/Dandelion White Tea/The fresh Dandelion in this rejuvenates your senses./drink/0 0 0 0 0 1 0 0 0 0 0/430",
+             998: "Berry Surprise Tea/500/19/Cooking -7/Berry Surprise Tea/Infused with cross-season flavors; it's worth the wait!/drink/0 0 0 0 2 2 0 0 0 0 0/860",
+             999: "Green Tea/100/23/Cooking -7/Green Tea/A mild brew with aged leaves; tastes great!/drink/0 0 0 0 0 0 0 0 0 2 0/430",
+             1000: "Granny Pom Tea/300/25/Cooking -7/Granny Pom Tea/An invigorating combination of Pomegranates and Green tea./drink/0 0 0 0 0 0 0 75 0 0 0/430",
+             1001: "Fruit Splash Tea/500/24/Cooking -7/Fruit Splash Tea/Orange and Peach flavors mesh well in this fruity tea./drink/2 1 0 0 0 0 0 0 0 0 0/860",
+             1002: "Black Tea/125/14/Cooking -7/Black Tea/Brewed to perfection. The flavors of this tea are more pronounced without sugar!/drink/0 0 0 0 0 0 0 0 0 0 0/0",
+             1003: "Sweet Tea/200/13/Cooking -7/Sweet Tea/A refreshingly sweet drink. It'll give you a sugary rush./drink/0 0 2 0 0 0 0 0 0 1 0/430",
+             1004: "Fancy Sweet Tea/3500/11/Cooking -7/Fancy Sweet Tea/Black Tea sweetened with the finest ingredients in the world./drink/0 0 0 0 3 0 0 50 0 1 0/860",
              1005: "Tea Bag Carton (White)/800/-300/Crafting/Tea Bag Carton (White)/Locally grown, and ready to serve tea.",
              1006: "Tea Bag Carton (Green)/1200/-300/Crafting/Tea Bag Carton (Green)/Locally grown, and ready to serve tea.",
              1007: "Tea Bag Carton (Black)/4500/-300/Crafting/Tea Bag Carton (Black)/Locally grown, and ready to serve tea.",
@@ -1211,532 +1056,6 @@
             }
        },
        
-       
-       
-       // Botany mod item sprites  - Spanish - 1st row
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/Botany_springobjects.png",
-          "FromArea": { "X": 0, "Y": 0, "Width": 368, "Height": 16 },
-          "ToArea": { "X": 16, "Y": 672, "Width": 368, "Height": 16 },
-		  "When": {
-                "BotanyModDisabled": "false",
-        		"Language": "es"
-            }
-       },
-
-       // Botany mod item sprites  - Spanish - middle rows
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/Botany_springobjects.png",
-          "FromArea": { "X": 368, "Y": 0, "Width": 16, "Height": 16 },
-          "ToArea": { "X": 0, "Y": 688, "Width": 16, "Height": 16 },
-		  "When": {
-                "BotanyModDisabled": "false",
-        		"Language": "es"
-            }
-       },
-
-       // Botany mod item sprites  - Spanish - middle rows
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/Botany_springobjects.png",
-          "FromArea": { "X": 0, "Y": 16, "Width": 368, "Height": 16 },
-          "ToArea": { "X": 16, "Y": 688, "Width": 368, "Height": 16 },
-		  "When": {
-                "BotanyModDisabled": "false",
-        		"Language": "es"
-            }
-       },
-       
-       // Botany mod item sprites  - Spanish - middle rows
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/Botany_springobjects.png",
-          "FromArea": { "X": 368, "Y": 16, "Width": 16, "Height": 16 },
-          "ToArea": { "X": 0, "Y": 704, "Width": 16, "Height": 16 },
-		  "When": {
-                "BotanyModDisabled": "false",
-        		"Language": "es"
-            }
-       },
-       
-       // Botany mod item sprites  - Spanish - last row
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/Botany_springobjects.png",
-          "FromArea": { "X": 0, "Y": 32, "Width": 176, "Height": 16 },
-          "ToArea": { "X": 16, "Y": 704, "Width": 176, "Height": 16 },
-		  "When": {
-                "BotanyModDisabled": "false",
-        		"Language": "es"
-            }
-       },
-       
-       
-       
-       
-       // Botany mod item sprites  - Portuguese - 1st row
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/Botany_springobjects.png",
-          "FromArea": { "X": 0, "Y": 0, "Width": 368, "Height": 16 },
-          "ToArea": { "X": 16, "Y": 672, "Width": 368, "Height": 16 },
-		  "When": {
-                "BotanyModDisabled": "false",
-        		"Language": "pt"
-            }
-       },
-
-       // Botany mod item sprites  - Portuguese - middle rows
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/Botany_springobjects.png",
-          "FromArea": { "X": 368, "Y": 0, "Width": 16, "Height": 16 },
-          "ToArea": { "X": 0, "Y": 688, "Width": 16, "Height": 16 },
-		  "When": {
-                "BotanyModDisabled": "false",
-        		"Language": "pt"
-            }
-       },
-
-       // Botany mod item sprites  - Portuguese - middle rows
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/Botany_springobjects.png",
-          "FromArea": { "X": 0, "Y": 16, "Width": 368, "Height": 16 },
-          "ToArea": { "X": 16, "Y": 688, "Width": 368, "Height": 16 },
-		  "When": {
-                "BotanyModDisabled": "false",
-        		"Language": "pt"
-            }
-       },
-       
-       // Botany mod item sprites  - Portuguese - middle rows
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/Botany_springobjects.png",
-          "FromArea": { "X": 368, "Y": 16, "Width": 16, "Height": 16 },
-          "ToArea": { "X": 0, "Y": 704, "Width": 16, "Height": 16 },
-		  "When": {
-                "BotanyModDisabled": "false",
-        		"Language": "pt"
-            }
-       },
-       
-       // Botany mod item sprites  - Portuguese - last row
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/Botany_springobjects.png",
-          "FromArea": { "X": 0, "Y": 32, "Width": 176, "Height": 16 },
-          "ToArea": { "X": 16, "Y": 704, "Width": 176, "Height": 16 },
-		  "When": {
-                "BotanyModDisabled": "false",
-        		"Language": "pt"
-            }
-       },
-       
-       
-       
-       // Botany mod item sprites - Japanese - 1st row
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/Botany_springobjects.png",
-          "FromArea": { "X": 0, "Y": 0, "Width": 368, "Height": 16 },
-          "ToArea": { "X": 16, "Y": 672, "Width": 368, "Height": 16 },
-		  "When": {
-                "BotanyModDisabled": "false",
-        		"Language": "ja"
-            }
-       },
-
-       // Botany mod item sprites - Japanese - middle rows
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/Botany_springobjects.png",
-          "FromArea": { "X": 368, "Y": 0, "Width": 16, "Height": 16 },
-          "ToArea": { "X": 0, "Y": 688, "Width": 16, "Height": 16 },
-		  "When": {
-                "BotanyModDisabled": "false",
-        		"Language": "ja"
-            }
-       },
-
-       // Botany mod item sprites - Japanese - middle rows
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/Botany_springobjects.png",
-          "FromArea": { "X": 0, "Y": 16, "Width": 368, "Height": 16 },
-          "ToArea": { "X": 16, "Y": 688, "Width": 368, "Height": 16 },
-		  "When": {
-                "BotanyModDisabled": "false",
-        		"Language": "ja"
-            }
-       },
-       
-       // Botany mod item sprites - Japanese - middle rows
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/Botany_springobjects.png",
-          "FromArea": { "X": 368, "Y": 16, "Width": 16, "Height": 16 },
-          "ToArea": { "X": 0, "Y": 704, "Width": 16, "Height": 16 },
-		  "When": {
-                "BotanyModDisabled": "false",
-        		"Language": "ja"
-            }
-       },
-       
-       // Botany mod item sprites - Japanese - last row
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/Botany_springobjects.png",
-          "FromArea": { "X": 0, "Y": 32, "Width": 176, "Height": 16 },
-          "ToArea": { "X": 16, "Y": 704, "Width": 176, "Height": 16 },
-		  "When": {
-                "BotanyModDisabled": "false",
-        		"Language": "ja"
-            }
-       },
-
-       // Botany mod item sprites - French - 1st row
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/Botany_springobjects.png",
-          "FromArea": { "X": 0, "Y": 0, "Width": 368, "Height": 16 },
-          "ToArea": { "X": 16, "Y": 672, "Width": 368, "Height": 16 },
-		  "When": {
-                "BotanyModDisabled": "false",
-        		"Language": "fr"
-            }
-       },
-
-       // Botany mod item sprites - French - middle rows
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/Botany_springobjects.png",
-          "FromArea": { "X": 368, "Y": 0, "Width": 16, "Height": 16 },
-          "ToArea": { "X": 0, "Y": 688, "Width": 16, "Height": 16 },
-		  "When": {
-                "BotanyModDisabled": "false",
-        		"Language": "fr"
-            }
-       },
-
-       // Botany mod item sprites - French - middle rows
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/Botany_springobjects.png",
-          "FromArea": { "X": 0, "Y": 16, "Width": 368, "Height": 16 },
-          "ToArea": { "X": 16, "Y": 688, "Width": 368, "Height": 16 },
-		  "When": {
-                "BotanyModDisabled": "false",
-        		"Language": "fr"
-            }
-       },
-       
-       // Botany mod item sprites - French - middle rows
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/Botany_springobjects.png",
-          "FromArea": { "X": 368, "Y": 16, "Width": 16, "Height": 16 },
-          "ToArea": { "X": 0, "Y": 704, "Width": 16, "Height": 16 },
-		  "When": {
-                "BotanyModDisabled": "false",
-        		"Language": "fr"
-            }
-       },
-       
-       // Botany mod item sprites - French - last row
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/Botany_springobjects.png",
-          "FromArea": { "X": 0, "Y": 32, "Width": 176, "Height": 16 },
-          "ToArea": { "X": 16, "Y": 704, "Width": 176, "Height": 16 },
-		  "When": {
-                "BotanyModDisabled": "false",
-        		"Language": "fr"
-            }
-       },
-
-       // Botany mod item sprites - Italian - 1st row
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/Botany_springobjects.png",
-          "FromArea": { "X": 0, "Y": 0, "Width": 368, "Height": 16 },
-          "ToArea": { "X": 16, "Y": 672, "Width": 368, "Height": 16 },
-		  "When": {
-                "BotanyModDisabled": "false",
-        		"Language": "it"
-            }
-       },
-
-       // Botany mod item sprites - Italian - middle rows
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/Botany_springobjects.png",
-          "FromArea": { "X": 368, "Y": 0, "Width": 16, "Height": 16 },
-          "ToArea": { "X": 0, "Y": 688, "Width": 16, "Height": 16 },
-		  "When": {
-                "BotanyModDisabled": "false",
-        		"Language": "it"
-            }
-       },
-
-       // Botany mod item sprites - Italian - middle rows
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/Botany_springobjects.png",
-          "FromArea": { "X": 0, "Y": 16, "Width": 368, "Height": 16 },
-          "ToArea": { "X": 16, "Y": 688, "Width": 368, "Height": 16 },
-		  "When": {
-                "BotanyModDisabled": "false",
-        		"Language": "it"
-            }
-       },
-       
-       // Botany mod item sprites - Italian - middle rows
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/Botany_springobjects.png",
-          "FromArea": { "X": 368, "Y": 16, "Width": 16, "Height": 16 },
-          "ToArea": { "X": 0, "Y": 704, "Width": 16, "Height": 16 },
-		  "When": {
-                "BotanyModDisabled": "false",
-        		"Language": "it"
-            }
-       },
-       
-       // Botany mod item sprites - Italian - last row
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/Botany_springobjects.png",
-          "FromArea": { "X": 0, "Y": 32, "Width": 176, "Height": 16 },
-          "ToArea": { "X": 16, "Y": 704, "Width": 176, "Height": 16 },
-		  "When": {
-                "BotanyModDisabled": "false",
-        		"Language": "it"
-            }
-       },
-
-       // Botany mod item sprites - Turkish - 1st row
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/Botany_springobjects.png",
-          "FromArea": { "X": 0, "Y": 0, "Width": 368, "Height": 16 },
-          "ToArea": { "X": 16, "Y": 672, "Width": 368, "Height": 16 },
-		  "When": {
-                "BotanyModDisabled": "false",
-        		"Language": "tr"
-            }
-       },
-
-       // Botany mod item sprites - Turkish - middle rows
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/Botany_springobjects.png",
-          "FromArea": { "X": 368, "Y": 0, "Width": 16, "Height": 16 },
-          "ToArea": { "X": 0, "Y": 688, "Width": 16, "Height": 16 },
-		  "When": {
-                "BotanyModDisabled": "false",
-        		"Language": "tr"
-            }
-       },
-
-       // Botany mod item sprites - Turkish - middle rows
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/Botany_springobjects.png",
-          "FromArea": { "X": 0, "Y": 16, "Width": 368, "Height": 16 },
-          "ToArea": { "X": 16, "Y": 688, "Width": 368, "Height": 16 },
-		  "When": {
-                "BotanyModDisabled": "false",
-        		"Language": "tr"
-            }
-       },
-       
-       // Botany mod item sprites - Turkish - middle rows
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/Botany_springobjects.png",
-          "FromArea": { "X": 368, "Y": 16, "Width": 16, "Height": 16 },
-          "ToArea": { "X": 0, "Y": 704, "Width": 16, "Height": 16 },
-		  "When": {
-                "BotanyModDisabled": "false",
-        		"Language": "tr"
-            }
-       },
-       
-       // Botany mod item sprites - Turkish - last row
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/Botany_springobjects.png",
-          "FromArea": { "X": 0, "Y": 32, "Width": 176, "Height": 16 },
-          "ToArea": { "X": 16, "Y": 704, "Width": 176, "Height": 16 },
-		  "When": {
-                "BotanyModDisabled": "false",
-        		"Language": "tr"
-            }
-       },
-
-       // Botany mod item sprites - Korean - 1st row
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/Botany_springobjects.png",
-          "FromArea": { "X": 0, "Y": 0, "Width": 368, "Height": 16 },
-          "ToArea": { "X": 16, "Y": 672, "Width": 368, "Height": 16 },
-		  "When": {
-                "BotanyModDisabled": "false",
-        		"Language": "ko"
-            }
-       },
-
-       // Botany mod item sprites - Korean - middle rows
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/Botany_springobjects.png",
-          "FromArea": { "X": 368, "Y": 0, "Width": 16, "Height": 16 },
-          "ToArea": { "X": 0, "Y": 688, "Width": 16, "Height": 16 },
-		  "When": {
-                "BotanyModDisabled": "false",
-        		"Language": "ko"
-            }
-       },
-
-       // Botany mod item sprites - Korean - middle rows
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/Botany_springobjects.png",
-          "FromArea": { "X": 0, "Y": 16, "Width": 368, "Height": 16 },
-          "ToArea": { "X": 16, "Y": 688, "Width": 368, "Height": 16 },
-		  "When": {
-                "BotanyModDisabled": "false",
-        		"Language": "ko"
-            }
-       },
-       
-       // Botany mod item sprites - Korean - middle rows
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/Botany_springobjects.png",
-          "FromArea": { "X": 368, "Y": 16, "Width": 16, "Height": 16 },
-          "ToArea": { "X": 0, "Y": 704, "Width": 16, "Height": 16 },
-		  "When": {
-                "BotanyModDisabled": "false",
-        		"Language": "ko"
-            }
-       },
-       
-       // Botany mod item sprites - Korean - last row
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/Botany_springobjects.png",
-          "FromArea": { "X": 0, "Y": 32, "Width": 176, "Height": 16 },
-          "ToArea": { "X": 16, "Y": 704, "Width": 176, "Height": 16 },
-		  "When": {
-                "BotanyModDisabled": "false",
-        		"Language": "ko"
-            }
-       },
-
-       // Botany mod item sprites - Hungarian - 1st row
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/Botany_springobjects.png",
-          "FromArea": { "X": 0, "Y": 0, "Width": 368, "Height": 16 },
-          "ToArea": { "X": 16, "Y": 672, "Width": 368, "Height": 16 },
-		  "When": {
-                "BotanyModDisabled": "false",
-        		"Language": "hu"
-            }
-       },
-
-       // Botany mod item sprites - Hungarian - middle rows
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/Botany_springobjects.png",
-          "FromArea": { "X": 368, "Y": 0, "Width": 16, "Height": 16 },
-          "ToArea": { "X": 0, "Y": 688, "Width": 16, "Height": 16 },
-		  "When": {
-                "BotanyModDisabled": "false",
-        		"Language": "hu"
-            }
-       },
-
-       // Botany mod item sprites - Hungarian - middle rows
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/Botany_springobjects.png",
-          "FromArea": { "X": 0, "Y": 16, "Width": 368, "Height": 16 },
-          "ToArea": { "X": 16, "Y": 688, "Width": 368, "Height": 16 },
-		  "When": {
-                "BotanyModDisabled": "false",
-        		"Language": "hu"
-            }
-       },
-       
-       // Botany mod item sprites - Hungarian - middle rows
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/Botany_springobjects.png",
-          "FromArea": { "X": 368, "Y": 16, "Width": 16, "Height": 16 },
-          "ToArea": { "X": 0, "Y": 704, "Width": 16, "Height": 16 },
-		  "When": {
-                "BotanyModDisabled": "false",
-        		"Language": "hu"
-            }
-       },
-       
-       // Botany mod item sprites - Hungarian - last row
-       {
-          "Action": "EditImage",
-          "Target": "Maps/springobjects",
-          "FromFile": "assets/Botany_springobjects.png",
-          "FromArea": { "X": 0, "Y": 32, "Width": 176, "Height": 16 },
-          "ToArea": { "X": 16, "Y": 704, "Width": 176, "Height": 16 },
-		  "When": {
-                "BotanyModDisabled": "false",
-        		"Language": "hu"
-            }
-       },
 
 //------------------------------------     
 
