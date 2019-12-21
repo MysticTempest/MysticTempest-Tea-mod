@@ -6,6 +6,10 @@
         },
 		"ClassicTeaTextureDisabled": {
             "AllowValues": "true, false"
+        },
+		"CompatibilityWithArtisanValley": {
+            "AllowValues": "true, false",
+	        "Default": "false"
         }
     },
 
@@ -142,7 +146,7 @@
              1008: "Collectible Tea Box/7500/-300/Crafting/Collectible Tea Box/A collectible tea box made of hardwood, and an assortment of teas."
           },
 		  "When": {
-        	"Language": "de"
+        	"Language": "de",
 			      }
        },
        
@@ -168,7 +172,7 @@
              1008: "Collectible Tea Box/7500/-300/Crafting/Collectible Tea Box/A collectible tea box made of hardwood, and an assortment of teas."
           },
 		  "When": {
-        	"Language": "es"
+        	"Language": "es",
 			      }
        },
        
@@ -194,7 +198,7 @@
              1008: "Collectible Tea Box/7500/-300/Crafting/Collectible Tea Box/A collectible tea box made of hardwood, and an assortment of teas."
           },
 		  "When": {
-        	"Language": "ja"
+        	"Language": "ja",
 			      }
        },
        
@@ -220,7 +224,7 @@
              1008: "Collectible Tea Box/7500/-300/Crafting/Collectible Tea Box/A collectible tea box made of hardwood, and an assortment of teas."
           },
 		  "When": {
-        	"Language": "pt"
+        	"Language": "pt",
 			      }
        },
        
@@ -246,7 +250,7 @@
              1008: "Collectible Tea Box/7500/-300/Crafting/Collectible Tea Box/A collectible tea box made of hardwood, and an assortment of teas."
           },
 		  "When": {
-        	"Language": "ru"
+        	"Language": "ru",
 			      }
        },
        
@@ -272,7 +276,7 @@
              1008: "Collectible Tea Box/7500/-300/Crafting/Collectible Tea Box/A collectible tea box made of hardwood, and an assortment of teas."
           },
 		  "When": {
-        	"Language": "zh"
+        	"Language": "zh",
 			      }
        },
        
@@ -298,7 +302,7 @@
              1008: "Collectible Tea Box/7500/-300/Crafting/Collectible Tea Box/A collectible tea box made of hardwood, and an assortment of teas."
           },
 		  "When": {
-        	"Language": "fr"
+        	"Language": "fr",
 			      }
        },
 
@@ -324,7 +328,7 @@
              1008: "Collectible Tea Box/7500/-300/Crafting/Collectible Tea Box/A collectible tea box made of hardwood, and an assortment of teas."
           },
 		  "When": {
-        	"Language": "it"
+        	"Language": "it",
 			      }
        },
 
@@ -350,7 +354,7 @@
              1008: "Collectible Tea Box/7500/-300/Crafting/Collectible Tea Box/A collectible tea box made of hardwood, and an assortment of teas."
           },
 		  "When": {
-        	"Language": "tr"
+        	"Language": "tr",
 			      }
        },
 
@@ -376,7 +380,7 @@
              1008: "Collectible Tea Box/7500/-300/Crafting/Collectible Tea Box/A collectible tea box made of hardwood, and an assortment of teas."
           },
 		  "When": {
-        	"Language": "ko"
+        	"Language": "ko",
 			      }
        },
 
@@ -402,7 +406,7 @@
              1008: "Collectible Tea Box/7500/-300/Crafting/Collectible Tea Box/A collectible tea box made of hardwood, and an assortment of teas."
           },
 		  "When": {
-        	"Language": "hu"
+        	"Language": "hu",
 			      }
        },
     
@@ -430,6 +434,9 @@
 			"Collectible Tea Box": "709 2 1005 1 1006 1 1007 1/1 5/1008/f Robin 10/Collectible Tea Box",
 			"Tea Leaf Cuttings": "495 1 496 1 347 1/1 5/995/f Demetrius 2/Tea Leaf Cuttings"
           },
+			"When": {
+				"CompatibilityWithArtisanValley": "false"
+         }
        },
       
 
@@ -455,7 +462,8 @@
 			"Tea Leaf Cuttings": "495 1 496 1 347 1/1 5/995/f Demetrius 2/Tea Leaf Cuttings"
           },
 		  "When": {
-        	"Language": "de"
+        	"Language": "de",
+			"CompatibilityWithArtisanValley": "false"
 			      }
        },
        
@@ -482,7 +490,8 @@
 			"Tea Leaf Cuttings": "495 1 496 1 347 1/1 5/995/f Demetrius 2/Tea Leaf Cuttings"
           },
 		  "When": {
-        	"Language": "es"
+        	"Language": "es",
+			"CompatibilityWithArtisanValley": "false"
 			      }
        },
        
@@ -509,7 +518,8 @@
 			"Tea Leaf Cuttings": "495 1 496 1 347 1/1 5/995/f Demetrius 2/Tea Leaf Cuttings"
           },
 		  "When": {
-        	"Language": "ja"
+        	"Language": "ja",
+			"CompatibilityWithArtisanValley": "false"
 			      }
        },
        
@@ -536,7 +546,8 @@
 			"Tea Leaf Cuttings": "495 1 496 1 347 1/1 5/995/f Demetrius 2/Tea Leaf Cuttings"
           },
 		  "When": {
-        	"Language": "pt"
+        	"Language": "pt",
+			"CompatibilityWithArtisanValley": "false"
 			      }
        },
        
@@ -563,7 +574,8 @@
 			"Tea Leaf Cuttings": "495 1 496 1 347 1/1 5/995/f Demetrius 2/Tea Leaf Cuttings"
           },
 		  "When": {
-        	"Language": "ru"
+        	"Language": "ru",
+			"CompatibilityWithArtisanValley": "false"
 			      }
        },
        
@@ -590,7 +602,8 @@
 			"Tea Leaf Cuttings": "495 1 496 1 347 1/1 5/995/f Demetrius 2/Tea Leaf Cuttings"
           },
 		  "When": {
-        	"Language": "zh"
+        	"Language": "zh",
+			"CompatibilityWithArtisanValley": "false"
 			      }
        },
 
@@ -616,7 +629,8 @@
 			"Tea Leaf Cuttings": "495 1 496 1 347 1/1 5/995/f Demetrius 2/Tea Leaf Cuttings"
           },
 		  "When": {
-        	"Language": "fr"
+        	"Language": "fr",
+			"CompatibilityWithArtisanValley": "false"
 			      }
        },
 
@@ -642,7 +656,8 @@
 			"Tea Leaf Cuttings": "495 1 496 1 347 1/1 5/995/f Demetrius 2/Tea Leaf Cuttings"
           },
 		  "When": {
-        	"Language": "it"
+        	"Language": "it",
+			"CompatibilityWithArtisanValley": "false"
 			      }
        },
 
@@ -668,7 +683,8 @@
 			"Tea Leaf Cuttings": "495 1 496 1 347 1/1 5/995/f Demetrius 2/Tea Leaf Cuttings"
           },
 		  "When": {
-        	"Language": "tr"
+        	"Language": "tr",
+			"CompatibilityWithArtisanValley": "false"
 			      }
        },
 
@@ -694,7 +710,8 @@
 			"Tea Leaf Cuttings": "495 1 496 1 347 1/1 5/995/f Demetrius 2/Tea Leaf Cuttings"
           },
 		  "When": {
-        	"Language": "ko"
+        	"Language": "ko",
+			"CompatibilityWithArtisanValley": "false"
 			      }
        },
 
@@ -720,7 +737,8 @@
 			"Tea Leaf Cuttings": "495 1 496 1 347 1/1 5/995/f Demetrius 2/Tea Leaf Cuttings"
           },
 		  "When": {
-        	"Language": "hu"
+        	"Language": "hu",
+			"CompatibilityWithArtisanValley": "false"
 			      }
        },
 
@@ -1245,7 +1263,7 @@
           },
 		  "When": {
                 "BotanyModDisabled": "false",
-        		"Language": "de"
+        		"Language": "de",
             }
        },
        
@@ -1318,7 +1336,7 @@
           },
 		  "When": {
                 "BotanyModDisabled": "false",
-        		"Language": "es"
+        		"Language": "es",
             }
        },
        
@@ -1391,7 +1409,7 @@
           },
 		  "When": {
                 "BotanyModDisabled": "false",
-        		"Language": "ja"
+        		"Language": "ja",
             }
        },
        
@@ -1464,7 +1482,7 @@
           },
 		  "When": {
                 "BotanyModDisabled": "false",
-        		"Language": "pt"
+        		"Language": "pt",
             }
        },
        
@@ -1537,7 +1555,7 @@
           },
 		  "When": {
                 "BotanyModDisabled": "false",
-        		"Language": "ru"
+        		"Language": "ru",
             }
        },
        
@@ -1610,7 +1628,7 @@
           },
 		  "When": {
                 "BotanyModDisabled": "false",
-        		"Language": "zh"
+        		"Language": "zh",
             }
        },
 
@@ -1683,7 +1701,7 @@
           },
 		  "When": {
                 "BotanyModDisabled": "false",
-        		"Language": "fr"
+        		"Language": "fr",
             }
        },
 
@@ -1756,7 +1774,7 @@
           },
 		  "When": {
                 "BotanyModDisabled": "false",
-        		"Language": "it"
+        		"Language": "it",
             }
        },
 
@@ -1829,7 +1847,7 @@
           },
 		  "When": {
                 "BotanyModDisabled": "false",
-        		"Language": "tr"
+        		"Language": "tr",
             }
        },
 
@@ -1902,7 +1920,7 @@
           },
 		  "When": {
                 "BotanyModDisabled": "false",
-        		"Language": "ko"
+        		"Language": "ko",
             }
        },
 
@@ -1975,7 +1993,7 @@
           },
 		  "When": {
                 "BotanyModDisabled": "false",
-        		"Language": "hu"
+        		"Language": "hu",
             }
        },
     
@@ -2002,6 +2020,7 @@
           },
 		  "When": {
                 "BotanyModDisabled": "false",
+				"CompatibilityWithArtisanValley": "false"
             }
        },
       
@@ -2026,7 +2045,8 @@
           },
 		  "When": {
                 "BotanyModDisabled": "false",
-        		"Language": "de"
+        		"Language": "de",
+				"CompatibilityWithArtisanValley": "false"
             }
        },
        
@@ -2051,7 +2071,8 @@
           },
 		  "When": {
                 "BotanyModDisabled": "false",
-        		"Language": "es"
+        		"Language": "es",
+				"CompatibilityWithArtisanValley": "false"
             }
        },
        
@@ -2076,7 +2097,8 @@
           },
 		  "When": {
                 "BotanyModDisabled": "false",
-        		"Language": "ja"
+        		"Language": "ja",
+				"CompatibilityWithArtisanValley": "false"
             }
        },
        
@@ -2101,7 +2123,8 @@
           },
 		  "When": {
                 "BotanyModDisabled": "false",
-        		"Language": "pt"
+        		"Language": "pt",
+				"CompatibilityWithArtisanValley": "false"
             }
        },
        
@@ -2126,7 +2149,8 @@
           },
 		  "When": {
                 "BotanyModDisabled": "false",
-        		"Language": "ru"
+        		"Language": "ru",
+				"CompatibilityWithArtisanValley": "false"
             }
        },
        
@@ -2151,7 +2175,8 @@
           },
 		  "When": {
                 "BotanyModDisabled": "false",
-        		"Language": "zh"
+        		"Language": "zh",
+				"CompatibilityWithArtisanValley": "false"
             }
        },
 
@@ -2175,7 +2200,8 @@
           },
 		  "When": {
                 "BotanyModDisabled": "false",
-        		"Language": "fr"
+        		"Language": "fr",
+				"CompatibilityWithArtisanValley": "false"
             }
        },
 
@@ -2199,7 +2225,8 @@
           },
 		  "When": {
                 "BotanyModDisabled": "false",
-        		"Language": "it"
+        		"Language": "it",
+				"CompatibilityWithArtisanValley": "false"
             }
        },
 
@@ -2223,7 +2250,8 @@
           },
 		  "When": {
                 "BotanyModDisabled": "false",
-        		"Language": "tr"
+        		"Language": "tr",
+				"CompatibilityWithArtisanValley": "false"
             }
        },
 
@@ -2247,7 +2275,8 @@
           },
 		  "When": {
                 "BotanyModDisabled": "false",
-        		"Language": "ko"
+        		"Language": "ko",
+				"CompatibilityWithArtisanValley": "false"
             }
        },
 
@@ -2271,7 +2300,8 @@
           },
 		  "When": {
                 "BotanyModDisabled": "false",
-        		"Language": "hu"
+        		"Language": "hu",
+				"CompatibilityWithArtisanValley": "false"
             }
        },
 
@@ -2536,6 +2566,667 @@
        },
      
 
+
+// --------------------------------------------------------
+// Artisan Valley Compatibility section
+// --------------------------------------------------------
+// When the "CompatibilityWithArtisan_Valley" token is set to "true" in the config.json file.
+//
+// This alternate data will allow for alternate recipe names for compatibility with Artisan Valley, & likely other mods.
+// The only recipes changed at this time are the following:
+// "White Tea"
+// "Black Tea"
+// "Pecan Pie"
+// A space is added to the recipe name in the 1st category(ie.the data category) of each sub-entry.
+// And will require the user to receive a new recipe letter in the mail to cook.
+//
+      
+  
+
+       
+//=======================================================================       
+// Tea Mod section - compatible with Artisan Valley      
+//=======================================================================
+
+       // Alternate Tea mod recipe data
+       {
+          "Action": "EditData",
+          "Target": "Data/CookingRecipes",
+          "Entries": {
+			"White  Tea": "995 1/1 5/996/f Jodi 2/White Tea",
+			"Dandelion White Tea": "995 1 22 1/1 5/997/f Harvey 3/Dandelion White Tea",
+			"Berry Surprise Tea": "995 1 410 1 396 1/1 5/998/f Linus 5/Berry Surprise Tea",
+			"Green Tea": "995 2/1 5/999/f Emily 2/Green Tea",
+			"Granny Pom Tea": "995 2 637 1/1 5/1000/f Marnie 4/Granny Pom Tea",
+			"Fruit Splash Tea": "995 2 635 1 636 1/1 5/1001/f Willy 6/Fruit Splash Tea",
+			"Black  Tea": "995 4/1 5/1002/f Lewis 2/Black Tea",
+			"Sweet Tea": "995 4 245 1/1 5/1003/f Leah 2/Sweet Tea",
+			"Fancy Sweet Tea": "995 4 340 1 417 1/1 5/1004/f Evelyn 10/Fancy Sweet Tea",
+			"Tea Bag Carton (White)": "771 2 388 1 996 1 997 1 998 1/1 5/1005/f Abigail 10/Tea Bag Carton (White)",
+			"Tea Bag Carton (Green)": "771 2 388 1 999 1 1000 1 1001 1/1 5/1006/f Abigail 10/Tea Bag Carton (Green)",
+			"Tea Bag Carton (Black)": "771 2 388 1 1002 1 1003 1 1004 1/1 5/1007/f Abigail 10/Tea Bag Carton (Black)",
+			"Collectible Tea Box": "709 2 1005 1 1006 1 1007 1/1 5/1008/f Robin 10/Collectible Tea Box",
+			"Tea Leaf Cuttings": "495 1 496 1 347 1/1 5/995/f Demetrius 2/Tea Leaf Cuttings"
+          },
+			"When": {
+				"CompatibilityWithArtisanValley": "true"
+         }
+       },
+      
+
+       // Alternate Tea mod recipe data - German
+       {
+          "Action": "EditData",
+          "Target": "Data/CookingRecipes",
+		  "Locale": "de-DE",
+          "Entries": {
+			"White  Tea": "995 1/1 5/996/f Jodi 2/White Tea",
+			"Dandelion White Tea": "995 1 22 1/1 5/997/f Harvey 3/Dandelion White Tea",
+			"Berry Surprise Tea": "995 1 410 1 396 1/1 5/998/f Linus 5/Berry Surprise Tea",
+			"Green Tea": "995 2/1 5/999/f Emily 2/Green Tea",
+			"Granny Pom Tea": "995 2 637 1/1 5/1000/f Marnie 4/Granny Pom Tea",
+			"Fruit Splash Tea": "995 2 635 1 636 1/1 5/1001/f Willy 6/Fruit Splash Tea",
+			"Black  Tea": "995 4/1 5/1002/f Lewis 2/Black Tea",
+			"Sweet Tea": "995 4 245 1/1 5/1003/f Leah 2/Sweet Tea",
+			"Fancy Sweet Tea": "995 4 340 1 417 1/1 5/1004/f Evelyn 10/Fancy Sweet Tea",
+			"Tea Bag Carton (White)": "771 2 388 1 996 1 997 1 998 1/1 5/1005/f Abigail 10/Tea Bag Carton (White)",
+			"Tea Bag Carton (Green)": "771 2 388 1 999 1 1000 1 1001 1/1 5/1006/f Abigail 10/Tea Bag Carton (Green)",
+			"Tea Bag Carton (Black)": "771 2 388 1 1002 1 1003 1 1004 1/1 5/1007/f Abigail 10/Tea Bag Carton (Black)",
+			"Collectible Tea Box": "709 2 1005 1 1006 1 1007 1/1 5/1008/f Robin 10/Collectible Tea Box",
+			"Tea Leaf Cuttings": "495 1 496 1 347 1/1 5/995/f Demetrius 2/Tea Leaf Cuttings"
+          },
+		  "When": {
+        	"Language": "de",
+			"CompatibilityWithArtisanValley": "true"
+			      }
+       },
+       
+       
+       // Alternate Tea mod recipe data - Spanish
+       {
+          "Action": "EditData",
+          "Target": "Data/CookingRecipes",
+		  "Locale": "es-ES",
+          "Entries": {
+			"White  Tea": "995 1/1 5/996/f Jodi 2/White Tea",
+			"Dandelion White Tea": "995 1 22 1/1 5/997/f Harvey 3/Dandelion White Tea",
+			"Berry Surprise Tea": "995 1 410 1 396 1/1 5/998/f Linus 5/Berry Surprise Tea",
+			"Green Tea": "995 2/1 5/999/f Emily 2/Green Tea",
+			"Granny Pom Tea": "995 2 637 1/1 5/1000/f Marnie 4/Granny Pom Tea",
+			"Fruit Splash Tea": "995 2 635 1 636 1/1 5/1001/f Willy 6/Fruit Splash Tea",
+			"Black  Tea": "995 4/1 5/1002/f Lewis 2/Black Tea",
+			"Sweet Tea": "995 4 245 1/1 5/1003/f Leah 2/Sweet Tea",
+			"Fancy Sweet Tea": "995 4 340 1 417 1/1 5/1004/f Evelyn 10/Fancy Sweet Tea",
+			"Tea Bag Carton (White)": "771 2 388 1 996 1 997 1 998 1/1 5/1005/f Abigail 10/Tea Bag Carton (White)",
+			"Tea Bag Carton (Green)": "771 2 388 1 999 1 1000 1 1001 1/1 5/1006/f Abigail 10/Tea Bag Carton (Green)",
+			"Tea Bag Carton (Black)": "771 2 388 1 1002 1 1003 1 1004 1/1 5/1007/f Abigail 10/Tea Bag Carton (Black)",
+			"Collectible Tea Box": "709 2 1005 1 1006 1 1007 1/1 5/1008/f Robin 10/Collectible Tea Box",
+			"Tea Leaf Cuttings": "495 1 496 1 347 1/1 5/995/f Demetrius 2/Tea Leaf Cuttings"
+          },
+		  "When": {
+        	"Language": "es",
+			"CompatibilityWithArtisanValley": "true"
+			      }
+       },
+       
+       
+       // Alternate Tea mod recipe data - Japanese
+       {
+          "Action": "EditData",
+          "Target": "Data/CookingRecipes",
+		  "Locale": "ja-JP",
+          "Entries": {
+			"White  Tea": "995 1/1 5/996/f Jodi 2/White Tea",
+			"Dandelion White Tea": "995 1 22 1/1 5/997/f Harvey 3/Dandelion White Tea",
+			"Berry Surprise Tea": "995 1 410 1 396 1/1 5/998/f Linus 5/Berry Surprise Tea",
+			"Green Tea": "995 2/1 5/999/f Emily 2/Green Tea",
+			"Granny Pom Tea": "995 2 637 1/1 5/1000/f Marnie 4/Granny Pom Tea",
+			"Fruit Splash Tea": "995 2 635 1 636 1/1 5/1001/f Willy 6/Fruit Splash Tea",
+			"Black  Tea": "995 4/1 5/1002/f Lewis 2/Black Tea",
+			"Sweet Tea": "995 4 245 1/1 5/1003/f Leah 2/Sweet Tea",
+			"Fancy Sweet Tea": "995 4 340 1 417 1/1 5/1004/f Evelyn 10/Fancy Sweet Tea",
+			"Tea Bag Carton (White)": "771 2 388 1 996 1 997 1 998 1/1 5/1005/f Abigail 10/Tea Bag Carton (White)",
+			"Tea Bag Carton (Green)": "771 2 388 1 999 1 1000 1 1001 1/1 5/1006/f Abigail 10/Tea Bag Carton (Green)",
+			"Tea Bag Carton (Black)": "771 2 388 1 1002 1 1003 1 1004 1/1 5/1007/f Abigail 10/Tea Bag Carton (Black)",
+			"Collectible Tea Box": "709 2 1005 1 1006 1 1007 1/1 5/1008/f Robin 10/Collectible Tea Box",
+			"Tea Leaf Cuttings": "495 1 496 1 347 1/1 5/995/f Demetrius 2/Tea Leaf Cuttings"
+          },
+		  "When": {
+        	"Language": "ja",
+			"CompatibilityWithArtisanValley": "true"
+			      }
+       },
+       
+       
+       // Alternate Tea mod recipe data - Portuguese
+       {
+          "Action": "EditData",
+          "Target": "Data/CookingRecipes",
+		  "Locale": "pt-BR",
+          "Entries": {
+			"White  Tea": "995 1/1 5/996/f Jodi 2/White Tea",
+			"Dandelion White Tea": "995 1 22 1/1 5/997/f Harvey 3/Dandelion White Tea",
+			"Berry Surprise Tea": "995 1 410 1 396 1/1 5/998/f Linus 5/Berry Surprise Tea",
+			"Green Tea": "995 2/1 5/999/f Emily 2/Green Tea",
+			"Granny Pom Tea": "995 2 637 1/1 5/1000/f Marnie 4/Granny Pom Tea",
+			"Fruit Splash Tea": "995 2 635 1 636 1/1 5/1001/f Willy 6/Fruit Splash Tea",
+			"Black  Tea": "995 4/1 5/1002/f Lewis 2/Black Tea",
+			"Sweet Tea": "995 4 245 1/1 5/1003/f Leah 2/Sweet Tea",
+			"Fancy Sweet Tea": "995 4 340 1 417 1/1 5/1004/f Evelyn 10/Fancy Sweet Tea",
+			"Tea Bag Carton (White)": "771 2 388 1 996 1 997 1 998 1/1 5/1005/f Abigail 10/Tea Bag Carton (White)",
+			"Tea Bag Carton (Green)": "771 2 388 1 999 1 1000 1 1001 1/1 5/1006/f Abigail 10/Tea Bag Carton (Green)",
+			"Tea Bag Carton (Black)": "771 2 388 1 1002 1 1003 1 1004 1/1 5/1007/f Abigail 10/Tea Bag Carton (Black)",
+			"Collectible Tea Box": "709 2 1005 1 1006 1 1007 1/1 5/1008/f Robin 10/Collectible Tea Box",
+			"Tea Leaf Cuttings": "495 1 496 1 347 1/1 5/995/f Demetrius 2/Tea Leaf Cuttings"
+          },
+		  "When": {
+        	"Language": "pt",
+			"CompatibilityWithArtisanValley": "true"
+			      }
+       },
+       
+       
+       // Alternate Tea mod recipe data - Russian
+       {
+          "Action": "EditData",
+          "Target": "Data/CookingRecipes",
+		  "Locale": "ru-RU",
+          "Entries": {
+			"White  Tea": "995 1/1 5/996/f Jodi 2/White Tea",
+			"Dandelion White Tea": "995 1 22 1/1 5/997/f Harvey 3/Dandelion White Tea",
+			"Berry Surprise Tea": "995 1 410 1 396 1/1 5/998/f Linus 5/Berry Surprise Tea",
+			"Green Tea": "995 2/1 5/999/f Emily 2/Green Tea",
+			"Granny Pom Tea": "995 2 637 1/1 5/1000/f Marnie 4/Granny Pom Tea",
+			"Fruit Splash Tea": "995 2 635 1 636 1/1 5/1001/f Willy 6/Fruit Splash Tea",
+			"Black  Tea": "995 4/1 5/1002/f Lewis 2/Black Tea",
+			"Sweet Tea": "995 4 245 1/1 5/1003/f Leah 2/Sweet Tea",
+			"Fancy Sweet Tea": "995 4 340 1 417 1/1 5/1004/f Evelyn 10/Fancy Sweet Tea",
+			"Tea Bag Carton (White)": "771 2 388 1 996 1 997 1 998 1/1 5/1005/f Abigail 10/Tea Bag Carton (White)",
+			"Tea Bag Carton (Green)": "771 2 388 1 999 1 1000 1 1001 1/1 5/1006/f Abigail 10/Tea Bag Carton (Green)",
+			"Tea Bag Carton (Black)": "771 2 388 1 1002 1 1003 1 1004 1/1 5/1007/f Abigail 10/Tea Bag Carton (Black)",
+			"Collectible Tea Box": "709 2 1005 1 1006 1 1007 1/1 5/1008/f Robin 10/Collectible Tea Box",
+			"Tea Leaf Cuttings": "495 1 496 1 347 1/1 5/995/f Demetrius 2/Tea Leaf Cuttings"
+          },
+		  "When": {
+        	"Language": "ru",
+			"CompatibilityWithArtisanValley": "true"
+			      }
+       },
+       
+       
+       // Alternate Tea mod recipe data - Chinese
+       {
+          "Action": "EditData",
+          "Target": "Data/CookingRecipes",
+		  "Locale": "zh-CN",
+          "Entries": {
+			"White  Tea": "995 1/1 5/996/f Jodi 2/White Tea",
+			"Dandelion White Tea": "995 1 22 1/1 5/997/f Harvey 3/Dandelion White Tea",
+			"Berry Surprise Tea": "995 1 410 1 396 1/1 5/998/f Linus 5/Berry Surprise Tea",
+			"Green Tea": "995 2/1 5/999/f Emily 2/Green Tea",
+			"Granny Pom Tea": "995 2 637 1/1 5/1000/f Marnie 4/Granny Pom Tea",
+			"Fruit Splash Tea": "995 2 635 1 636 1/1 5/1001/f Willy 6/Fruit Splash Tea",
+			"Black  Tea": "995 4/1 5/1002/f Lewis 2/Black Tea",
+			"Sweet Tea": "995 4 245 1/1 5/1003/f Leah 2/Sweet Tea",
+			"Fancy Sweet Tea": "995 4 340 1 417 1/1 5/1004/f Evelyn 10/Fancy Sweet Tea",
+			"Tea Bag Carton (White)": "771 2 388 1 996 1 997 1 998 1/1 5/1005/f Abigail 10/Tea Bag Carton (White)",
+			"Tea Bag Carton (Green)": "771 2 388 1 999 1 1000 1 1001 1/1 5/1006/f Abigail 10/Tea Bag Carton (Green)",
+			"Tea Bag Carton (Black)": "771 2 388 1 1002 1 1003 1 1004 1/1 5/1007/f Abigail 10/Tea Bag Carton (Black)",
+			"Collectible Tea Box": "709 2 1005 1 1006 1 1007 1/1 5/1008/f Robin 10/Collectible Tea Box",
+			"Tea Leaf Cuttings": "495 1 496 1 347 1/1 5/995/f Demetrius 2/Tea Leaf Cuttings"
+          },
+		  "When": {
+        	"Language": "zh",
+			"CompatibilityWithArtisanValley": "true"
+			      }
+       },
+
+       // Alternate Tea mod recipe data - French
+       {
+          "Action": "EditData",
+          "Target": "Data/CookingRecipes",
+		  "Locale": "fr-FR",
+          "Entries": {
+			"White  Tea": "995 1/1 5/996/f Jodi 2/White Tea",
+			"Dandelion White Tea": "995 1 22 1/1 5/997/f Harvey 3/Dandelion White Tea",
+			"Berry Surprise Tea": "995 1 410 1 396 1/1 5/998/f Linus 5/Berry Surprise Tea",
+			"Green Tea": "995 2/1 5/999/f Emily 2/Green Tea",
+			"Granny Pom Tea": "995 2 637 1/1 5/1000/f Marnie 4/Granny Pom Tea",
+			"Fruit Splash Tea": "995 2 635 1 636 1/1 5/1001/f Willy 6/Fruit Splash Tea",
+			"Black  Tea": "995 4/1 5/1002/f Lewis 2/Black Tea",
+			"Sweet Tea": "995 4 245 1/1 5/1003/f Leah 2/Sweet Tea",
+			"Fancy Sweet Tea": "995 4 340 1 417 1/1 5/1004/f Evelyn 10/Fancy Sweet Tea",
+			"Tea Bag Carton (White)": "771 2 388 1 996 1 997 1 998 1/1 5/1005/f Abigail 10/Tea Bag Carton (White)",
+			"Tea Bag Carton (Green)": "771 2 388 1 999 1 1000 1 1001 1/1 5/1006/f Abigail 10/Tea Bag Carton (Green)",
+			"Tea Bag Carton (Black)": "771 2 388 1 1002 1 1003 1 1004 1/1 5/1007/f Abigail 10/Tea Bag Carton (Black)",
+			"Collectible Tea Box": "709 2 1005 1 1006 1 1007 1/1 5/1008/f Robin 10/Collectible Tea Box",
+			"Tea Leaf Cuttings": "495 1 496 1 347 1/1 5/995/f Demetrius 2/Tea Leaf Cuttings"
+          },
+		  "When": {
+        	"Language": "fr",
+			"CompatibilityWithArtisanValley": "true"
+			      }
+       },
+
+       // Alternate Tea mod recipe data - Italian
+       {
+          "Action": "EditData",
+          "Target": "Data/CookingRecipes",
+		  "Locale": "it-IT",
+          "Entries": {
+			"White  Tea": "995 1/1 5/996/f Jodi 2/White Tea",
+			"Dandelion White Tea": "995 1 22 1/1 5/997/f Harvey 3/Dandelion White Tea",
+			"Berry Surprise Tea": "995 1 410 1 396 1/1 5/998/f Linus 5/Berry Surprise Tea",
+			"Green Tea": "995 2/1 5/999/f Emily 2/Green Tea",
+			"Granny Pom Tea": "995 2 637 1/1 5/1000/f Marnie 4/Granny Pom Tea",
+			"Fruit Splash Tea": "995 2 635 1 636 1/1 5/1001/f Willy 6/Fruit Splash Tea",
+			"Black  Tea": "995 4/1 5/1002/f Lewis 2/Black Tea",
+			"Sweet Tea": "995 4 245 1/1 5/1003/f Leah 2/Sweet Tea",
+			"Fancy Sweet Tea": "995 4 340 1 417 1/1 5/1004/f Evelyn 10/Fancy Sweet Tea",
+			"Tea Bag Carton (White)": "771 2 388 1 996 1 997 1 998 1/1 5/1005/f Abigail 10/Tea Bag Carton (White)",
+			"Tea Bag Carton (Green)": "771 2 388 1 999 1 1000 1 1001 1/1 5/1006/f Abigail 10/Tea Bag Carton (Green)",
+			"Tea Bag Carton (Black)": "771 2 388 1 1002 1 1003 1 1004 1/1 5/1007/f Abigail 10/Tea Bag Carton (Black)",
+			"Collectible Tea Box": "709 2 1005 1 1006 1 1007 1/1 5/1008/f Robin 10/Collectible Tea Box",
+			"Tea Leaf Cuttings": "495 1 496 1 347 1/1 5/995/f Demetrius 2/Tea Leaf Cuttings"
+          },
+		  "When": {
+        	"Language": "it",
+			"CompatibilityWithArtisanValley": "true"
+			      }
+       },
+
+       // Alternate Tea mod recipe data - Turkish
+       {
+          "Action": "EditData",
+          "Target": "Data/CookingRecipes",
+		  "Locale": "tr-TR",
+          "Entries": {
+			"White  Tea": "995 1/1 5/996/f Jodi 2/White Tea",
+			"Dandelion White Tea": "995 1 22 1/1 5/997/f Harvey 3/Dandelion White Tea",
+			"Berry Surprise Tea": "995 1 410 1 396 1/1 5/998/f Linus 5/Berry Surprise Tea",
+			"Green Tea": "995 2/1 5/999/f Emily 2/Green Tea",
+			"Granny Pom Tea": "995 2 637 1/1 5/1000/f Marnie 4/Granny Pom Tea",
+			"Fruit Splash Tea": "995 2 635 1 636 1/1 5/1001/f Willy 6/Fruit Splash Tea",
+			"Black  Tea": "995 4/1 5/1002/f Lewis 2/Black Tea",
+			"Sweet Tea": "995 4 245 1/1 5/1003/f Leah 2/Sweet Tea",
+			"Fancy Sweet Tea": "995 4 340 1 417 1/1 5/1004/f Evelyn 10/Fancy Sweet Tea",
+			"Tea Bag Carton (White)": "771 2 388 1 996 1 997 1 998 1/1 5/1005/f Abigail 10/Tea Bag Carton (White)",
+			"Tea Bag Carton (Green)": "771 2 388 1 999 1 1000 1 1001 1/1 5/1006/f Abigail 10/Tea Bag Carton (Green)",
+			"Tea Bag Carton (Black)": "771 2 388 1 1002 1 1003 1 1004 1/1 5/1007/f Abigail 10/Tea Bag Carton (Black)",
+			"Collectible Tea Box": "709 2 1005 1 1006 1 1007 1/1 5/1008/f Robin 10/Collectible Tea Box",
+			"Tea Leaf Cuttings": "495 1 496 1 347 1/1 5/995/f Demetrius 2/Tea Leaf Cuttings"
+          },
+		  "When": {
+        	"Language": "tr",
+			"CompatibilityWithArtisanValley": "true"
+			      }
+       },
+
+       // Alternate Tea mod recipe data - Korean
+       {
+          "Action": "EditData",
+          "Target": "Data/CookingRecipes",
+		  "Locale": "ko-KR",
+          "Entries": {
+			"White  Tea": "995 1/1 5/996/f Jodi 2/White Tea",
+			"Dandelion White Tea": "995 1 22 1/1 5/997/f Harvey 3/Dandelion White Tea",
+			"Berry Surprise Tea": "995 1 410 1 396 1/1 5/998/f Linus 5/Berry Surprise Tea",
+			"Green Tea": "995 2/1 5/999/f Emily 2/Green Tea",
+			"Granny Pom Tea": "995 2 637 1/1 5/1000/f Marnie 4/Granny Pom Tea",
+			"Fruit Splash Tea": "995 2 635 1 636 1/1 5/1001/f Willy 6/Fruit Splash Tea",
+			"Black  Tea": "995 4/1 5/1002/f Lewis 2/Black Tea",
+			"Sweet Tea": "995 4 245 1/1 5/1003/f Leah 2/Sweet Tea",
+			"Fancy Sweet Tea": "995 4 340 1 417 1/1 5/1004/f Evelyn 10/Fancy Sweet Tea",
+			"Tea Bag Carton (White)": "771 2 388 1 996 1 997 1 998 1/1 5/1005/f Abigail 10/Tea Bag Carton (White)",
+			"Tea Bag Carton (Green)": "771 2 388 1 999 1 1000 1 1001 1/1 5/1006/f Abigail 10/Tea Bag Carton (Green)",
+			"Tea Bag Carton (Black)": "771 2 388 1 1002 1 1003 1 1004 1/1 5/1007/f Abigail 10/Tea Bag Carton (Black)",
+			"Collectible Tea Box": "709 2 1005 1 1006 1 1007 1/1 5/1008/f Robin 10/Collectible Tea Box",
+			"Tea Leaf Cuttings": "495 1 496 1 347 1/1 5/995/f Demetrius 2/Tea Leaf Cuttings"
+          },
+		  "When": {
+        	"Language": "ko",
+			"CompatibilityWithArtisanValley": "true"
+			      }
+       },
+
+       // Alternate Tea mod recipe data - Hungarian
+       {
+          "Action": "EditData",
+          "Target": "Data/CookingRecipes",
+		  "Locale": "hu-HU",
+          "Entries": {
+			"White  Tea": "995 1/1 5/996/f Jodi 2/White Tea",
+			"Dandelion White Tea": "995 1 22 1/1 5/997/f Harvey 3/Dandelion White Tea",
+			"Berry Surprise Tea": "995 1 410 1 396 1/1 5/998/f Linus 5/Berry Surprise Tea",
+			"Green Tea": "995 2/1 5/999/f Emily 2/Green Tea",
+			"Granny Pom Tea": "995 2 637 1/1 5/1000/f Marnie 4/Granny Pom Tea",
+			"Fruit Splash Tea": "995 2 635 1 636 1/1 5/1001/f Willy 6/Fruit Splash Tea",
+			"Black  Tea": "995 4/1 5/1002/f Lewis 2/Black Tea",
+			"Sweet Tea": "995 4 245 1/1 5/1003/f Leah 2/Sweet Tea",
+			"Fancy Sweet Tea": "995 4 340 1 417 1/1 5/1004/f Evelyn 10/Fancy Sweet Tea",
+			"Tea Bag Carton (White)": "771 2 388 1 996 1 997 1 998 1/1 5/1005/f Abigail 10/Tea Bag Carton (White)",
+			"Tea Bag Carton (Green)": "771 2 388 1 999 1 1000 1 1001 1/1 5/1006/f Abigail 10/Tea Bag Carton (Green)",
+			"Tea Bag Carton (Black)": "771 2 388 1 1002 1 1003 1 1004 1/1 5/1007/f Abigail 10/Tea Bag Carton (Black)",
+			"Collectible Tea Box": "709 2 1005 1 1006 1 1007 1/1 5/1008/f Robin 10/Collectible Tea Box",
+			"Tea Leaf Cuttings": "495 1 496 1 347 1/1 5/995/f Demetrius 2/Tea Leaf Cuttings"
+          },
+		  "When": {
+        	"Language": "hu",
+			"CompatibilityWithArtisanValley": "true"
+			      }
+       },
+
+
+//=======================================================================
+// Botany Mod section - compatible with Artisan Valley
+//=======================================================================
+
+      
+       // Alternate Botany mod recipe data
+       {
+          "Action": "EditData",
+          "Target": "Data/CookingRecipes",
+          "Entries": {
+			"Pecan  Pie": "245 1 -5 1 246 1 1014 5/1 5/1026/f George 2/Pecan Pie",
+			"Guacamole": "1013 4 256 1 1018 1 260 1/1 5/1027/f Alex 2/Guacamole",
+			"Flour Tortilla": "246 2/1 5/1030/f Gus 3/Flour Tortilla",
+			"Enchilada Plate": "229 4 424 2 423 2 1025 3/1 5/1045/f Evelyn 2/Enchilada Plate",
+			"Bacon Cheeseburger": "216 1 424 1 1039 1 1037 1/1 5/1046/f Maru 2/Bacon Cheeseburger",
+			"Fried Chicken Dinner": "246 1 -5 1 247 1 1038 1 192 1 270 1 216 1/1 5/1047/f Caroline 2/Fried Chicken Dinner",
+			"Pepperoni Pizza": "246 1 256 1 424 1 1028 1 1039 1 1058 1/1 5/1048/f Abigail 2/Pepperoni Pizza",
+			"Pineapple Upside Down Cake": "246 1 -5 1 1059 1 638 5 1051 1/1 5/1060/f Evelyn 3/Pineapple Upside Down Cake",
+			"Banana Split": "233 1 1064 1 1044 1 1014 3 638 1/1 5/1066/f Jodi 10/Banana Split",
+			"Chicken Fajitas": "1038 3 1018 2 1020 4 1030 6 1027 1/1 5/1067/f Kent 8/Chicken Fajitas",
+			"Cascarón": "-5 1 1052 1 1050 1/1 5/1055/f Gus 2/Cascarón"
+          },
+		  "When": {
+                "BotanyModDisabled": "false",
+				"CompatibilityWithArtisanValley": "true"
+            }
+       },
+      
+
+       // Alternate Botany mod recipe data - German
+       {
+          "Action": "EditData",
+          "Target": "Data/CookingRecipes",
+		  "Locale": "de-DE",
+          "Entries": {
+			"Pecan  Pie": "245 1 -5 1 246 1 1014 5/1 5/1026/f George 2/Pecan Pie",
+			"Guacamole": "1013 4 256 1 1018 1 260 1/1 5/1027/f Alex 2/Guacamole",
+			"Flour Tortilla": "246 2/1 5/1030/f Gus 3/Flour Tortilla",
+			"Enchilada Plate": "229 4 424 2 423 2 1025 3/1 5/1045/f Evelyn 2/Enchilada Plate",
+			"Bacon Cheeseburger": "216 1 424 1 1039 1 1037 1/1 5/1046/f Maru 2/Bacon Cheeseburger",
+			"Fried Chicken Dinner": "246 1 -5 1 247 1 1038 1 192 1 270 1 216 1/1 5/1047/f Caroline 2/Fried Chicken Dinner",
+			"Pepperoni Pizza": "246 1 256 1 424 1 1028 1 1039 1 1058 1/1 5/1048/f Abigail 2/Pepperoni Pizza",
+			"Pineapple Upside Down Cake": "246 1 -5 1 1059 1 638 5 1051 1/1 5/1060/f Evelyn 3/Pineapple Upside Down Cake",
+			"Banana Split": "233 1 1064 1 1044 1 1014 3 638 1/1 5/1066/f Jodi 10/Banana Split",
+			"Chicken Fajitas": "1038 3 1018 2 1020 4 1030 6 1027 1/1 5/1067/f Kent 8/Chicken Fajitas",
+			"Cascarón": "-5 1 1052 1 1050 1/1 5/1055/f Gus 2/Cascarón"
+          },
+		  "When": {
+                "BotanyModDisabled": "false",
+        		"Language": "de",
+				"CompatibilityWithArtisanValley": "true"
+            }
+       },
+       
+       
+       // Alternate Botany mod recipe data - Spanish
+       {
+          "Action": "EditData",
+          "Target": "Data/CookingRecipes",
+		  "Locale": "es-ES",
+          "Entries": {
+			"Pecan  Pie": "245 1 -5 1 246 1 1014 5/1 5/1026/f George 2/Pecan Pie",
+			"Guacamole": "1013 4 256 1 1018 1 260 1/1 5/1027/f Alex 2/Guacamole",
+			"Flour Tortilla": "246 2/1 5/1030/f Gus 3/Flour Tortilla",
+			"Enchilada Plate": "229 4 424 2 423 2 1025 3/1 5/1045/f Evelyn 2/Enchilada Plate",
+			"Bacon Cheeseburger": "216 1 424 1 1039 1 1037 1/1 5/1046/f Maru 2/Bacon Cheeseburger",
+			"Fried Chicken Dinner": "246 1 -5 1 247 1 1038 1 192 1 270 1 216 1/1 5/1047/f Caroline 2/Fried Chicken Dinner",
+			"Pepperoni Pizza": "246 1 256 1 424 1 1028 1 1039 1 1058 1/1 5/1048/f Abigail 2/Pepperoni Pizza",
+			"Pineapple Upside Down Cake": "246 1 -5 1 1059 1 638 5 1051 1/1 5/1060/f Evelyn 3/Pineapple Upside Down Cake",
+			"Banana Split": "233 1 1064 1 1044 1 1014 3 638 1/1 5/1066/f Jodi 10/Banana Split",
+			"Chicken Fajitas": "1038 3 1018 2 1020 4 1030 6 1027 1/1 5/1067/f Kent 8/Chicken Fajitas",
+			"Cascarón": "-5 1 1052 1 1050 1/1 5/1055/f Gus 2/Cascarón"
+          },
+		  "When": {
+                "BotanyModDisabled": "false",
+        		"Language": "es",
+				"CompatibilityWithArtisanValley": "true"
+            }
+       },
+       
+       
+       // Alternate Botany mod recipe data - Japanese
+       {
+          "Action": "EditData",
+          "Target": "Data/CookingRecipes",
+		  "Locale": "ja-JP",
+          "Entries": {
+			"Pecan  Pie": "245 1 -5 1 246 1 1014 5/1 5/1026/f George 2/Pecan Pie",
+			"Guacamole": "1013 4 256 1 1018 1 260 1/1 5/1027/f Alex 2/Guacamole",
+			"Flour Tortilla": "246 2/1 5/1030/f Gus 3/Flour Tortilla",
+			"Enchilada Plate": "229 4 424 2 423 2 1025 3/1 5/1045/f Evelyn 2/Enchilada Plate",
+			"Bacon Cheeseburger": "216 1 424 1 1039 1 1037 1/1 5/1046/f Maru 2/Bacon Cheeseburger",
+			"Fried Chicken Dinner": "246 1 -5 1 247 1 1038 1 192 1 270 1 216 1/1 5/1047/f Caroline 2/Fried Chicken Dinner",
+			"Pepperoni Pizza": "246 1 256 1 424 1 1028 1 1039 1 1058 1/1 5/1048/f Abigail 2/Pepperoni Pizza",
+			"Pineapple Upside Down Cake": "246 1 -5 1 1059 1 638 5 1051 1/1 5/1060/f Evelyn 3/Pineapple Upside Down Cake",
+			"Banana Split": "233 1 1064 1 1044 1 1014 3 638 1/1 5/1066/f Jodi 10/Banana Split",
+			"Chicken Fajitas": "1038 3 1018 2 1020 4 1030 6 1027 1/1 5/1067/f Kent 8/Chicken Fajitas",
+			"Cascarón": "-5 1 1052 1 1050 1/1 5/1055/f Gus 2/Cascarón"
+          },
+		  "When": {
+                "BotanyModDisabled": "false",
+        		"Language": "ja",
+				"CompatibilityWithArtisanValley": "true"
+            }
+       },
+       
+       
+       // Alternate Botany mod recipe data - Portuguese
+       {
+          "Action": "EditData",
+          "Target": "Data/CookingRecipes",
+		  "Locale": "pt-BR",
+          "Entries": {
+			"Pecan  Pie": "245 1 -5 1 246 1 1014 5/1 5/1026/f George 2/Pecan Pie",
+			"Guacamole": "1013 4 256 1 1018 1 260 1/1 5/1027/f Alex 2/Guacamole",
+			"Flour Tortilla": "246 2/1 5/1030/f Gus 3/Flour Tortilla",
+			"Enchilada Plate": "229 4 424 2 423 2 1025 3/1 5/1045/f Evelyn 2/Enchilada Plate",
+			"Bacon Cheeseburger": "216 1 424 1 1039 1 1037 1/1 5/1046/f Maru 2/Bacon Cheeseburger",
+			"Fried Chicken Dinner": "246 1 -5 1 247 1 1038 1 192 1 270 1 216 1/1 5/1047/f Caroline 2/Fried Chicken Dinner",
+			"Pepperoni Pizza": "246 1 256 1 424 1 1028 1 1039 1 1058 1/1 5/1048/f Abigail 2/Pepperoni Pizza",
+			"Pineapple Upside Down Cake": "246 1 -5 1 1059 1 638 5 1051 1/1 5/1060/f Evelyn 3/Pineapple Upside Down Cake",
+			"Banana Split": "233 1 1064 1 1044 1 1014 3 638 1/1 5/1066/f Jodi 10/Banana Split",
+			"Chicken Fajitas": "1038 3 1018 2 1020 4 1030 6 1027 1/1 5/1067/f Kent 8/Chicken Fajitas",
+			"Cascarón": "-5 1 1052 1 1050 1/1 5/1055/f Gus 2/Cascarón"
+          },
+		  "When": {
+                "BotanyModDisabled": "false",
+        		"Language": "pt",
+				"CompatibilityWithArtisanValley": "true"
+            }
+       },
+       
+       
+       // Alternate Botany mod recipe data - Russian
+       {
+          "Action": "EditData",
+          "Target": "Data/CookingRecipes",
+		  "Locale": "ru-RU",
+          "Entries": {
+			"Pecan  Pie": "245 1 -5 1 246 1 1014 5/1 5/1026/f George 2/Pecan Pie",
+			"Guacamole": "1013 4 256 1 1018 1 260 1/1 5/1027/f Alex 2/Guacamole",
+			"Flour Tortilla": "246 2/1 5/1030/f Gus 3/Flour Tortilla",
+			"Enchilada Plate": "229 4 424 2 423 2 1025 3/1 5/1045/f Evelyn 2/Enchilada Plate",
+			"Bacon Cheeseburger": "216 1 424 1 1039 1 1037 1/1 5/1046/f Maru 2/Bacon Cheeseburger",
+			"Fried Chicken Dinner": "246 1 -5 1 247 1 1038 1 192 1 270 1 216 1/1 5/1047/f Caroline 2/Fried Chicken Dinner",
+			"Pepperoni Pizza": "246 1 256 1 424 1 1028 1 1039 1 1058 1/1 5/1048/f Abigail 2/Pepperoni Pizza",
+			"Pineapple Upside Down Cake": "246 1 -5 1 1059 1 638 5 1051 1/1 5/1060/f Evelyn 3/Pineapple Upside Down Cake",
+			"Banana Split": "233 1 1064 1 1044 1 1014 3 638 1/1 5/1066/f Jodi 10/Banana Split",
+			"Chicken Fajitas": "1038 3 1018 2 1020 4 1030 6 1027 1/1 5/1067/f Kent 8/Chicken Fajitas",
+			"Cascarón": "-5 1 1052 1 1050 1/1 5/1055/f Gus 2/Cascarón"
+          },
+		  "When": {
+                "BotanyModDisabled": "false",
+        		"Language": "ru",
+				"CompatibilityWithArtisanValley": "true"
+            }
+       },
+       
+       
+       // Alternate Botany mod recipe data - Chinese
+       {
+          "Action": "EditData",
+          "Target": "Data/CookingRecipes",
+		  "Locale": "zh-CN",
+          "Entries": {
+			"Pecan  Pie": "245 1 -5 1 246 1 1014 5/1 5/1026/f George 2/Pecan Pie",
+			"Guacamole": "1013 4 256 1 1018 1 260 1/1 5/1027/f Alex 2/Guacamole",
+			"Flour Tortilla": "246 2/1 5/1030/f Gus 3/Flour Tortilla",
+			"Enchilada Plate": "229 4 424 2 423 2 1025 3/1 5/1045/f Evelyn 2/Enchilada Plate",
+			"Bacon Cheeseburger": "216 1 424 1 1039 1 1037 1/1 5/1046/f Maru 2/Bacon Cheeseburger",
+			"Fried Chicken Dinner": "246 1 -5 1 247 1 1038 1 192 1 270 1 216 1/1 5/1047/f Caroline 2/Fried Chicken Dinner",
+			"Pepperoni Pizza": "246 1 256 1 424 1 1028 1 1039 1 1058 1/1 5/1048/f Abigail 2/Pepperoni Pizza",
+			"Pineapple Upside Down Cake": "246 1 -5 1 1059 1 638 5 1051 1/1 5/1060/f Evelyn 3/Pineapple Upside Down Cake",
+			"Banana Split": "233 1 1064 1 1044 1 1014 3 638 1/1 5/1066/f Jodi 10/Banana Split",
+			"Chicken Fajitas": "1038 3 1018 2 1020 4 1030 6 1027 1/1 5/1067/f Kent 8/Chicken Fajitas",
+			"Cascarón": "-5 1 1052 1 1050 1/1 5/1055/f Gus 2/Cascarón"
+          },
+		  "When": {
+                "BotanyModDisabled": "false",
+        		"Language": "zh",
+				"CompatibilityWithArtisanValley": "true"
+            }
+       },
+
+       // Alternate Botany mod recipe data - French
+       {
+          "Action": "EditData",
+          "Target": "Data/CookingRecipes",
+		  "Locale": "fr-FR",
+          "Entries": {
+			"Pecan  Pie": "245 1 -5 1 246 1 1014 5/1 5/1026/f George 2/Pecan Pie",
+			"Guacamole": "1013 4 256 1 1018 1 260 1/1 5/1027/f Alex 2/Guacamole",
+			"Flour Tortilla": "246 2/1 5/1030/f Gus 3/Flour Tortilla",
+			"Enchilada Plate": "229 4 424 2 423 2 1025 3/1 5/1045/f Evelyn 2/Enchilada Plate",
+			"Bacon Cheeseburger": "216 1 424 1 1039 1 1037 1/1 5/1046/f Maru 2/Bacon Cheeseburger",
+			"Fried Chicken Dinner": "246 1 -5 1 247 1 1038 1 192 1 270 1 216 1/1 5/1047/f Caroline 2/Fried Chicken Dinner",
+			"Pepperoni Pizza": "246 1 256 1 424 1 1028 1 1039 1 1058 1/1 5/1048/f Abigail 2/Pepperoni Pizza",
+			"Pineapple Upside Down Cake": "246 1 -5 1 1059 1 638 5 1051 1/1 5/1060/f Evelyn 3/Pineapple Upside Down Cake",
+			"Banana Split": "233 1 1064 1 1044 1 1014 3 638 1/1 5/1066/f Jodi 10/Banana Split",
+			"Chicken Fajitas": "1038 3 1018 2 1020 4 1030 6 1027 1/1 5/1067/f Kent 8/Chicken Fajitas",
+			"Cascarón": "-5 1 1052 1 1050 1/1 5/1055/f Gus 2/Cascarón"
+          },
+		  "When": {
+                "BotanyModDisabled": "false",
+        		"Language": "fr",
+				"CompatibilityWithArtisanValley": "true"
+            }
+       },
+
+       // Alternate Botany mod recipe data - Italian
+       {
+          "Action": "EditData",
+          "Target": "Data/CookingRecipes",
+		  "Locale": "it-IT",
+          "Entries": {
+			"Pecan  Pie": "245 1 -5 1 246 1 1014 5/1 5/1026/f George 2/Pecan Pie",
+			"Guacamole": "1013 4 256 1 1018 1 260 1/1 5/1027/f Alex 2/Guacamole",
+			"Flour Tortilla": "246 2/1 5/1030/f Gus 3/Flour Tortilla",
+			"Enchilada Plate": "229 4 424 2 423 2 1025 3/1 5/1045/f Evelyn 2/Enchilada Plate",
+			"Bacon Cheeseburger": "216 1 424 1 1039 1 1037 1/1 5/1046/f Maru 2/Bacon Cheeseburger",
+			"Fried Chicken Dinner": "246 1 -5 1 247 1 1038 1 192 1 270 1 216 1/1 5/1047/f Caroline 2/Fried Chicken Dinner",
+			"Pepperoni Pizza": "246 1 256 1 424 1 1028 1 1039 1 1058 1/1 5/1048/f Abigail 2/Pepperoni Pizza",
+			"Pineapple Upside Down Cake": "246 1 -5 1 1059 1 638 5 1051 1/1 5/1060/f Evelyn 3/Pineapple Upside Down Cake",
+			"Banana Split": "233 1 1064 1 1044 1 1014 3 638 1/1 5/1066/f Jodi 10/Banana Split",
+			"Chicken Fajitas": "1038 3 1018 2 1020 4 1030 6 1027 1/1 5/1067/f Kent 8/Chicken Fajitas",
+			"Cascarón": "-5 1 1052 1 1050 1/1 5/1055/f Gus 2/Cascarón"
+          },
+		  "When": {
+                "BotanyModDisabled": "false",
+        		"Language": "it",
+				"CompatibilityWithArtisanValley": "true"
+            }
+       },
+
+       // Alternate Botany mod recipe data - Turkish
+       {
+          "Action": "EditData",
+          "Target": "Data/CookingRecipes",
+		  "Locale": "tr-TR",
+          "Entries": {
+			"Pecan  Pie": "245 1 -5 1 246 1 1014 5/1 5/1026/f George 2/Pecan Pie",
+			"Guacamole": "1013 4 256 1 1018 1 260 1/1 5/1027/f Alex 2/Guacamole",
+			"Flour Tortilla": "246 2/1 5/1030/f Gus 3/Flour Tortilla",
+			"Enchilada Plate": "229 4 424 2 423 2 1025 3/1 5/1045/f Evelyn 2/Enchilada Plate",
+			"Bacon Cheeseburger": "216 1 424 1 1039 1 1037 1/1 5/1046/f Maru 2/Bacon Cheeseburger",
+			"Fried Chicken Dinner": "246 1 -5 1 247 1 1038 1 192 1 270 1 216 1/1 5/1047/f Caroline 2/Fried Chicken Dinner",
+			"Pepperoni Pizza": "246 1 256 1 424 1 1028 1 1039 1 1058 1/1 5/1048/f Abigail 2/Pepperoni Pizza",
+			"Pineapple Upside Down Cake": "246 1 -5 1 1059 1 638 5 1051 1/1 5/1060/f Evelyn 3/Pineapple Upside Down Cake",
+			"Banana Split": "233 1 1064 1 1044 1 1014 3 638 1/1 5/1066/f Jodi 10/Banana Split",
+			"Chicken Fajitas": "1038 3 1018 2 1020 4 1030 6 1027 1/1 5/1067/f Kent 8/Chicken Fajitas",
+			"Cascarón": "-5 1 1052 1 1050 1/1 5/1055/f Gus 2/Cascarón"
+          },
+		  "When": {
+                "BotanyModDisabled": "false",
+        		"Language": "tr",
+				"CompatibilityWithArtisanValley": "true"
+            }
+       },
+
+       // Alternate Botany mod recipe data - Korean
+       {
+          "Action": "EditData",
+          "Target": "Data/CookingRecipes",
+		  "Locale": "ko-KR",
+          "Entries": {
+			"Pecan  Pie": "245 1 -5 1 246 1 1014 5/1 5/1026/f George 2/Pecan Pie",
+			"Guacamole": "1013 4 256 1 1018 1 260 1/1 5/1027/f Alex 2/Guacamole",
+			"Flour Tortilla": "246 2/1 5/1030/f Gus 3/Flour Tortilla",
+			"Enchilada Plate": "229 4 424 2 423 2 1025 3/1 5/1045/f Evelyn 2/Enchilada Plate",
+			"Bacon Cheeseburger": "216 1 424 1 1039 1 1037 1/1 5/1046/f Maru 2/Bacon Cheeseburger",
+			"Fried Chicken Dinner": "246 1 -5 1 247 1 1038 1 192 1 270 1 216 1/1 5/1047/f Caroline 2/Fried Chicken Dinner",
+			"Pepperoni Pizza": "246 1 256 1 424 1 1028 1 1039 1 1058 1/1 5/1048/f Abigail 2/Pepperoni Pizza",
+			"Pineapple Upside Down Cake": "246 1 -5 1 1059 1 638 5 1051 1/1 5/1060/f Evelyn 3/Pineapple Upside Down Cake",
+			"Banana Split": "233 1 1064 1 1044 1 1014 3 638 1/1 5/1066/f Jodi 10/Banana Split",
+			"Chicken Fajitas": "1038 3 1018 2 1020 4 1030 6 1027 1/1 5/1067/f Kent 8/Chicken Fajitas",
+			"Cascarón": "-5 1 1052 1 1050 1/1 5/1055/f Gus 2/Cascarón"
+          },
+		  "When": {
+                "BotanyModDisabled": "false",
+        		"Language": "ko",
+				"CompatibilityWithArtisanValley": "true"
+            }
+       },
+
+       // Alternate Botany mod recipe data - Hungarian
+       {
+          "Action": "EditData",
+          "Target": "Data/CookingRecipes",
+		  "Locale": "hu-HU",
+          "Entries": {
+			"Pecan  Pie": "245 1 -5 1 246 1 1014 5/1 5/1026/f George 2/Pecan Pie",
+			"Guacamole": "1013 4 256 1 1018 1 260 1/1 5/1027/f Alex 2/Guacamole",
+			"Flour Tortilla": "246 2/1 5/1030/f Gus 3/Flour Tortilla",
+			"Enchilada Plate": "229 4 424 2 423 2 1025 3/1 5/1045/f Evelyn 2/Enchilada Plate",
+			"Bacon Cheeseburger": "216 1 424 1 1039 1 1037 1/1 5/1046/f Maru 2/Bacon Cheeseburger",
+			"Fried Chicken Dinner": "246 1 -5 1 247 1 1038 1 192 1 270 1 216 1/1 5/1047/f Caroline 2/Fried Chicken Dinner",
+			"Pepperoni Pizza": "246 1 256 1 424 1 1028 1 1039 1 1058 1/1 5/1048/f Abigail 2/Pepperoni Pizza",
+			"Pineapple Upside Down Cake": "246 1 -5 1 1059 1 638 5 1051 1/1 5/1060/f Evelyn 3/Pineapple Upside Down Cake",
+			"Banana Split": "233 1 1064 1 1044 1 1014 3 638 1/1 5/1066/f Jodi 10/Banana Split",
+			"Chicken Fajitas": "1038 3 1018 2 1020 4 1030 6 1027 1/1 5/1067/f Kent 8/Chicken Fajitas",
+			"Cascarón": "-5 1 1052 1 1050 1/1 5/1055/f Gus 2/Cascarón"
+          },
+		  "When": {
+                "BotanyModDisabled": "false",
+        		"Language": "hu",
+				"CompatibilityWithArtisanValley": "true"
+            }
+       },
+
+//------------------------------------     
 
     ]
 }

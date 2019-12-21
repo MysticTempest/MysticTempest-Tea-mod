@@ -1,0 +1,49 @@
+================================================================
+MysticTempest_Tea_and_Botany_Mod_ConfigFile_Documentation.txt
+================================================================
+
+My Content Patcher based Tea mod generates a "config.json" file on first startup.
+It's located in the "MysticTempest_Tea_and_Botany_Mod" folder that you added to your SDV mods folder.
+
+--------------------------------------------------
+
+The default values generated are as follows:
+
+  "BotanyModDisabled": "true",
+  "ClassicTeaTextureDisabled": "true",
+  "CompatibilityWithArtisanValley": "false"
+
+
+--------------------------------------------------
+
+BotanyModDisabled: 
+		Set to 'true' by default; it disables the experimental/abandoned, but fully usable Botany expansion I had worked on. 
+		When set to 'false', it enables the Botany expansion; adding a few more of my favorite crops, recipes and machine ideas.
+
+
+ClassicTeaTextureDisabled: 
+		Set to 'true' by default; it disables my old tea mod sprites in favor of my updated textures.
+		When set to 'false', it brings back the classic textures.
+
+
+CompatibilityWithArtisanValley: 
+		Set to 'false' by default; it keeps my Tea mod unchanged from before.
+		When set to 'true' though; my original Tea recipes will be disabled, and alternates will be provided that will allow cooking of my Tea items, as well as ArtisanValley's or other Tea mods.
+
+		-----------
+		Extra notes: 
+				Currently compatibility is only tweaked for the following items:
+						"White Tea"
+						"Black Tea"
+					    "Pecan Pie" - from my Botany expansion.
+
+
+				This is done by adding a single space between the recipe words; which changes them enough for the game to see that they're different recipes.
+				If you already had the old recipes, you'll have to check your mail again for the new recipes to come. Otherwise, you will receive them as normal.
+
+				Also, do note that old versions of the items listed above; that were cooked with the original recipe will not be stackable with any newer versions. 
+				However, older versions of the items listed above are still 100% available for all other uses, and vice-versa.
+				This occurs because the new cooking recipes create different items that are remapped to the original items as much as possible so as not to cause breakage.
+				
+				
+		-----------

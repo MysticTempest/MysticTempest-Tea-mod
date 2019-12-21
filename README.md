@@ -11,7 +11,7 @@ My Tea mod adds Tea as a crop, recipes to make & artisan items to sell.
 The Botany expansion includes new crops, recipes, artisan items & craftable machines to use.
 
 ### Official Forum Thread Link:
-[https://community.playstarbound.com/threads/mystictempests-tea-mod-updated-for-v1-2-w-multi-language-support.129850/](https://community.playstarbound.com/threads/mystictempests-tea-mod-updated-for-v1-2-w-multi-language-support.129850/)
+[https://community.playstarbound.com/threads/mystictempests-tea-mod-updated-for-v1-4.129850/](https://community.playstarbound.com/threads/mystictempests-tea-mod-updated-for-v1-4.129850/)
 
 
 
