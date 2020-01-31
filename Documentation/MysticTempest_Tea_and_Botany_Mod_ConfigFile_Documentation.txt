@@ -10,7 +10,8 @@ It's located in the "MysticTempest_Tea_and_Botany_Mod" folder that you added to 
 The default values generated are as follows:
 
   "BotanyModDisabled": "true",
-  "ClassicTeaTextureDisabled": "true",
+  "ClassicTeaItemTextureDisabled": "true",
+  "TeaCropSprites": "Enhanced",
   "CompatibilityWithArtisanValley": "false"
 
 
@@ -21,9 +22,15 @@ BotanyModDisabled:
 		When set to 'false', it enables the Botany expansion; adding a few more of my favorite crops, recipes and machine ideas.
 
 
-ClassicTeaTextureDisabled: 
-		Set to 'true' by default; it disables my old tea mod sprites in favor of my updated textures.
+ClassicTeaItemTextureDisabled: 
+		Set to 'true' by default; it disables my old tea item & artisan good sprites in favor of my updated textures.
 		When set to 'false', it brings back the classic textures.
+
+
+TeaCropSprites:
+		Set to "Enhanced" by default; is the updated Tea bush textures. Cleaned up a little, darkened and given a more consistent palette.
+		But, it also has options for the old classic textures, and a new style where the Enhanced style bush is turned into a shrub(ie. wooden stem).
+		They're enabled by overwriting the default "Enhanced" with "Classic", or "Enhanced_Shrub" in the config respectively.
 
 
 CompatibilityWithArtisanValley: 
@@ -47,3 +54,5 @@ CompatibilityWithArtisanValley:
 				
 				
 		-----------
+
+

@@ -4,8 +4,12 @@
         "BotanyModDisabled": {
             "AllowValues": "true, false"
         },
-		"ClassicTeaTextureDisabled": {
+		"ClassicTeaItemTextureDisabled": {
             "AllowValues": "true, false"
+        },
+		"TeaCropSprites": {
+            "AllowValues": "Classic, Enhanced, Enhanced_Shrub",
+	        "Default": "Enhanced"
         },
 		"CompatibilityWithArtisanValley": {
             "AllowValues": "true, false",
@@ -21,13 +25,42 @@
   "Changes": [
 
 
-       // Tea Crop mod sprites
+       // Tea Crop "Enhanced" mod sprites
        {
           "Action": "EditImage",
           "Target": "TileSheets/crops",
           "FromFile": "assets/MysticTempest_Tea_Sprites.png",
           "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 32 },
-          "ToArea": { "X": 0, "Y": 1568, "Width": 128, "Height": 32 }
+          "ToArea": { "X": 0, "Y": 1568, "Width": 128, "Height": 32 },
+		  "When": {
+                "TeaCropSprites": "Enhanced"
+            }
+       },
+
+
+       // Tea Crop "Classic" mod sprites
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/crops",
+          "FromFile": "assets/MysticTempest_Tea_Sprites_Classic.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 32 },
+          "ToArea": { "X": 0, "Y": 1568, "Width": 128, "Height": 32 },
+		  "When": {
+                "TeaCropSprites": "Classic"
+            }
+       },
+
+
+       // Tea Crop "Enhanced with Shrublike Stem" mod sprites
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/crops",
+          "FromFile": "assets/MysticTempest_Tea_Sprites.png",
+          "FromArea": { "X": 0, "Y": 48, "Width": 128, "Height": 32 },
+          "ToArea": { "X": 0, "Y": 1568, "Width": 128, "Height": 32 },
+		  "When": {
+                "TeaCropSprites": "Enhanced_Shrub"
+            }
        },
      
 //------------------------------------     
@@ -41,7 +74,7 @@
           "FromArea": { "X": 0, "Y": 32, "Width": 208, "Height": 16 },
           "ToArea": { "X": 176, "Y": 656, "Width": 208, "Height": 16 },
 		  "When": {
-                "ClassicTeaTextureDisabled": "true"
+                "ClassicTeaItemTextureDisabled": "true"
             }
        },
        
@@ -53,7 +86,7 @@
           "FromArea": { "X": 208, "Y": 32, "Width": 16, "Height": 16 },
           "ToArea": { "X": 0, "Y": 672, "Width": 16, "Height": 16 },
 		  "When": {
-                "ClassicTeaTextureDisabled": "true"
+                "ClassicTeaItemTextureDisabled": "true"
             }
        },
 
@@ -68,7 +101,7 @@
           "FromArea": { "X": 0, "Y": 32, "Width": 208, "Height": 16 },
           "ToArea": { "X": 176, "Y": 656, "Width": 208, "Height": 16 },
 		  "When": {
-                "ClassicTeaTextureDisabled": "false"
+                "ClassicTeaItemTextureDisabled": "false"
             }
        },
        
@@ -80,7 +113,7 @@
           "FromArea": { "X": 208, "Y": 32, "Width": 16, "Height": 16 },
           "ToArea": { "X": 0, "Y": 672, "Width": 16, "Height": 16 },
 		  "When": {
-                "ClassicTeaTextureDisabled": "false"
+                "ClassicTeaItemTextureDisabled": "false"
             }
        },
 
