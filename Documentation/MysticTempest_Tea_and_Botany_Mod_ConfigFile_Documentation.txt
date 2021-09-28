@@ -3,7 +3,7 @@ MysticTempest_Tea_and_Botany_Mod_ConfigFile_Documentation.txt
 ================================================================
 
 My Content Patcher based Tea mod generates a "config.json" file on first startup.
-It's located in the "MysticTempest_Tea_and_Botany_Mod" folder that you added to your SDV mods folder.
+It's located in the "[CP] MysticTempest_Tea_and_Botany_Mod" folder that you added to your SDV mods folder.
 
 --------------------------------------------------
 
