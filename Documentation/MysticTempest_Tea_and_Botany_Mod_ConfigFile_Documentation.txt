@@ -9,22 +9,22 @@ It's located in the "[CP] MysticTempest_Tea_and_Botany_Mod" folder that you adde
 
 The default values generated are as follows:
 
-  "BotanyModDisabled": "true",
-  "ClassicTeaItemTextureDisabled": "true",
+  "BotanyMod": "Disabled",
+  "ClassicTeaItemTexture": "Off",
   "TeaCropSprites": "Enhanced",
   "CompatibilityWithArtisanValley": "false"
 
 
 --------------------------------------------------
 
-BotanyModDisabled: 
-		Set to 'true' by default; it disables the experimental/abandoned, but fully usable Botany expansion I had worked on. 
-		When set to 'false', it enables the Botany expansion; adding a few more of my favorite crops, recipes and machine ideas.
+BotanyMod: 
+		Set to 'Disabled' by default; it disables the experimental/abandoned, but fully usable Botany expansion I had worked on. 
+		When set to 'Enabled', it enables the Botany expansion; adding a few more of my favorite crops, recipes and machine ideas.
 
 
-ClassicTeaItemTextureDisabled: 
-		Set to 'true' by default; it disables my old tea item & artisan good sprites in favor of my updated textures.
-		When set to 'false', it brings back the classic textures.
+ClassicTeaItemTexture: 
+		Set to 'Off' by default; it disables my old tea item & artisan good sprites in favor of my updated textures.
+		When set to 'On', it brings back the classic textures.
 
 
 TeaCropSprites:

@@ -69,6 +69,21 @@ Items:
 	Banana Split
 	Chicken Fajitas
 
+	Basic Straight Razor
+	Hardwood Straight Razor
+	Basalt Straight Razor
+	Pearl Straight Razor
+	Basic Shave Soap
+	Summer Sunset Shave Soap
+	Atoll Ale Shave Soap
+	Forest Spring Shave Soap
+	Clay Shave Bowl & Brush
+	Hardwood Shave Bowl & Brush
+	Marble Shave Bowl & Brush
+	Beige Leather Strop
+	Black Leather Strop
+	Red Leather Strop
+
 =====================================
 
 Botany Mod:
@@ -1604,3 +1619,395 @@ Recipe Given by:
 ----------------------------------
 =======================================
 =======================================
+----------------------------------
+----------------------------------
+
+
+Name: Basic Straight Razor
+	Sell Price: # Gold
+
+Description:
+	For a classic, and clean shave.
+
+Acquired by:
+	
+
+
+Health and Energy:
+	N/A
+
+Buffs:
+	N/A
+
+
+Recipe Ingredients:
+	1 x Iron Bar
+	1 x Refined Quartz
+
+
+Recipe Given by:
+
+----------------------------------
+----------------------------------
+
+Name: Hardwood Straight Razor
+	Sell Price: # Gold
+
+Description:
+	Straight razor with scales made of hardwood.
+
+Acquired by:
+	
+
+
+Health and Energy:
+	N/A
+
+Buffs:
+	N/A
+
+
+Recipe Ingredients:
+	1 x Iron Bar
+	1 x Refined Quartz
+	1 x Hardwood
+
+Recipe Given by:
+
+----------------------------------
+----------------------------------
+
+Name: Basalt Straight Razor
+	Sell Price: # Gold
+
+Description:
+	Straight razor with scales made of basalt.
+
+Acquired by:
+	
+
+
+Health and Energy:
+	N/A
+
+Buffs:
+	N/A
+
+
+Recipe Ingredients:
+	1 x Iron Bar
+	1 x Refined Quartz
+	1 x Basalt
+
+Recipe Given by:
+
+----------------------------------
+----------------------------------
+
+Name: Pearl Straight Razor
+	Sell Price: # Gold
+
+Description:
+	Straight razor with scales made of pearl.
+
+Acquired by:
+	
+
+
+Health and Energy:
+	N/A
+
+Buffs:
+	N/A
+
+
+Recipe Ingredients:
+	1 x Iron Bar
+	1 x Refined Quartz
+	1 x Pearl
+
+Recipe Given by:
+
+----------------------------------
+----------------------------------
+
+Name: Basic Shave Soap
+	Sell Price: # Gold
+
+Description:
+	A handmade, unscented soap; for a smooth shave.
+
+Acquired by:
+	
+
+
+Health and Energy:
+	N/A
+
+Buffs:
+	N/A
+
+
+Recipe Ingredients:
+	1 x Hardwood
+	1 x Coconut
+	1 x Oil
+
+Recipe Given by:
+
+----------------------------------
+----------------------------------
+
+Name: Summer Sunset Shave Soap
+	Sell Price: # Gold
+
+Description:
+	This soap stirs up memories of a summer evening.
+
+Acquired by:
+	
+
+
+Health and Energy:
+	N/A
+
+Buffs:
+	N/A
+
+
+Recipe Ingredients:
+	1 x Basic Shave Soap
+	1 x Orange
+	1 x Banana
+	1 x Sweet Pea
+
+Recipe Given by:
+
+----------------------------------
+----------------------------------
+
+Name: Atoll Ale Shave Soap
+	Sell Price: # Gold
+
+Description:
+	This soap will make you feel like a pirate on the high seas.
+
+Acquired by:
+	
+
+
+Health and Energy:
+	N/A
+
+Buffs:
+	N/A
+
+
+Recipe Ingredients:
+	1 x Basic Shave Soap
+	1 x Pale Ale
+	1 x Spice Berry
+
+
+Recipe Given by:
+
+----------------------------------
+----------------------------------
+
+Name: Forest Spring Shave Soap
+	Sell Price: # Gold
+
+Description:
+	This soap is light, and refreshing.
+
+Acquired by:
+	
+
+
+Health and Energy:
+	N/A
+
+Buffs:
+	N/A
+
+
+Recipe Ingredients:
+	1 x Basic Shave Soap
+	1 x Taro Root
+	1 x Green Tea(non-modded version)
+
+
+Recipe Given by:
+
+----------------------------------
+----------------------------------
+
+Name: Clay Shave Bowl & Brush
+	Sell Price: # Gold
+
+Description:
+	A simple handmade bowl & brush.
+
+Acquired by:
+	
+
+
+Health and Energy:
+	N/A
+
+Buffs:
+	N/A
+
+
+Recipe Ingredients:
+	1 x Clay
+	1 x Wool
+	1 x Fiber
+
+
+Recipe Given by:
+
+----------------------------------
+----------------------------------
+
+Name: Hardwood Shave Bowl & Brush
+	Sell Price: # Gold
+
+Description:
+	Bowl & brush carved from the finest hardwood.
+
+Acquired by:
+	
+
+
+Health and Energy:
+	N/A
+
+Buffs:
+	N/A
+
+
+Recipe Ingredients:
+	1 x Hardwood
+	1 x Wool
+	1 x Fiber
+
+
+Recipe Given by:
+
+----------------------------------
+----------------------------------
+
+Name: Marble Shave Bowl & Brush
+	Sell Price: # Gold
+
+Description:
+	A bowl & brush sculpted out of luxurious marble.
+
+Acquired by:
+	
+
+
+Health and Energy:
+	N/A
+
+Buffs:
+	N/A
+
+
+Recipe Ingredients:
+	1 x Marble
+	1 x Wool
+	1 x Fiber
+
+
+Recipe Given by:
+
+----------------------------------
+----------------------------------
+
+Name: Beige Leather Strop
+	Sell Price: # Gold
+
+Description:
+	A basic leather strop to hone your razor.
+
+Acquired by:
+	
+
+
+Health and Energy:
+	N/A
+
+Buffs:
+	N/A
+
+
+Recipe Ingredients:
+	1 x Cloth
+	1 x Fiber
+
+
+Recipe Given by:
+
+----------------------------------
+----------------------------------
+
+Name: Black Leather Strop
+	Sell Price: # Gold
+
+Description:
+	A dark black strop for honing your razor.
+
+Acquired by:
+	
+
+
+Health and Energy:
+	N/A
+
+Buffs:
+	N/A
+
+
+Recipe Ingredients:
+	1 x Obsidian
+	1 x Cloth
+	1 x Fiber
+
+
+Recipe Given by:
+
+----------------------------------
+----------------------------------
+
+Name: Red Leather Strop
+	Sell Price: # Gold
+
+Description:
+	A fancy leather strop for honing your razor.
+
+Acquired by:
+	
+
+
+Health and Energy:
+	N/A
+
+Buffs:
+	N/A
+
+
+Recipe Ingredients:
+	1 x Fire Opal
+	1 x Cloth
+	1 x Fiber
+
+
+Recipe Given by:
+
+----------------------------------
+----------------------------------
+
+
+
